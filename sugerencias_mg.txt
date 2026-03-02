@@ -1,0 +1,19 @@
+Hola Matías. Espero que hayas tenido un buen fin de semana. Te dejo comentarios para el sitio web. Sé que es harto, pero por favor anda avanzando en lo que puedas: Comentarios nuevo sitio web
+
+Voy a opinar solo sobre estructura y no sobre contenidos específicos (textos), eso lo podemos ver después.
+
+Aumentar el logo de OLES que está en el banner arriba a la izquierda. Que quede de la altura de los tabs de al lado
+El banner con movimiento, ¿puede ser menos alto para que no ocupe toda la página? ¿y la velocidad del movimiento de fondo, puede ser un poco menor?
+Pondría en alguna parte los logos de las instituciones asociadas. Quizás en línea al final de la página de inicio?
+En vez de "Líneas de Investigación" o "Estudios", pondría "Proyectos de investigación". Así cada página es un proyecto que puede contemplar más de un estudio. En las páginas de los proyectos debieran ir los "investigadores responsables" y los demás. Pondría "Investigador responsable", "Investigadores", "Asistentes de investigación" que han participado, con nombres y links a sus perfiles.
+Cambiaría el "Somos" por "Acerca de OLES" y dentro de eso pondría un "¿Qué es OLES?" y "Equipo"
+Sacaría el equipo del final de la página de inicio
+Agregaría links a redes sociales, no sé si al final o en la barra de opciones arriba
+Cuando entras a "Investigación" dice "Todos los estudios". Debe decir "Proyectos de Investigación"
+Me pregunto si tener una pestaña para Eventos o si basta con Noticias. Digo, tampoco tenemos tantos eventos. ¿O ponemos noticias y eventos?
+En los perfiles de los investigadores, agregaría dos subtítulos: "Proyectos de investigación" con un listado con títulos y links a los proyectos y "Últimas publicaciones" con la referencia completa y link a la página de la publicación.
+Para simplificar, no agregaría perfiles a los asistentes anteriores o a los tesistas. No sé qué pondríamos en pasantes.. hemos tenido estudiantes colaboradores. Quizás mejor poner eso. 
+ Sobre publicaciones, subdividir en (a) Publicaciones científicas, (b) Tesis y (c) Otros documentos
+Sobre publicaciones, no sé si usar esas ventanas grandes o un listado más sencillo con la referencia.. al ser muchas se van a perder. 
+Donde sea posible, agregar links cruzados. Por ej. en publicaciones, al entrar a una publicación, haría que los autores de OLES tengan link a su perfil.
+[16:42]Una cosa más: sacaría por ahora el link a la página en inglés. No veo viable subir eso luego
