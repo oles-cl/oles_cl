@@ -1,0 +1,48 @@
+---
+title: "EPSEP"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="epsep-page">
+  <p class="epsep-desc">El <strong>Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP)</strong> es una investigación longitudinal diseñada por el Observatorio de Violencia y Legitimidad Social (OLES) para comprender las percepciones de la ciudadanía sobre la delincuencia en el país y la relación de las personas con las policías.</p>
+
+  <div class="epsep-card">
+    <h3 class="epsep-card-title"><span>📊</span> Informe 2024–2025</h3>
+    <div class="epsep-buttons">
+      <a class="epsep-btn epsep-btn-primary"
+         href="https://olescl.quarto.pub/informe_v4/#/title-slide"
+         target="_blank"
+         rel="noopener">
+        <span>▶</span>
+        <span>Ver informe en línea</span>
+      </a>
+      <a class="epsep-btn epsep-btn-secondary"
+         href="2025_epsep_informe_w01-w04.pdf"
+         download>
+        <span>📄</span>
+        <span>Descargar PDF</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="epsep-card">
+    <h3 class="epsep-card-title"><span>📖</span> Manual Metodológico</h3>
+    <p class="epsep-card-subtitle">Documentación completa del diseño del estudio, cuestionario, estructura de datos y guía de uso.</p>
+    <div class="epsep-buttons">
+      <a class="epsep-btn epsep-btn-primary"
+         href="https://olescl.quarto.pub/manual_esep-np/"
+         target="_blank"
+         rel="noopener">
+        <span>▶</span>
+        <span>Ver manual metodológico</span>
+      </a>
+    </div>
+  </div>
+
+  <p class="epsep-note">Nota: Próximamente se publicará la base de datos.</p>
+
+  <a href="../index.html" class="epsep-back">← Volver al Inicio</a>
+</div>
+```

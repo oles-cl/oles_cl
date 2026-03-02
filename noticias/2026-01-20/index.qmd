@@ -12,6 +12,6 @@ title-block-banner: false
 ![](featured.jpg)
 :::
 
-Jornada de cierre de actividades del Observatorio de Legitimidad Social.
+Jornada de cierre de actividades del Observatorio de Violencia y Legitimidad Social.
 
 [← Volver a Noticias](../index.html)

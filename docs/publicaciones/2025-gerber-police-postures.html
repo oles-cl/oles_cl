@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../somos.html"> 
-<span class="menu-text">Somos</span></a>
+<span class="menu-text">Acerca de OLES</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../noticias/index.html"> 
@@ -111,12 +111,23 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-investigación">    
         <li>
     <a class="dropdown-item" href="../estudios/index.html">
- <span class="dropdown-text">📋 Todos los Estudios</span></a>
+ <span class="dropdown-text">Proyectos de Investigación</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
     <a class="dropdown-item" href="../publicaciones/index.html">
- <span class="dropdown-text">📚 Publicaciones Académicas</span></a>
+ <span class="dropdown-text">Publicaciones Académicas</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-repositorio-de-datos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Repositorio de datos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-repositorio-de-datos">    
+        <li>
+    <a class="dropdown-item" href="../repositorio/epsep.html">
+ <span class="dropdown-text">EPSEP</span></a>
   </li>  
     </ul>
   </li>
@@ -183,6 +194,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><strong>Autores OLES:</strong> <a href="../equipo/monica-gerber.html">Mónica Gerber</a>, <a href="../equipo/luciano-saez-fuentealba.html">Luciano Sáez Fuentealba</a>, <a href="../equipo/joaquin-bahamondes.html">Joaquín Bahamondes</a>, <a href="../equipo/ana-figueiredo.html">Ana Figueiredo</a>, <a href="../equipo/cristobal-moya.html">Cristóbal Moya</a>, <a href="../equipo/asistentes-anteriores/bruno-rojas.html">Bruno Rojas</a>, <a href="../equipo/macarena-orchard.html">Macarena Orchard</a>, <a href="../equipo/asistentes-anteriores/nicolas-tobar-jorquera.html">Nicolás Tobar Jorquera</a>.</p>
 <section id="referencia-completa" class="level2">
 <h2 class="anchored" data-anchor-id="referencia-completa">Referencia completa</h2>
 <p>Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., &amp; Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. <em>Peace and Conflict: Journal of Peace Psychology, 31</em>(3), 285–298.</p>
@@ -621,16 +633,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<div id="lang-selector" class="language-selector">
-  <button class="language-btn active" data-lang="es">
-    <span class="flag">🇨🇱</span>
-    <span class="lang-code">ESP</span>
-  </button>
-  <button class="language-btn" data-lang="en">
-    <span class="flag">🇬🇧</span>
-    <span class="lang-code">ENG</span>
-  </button>
-</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var v = document.querySelector('.hero-video');
+  if (v) v.playbackRate = 0.6;
+});
+</script>
 
 
 

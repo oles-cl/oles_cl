@@ -1,0 +1,36 @@
+---
+title: "Seguimiento a las policías"
+estado: "en-curso"
+investigador_responsable: "Mónica Gerber"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Mónica Gerber](../equipo/monica-gerber.html)
+
+## Equipo
+
+**Investigadores:** [Ana Figueiredo](../equipo/ana-figueiredo.html), [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+
+**Asistentes de investigación:** [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Estudio de seguimiento y monitoreo de las instituciones policiales en Chile. Documenta reformas, cambios organizacionales y en la relación con la ciudadanía, en diálogo con indicadores de legitimidad y percepción de seguridad.
+
+## Métodos
+
+Seguimiento de políticas y normativa; revisión de informes oficiales y de la sociedad civil; integración con datos de encuestas y estudios panel del Observatorio cuando corresponde.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

@@ -14,6 +14,14 @@ tags:
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop"
 ---
 
+## Equipo del proyecto
+
+**Investigador responsable:** [Claudio Fuentes](../equipo/claudio-fuentes.html)
+
+**Investigadores:** [Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+
+**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+
 ## Descripción
 
 Este proyecto analiza los sistemas de registro y gestión de datos en Carabineros de Chile, evaluando su efectividad, transparencia y uso para la toma de decisiones institucionales.

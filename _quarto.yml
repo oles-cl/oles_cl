@@ -12,17 +12,21 @@ website:
     left:
       - text: "Inicio"
         href: index.qmd
-      - text: "Somos"
+      - text: "Acerca de OLES"
         href: somos.qmd
       - text: "Noticias"
         href: noticias/index.qmd
       - text: "Investigación"
         menu:
-          - text: "📋 Todos los Estudios"
+          - text: "Proyectos de Investigación"
             href: estudios/index.qmd
           - text: "---"
-          - text: "📚 Publicaciones Académicas"
+          - text: "Publicaciones Académicas"
             href: publicaciones/index.qmd
+      - text: "Repositorio de datos"
+        menu:
+          - text: "EPSEP"
+            href: repositorio/epsep.qmd
       - text: "Eventos"
         href: eventos/index.qmd
       - text: "Equipo"
@@ -45,13 +49,9 @@ format:
           <script src="translations.js" defer></script>
     include-after-body:
       - text: |
-          <div id="lang-selector" class="language-selector">
-            <button class="language-btn active" data-lang="es">
-              <span class="flag">🇨🇱</span>
-              <span class="lang-code">ESP</span>
-            </button>
-            <button class="language-btn" data-lang="en">
-              <span class="flag">🇬🇧</span>
-              <span class="lang-code">ENG</span>
-            </button>
-          </div>
+          <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var v = document.querySelector('.hero-video');
+            if (v) v.playbackRate = 0.6;
+          });
+          </script>

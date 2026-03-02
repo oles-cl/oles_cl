@@ -1,36 +1,36 @@
 ---
-title: "Encuesta sobre Seguridad y Experiencias Personales (ESEP)"
-description: "Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile."
-categoria: "encuestas"
+title: "Estudio Panel de Percepciones y Seguridad (ESEP)"
 estado: "en-curso"
-fecha-inicio: "2020"
-fecha-fin: "Presente"
-investigadores:
-  - "Mónica Gerber"
-  - "Joaquín Bahamondes"
-tags:
-  - "Encuestas"
-  - "Legitimidad Policial"
-image: "https://images.unsplash.com/photo-1523875194681-bedd468c58bf?w=800&h=400&fit=crop"
+investigador_responsable: "Mónica Gerber"
+format:
+  html:
+    body-classes: estudio-page
 ---
 
-## Descripción
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
 
-La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.
+[Mónica Gerber](../equipo/monica-gerber.html)
 
-## Objetivos
+## Equipo
 
-- Medir la evolución de las percepciones de legitimidad policial en Chile
-- Identificar factores que influyen en la confianza institucional
-- Analizar el impacto de las experiencias personales con Carabineros
-- Comparar resultados entre diferentes grupos sociodemográficos
+**Investigadores:** [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Macarena Orchard](../equipo/macarena-orchard.html)
 
-## Metodología
+**Asistentes de investigación:** [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+:::
 
-El estudio utiliza un diseño longitudinal de panel, con encuestas aplicadas anualmente a una muestra representativa de la población chilena.
+:::{.estudio-col-der}
+## Introducción
 
-## Financiamiento
+El Estudio Panel de Percepciones y Seguridad (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones. Financiado por ANID (FONDECYT Regular N° 1221805).
 
-Este proyecto es financiado por ANID a través del proyecto FONDECYT Regular N° 1221805.
+## Métodos
 
-[← Volver a Estudios](index.qmd)
+Diseño panel con mediciones repetidas; encuestas en línea y cuestionarios estandarizados sobre legitimidad, experiencias con policías y percepción de seguridad. Análisis longitudinal y comparativo.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

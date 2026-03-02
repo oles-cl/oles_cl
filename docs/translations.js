@@ -66,10 +66,10 @@ const translations = {
         },
         // Contenido
         contenido: {
-            mision: "El Observatorio de Legitimidad tiene como misión generar conocimiento científico de calidad sobre la legitimidad institucional en Chile, contribuyendo al debate público y a la formulación de políticas basadas en evidencia.",
+            mision: "El Observatorio de Violencia y Legitimidad Social tiene como misión generar conocimiento científico de calidad sobre la legitimidad institucional en Chile, contribuyendo al debate público y a la formulación de políticas basadas en evidencia.",
             vision: "Ser un referente nacional e internacional en la investigación sobre legitimidad institucional, desigualdades y cohesión social, promoviendo el diálogo entre la academia, la sociedad civil y los tomadores de decisión.",
             verProyectos: "Ver proyectos",
-            titulo: "Observatorio de Legitimidad"
+            titulo: "Observatorio de Violencia y Legitimidad Social"
         },
         // Estudios
         estudios: {
@@ -94,7 +94,7 @@ const translations = {
         },
         // Acerca
         acerca: {
-            descripcion: "El Observatorio de Legitimidad (OLES) es un centro de investigación dedicado al estudio de la legitimidad institucional en Chile.",
+            descripcion: "El Observatorio de Violencia y Legitimidad Social (OLES) es un centro de investigación dedicado al estudio de la legitimidad institucional en Chile.",
             parrafo1: "Nuestro objetivo es generar conocimiento riguroso y de calidad sobre cómo los ciudadanos perciben y evalúan las instituciones públicas.",
             parrafo2: "A través de nuestras líneas de investigación, buscamos contribuir al debate público y a la formulación de políticas que fortalezcan la legitimidad democrática."
         },
@@ -103,7 +103,7 @@ const translations = {
             enlaces: "Enlaces",
             contacto: "Contacto",
             investigacion: "Investigación",
-            derechos: "© 2025 Observatorio de Legitimidad. Todos los derechos reservados."
+            derechos: "© 2025 Observatorio de Violencia y Legitimidad Social. Todos los derechos reservados."
         }
     },
     en: {

@@ -1,0 +1,36 @@
+---
+title: "Estudio cualitativo longitudinal"
+estado: "en-curso"
+investigador_responsable: "Ana Figueiredo"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+## Equipo
+
+**Investigadores:** [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+
+**Asistentes de investigación:** [Bruno Rojas](../equipo/asistentes-anteriores/bruno-rojas.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Estudio cualitativo de tipo longitudinal sobre percepciones y legitimidad de las instituciones policiales. Busca comprender cómo cambian las representaciones y las experiencias de las personas en el tiempo en relación con Carabineros y la seguridad.
+
+## Métodos
+
+Diseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

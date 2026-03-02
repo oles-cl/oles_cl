@@ -1,0 +1,51 @@
+---
+title: "Matías Deneken"
+cargo: "Ex Asistente de Investigación Cuantitativa"
+categories: [Asistentes Anteriores]
+orden: 2
+email: "matdknu@gmail.com"
+organizacion: "Centro CIIR y OLES"
+image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:matdknu@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/matdknu
+areas-interes:
+  - "Relaciones Intergrupales"
+  - "Historia de la Sociología Chilena"
+  - "Ciencias Sociales Computacionales"
+  - "Text as data"
+educacion:
+  - titulo: "Magíster en Data Science (en curso)"
+    institucion: "Universidad de Concepción"
+  - titulo: "Magíster en Sociología"
+    institucion: "Pontificia Universidad Católica de Chile"
+  - titulo: "Sociólogo"
+    institucion: "Universidad de Concepción"
+---
+
+## Descripción
+
+Sociólogo, Magíster en Sociología y candidato a Magíster en Data Science. Actualmente desempeña labores en investigación social aplicada en el Centro CIIR y OLES, con temáticas vinculadas a interculturalidad y violencia. Dentro de sus méritos académicos fue Premio Universidad de Concepción, Becario ANID - Magíster Nacional y es beneficiario del programa Fulbright para iniciar un PhD en Estados Unidos.
+
+## Áreas de Interés
+
+- Relaciones Intergrupales
+- Historia de la Sociología Chilena
+- Ciencias Sociales Computacionales
+- Text as data
+
+## Educación
+
+- **Magíster en Data Science (en curso)** - Universidad de Concepción
+- **Magíster en Sociología** - Pontificia Universidad Católica de Chile
+- **Sociólogo** - Universidad de Concepción
+
+[← Volver a Asistentes anteriores](index.html)

@@ -57,4 +57,12 @@ Profesora de la Escuela de Gobierno de la Pontificia Universidad Católica de Ch
 - **Magíster en Métodos de Investigación Social** - London School of Economics and Political Science (2008)
 - **Socióloga** - Universidad de Chile (2007)
 
-[← Volver al Equipo](index.qmd)
+## Proyectos de investigación
+
+- [Encuesta sobre Seguridad y Experiencias Personales (ESEP)](../estudios/esep.html) — Investigadora responsable
+
+## Últimas publicaciones
+
+- [How do individuals interact with the police?](../publicaciones/2025-gerber-police-postures.html) — Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). *Peace and Conflict: Journal of Peace Psychology*.
+
+[← Volver al Equipo](index.html)

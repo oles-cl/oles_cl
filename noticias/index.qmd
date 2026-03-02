@@ -14,4 +14,4 @@ include-after-body:
       <script src="noticias-click.js"></script>
 ---
 
-Últimas noticias y novedades del Observatorio de Legitimidad.
+Últimas noticias y novedades del Observatorio de Violencia y Legitimidad Social.

@@ -1,0 +1,36 @@
+---
+title: "Estudio de prensa"
+estado: "en-curso"
+investigador_responsable: "Ismael Puga"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Ismael Puga](../equipo/ismael-puga.html)
+
+## Equipo
+
+**Investigadores:** [Claudio Fuentes](../equipo/claudio-fuentes.html), [Mónica Gerber](../equipo/monica-gerber.html)
+
+**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Análisis de la cobertura de prensa sobre policías, seguridad y legitimidad institucional. El estudio indaga cómo los medios representan a Carabineros, las reformas policiales y el debate público en torno a la confianza y la violencia.
+
+## Métodos
+
+Monitoreo y codificación de noticias en medios escritos y digitales; análisis de marcos (framing) y de tendencias temporales; posible complemento con análisis de redes o de contenido automatizado.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

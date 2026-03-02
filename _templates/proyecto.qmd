@@ -1,0 +1,48 @@
+---
+title: "Título del proyecto"
+estado: "en-curso"
+investigador_responsable: "Nombre del investigador"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Nombre del investigador](../equipo/perfil.html)
+
+## Equipo
+
+**Investigadores:** [Nombre](../equipo/perfil.html)
+
+**Asistentes de investigación:** [Nombre](../equipo/perfil.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Descripción general del estudio y contexto.
+
+## Objetivos
+
+Objetivos del estudio.
+
+## Métodos
+
+Metodología y diseño (diseño, instrumentos, análisis).
+
+## Alcance y muestra
+
+Alcance temporal, temático y descripción de la muestra.
+
+## Información adicional
+
+Financiamiento, colaboraciones, etc.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

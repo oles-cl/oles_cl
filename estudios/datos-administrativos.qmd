@@ -1,0 +1,36 @@
+---
+title: "Estudio de Datos Administrativos"
+estado: "en-curso"
+investigador_responsable: "Claudio Fuentes"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Claudio Fuentes](../equipo/claudio-fuentes.html)
+
+## Equipo
+
+**Investigadores:** [Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+
+**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Análisis de sistemas de registro y gestión de información policial en Chile. El estudio examina cómo las instituciones recopilan, sistematizan y utilizan datos administrativos en el ámbito de la seguridad y el orden público.
+
+## Métodos
+
+Revisión de sistemas de información, bases de datos oficiales y normativa; análisis de cobertura y calidad de los registros; trabajo con fuentes secundarias y solicitudes de transparencia cuando corresponde.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

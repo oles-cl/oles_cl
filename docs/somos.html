@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Quiénes Somos - OLES</title>
+<title>Acerca de OLES</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./somos.html" aria-current="page"> 
-<span class="menu-text">Somos</span></a>
+<span class="menu-text">Acerca de OLES</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./noticias/index.html"> 
@@ -109,12 +109,23 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-investigación">    
         <li>
     <a class="dropdown-item" href="./estudios/index.html">
- <span class="dropdown-text">📋 Todos los Estudios</span></a>
+ <span class="dropdown-text">Proyectos de Investigación</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
     <a class="dropdown-item" href="./publicaciones/index.html">
- <span class="dropdown-text">📚 Publicaciones Académicas</span></a>
+ <span class="dropdown-text">Publicaciones Académicas</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-repositorio-de-datos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Repositorio de datos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-repositorio-de-datos">    
+        <li>
+    <a class="dropdown-item" href="./estudios/esep.html">
+ <span class="dropdown-text">ESEP</span></a>
   </li>  
     </ul>
   </li>
@@ -141,13 +152,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">¿Quiénes Somos?</h1>
+<h1 class="title">Acerca de OLES</h1>
 </div>
 
 
@@ -300,6 +313,8 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="somos-container">
 
+## ¿Qué es OLES?
+
 <div class="somos-intro">
 Desde una mirada <strong>multidisciplinar</strong>, OLES agrupa a investigadores/as de diferentes disciplinas en un esfuerzo por comprender los mecanismos de construcción de <strong>legitimidad social</strong> y problematizar el rol de la <strong>violencia y la justicia</strong> en diferentes contextos, aportando a la construcción teórica de marcos interpretativos sobre su desenvolvimiento en el escenario actual.
 <br><br>
@@ -314,25 +329,10 @@ Para ello promueve el <strong>diálogo y colaboración</strong> con actores soci
 Actualmente cuenta con el apoyo del <strong>Centro de Estudios de Conflicto y Cohesión Social (COES)</strong>, la <strong>Universidad Diego Portales (UDP)</strong>, la <strong>Universidad de O'Higgins (UOH)</strong> y la <strong>Universidad Católica del Norte (UCN)</strong>.
 </p>
 
-<div class="somos-section">
-<h2 class="anchored">📚 Estudios en Desarrollo</h2>
-<p>OLES se encuentra desarrollando los siguientes estudios:</p>
+## Equipo
 
-<div class="estudios-grid">
-  <div class="estudio-card">
-    <h4 class="anchored">From compliance to resistance: How do citizens in Chile relate to and position themselves towards the police?</h4>
-    <p>Fondecyt Regular Nº 1221805</p>
-  </div>
-  <div class="estudio-card">
-    <h4 class="anchored">Encuesta Longitudinal sobre legitimidad hacia carabineros</h4>
-    <p>Violencia, derechos humanos y control social (2020-2022)</p>
-  </div>
-  <div class="estudio-card">
-    <h4 class="anchored">Evaluación de los aprendizajes en investigación</h4>
-    <p>Facultades de Psicología y Ciencias Sociales e Historia</p>
-  </div>
-</div>
-</div>
+<p>El equipo de OLES está conformado por investigadores principales, investigadores asociados y asistentes de investigación.</p>
+<p><a href="equipo/index.html" class="btn-primary" style="display: inline-block; padding: 0.75rem 1.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Ver equipo completo →</a></p>
 
 <div class="somos-section">
 <h2 class="anchored">🤝 Fondos y Apoyo Institucional</h2>
@@ -790,16 +790,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<div id="lang-selector" class="language-selector">
-  <button class="language-btn active" data-lang="es">
-    <span class="flag">🇨🇱</span>
-    <span class="lang-code">ESP</span>
-  </button>
-  <button class="language-btn" data-lang="en">
-    <span class="flag">🇬🇧</span>
-    <span class="lang-code">ENG</span>
-  </button>
-</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var v = document.querySelector('.hero-video');
+  if (v) v.playbackRate = 0.6;
+});
+</script>
 
 
 

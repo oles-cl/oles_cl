@@ -12,6 +12,6 @@ title-block-banner: false
 ![](featured.jpg)
 :::
 
-Investigadores del Observatorio de Legitimidad se adjudican Instituto Milenio sobre Autoridad.
+Investigadores del Observatorio de Violencia y Legitimidad Social se adjudican Instituto Milenio sobre Autoridad.
 
 [← Volver a Noticias](../index.html)

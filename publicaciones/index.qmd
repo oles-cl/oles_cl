@@ -1,10 +1,30 @@
 ---
-title: "Publicaciones Académicas"
-listing:
-  contents: "*.qmd"
-  type: grid
-  sort: "date desc"
-  fields: [image, date, title, description]
+title: "Publicaciones"
+pagetitle: "Publicaciones - OLES"
+page-layout: full
+toc: true
 ---
 
-Publicaciones académicas del equipo del Observatorio de Legitimidad.
+## Publicaciones científicas
+
+Listado de publicaciones académicas del equipo OLES (referencia y enlace a la ficha).
+
+- **[How do individuals interact with the police?](2025-gerber-police-postures.html)** — Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). *Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
+- **[Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche](2024-gerber-mapuche.html)** — Gerber, M. M. (2024). En A. Mascareño & C. Le Foulon (Eds.), *Mapuche en el sur de Chile. Sociedad e Identidad* (pp. 283–306). Editorial CEP.
+- **[Legitimidad, Justicia y la Justificación de la Violencia Intergrupal](2023-legitimidad-justicia.html)** — Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). *Revista Psykhe, 32*(1), 1-15.
+
+## Tesis
+
+Tesis y trabajos de titulación realizados en el marco del Observatorio (listado).
+
+*Próximamente se incorporará el listado de tesis.*
+
+## Otros documentos
+
+Informes, documentos de trabajo y otros materiales.
+
+*Próximamente se incorporarán otros documentos.*
+
+---
+
+[← Volver al Inicio](../index.html)

@@ -7,4 +7,4 @@ listing:
   fields: [image, date, title, description]
 ---
 
-Próximos eventos y actividades del Observatorio de Legitimidad.
+Próximos eventos y actividades del Observatorio de Violencia y Legitimidad Social.

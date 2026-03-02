@@ -7,8 +7,16 @@ fecha-inicio: "2022"
 fecha-fin: "Presente"
 ---
 
+## Equipo del proyecto
+
+**Investigador responsable:** [Ismael Puga](../equipo/ismael-puga.html)
+
+**Investigadores:** [Claudio Fuentes](../equipo/claudio-fuentes.html), [Mónica Gerber](../equipo/monica-gerber.html)
+
+**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+
 ## Descripción
 
 Estudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.
 
-[← Volver a Estudios](index.qmd)
+[← Volver a Proyectos de Investigación](index.html)

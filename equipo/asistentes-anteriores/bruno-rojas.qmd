@@ -1,0 +1,45 @@
+---
+title: "Bruno Rojas"
+cargo: "Ex Asistente de Investigación"
+categories: [Asistentes Anteriores]
+orden: 3
+email: "bruno.rojas@gmail.com"
+organizacion: "OLES"
+image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:bruno.rojas@gmail.com
+areas-interes:
+  - "Relaciones Intergrupales"
+  - "Legitimación de la Violencia"
+  - "Sociología moral y política"
+  - "Estudios urbanos y migratorios"
+educacion:
+  - titulo: "Magíster en Sociología"
+    institucion: "Universidad de Chile"
+  - titulo: "Licenciado en Historia"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Licenciado en historia, Magister en Ciencias Sociales de la Universidad de Chile. Sus principales líneas de investigación se enmarcan tanto en la sociología moral y política como los estudios urbanos y migratorios. Sus intereses se centran en la relación entre sentimientos de injusticia y las percepciones sobre la política y las instituciones, la migración y las relaciones de convivencia en espacios urbanos, fronteras simbólicas y desigualdades sociales, sectores populares y su relación con la política. Actualmente es becario Fulbright, beneficio que le permitirá estudiar un PhD en Estados Unidos.
+
+## Áreas de Interés
+
+- Relaciones Intergrupales
+- Legitimación de la Violencia
+- Sociología moral y política
+- Estudios urbanos y migratorios
+
+## Educación
+
+- **Magíster en Sociología** - Universidad de Chile
+- **Licenciado en Historia** - Universidad de Chile
+
+[← Volver a Asistentes anteriores](index.html)

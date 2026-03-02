@@ -1,0 +1,34 @@
+---
+title: "Proyecto en desarrollo 2"
+estado: "en-curso"
+investigador_responsable: "Por definir"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+Por definir.
+
+## Equipo
+
+Por definir.
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Proyecto en etapa de diseño. Próximamente se incorporará la descripción del estudio, sus objetivos y su relevancia para el Observatorio.
+
+## Métodos
+
+Metodología y diseño en definición. Se actualizará con el avance del proyecto.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

@@ -1,5 +1,5 @@
 /* =====================================================
-   OLES - Observatorio de Legitimidad
+   OLES - Observatorio de Violencia y Legitimidad Social
    Estilos Modernos
    ===================================================== */
 
@@ -97,8 +97,8 @@ body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
 .hero-section {
   position: relative;
   width: 100%;
-  height: 70vh;
-  min-height: 500px;
+  height: 57vh;
+  min-height: 412px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -326,6 +326,17 @@ body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
 
 .proyecto-cuadrante:hover {
   transform: scale(1.02);
+}
+
+/* Cuadrantes estáticos (líneas de investigación, sin enlace) */
+.proyecto-cuadrante-static {
+  cursor: default;
+}
+.proyecto-cuadrante-static:hover {
+  transform: none;
+}
+.proyecto-cuadrante-static:hover .proyecto-imagen img {
+  transform: none;
 }
 
 .proyecto-imagen {
@@ -791,14 +802,28 @@ body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
 }
 
 .navbar .navbar-brand img {
-  height: 55px;
+  height: 48px;
   width: auto;
   object-fit: contain;
+  max-height: 100%;
 }
 
-/* Espacio entre logo y menú */
+/* Logo alineado a la altura de los tabs del menú */
 .navbar .navbar-brand-container {
+  display: flex;
+  align-items: center;
   margin-right: 2rem;
+}
+.navbar .navbar-brand-container .navbar-brand {
+  padding: 0.25rem 0;
+}
+.navbar .navbar-brand-container .navbar-brand img {
+  height: 42px;
+}
+@media (min-width: 992px) {
+  .navbar .navbar-brand-container .navbar-brand img {
+    height: 48px;
+  }
 }
 
 .navbar-nav {
@@ -1028,8 +1053,8 @@ article.page-columns {
   }
 
   .hero-section {
-    height: 50vh;
-    min-height: 350px;
+    height: 44vh;
+    min-height: 315px;
   }
 
   .destacados-grid,
@@ -2635,6 +2660,252 @@ body:not(.quarto-listing-page) #quarto-content article {
   .quarto-grid-item .listing-image {
     height: 200px;
   }
+}
+
+/* =====================================================
+   EPSEP PAGE (repositorio)
+   ===================================================== */
+.epsep-page {
+  width: 98%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 2rem 1rem 3.5rem;
+}
+.epsep-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #4E4976 0%, #6B5B95 100%);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.02em;
+}
+.epsep-desc {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #374151;
+  background: linear-gradient(135deg, #f8f7fc 0%, #f0eef8 100%);
+  border-left: 4px solid #4E4976;
+  padding: 1.5rem 1.75rem;
+  border-radius: 0 12px 12px 0;
+  margin: 0 0 2rem 0;
+  box-shadow: 0 2px 12px rgba(78, 73, 118, 0.08);
+}
+.epsep-desc strong {
+  color: #4E4976;
+}
+.epsep-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid #e8e6f0;
+}
+.epsep-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #4E4976;
+  margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.epsep-card-title span:first-child {
+  font-size: 1.35rem;
+}
+.epsep-card-subtitle {
+  margin: 0 0 1rem 0;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+.epsep-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  justify-content: flex-start;
+}
+.epsep-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.9rem 1.4rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.epsep-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  text-decoration: none;
+}
+.epsep-btn span:first-child {
+  font-size: 1.2rem;
+}
+.epsep-btn-primary {
+  background: linear-gradient(135deg, #4E4976 0%, #6B5B95 100%);
+  color: white;
+}
+.epsep-btn-secondary {
+  background: white;
+  color: #4E4976;
+  border: 2px solid #4E4976;
+}
+.epsep-btn-secondary:hover {
+  background: #f8f7fc;
+  color: #453958;
+}
+.epsep-note {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #6b7280;
+  background: #f9fafb;
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  border-left: 3px solid #9CA3AF;
+}
+.epsep-back {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #4E4976;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.epsep-back:hover {
+  color: #6B5B95;
+  text-decoration: underline;
+}
+
+/* =====================================================
+   ESTUDIO / PROYECTO PAGE (two-column: equipo | contenido)
+   ===================================================== */
+.estudio-page #quarto-content,
+.estudio-page main {
+  width: 98%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 2rem 1rem 3.5rem;
+}
+
+/* Evitar que article u otros contenedores limiten el ancho */
+.estudio-page #quarto-content article,
+.estudio-page main article {
+  max-width: none !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Two-column layout */
+.estudio-page .estudio-layout {
+  display: grid;
+  grid-template-columns: minmax(340px, 0.4fr) 1fr;
+  gap: 3rem 4rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .estudio-page .estudio-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Left column: team card */
+.estudio-page .estudio-col-izq {
+  position: sticky;
+  top: 2rem;
+  background: linear-gradient(180deg, #faf9fc 0%, #f3f1f8 100%);
+  border: 1px solid #e8e6f0;
+  border-radius: 16px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 24px rgba(78, 73, 118, 0.08);
+}
+
+.estudio-page .estudio-col-izq h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #4E4976;
+  margin: 0 0 0.75rem 0;
+  padding: 0 0 0.5rem 0;
+  border-bottom: 2px solid #e0dce8;
+  border-left: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.estudio-page .estudio-col-izq h2:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.estudio-page .estudio-col-izq p,
+.estudio-page .estudio-col-izq ul {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #374151;
+}
+
+.estudio-page .estudio-col-izq ul {
+  padding-left: 1.25rem;
+}
+
+/* Right column: objectives, scope, methods, etc. */
+.estudio-page .estudio-col-der h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4E4976;
+  margin: 2rem 0 0.75rem 0;
+  padding: 1rem 1.25rem;
+  background: white;
+  border: 1px solid #e8e6f0;
+  border-left: 4px solid #4E4976;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.estudio-page .estudio-col-der h2:first-child {
+  margin-top: 0;
+}
+
+.estudio-page .estudio-col-der h2 + * {
+  margin-top: 0.75rem;
+}
+
+.estudio-page .estudio-col-der p,
+.estudio-page .estudio-col-der ul {
+  margin: 0 0 1rem 0;
+  line-height: 1.75;
+  color: #374151;
+  font-size: 1rem;
+}
+
+.estudio-page .estudio-col-der ul {
+  padding-left: 1.5rem;
+}
+
+/* Back link below layout */
+.estudio-page .estudio-back-wrap {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e8e6f0;
+}
+
+.estudio-page a {
+  color: #4E4976;
+  font-weight: 500;
+}
+
+.estudio-page a:hover {
+  text-decoration: underline;
 }
 
 /* =====================================================

@@ -6,6 +6,8 @@ author: "Gerber, M. M."
 image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
 ---
 
+**Autor OLES:** [Mónica Gerber](../equipo/monica-gerber.html).
+
 ## Referencia completa
 
 Gerber, M. M. (2024). Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche. In A. Mascareño & C. Le Foulon (Eds.), *Mapuche en el sur de Chile. Sociedad e Identidad* (pp. 283 – 306). Editorial CEP.
