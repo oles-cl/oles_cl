@@ -309,7 +309,7 @@ if (length(noticias) > 0) {
     <div class="instituciones-logos" style="display: grid; grid-template-columns: repeat(4, 1fr); justify-items: center; align-items: center; gap: 1.25rem; max-width: 800px; margin: 0 auto;">
       <a href="https://www.uchile.cl" target="_blank" rel="noopener" style="display: flex; justify-content: center; align-items: center;"><img src="images/logos/uchile-logo.svg" alt="Universidad de Chile" style="height: 62px; width: auto; object-fit: contain;"></a>
       <a href="https://www.ucn.cl" target="_blank" rel="noopener" style="display: flex; justify-content: center; align-items: center;"><img src="images/logos/ucn-logo.png" alt="UCN" style="height: 62px; width: auto; object-fit: contain;"></a>
-      <a href="https://www.uoh.cl" target="_blank" rel="noopener" style="display: flex; justify-content: center; align-items: center;"><img src="images/logos/uoh-logo.png" alt="UOH" style="height: 62px; width: auto; object-fit: contain;"></a>
+      <a href="https://www.uoh.cl" target="_blank" rel="noopener" style="display: flex; justify-content: center; align-items: center;"><img src="images/logos/logo-uoh.png" alt="Universidad de O'Higgins" style="height: 62px; width: auto; object-fit: contain;"></a>
       <a href="https://www.udp.cl" target="_blank" rel="noopener" style="display: flex; justify-content: center; align-items: center;"><img src="images/logos/oles_udp.png" alt="UDP" style="height: 62px; width: auto; object-fit: contain;"></a>
       <a href="https://www.uc.cl" target="_blank" rel="noopener" style="display: flex; justify-content: center; align-items: center; grid-column: 2;"><img src="images/logos/Logo-UC-1.png" alt="UC" style="height: 62px; width: auto; object-fit: contain;"></a>
     </div>

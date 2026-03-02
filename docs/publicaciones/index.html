@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publicaciones - OLES</title>
+<title>Publicaciones Académicas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logos/icon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,13 +69,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script src="translations.js" defer=""></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -149,31 +209,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">En esta página</h2>
-   
-  <ul>
-  <li><a href="#publicaciones-científicas" id="toc-publicaciones-científicas" class="nav-link active" data-scroll-target="#publicaciones-científicas">Publicaciones científicas</a></li>
-  <li><a href="#tesis" id="toc-tesis" class="nav-link" data-scroll-target="#tesis">Tesis</a></li>
-  <li><a href="#otros-documentos" id="toc-otros-documentos" class="nav-link" data-scroll-target="#otros-documentos">Otros documentos</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publicaciones</h1>
+<h1 class="title">Publicaciones Académicas</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   
@@ -185,31 +235,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="publicaciones-científicas" class="level2">
-<h2 class="anchored" data-anchor-id="publicaciones-científicas">Publicaciones científicas</h2>
-<p>Listado de publicaciones académicas del equipo OLES (referencia y enlace a la ficha).</p>
-<ul>
-<li><strong><a href="2025-gerber-police-postures.html">How do individuals interact with the police?</a></strong> — Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., &amp; Tobar Jorquera, N. (2025). <em>Peace and Conflict: Journal of Peace Psychology, 31</em>(3), 285–298.</li>
-<li><strong><a href="2024-gerber-mapuche.html">Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche</a></strong> — Gerber, M. M. (2024). En A. Mascareño &amp; C. Le Foulon (Eds.), <em>Mapuche en el sur de Chile. Sociedad e Identidad</em> (pp.&nbsp;283–306). Editorial CEP.</li>
-<li><strong><a href="2023-legitimidad-justicia.html">Legitimidad, Justicia y la Justificación de la Violencia Intergrupal</a></strong> — Gerber, M.M., Figueiredo, A., Sáez, L. &amp; Orchard, M. (2023). <em>Revista Psykhe, 32</em>(1), 1-15.</li>
-</ul>
-</section>
-<section id="tesis" class="level2">
-<h2 class="anchored" data-anchor-id="tesis">Tesis</h2>
-<p>Tesis y trabajos de titulación realizados en el marco del Observatorio (listado).</p>
-<p><em>Próximamente se incorporará el listado de tesis.</em></p>
-</section>
-<section id="otros-documentos" class="level2">
-<h2 class="anchored" data-anchor-id="otros-documentos">Otros documentos</h2>
-<p>Informes, documentos de trabajo y otros materiales.</p>
-<p><em>Próximamente se incorporarán otros documentos.</em></p>
-<hr>
-<p><a href="../index.html">← Volver al Inicio</a></p>
+<p>Publicaciones académicas del equipo del Observatorio de Legitimidad.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1772470866237" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="../publicaciones/2025-gerber-police-postures.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&amp;h=250&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How do individuals interact with the police?
+</h5>
+<div class="card-text listing-description">
+Validation of a scale of motivational postures toward the police in Spanish.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 ene 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1772467182104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<a href="../publicaciones/2024-gerber-mapuche.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=250&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche
+</h5>
+<div class="card-text listing-description">
+Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 ene 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1772467185932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<a href="../publicaciones/2023-legitimidad-justicia.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&amp;h=250&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Legitimidad, Justicia y la Justificación de la Violencia Intergrupal
+</h5>
+<div class="card-text listing-description">
+Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 ene 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

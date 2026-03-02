@@ -539,6 +539,90 @@ body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
   gap: 1.5rem;
 }
 
+/* Página de listado de publicaciones: listado (no cards) */
+.publicaciones-listing .quarto-listing,
+.publicaciones-listing .quarto-listing-container-grid,
+.publicaciones-listing .quarto-listing-container-default {
+  display: block !important;
+  max-width: 900px;
+  margin: 2rem 0;
+}
+
+.publicaciones-listing .list.grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important;
+}
+
+.publicaciones-listing .quarto-grid-item,
+.publicaciones-listing .quarto-listing-default-item,
+.publicaciones-listing .list > div {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 1.25rem 0 !important;
+  border-bottom: 1px solid #e8e6f0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  transition: none !important;
+}
+
+.publicaciones-listing .quarto-grid-item:last-child,
+.publicaciones-listing .list > div:last-child {
+  border-bottom: none !important;
+}
+
+.publicaciones-listing .quarto-grid-link {
+  display: block !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.publicaciones-listing .quarto-grid-item .card-img-top,
+.publicaciones-listing .quarto-grid-item .listing-image,
+.publicaciones-listing .quarto-grid-item p.card-img-top {
+  display: none !important;
+}
+
+.publicaciones-listing .quarto-grid-item .card-body {
+  padding: 0 !important;
+}
+
+.publicaciones-listing .quarto-grid-item .card-title,
+.publicaciones-listing .listing-title {
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  margin: 0 0 0.35rem 0 !important;
+  line-height: 1.4 !important;
+}
+
+.publicaciones-listing .quarto-grid-item .card-title a,
+.publicaciones-listing .listing-title a {
+  color: #4E4976 !important;
+  text-decoration: none !important;
+}
+
+.publicaciones-listing .quarto-grid-item .card-title a:hover,
+.publicaciones-listing .listing-title a:hover {
+  text-decoration: underline !important;
+}
+
+.publicaciones-listing .listing-date {
+  font-size: 0.9rem !important;
+  color: #6b7280 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.publicaciones-listing .listing-description,
+.publicaciones-listing .card-text {
+  font-size: 0.95rem !important;
+  color: #374151 !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+}
+
 .publicacion-item {
   padding: 1.5rem 2rem;
   background: var(--bg-light);
