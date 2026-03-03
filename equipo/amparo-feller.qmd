@@ -46,4 +46,8 @@ Su trayectoria de investigación ha estado vinculada al análisis y la visibiliz
 - **Magíster en Métodos para la Investigación Social** - Universidad Diego Portales
 - **Socióloga** - Universidad Diego Portales
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-amparo-feller.md >}}
+
+[← Volver al Equipo](index.html)

@@ -1,11 +1,11 @@
 ---
 title: "Matías Deneken"
-cargo: "Ex Asistente de Investigación Cuantitativa"
-categories: [Asistentes Anteriores]
-orden: 2
+cargo: "Asistente de Investigación Cuantitativa"
+categories: [Asistentes]
+orden: 10
 email: "matdknu@gmail.com"
 organizacion: "Centro CIIR y OLES"
-image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+image: "image/matias-deneken.jpg"
 about:
   template: trestles
   image-shape: round
@@ -48,4 +48,8 @@ Sociólogo, Magíster en Sociología y candidato a Magíster en Data Science. Ac
 - **Magíster en Sociología** - Pontificia Universidad Católica de Chile
 - **Sociólogo** - Universidad de Concepción
 
-[← Volver a Asistentes anteriores](index.html)
+## Últimas publicaciones
+
+{{< include _pub-matias-deneken.md >}}
+
+[← Volver al Equipo](index.html)

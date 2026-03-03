@@ -45,4 +45,8 @@ Es profesor titular de la Escuela de Ciencia Política de la Universidad Diego P
 - **MA. Ciencia Política** - Universidad de Carolina del Norte
 - **Licenciatura en Historia** - Pontificia Universidad Católica de Chile
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-claudio-fuentes.md >}}
+
+[← Volver al Equipo](index.html)

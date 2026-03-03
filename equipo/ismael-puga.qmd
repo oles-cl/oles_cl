@@ -45,4 +45,8 @@ Doctor en Sociología de la Universidad Humboldt de Berlín, Alemania. Sociólog
 - **Maestría en Ciencias Sociales** - FLACSO
 - **Sociólogo** - Universidad Alberto Hurtado
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-ismael-puga.md >}}
+
+[← Volver al Equipo](index.html)

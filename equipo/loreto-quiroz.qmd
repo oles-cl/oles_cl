@@ -45,4 +45,8 @@ Doctora en Estudios Americanos por la Universidad de Santiago de Chile, Magíste
 - **Magíster en Ciencias Sociales** - Universidad de Chile
 - **Abogada** - Universidad de Chile
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-loreto-quiroz.md >}}
+
+[← Volver al Equipo](index.html)

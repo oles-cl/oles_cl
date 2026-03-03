@@ -47,4 +47,8 @@ Es abogada y se desempeñó como académica e investigadora en la Universidad de
 - **LLM** - The London School and Economics
 - **Licenciada en Ciencias Jurídicas y Sociales** - Universidad de Chile
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-paz-irarrazabal.md >}}
+
+[← Volver al Equipo](index.html)

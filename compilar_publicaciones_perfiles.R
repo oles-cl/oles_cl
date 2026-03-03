@@ -45,7 +45,9 @@ equipo_slugs <- setdiff(
 asistentes_slugs <- if (!dir.exists(asistentes_dir)) character(0) else
   setdiff(tools::file_path_sans_ext(list.files(asistentes_dir, pattern = "\\.qmd$")), "index")
 
-# Escribir _pub-{slug}.md
+# Escribir _pub-{slug}.md (con publicaciones o placeholder si no hay)
+placeholder <- "- (Aún no hay publicaciones listadas.)"
+
 for (slug in names(pubs_by_author)) {
   pubs <- pubs_by_author[[slug]]
   lines <- character(length(pubs))
@@ -58,6 +60,16 @@ for (slug in names(pubs_by_author)) {
   out_file <- file.path(out_dir, paste0("_pub-", slug, ".md"))
   writeLines(lines, out_file, useBytes = TRUE)
   message("Escrito: ", out_file)
+}
+
+# Quienes están en equipo o asistentes pero no tienen publicaciones: archivo con placeholder
+todos_slugs <- c(equipo_slugs, asistentes_slugs)
+for (slug in todos_slugs) {
+  if (slug %in% names(pubs_by_author)) next
+  out_dir <- if (slug %in% asistentes_slugs) asistentes_dir else equipo_dir
+  out_file <- file.path(out_dir, paste0("_pub-", slug, ".md"))
+  writeLines(placeholder, out_file, useBytes = TRUE)
+  message("Escrito (placeholder): ", out_file)
 }
 
 message("Listo. Ejecuta 'quarto render' para compilar el sitio.")

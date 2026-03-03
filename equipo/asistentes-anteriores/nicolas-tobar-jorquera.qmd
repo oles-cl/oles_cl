@@ -5,7 +5,7 @@ categories: [Asistentes Anteriores]
 orden: 1
 email: "nicolas.tobar@ug.uchile.cl"
 organizacion: "Universidad de Chile"
-image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop"
+image: "../image/nicolas-tobar.jpg"
 about:
   template: trestles
   image-shape: round
