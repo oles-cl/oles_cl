@@ -15,39 +15,29 @@ title-block: none
   </video>
 </section>
 
-<!-- Destacados Section -->
+<!-- Destacados Section (solo noticias destacadas) -->
 <section class="destacados-section">
   <div class="container">
     <h2 class="section-title" data-i18n="secciones.destacados">Destacados</h2>
     <div class="destacados-grid">
-      <a href="eventos/2026-01-20-seminario-legitimidad.html" class="destacado-card evento">
+      <a href="noticias/2025-09-02/index.html" class="destacado-card noticia">
         <div class="destacado-imagen">
-          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop" alt="Seminario">
-        </div>
-        <div class="destacado-content">
-          <div class="destacado-tipo" data-i18n="tipos.evento">Evento</div>
-          <h3>Seminario: Legitimidad institucional en tiempos de crisis</h3>
-          <div class="destacado-fecha">20 enero 2026</div>
-        </div>
-      </a>
-      <a href="noticias/2026-01-10-ejemplo-noticia.html" class="destacado-card noticia">
-        <div class="destacado-imagen">
-          <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=400&fit=crop" alt="Noticia">
+          <img src="noticias/2025-09-02/featured.jpg" alt="Seminario: ¿Por qué obedecemos e invocamos la ley?">
         </div>
         <div class="destacado-content">
           <div class="destacado-tipo" data-i18n="tipos.noticia">Noticia</div>
-          <h3>Nueva publicación sobre legitimidad policial</h3>
-          <div class="destacado-fecha">10 enero 2026</div>
+          <h3>Seminario: ¿Por qué obedecemos e invocamos la ley?</h3>
+          <div class="destacado-fecha">2 septiembre 2025</div>
         </div>
       </a>
-      <a href="publicaciones/2025-gerber-police-postures.html" class="destacado-card publicacion">
+      <a href="noticias/2025-07-10/index.html" class="destacado-card noticia">
         <div class="destacado-imagen">
-          <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&h=400&fit=crop" alt="Publicación">
+          <img src="noticias/2025-07-10/featured.jpg" alt="OLES en el Congreso ISPP 2025">
         </div>
         <div class="destacado-content">
-          <div class="destacado-tipo" data-i18n="tipos.publicacion">Publicación</div>
-          <h3>How do individuals interact with the police?</h3>
-          <div class="destacado-fecha">2025</div>
+          <div class="destacado-tipo" data-i18n="tipos.noticia">Noticia</div>
+          <h3>OLES en el Congreso ISPP 2025</h3>
+          <div class="destacado-fecha">10 julio 2025</div>
         </div>
       </a>
     </div>
