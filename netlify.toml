@@ -1,0 +1,7 @@
+# Netlify config for Quarto website (OLES)
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  publish = "docs"
+  # Sin build command: subes la carpeta docs ya generada (quarto render en local).
+  # El pre-render (compilar_publicaciones_perfiles.R) requiere R, por eso se recomienda construir en local.
