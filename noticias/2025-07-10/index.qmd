@@ -3,7 +3,7 @@ title: "OLES en el Congreso ISPP 2025"
 description: "Entre el 3 y el 6 de julio, integrantes del Observatorio Violencia y Legitimidad Social (OLES) participaron activamente en el Congreso Anual de la International Society of Political Psychology (ISPP)"
 date: "2025-07-10"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticias, Evento]
 image: "featured.jpg"
 destacado: true
 title-block-banner: false
@@ -31,7 +31,7 @@ La participación en ISPP 2025 reafirma el compromiso de OLES con la investigaci
 
 
 ::: {.gallery}
-![](images/featured.jpg)
+![](featured.jpg)
 :::
 
 

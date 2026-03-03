@@ -3,7 +3,7 @@ title: "Seminario: ¿Por qué obecemos e invocamos la ley?"
 description: "Invitados internacionales de LSE y UCL y resultados preliminares del Estudio Panel de Percepciones de Seguridad y Policía"
 date: "2025-09-02"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticias, Evento]
 image: "featured.jpg"
 destacado: true
 title-block-banner: false

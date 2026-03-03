@@ -7,7 +7,7 @@ listing:
   sort: "date desc"
   categories: true
   fields: [image, date, title, description, categories]
-  page-size: 15
+  page-size: 20
   filter-ui: true
 include-after-body:
   - text: |

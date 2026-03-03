@@ -2514,7 +2514,7 @@ h1.title {
    Galería de imágenes tipo álbum moderno
    ===================================================== */
 
-/* Imagen destacada principal - debajo del título */
+/* Imagen destacada principal - debajo del título (ocupa todo el ancho y su tamaño natural) */
 .featured-image {
   width: 100%;
   margin: 2rem 0 3rem 0;
@@ -2528,10 +2528,10 @@ h1.title {
 
 .featured-image img,
 .featured-image p img {
-  width: 100% !important;
-  max-width: 100% !important;
-  height: 500px !important;
-  object-fit: cover;
+  width: 50% !important;
+  max-width: 50% !important;
+  height: auto !important;
+  object-fit: contain;
   border-radius: 20px;
   box-shadow: 0 12px 40px rgba(62, 51, 81, 0.15);
   display: block;
@@ -2589,7 +2589,7 @@ h1.title {
 @media (max-width: 768px) {
   .featured-image img,
   .featured-image p img {
-    height: 300px !important;
+    height: auto !important;
   }
   
   .gallery p {
@@ -2606,7 +2606,7 @@ h1.title {
 @media (min-width: 769px) and (max-width: 1024px) {
   .featured-image img,
   .featured-image p img {
-    height: 400px !important;
+    height: auto !important;
   }
   
   .gallery p {

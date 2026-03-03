@@ -3,7 +3,7 @@ title: "Investigador OLES Claudio Fuentes asiste a CNN Chile"
 description: "Análisis de la carrera presidencial y temores vitales"
 date: "2025-10-10"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticias, Entrevista]
 image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=400&fit=crop"
 title-block-banner: false
 ---

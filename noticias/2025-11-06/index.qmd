@@ -3,7 +3,7 @@ title: "Investigador asistente es editor de libro sobre las relaciones intercult
 description: "Matías Deneken junto con Eduardo Valenzuela editores del libro"
 date: "2025-11-06"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticias, Publicación]
 image: "featured.jpg"
 title-block-banner: false
 ---

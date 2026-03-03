@@ -1,10 +1,11 @@
 ---
-title: "Jornada de cierre en OLES"
-description: "Equipo OLES finaliza actividades del año 2025"
+title: "Directora Monica Gerber se adjudica Fondecyt Regular"
+description: "La investigación busca aportar al análisis académico sobre policía, seguridad y legitimidad social en el contexto chileno"
 date: "2026-01-20"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticias, Proyectos]
 image: "featured.jpg"
+destacado: true
 title-block-banner: false
 ---
 
@@ -12,6 +13,12 @@ title-block-banner: false
 ![](featured.jpg)
 :::
 
-Jornada de cierre de actividades del Observatorio de Violencia y Legitimidad Social.
+Monica Gerber, Directora del Observatorio de Violencia y Legitimidad Social (OLES), se adjudicó un Fondecyt Regular con el proyecto "Rethinking police empowerment: unpacking its meaning and consequences.".
+
+La investigación se desarrolla desde una perspectiva interdisciplinaria y busca aportar al análisis académico sobre policía, seguridad y legitimidad social en el contexto chileno.
+
+El estudio cuenta con un equipo de investigadoras vinculadas a OLES, integrado por Macarena Orchard (Universidad Diego Portales), Paz Irarrázabal González (Universidad de Chile), Ana Figueiredo (Universidad de O’Higgins) y Luciano Sáez (Universidad Diego Portales).
+
+Desde OLES celebramos este importante logro y felicitamos a Monica Gerber y al equipo OLES por este nuevo paso en su trabajo investigativo
 
 [← Volver a Noticias](../index.html)
