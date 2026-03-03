@@ -4,4 +4,35 @@
 [build]
   publish = "docs"
   # Sin build command: subes la carpeta docs ya generada (quarto render en local).
-  # El pre-render (compilar_publicaciones_perfiles.R) requiere R, por eso se recomienda construir en local.
+  # El pre-render (compilar_publicaciones_perfiles.R) requiere R.
+
+# Cabeceras de caché: ahorra ancho de banda del plan básico (100 GB/mes)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/equipo/image/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/site_libs/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
