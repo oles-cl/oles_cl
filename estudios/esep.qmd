@@ -13,11 +13,13 @@ format:
 
 [Mónica Gerber](../equipo/monica-gerber.html)
 
-## Equipo
+## Investigadores
 
-**Investigadores:** [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Macarena Orchard](../equipo/macarena-orchard.html)
+[Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Macarena Orchard](../equipo/macarena-orchard.html)
 
-**Asistentes de investigación:** [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+## Asistentes de investigación
+
+[Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
 :::
 
 :::{.estudio-col-der}

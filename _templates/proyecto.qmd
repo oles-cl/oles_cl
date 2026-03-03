@@ -13,11 +13,13 @@ format:
 
 [Nombre del investigador](../equipo/perfil.html)
 
-## Equipo
+## Investigadores
 
-**Investigadores:** [Nombre](../equipo/perfil.html)
+[Nombre](../equipo/perfil.html)
 
-**Asistentes de investigación:** [Nombre](../equipo/perfil.html)
+## Asistentes de investigación
+
+[Nombre](../equipo/perfil.html)
 :::
 
 :::{.estudio-col-der}

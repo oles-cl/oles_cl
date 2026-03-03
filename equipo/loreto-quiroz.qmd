@@ -5,7 +5,7 @@ categories: [Investigadores]
 orden: 12
 email: "loretoqr@gmail.com"
 organizacion: "Universidad Alberto Hurtado"
-image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&h=400&fit=crop"
+image: "image/loreto-quiroz.jpg"
 about:
   template: trestles
   image-shape: round

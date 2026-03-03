@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contacto - OLES</title>
+<title>Contacto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -130,10 +130,6 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./eventos/index.html"> 
-<span class="menu-text">Eventos</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./equipo/index.html"> 
 <span class="menu-text">Equipo</span></a>
   </li>  
@@ -177,192 +173,76 @@ ul.task-list li input[type="checkbox"] {
 
 <style>
 .contacto-container {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-.contacto-intro {
+  padding: 3rem 1.5rem;
   text-align: center;
-  margin-bottom: 3rem;
 }
 
-.contacto-intro h1 {
-  color: #4E4976;
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.contacto-intro p {
-  font-size: 1.2rem;
-  color: #666;
+.contacto-email {
+  font-size: 1.25rem;
   line-height: 1.7;
+  color: #374151;
+  margin-bottom: 2.5rem;
 }
 
-.contacto-form {
-  background: white;
-  border-radius: 16px;
-  padding: 2.5rem;
-  box-shadow: 0 10px 40px rgba(78, 73, 118, 0.15);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
+.contacto-email a {
+  color: #4E4976;
   font-weight: 600;
-  color: #4E4976;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.9rem 1rem;
-  border: 2px solid #e0e0e0;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  font-family: inherit;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: #4E4976;
-  box-shadow: 0 0 0 3px rgba(78, 73, 118, 0.1);
-}
-
-.form-group textarea {
-  min-height: 150px;
-  resize: vertical;
-}
-
-.btn-enviar {
-  width: 100%;
-  padding: 1rem;
-  background: linear-gradient(135deg, #4E4976, #453958);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.btn-enviar:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(78, 73, 118, 0.3);
-}
-
-.contacto-info {
-  margin-top: 3rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-}
-
-.info-card {
-  text-align: center;
-  padding: 1.5rem;
-  background: #f8f9fa;
-  border-radius: 12px;
-}
-
-.info-card .icon {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.info-card h4 {
-  color: #4E4976;
-  margin: 0 0 0.5rem 0;
-}
-
-.info-card p {
-  margin: 0;
-  color: #666;
-  font-size: 0.95rem;
-}
-
-.info-card a {
-  color: #4E4976;
   text-decoration: none;
 }
 
-.info-card a:hover {
+.contacto-email a:hover {
   text-decoration: underline;
+}
+
+.contacto-redes-titulo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4E4976;
+  margin-bottom: 1rem;
+}
+
+.contacto-redes-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.contacto-redes-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4E4976, #453958);
+  color: white;
+  text-decoration: none;
+  font-size: 1.35rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contacto-redes-links a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(78, 73, 118, 0.35);
+  color: white;
 }
 </style>
 
 <div class="contacto-container">
 
-<div class="contacto-intro">
-<h1>Contacto</h1>
-<p>¿Quieres saber más sobre el Observatorio de Violencia y Legitimidad Social?<br>Toma contacto con nuestro equipo 👇</p>
-</div>
+<p class="contacto-email">Escríbenos a <a href="mailto:contacto.oles@gmail.com">contacto.oles@gmail.com</a></p>
 
-<form class="contacto-form" id="contactForm">
-  <div class="form-group">
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required="">
-  </div>
-  
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="tu@email.com" required="">
-  </div>
-  
-  <div class="form-group">
-    <label for="mensaje">Mensaje</label>
-    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required=""></textarea>
-  </div>
-  
-  <button type="submit" class="btn-enviar">Enviar</button>
-</form>
-
-<div class="contacto-info">
-  <div class="info-card">
-    <div class="icon">📧</div>
-    <h4 class="anchored">Email</h4>
-    <p><a href="mailto:contacto.oles@gmail.com">contacto.oles@gmail.com</a></p>
-  </div>
-  <div class="info-card">
-    <div class="icon">📍</div>
-    <h4 class="anchored">Ubicación</h4>
-    <p>Santiago, Chile</p>
-  </div>
-  <div class="info-card">
-    <div class="icon">🐦</div>
-    <h4 class="anchored">Twitter</h4>
-    <p><a href="https://twitter.com/OLES_Chile" target="_blank">@OLES_Chile</a></p>
-  </div>
+<p class="contacto-redes-titulo">Síguenos en redes sociales</p>
+<div class="contacto-redes-links">
+  <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener" title="Instagram"><i class="bi bi-instagram"></i></a>
+  <a href="https://x.com/OLES_CL" target="_blank" rel="noopener" title="X"><i class="bi bi-twitter-x"></i></a>
 </div>
 
 </div>
-
-<script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  
-  const nombre = document.getElementById('nombre').value;
-  const email = document.getElementById('email').value;
-  const mensaje = document.getElementById('mensaje').value;
-  
-  const subject = encodeURIComponent('Contacto desde web OLES - ' + nombre);
-  const body = encodeURIComponent(
-    'Nombre: ' + nombre + '\n' +
-    'Email: ' + email + '\n\n' +
-    'Mensaje:\n' + mensaje
-  );
-  
-  window.location.href = 'mailto:contacto.oles@gmail.com?subject=' + subject + '&body=' + body;
-});
-</script>
 
 
 

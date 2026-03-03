@@ -323,9 +323,10 @@ if (length(noticias) > 0) {
       <img src="images/logos/logo.png" alt="OLES Logo" class="footer-logo" style="height: 80px; margin-bottom: 1rem;">
       <p>Observatorio de Violencia y Legitimidad Social</p>
       <div style="display: flex; gap: 1rem; margin-top: 1rem; font-size: 1.25rem;">
-        <a href="https://twitter.com/oles_udp" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="Twitter">𝕏</a>
-        <a href="https://www.instagram.com/oles_udp/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="Instagram"><i class="bi bi-instagram"></i></a>
-        <a href="mailto:oles.udp@gmail.com" style="color: rgba(255,255,255,0.8);" title="Email"><i class="bi bi-envelope"></i></a>
+        <a href="https://x.com/OLES_CL" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="X / Twitter">𝕏</a>
+        <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:contacto.oles@gmail.com" style="color: rgba(255,255,255,0.8);" title="Email"><i class="bi bi-envelope"></i></a>
       </div>
     </div>
     <div class="footer-col">
@@ -340,7 +341,6 @@ if (length(noticias) > 0) {
       <h4>Investigación</h4>
       <a href="estudios/index.html">Proyectos de Investigación</a>
       <a href="publicaciones/index.html">Publicaciones</a>
-      <a href="eventos/index.html">Eventos</a>
     </div>
   </div>
   <div class="footer-bottom">

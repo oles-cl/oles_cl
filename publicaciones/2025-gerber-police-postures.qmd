@@ -3,10 +3,21 @@ title: "How do individuals interact with the police?"
 description: "Validation of a scale of motivational postures toward the police in Spanish."
 date: "2025-01-01"
 author: "Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N."
-image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=250&fit=crop"
+authors: [monica-gerber, luciano-saez-fuentealba, joaquin-bahamondes, ana-figueiredo, cristobal-moya, bruno-rojas, macarena-orchard, nicolas-tobar-jorquera]
+reference: "Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). *Peace and Conflict: Journal of Peace Psychology*. [DOI](http://dx.doi.org/10.1037/pac0000797)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
 ---
 
+# How do individuals interact with the police?
+
+Validation of a scale of motivational postures toward the police in Spanish.
+
 **Autores OLES:** [Mónica Gerber](../equipo/monica-gerber.html), [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Cristóbal Moya](../equipo/cristobal-moya.html), [Bruno Rojas](../equipo/asistentes-anteriores/bruno-rojas.html), [Macarena Orchard](../equipo/macarena-orchard.html), [Nicolás Tobar Jorquera](../equipo/asistentes-anteriores/nicolas-tobar-jorquera.html).
+
+**Fecha de publicación:** 1 de enero de 2025.
 
 ## Referencia completa
 

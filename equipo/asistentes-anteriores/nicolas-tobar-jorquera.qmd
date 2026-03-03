@@ -45,4 +45,8 @@ Asistente cuantitativo de investigación en OLES. Sociólogo titulado de la Univ
 
 - **Licenciatura en Sociología** - Universidad de Chile (2023)
 
-[← Volver a Asistentes Anteriores](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-nicolas-tobar-jorquera.md >}}
+
+[← Volver a Asistentes anteriores](index.html)

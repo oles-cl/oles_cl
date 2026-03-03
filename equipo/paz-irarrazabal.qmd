@@ -5,7 +5,7 @@ categories: [Investigadores]
 orden: 14
 email: "pirarrazabal@derecho.uchile.cl"
 organizacion: "Universidad de Chile"
-image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=400&fit=crop"
+image: "image/paz-irarrazabal.jpg"
 about:
   template: trestles
   image-shape: round

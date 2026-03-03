@@ -42,4 +42,8 @@ Licenciado en historia, Magister en Ciencias Sociales de la Universidad de Chile
 - **Magíster en Sociología** - Universidad de Chile
 - **Licenciado en Historia** - Universidad de Chile
 
+## Últimas publicaciones
+
+{{< include _pub-bruno-rojas.md >}}
+
 [← Volver a Asistentes anteriores](index.html)

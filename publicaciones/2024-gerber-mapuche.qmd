@@ -3,10 +3,21 @@ title: "Justificación de la Violencia en el Conflicto entre el Estado Chileno y
 description: "Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche."
 date: "2024-01-01"
 author: "Gerber, M. M."
-image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop"
+authors: [monica-gerber]
+reference: "Gerber, M. M. (2024). In A. Mascareño & C. Le Foulon (Eds.), *Mapuche en el sur de Chile. Sociedad e Identidad* (pp. 283–306). Editorial CEP."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
 ---
 
+# Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche
+
+Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.
+
 **Autor OLES:** [Mónica Gerber](../equipo/monica-gerber.html).
+
+**Fecha de publicación:** 1 de enero de 2024.
 
 ## Referencia completa
 

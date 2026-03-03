@@ -1,0 +1,1 @@
+- [How do individuals interact with the police?](../../publicaciones/2025-gerber-police-postures.html) — Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). *Peace and Conflict: Journal of Peace Psychology*. [DOI](http://dx.doi.org/10.1037/pac0000797)

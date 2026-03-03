@@ -13,11 +13,13 @@ format:
 
 [Ana Figueiredo](../equipo/ana-figueiredo.html)
 
-## Equipo
+## Investigadores
 
-**Investigadores:** [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+[Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
 
-**Asistentes de investigación:** [Bruno Rojas](../equipo/asistentes-anteriores/bruno-rojas.html)
+## Asistentes de investigación
+
+[Bruno Rojas](../equipo/asistentes-anteriores/bruno-rojas.html)
 :::
 
 :::{.estudio-col-der}

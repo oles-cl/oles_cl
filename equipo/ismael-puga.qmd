@@ -5,7 +5,7 @@ categories: [Investigadores]
 orden: 10
 email: "ismael.puga@ucentral.cl"
 organizacion: "Universidad Central"
-image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+image: "image/ismael-puga.webp"
 about:
   template: trestles
   image-shape: round

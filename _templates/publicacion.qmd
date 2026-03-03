@@ -1,0 +1,22 @@
+---
+title: "Título de la publicación"
+description: "Una línea descriptiva."
+date: "AAAA-MM-DD"
+author: "Apellido, N., Apellido, N., ..."
+authors: [slug-perfil-1, slug-perfil-2]
+reference: "Referencia corta (revista, año, DOI). Se compila a los perfiles de equipo."
+---
+
+Enlaces a perfiles OLES (opcional):
+
+**Autores OLES:** [Nombre](../equipo/perfil.html), ...
+
+## Referencia completa
+
+Referencia en formato APA o similar.
+
+## DOI
+
+[numero](https://doi.org/...)
+
+[← Volver a Publicaciones](index.html)

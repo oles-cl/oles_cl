@@ -5,7 +5,7 @@ categories: [Subdirección]
 orden: 3
 email: "jbahamondes@ucn.cl"
 organizacion: "Universidad Católica del Norte"
-image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+image: "image/joaquin-bahamondes.webp"
 about:
   template: trestles
   image-shape: round
@@ -55,4 +55,14 @@ Sus principales líneas de investigación se enmarcan en la psicología social y
 - **Master en Psicología Social** - Universidad Católica del Norte (2016)
 - **Licenciatura en Psicología** - Universidad Católica del Norte (2014)
 
-[← Volver al Equipo](index.qmd)
+## Proyectos de investigación
+
+- [Estudio Panel de Percepciones y Seguridad (ESEP)](../estudios/esep.html)
+- [Estudio cualitativo longitudinal](../estudios/cualitativo-longitudinal.html)
+- [Seguimiento a las policías](../estudios/seguimiento-policias.html)
+
+## Últimas publicaciones
+
+{{< include _pub-joaquin-bahamondes.md >}}
+
+[← Volver al Equipo](index.html)

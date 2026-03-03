@@ -54,4 +54,8 @@ Profesora Asistente de la Escuela de Sociología y Directora del Diplomado en M�
 - **Master in Sociology** - Universidad de Warwick, Reino Unido (2010)
 - **Licenciada en Sociología** - Universidad de Chile (2008)
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-macarena-orchard.md >}}
+
+[← Volver al Equipo](index.html)

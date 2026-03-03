@@ -13,11 +13,13 @@ format:
 
 [Ismael Puga](../equipo/ismael-puga.html)
 
-## Equipo
+## Investigadores
 
-**Investigadores:** [Claudio Fuentes](../equipo/claudio-fuentes.html), [Mónica Gerber](../equipo/monica-gerber.html)
+[Claudio Fuentes](../equipo/claudio-fuentes.html), [Mónica Gerber](../equipo/monica-gerber.html)
 
-**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+## Asistentes de investigación
+
+[Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
 :::
 
 :::{.estudio-col-der}

@@ -3,10 +3,21 @@ title: "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal"
 description: "Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes."
 date: "2023-01-01"
 author: "Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M."
-image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop"
+authors: [monica-gerber, ana-figueiredo, luciano-saez-fuentealba, macarena-orchard]
+reference: "Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). *Revista Psykhe, 32*(1), 1-15. [DOI](http://dx.doi.org/10.7764/psykhe.2021.31721)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
 ---
 
+# Legitimidad, Justicia y la Justificación de la Violencia Intergrupal
+
+Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.
+
 **Autores OLES:** [Mónica Gerber](../equipo/monica-gerber.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Macarena Orchard](../equipo/macarena-orchard.html).
+
+**Fecha de publicación:** 1 de enero de 2023.
 
 ## Referencia completa
 

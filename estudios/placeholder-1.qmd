@@ -13,7 +13,11 @@ format:
 
 Por definir.
 
-## Equipo
+## Investigadores
+
+Por definir.
+
+## Asistentes de investigación
 
 Por definir.
 :::

@@ -625,6 +625,11 @@ body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
   margin: 0 !important;
 }
 
+/* Páginas de publicación individual: ocultar bloque por defecto (autor en formato cita, fecha); solo se muestra Autores OLES */
+.publicacion-page #title-block-header {
+  display: none !important;
+}
+
 .publicacion-item {
   padding: 1.5rem 2rem;
   background: var(--bg-light);

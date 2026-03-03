@@ -5,7 +5,7 @@ categories: [Coordinador]
 orden: 20
 email: "luciano.saez.fuentealba@gmail.com"
 organizacion: "Universidad de Buenos Aires"
-image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop"
+image: "image/luciano-saez.jpg"
 about:
   template: trestles
   image-shape: round
@@ -52,4 +52,8 @@ Asistente de Investigación, profesor de la escuela de Sociología y Trabajo Soc
 - **Magíster en Ciencias Sociales** - Instituto de Estudios Avanzados Universidad de Santiago (2018)
 - **Historiador** - Universidad Alberto Hurtado (2013)
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-luciano-saez-fuentealba.md >}}
+
+[← Volver al Equipo](index.html)

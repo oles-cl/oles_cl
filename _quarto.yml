@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  pre-render: compilar_publicaciones_perfiles.R
 
 website:
   title: ""
@@ -27,8 +28,6 @@ website:
         menu:
           - text: "EPSEP"
             href: repositorio/epsep.qmd
-      - text: "Eventos"
-        href: eventos/index.qmd
       - text: "Equipo"
         href: equipo/index.qmd
       - text: "Contacto"

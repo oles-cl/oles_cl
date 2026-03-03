@@ -13,11 +13,13 @@ format:
 
 [Claudio Fuentes](../equipo/claudio-fuentes.html)
 
-## Equipo
+## Investigadores
 
-**Investigadores:** [Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+[Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
 
-**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+## Asistentes de investigación
+
+[Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
 :::
 
 :::{.estudio-col-der}

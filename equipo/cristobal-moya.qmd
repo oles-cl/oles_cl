@@ -5,7 +5,7 @@ categories: [Investigadores]
 orden: 11
 email: "cristobalmoya@gmail.com"
 organizacion: "Universität Bielefeld"
-image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
+image: "image/cristobal-moya.jpg"
 about:
   template: trestles
   image-shape: round
@@ -39,4 +39,8 @@ Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociól
 
 - **Sociólogo** - Universidad de Chile
 
-[← Volver al Equipo](index.qmd)
+## Últimas publicaciones
+
+{{< include _pub-cristobal-moya.md >}}
+
+[← Volver al Equipo](index.html)

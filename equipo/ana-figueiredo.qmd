@@ -5,7 +5,7 @@ categories: [Subdirección]
 orden: 2
 email: "figueiredo.anacm@gmail.com"
 organizacion: "Universidad de O'Higgins"
-image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+image: "image/ana-figuereido.jpg"
 about:
   template: trestles
   image-shape: round
@@ -49,4 +49,14 @@ Profesora asociada del Instituto de Ciencias Sociales de la Universidad de O'Hig
 - **PhD en Psicología Social** - Universidade de Coimbra, Portugal (2012)
 - **Master Program in Psychology** - Universidade de Coimbra, Portugal (2007)
 
-[← Volver al Equipo](index.qmd)
+## Proyectos de investigación
+
+- [Estudio Panel de Percepciones y Seguridad (ESEP)](../estudios/esep.html)
+- [Estudio cualitativo longitudinal](../estudios/cualitativo-longitudinal.html) — Investigadora responsable
+- [Seguimiento a las policías](../estudios/seguimiento-policias.html)
+
+## Últimas publicaciones
+
+{{< include _pub-ana-figueiredo.md >}}
+
+[← Volver al Equipo](index.html)
