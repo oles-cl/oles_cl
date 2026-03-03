@@ -14,36 +14,79 @@ title-block: none
     <source src="images/logos/video_entrada.mp4" type="video/mp4">
   </video>
 </section>
+```
 
-<!-- Destacados Section (solo noticias destacadas) -->
-<section class="destacados-section">
-  <div class="container">
-    <h2 class="section-title" data-i18n="secciones.destacados">Destacados</h2>
-    <div class="destacados-grid">
-      <a href="noticias/2025-09-02/index.html" class="destacado-card noticia">
-        <div class="destacado-imagen">
-          <img src="noticias/2025-09-02/featured.jpg" alt="Seminario: ¿Por qué obedecemos e invocamos la ley?">
-        </div>
-        <div class="destacado-content">
-          <div class="destacado-tipo" data-i18n="tipos.noticia">Noticia</div>
-          <h3>Seminario: ¿Por qué obedecemos e invocamos la ley?</h3>
-          <div class="destacado-fecha">2 septiembre 2025</div>
-        </div>
-      </a>
-      <a href="noticias/2025-07-10/index.html" class="destacado-card noticia">
-        <div class="destacado-imagen">
-          <img src="noticias/2025-07-10/featured.jpg" alt="OLES en el Congreso ISPP 2025">
-        </div>
-        <div class="destacado-content">
-          <div class="destacado-tipo" data-i18n="tipos.noticia">Noticia</div>
-          <h3>OLES en el Congreso ISPP 2025</h3>
-          <div class="destacado-fecha">10 julio 2025</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</section>
+```{r}
+#| echo: false
+#| results: 'asis'
+# Destacados: noticias con destacado: true en el YAML, orden por fecha (más reciente arriba)
 
+`%||%` <- function(x, y) if (is.null(x) || length(x) == 0 || x == "") y else x
+
+leer_metadatos_destacado <- function(archivo) {
+  contenido <- readLines(archivo, warn = FALSE)
+  inicio_yaml <- grep("^---$", contenido)[1]
+  if (is.na(inicio_yaml)) return(NULL)
+  fin_yaml <- grep("^---$", contenido)[2]
+  if (is.na(fin_yaml)) return(NULL)
+  yaml_lineas <- contenido[(inicio_yaml + 1):(fin_yaml - 1)]
+  metadatos <- list()
+  for (campo in c("title", "description", "date", "image")) {
+    line <- grep(paste0("^", campo, ":"), yaml_lineas, value = TRUE, ignore.case = TRUE)
+    if (length(line) > 0) {
+      val <- gsub('^[^:]+:\\s*["\']?([^"\']*)["\']?', '\\1', line)
+      if (val == line) val <- trimws(sub("^[^:]+:\\s*", "", line))
+      metadatos[[campo]] <- trimws(val)
+    }
+  }
+  dest_line <- grep("^destacado:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  metadatos$destacado <- length(dest_line) > 0 && grepl("true|yes|1", trimws(sub("^[^:]+:\\s*", "", dest_line)), ignore.case = TRUE)
+  carpeta_padre <- basename(dirname(archivo))
+  if (!grepl("^\\d{4}-\\d{2}-\\d{2}$", carpeta_padre)) return(NULL)
+  metadatos$carpeta <- carpeta_padre
+  metadatos$ruta_html <- paste0("noticias/", carpeta_padre, "/index.html")
+  if (!is.null(metadatos$image) && metadatos$image != "" && !grepl("^https?://", metadatos$image))
+    metadatos$image <- paste0("noticias/", carpeta_padre, "/", metadatos$image)
+  return(metadatos)
+}
+
+formatear_fecha_d <- function(fecha_str) {
+  if (is.null(fecha_str) || fecha_str == "" || is.na(fecha_str)) return("")
+  fecha <- tryCatch(as.Date(fecha_str), error = function(e) NA)
+  if (is.na(fecha)) return(fecha_str)
+  meses <- c("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+  paste(as.numeric(format(fecha, "%d")), meses[as.numeric(format(fecha, "%m"))], format(fecha, "%Y"))
+}
+
+carpetas_n <- list.dirs("noticias", recursive = FALSE, full.names = TRUE)
+carpetas_n <- carpetas_n[grepl("^noticias/\\d{4}-\\d{2}-\\d{2}", carpetas_n)]
+archivos_n <- character()
+for (carpeta in carpetas_n) {
+  f <- file.path(carpeta, "index.qmd")
+  if (file.exists(f)) archivos_n <- c(archivos_n, f)
+}
+destacadas_lista <- lapply(archivos_n, leer_metadatos_destacado)
+destacadas_lista <- destacadas_lista[!sapply(destacadas_lista, is.null)]
+destacadas_lista <- destacadas_lista[sapply(destacadas_lista, function(x) isTRUE(x$destacado))]
+if (length(destacadas_lista) > 0) {
+  fechas <- sapply(destacadas_lista, function(x) {
+    d <- tryCatch(as.Date(x$date %||% ""), error = function(e) NA)
+    if (is.na(d)) -Inf else as.numeric(d)
+  })
+  destacadas_lista <- destacadas_lista[order(fechas, decreasing = TRUE)]
+  out <- '<section class="destacados-section">\n  <div class="container">\n    <h2 class="section-title" data-i18n="secciones.destacados">Destacados</h2>\n    <div class="destacados-grid">\n'
+  for (n in destacadas_lista) {
+    titulo_esc <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", n$title %||% "")))
+    fecha_f <- formatear_fecha_d(n$date)
+    imagen <- n$image %||% "images/logos/icon.png"
+    out <- paste0(out, sprintf('      <a href="%s" class="destacado-card noticia">\n        <div class="destacado-imagen">\n          <img src="%s" alt="%s">\n        </div>\n        <div class="destacado-content">\n          <div class="destacado-tipo" data-i18n="tipos.noticia">Noticia</div>\n          <h3>%s</h3>\n          <div class="destacado-fecha">%s</div>\n        </div>\n      </a>\n', n$ruta_html, imagen, titulo_esc, titulo_esc, fecha_f))
+  }
+  out <- paste0(out, '    </div>\n  </div>\n</section>\n')
+  knitr::asis_output(out)
+}
+```
+
+```{=html}
 <!-- Noticias Recientes Section -->
 <section class="noticias-section">
   <div class="container">

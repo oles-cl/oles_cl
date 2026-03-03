@@ -5,6 +5,7 @@ date: "YYYY-MM-DD"
 author: "Matías Deneken"
 categories: [Categoría1, Categoría2]
 image: "featured.jpg"
+destacado: false
 title-block-banner: false
 ---
 

@@ -1,10 +1,8 @@
 [
   {
-    "listing": "/publicaciones/index.html",
+    "listing": "/eventos/index.html",
     "items": [
-      "/publicaciones/2025-gerber-police-postures.html",
-      "/publicaciones/2024-gerber-mapuche.html",
-      "/publicaciones/2023-legitimidad-justicia.html"
+      "/eventos/2026-01-20-seminario-legitimidad.html"
     ]
   },
   {
@@ -73,9 +71,11 @@
     ]
   },
   {
-    "listing": "/eventos/index.html",
+    "listing": "/publicaciones/index.html",
     "items": [
-      "/eventos/2026-01-20-seminario-legitimidad.html"
+      "/publicaciones/2025-gerber-police-postures.html",
+      "/publicaciones/2024-gerber-mapuche.html",
+      "/publicaciones/2023-legitimidad-justicia.html"
     ]
   }
 ]

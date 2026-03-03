@@ -1,157 +1,137 @@
 # Página Web OLES
 
-Sitio web del Observatorio de Violencia y Legitimidad Social (OLES), construido con Quarto.
+Sitio del **Observatorio de Violencia y Legitimidad Social (OLES)**, construido con [Quarto](https://quarto.org). El contenido se compila en la carpeta `docs/`.
 
-## Estructura del Proyecto
+---
+
+## Diagrama del sitio y flujos de contenido
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              oles-page (raíz)                                    │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  index.qmd          Portada: video, DESTACADOS (2 noticias fijas),              │
+│                     Noticias recientes (3 más recientes por fecha), estudios     │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  noticias/                                                                       │
+│  ├── index.qmd      Listado automático (listing) de todas las noticias          │
+│  └── YYYY-MM-DD/    Una noticia = una carpeta con fecha                          │
+│        ├── index.qmd      (title, description, date, image)                      │
+│        └── featured.jpg   Imagen principal                                       │
+│                                                                                  │
+│  → Destacadas: noticias con destacado: true en el YAML; se compilan solas (fecha) │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  equipo/                                                                         │
+│  ├── index.qmd      Listado por categorías (Dirección, Subdirección,             │
+│  │                  Investigadores, Coordinador, Asistentes)                     │
+│  ├── image/         Fotos de cada persona (nombre-apellido.jpg)                 │
+│  ├── nombre.qmd     Perfil: categories, orden, image, texto + {{< include        │
+│  │                  _pub-nombre.md >}} (Últimas publicaciones)                  │
+│  └── asistentes-anteriores/   Misma lógica, otros .qmd                          │
+│                                                                                  │
+│  → _pub-*.md los genera compilar_publicaciones_perfiles.R (no editar a mano)     │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  publicaciones/                                                                  │
+│  ├── index.qmd      Listado automático (listing) por fecha                       │
+│  └── YYYY-slug.qmd  Una publicación: title, date, authors: [slug1, slug2, ...]  │
+│                                                                                  │
+│  → authors = slugs de equipo/*.qmd → el script R escribe equipo/_pub-*.md        │
+│    y así cada perfil muestra sus publicaciones                                   │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  estudios/                                                                       │
+│  ├── index.qmd      Listado MANUAL (HTML con tarjetas y enlaces a *.html)        │
+│  └── slug.qmd       Página de cada proyecto (title, description, estado)        │
+│                                                                                  │
+│  → Añadir/editar proyecto = crear/editar .qmd + añadir/editar tarjeta en index   │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│  _quarto.yml       Configuración sitio, navbar, pre-render: R script            │
+│  compilar_publicaciones_perfiles.R   Lee publicaciones, escribe _pub-*.md       │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                                    │
+                                    ▼
+                              quarto render
+                                    │
+                                    ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│  docs/              Sitio compilado (publicar este directorio)                   │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Resumen de flujos:**
+
+| Contenido        | Dónde se crea/edita                    | Qué se actualiza solo / qué a mano      |
+|------------------|----------------------------------------|-----------------------------------------|
+| Noticias         | `noticias/YYYY-MM-DD/index.qmd`        | Listado automático por fecha            |
+| Destacadas       | YAML de cada noticia: `destacado: true` | Se compilan solas (orden por fecha)    |
+| Equipo           | `equipo/*.qmd` + `equipo/image/`      | Cards por categoría automático          |
+| Publicaciones    | `publicaciones/*.qmd` con `authors`   | Listado automático; _pub-*.md por script|
+| Proyectos        | `estudios/*.qmd` + tarjetas en `estudios/index.qmd` | Listado a mano en index         |
+
+---
+
+## Manual paso a paso
+
+Para instrucciones detalladas de cada tipo de contenido, usa el **[MANUAL.md](MANUAL.md)**:
+
+1. **Noticias y destacadas** – Crear noticia, imagen featured, elegir las 2 destacadas en portada, noticias recientes.
+2. **Equipo** – Agregar personas, categorías, fotos, orden, asistentes anteriores.
+3. **Publicaciones** – Crear publicación y anidarla a autores (campo `authors` + script R).
+4. **Proyectos** – Crear o modificar estudios y su listado en la página de investigación.
+
+---
+
+## Estructura de carpetas (referencia)
 
 ```
 oles-page/
-├── _quarto.yml          # Configuración principal de Quarto
-├── _templates/          # Plantillas para crear contenido nuevo
-├── index.qmd            # Página principal
-├── styles.css           # Estilos personalizados
-├── translations.js      # Sistema de traducción ES/EN
-├── noticias/           # Directorio de noticias
-├── equipo/             # Perfiles del equipo
-├── estudios/           # Líneas de investigación
-├── eventos/            # Eventos y seminarios
-├── publicaciones/      # Publicaciones académicas
-└── docs/               # Sitio compilado (GitHub Pages)
+├── _quarto.yml              # Configuración del sitio y pre-render
+├── _templates/              # Plantillas (ej. noticia-template.qmd)
+├── compilar_publicaciones_perfiles.R   # Genera _pub-*.md para perfiles
+├── index.qmd                # Portada
+├── somos.qmd                 # Acerca de OLES
+├── contacto.qmd
+├── styles.css
+├── translations.js           # ES/EN
+├── noticias/                 # Noticias por carpeta YYYY-MM-DD
+├── equipo/                   # Perfiles + image/ + asistentes-anteriores/
+├── publicaciones/           # Publicaciones académicas (.qmd con authors)
+├── estudios/                 # Proyectos de investigación (.qmd + listado en index)
+├── eventos/
+├── MANUAL.md                 # Manual de contenidos (este flujo)
+├── README.md                 # Este archivo
+└── docs/                     # Salida del sitio (quarto render)
 ```
 
-## Cómo Agregar una Noticia
-
-### 1. Crear carpeta con fecha
-
-Crea una nueva carpeta en `noticias/` con el formato `YYYY-MM-DD`:
-
-```bash
-mkdir noticias/2026-02-15
-```
-
-### 2. Crear archivo index.qmd
-
-Dentro de la carpeta, crea un archivo `index.qmd` con esta estructura:
-
-```yaml
----
-title: "Título de la noticia"
-description: "Breve descripción o bajada de la noticia"
-date: "2026-02-15"
-author: "Nombre del Autor"
-categories: [Noticias]
-image: "featured.jpg"
-title-block-banner: false
 ---
 
-::: {.featured-image}
-![](featured.jpg)
-:::
-
-Contenido de la noticia aquí...
-
-[← Volver a Noticias](../index.html)
-```
-
-### 3. Agregar imagen principal
-
-- Agrega una imagen llamada `featured.jpg`, `featured.png` o `featured.jpeg` en la misma carpeta
-- Esta imagen aparecerá:
-  - Entre el título y la bajada en la noticia individual
-  - Como miniatura en el listado de noticias
-  - En las noticias recientes de la página principal
-
-### 4. Imágenes adicionales (opcional)
-
-Para agregar más imágenes en el contenido:
-
-```markdown
-::: {.gallery}
-![](foto1.jpg) ![](foto2.jpg) ![](foto3.jpg)
-:::
-```
-
-## Compilar el Sitio
-
-### Compilar todo el sitio
+## Compilar el sitio
 
 ```bash
+# Todo el sitio (ejecuta antes el script R y luego Quarto)
 quarto render
-```
 
-### Compilar solo la página principal
-
-```bash
+# Solo la portada
 quarto render index.qmd
+
+# Solo una sección
+quarto render noticias/index.qmd
+quarto render equipo/index.qmd
 ```
 
-### Compilar una noticia específica
+Requisito: tener R y el paquete `yaml` para el pre-render (`install.packages("yaml")`).
 
-```bash
-quarto render noticias/2026-02-15/index.qmd
-```
-
-## Agregar Miembros del Equipo
-
-1. Crea un archivo en `equipo/` con el formato `nombre-apellido.qmd`
-2. Usa esta estructura:
-
-```yaml
----
-title: "Nombre Completo"
-about:
-  template: trestles
-  image: https://via.placeholder.com/400x400
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:correo@ejemplo.com
-categories: [Investigadores]
 ---
 
-Biografía y descripción del miembro del equipo...
-```
+## Publicar
 
-## Agregar Estudios
+El sitio se sirve desde la carpeta `docs/` (p. ej. Netlify, GitHub Pages con branch `main` y carpeta `docs`). Tras `quarto render`, hacer commit y push de `docs/` (y de los cambios en fuentes).
 
-1. Crea un archivo en `estudios/` con nombre descriptivo
-2. Incluye en el YAML:
-   - `title`: Nombre del estudio
-   - `description`: Descripción breve
-   - `estado`: "en-curso" o "finalizado"
-   - `periodo`: "2020-2024"
+---
 
-## Sistema de Traducción
+## Notas
 
-El sitio tiene soporte para español e inglés:
-- Las traducciones están en `translations.js`
-- Los textos traducibles usan el atributo `data-i18n`
-- El selector de idioma está en la esquina superior derecha
+- **Destacadas:** Aparecen las noticias que tengan `destacado: true` en el YAML; se ordenan por fecha (más reciente arriba).
+- **Publicaciones en perfiles:** Siempre que cambies `publicaciones/*.qmd` o el campo `authors`, ejecuta `quarto render` para regenerar los `_pub-*.md`.
+- **Proyectos:** Para que un estudio aparezca en la página “Proyectos de Investigación”, hay que añadir su tarjeta en `estudios/index.qmd` además de crear el `.qmd`.
 
-## Publicar Cambios
-
-El sitio se publica automáticamente desde la carpeta `docs/`:
-
-1. Compila el sitio: `quarto render`
-2. Los archivos HTML se generan en `docs/`
-3. Haz commit y push a GitHub
-4. GitHub Pages sirve automáticamente desde `docs/`
-
-## Plantillas Disponibles
-
-En la carpeta `_templates/` hay plantillas para:
-- Noticias nuevas
-- Otros tipos de contenido
-
-Puedes copiar estas plantillas como punto de partida.
-
-## Notas Importantes
-
-- **Imágenes featured**: Deben estar en la misma carpeta que el `index.qmd`
-- **Fechas**: Usa formato ISO `YYYY-MM-DD` en el YAML
-- **Categorías**: Mantén consistencia con las categorías existentes
-- **Compilación**: Siempre compila antes de hacer commit
-
-## Soporte
-
-Para dudas o problemas, contactar a Matías Deneken
+Para más detalle, ver **[MANUAL.md](MANUAL.md)**.

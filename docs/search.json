@@ -1,66 +1,87 @@
 [
   {
-    "objectID": "publicaciones/2025-gerber-police-postures.html",
-    "href": "publicaciones/2025-gerber-police-postures.html",
-    "title": "How do individuals interact with the police?",
+    "objectID": "MANUAL.html",
+    "href": "MANUAL.html",
+    "title": "Manual de contenidos – Sitio OLES",
     "section": "",
-    "text": "Validation of a scale of motivational postures toward the police in Spanish.\nAutores OLES: Mónica Gerber, Luciano Sáez Fuentealba, Joaquín Bahamondes, Ana Figueiredo, Cristóbal Moya, Bruno Rojas, Macarena Orchard, Nicolás Tobar Jorquera.\nFecha de publicación: 1 de enero de 2025.\n\n\nGerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. Peace and Conflict: Journal of Peace Psychology, 31(3), 285–298.\n\n\n\n10.1037/pac0000797\n\n\n\nEste artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en español.\n← Volver a Publicaciones"
+    "text": "Guía paso a paso para mantener noticias, equipo, publicaciones y proyectos del sitio Quarto de OLES.\n\n\n\n\n\nPaso 1 – Carpeta con fecha\nCrear una carpeta en noticias/ con formato YYYY-MM-DD:\nnoticias/2026-03-01/\nPaso 2 – Archivo de la noticia\nDentro de esa carpeta, crear index.qmd. Puedes basarte en _templates/noticia-template.qmd.\nCampos YAML importantes:\n\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\ntitle\nTítulo que se ve en listados y en la página.\n\n\ndescription\nBajada/resumen (cards y “Noticias recientes”).\n\n\ndate\nFecha de la noticia, formato YYYY-MM-DD.\n\n\nauthor\nAutor del texto.\n\n\ncategories\nEj.: [Noticias].\n\n\nimage\nNombre del archivo de imagen en la misma carpeta (ej. featured.jpg).\n\n\ndestacado\ntrue para que aparezca en la sección Destacados de la portada (orden por fecha, más reciente arriba). Opcional; por defecto no se muestra.\n\n\n\nEjemplo mínimo:\n---\ntitle: \"Título de la noticia\"\ndescription: \"Breve descripción para las cards.\"\ndate: \"2026-03-01\"\nauthor: \"Nombre\"\ncategories: [Noticias]\nimage: \"featured.jpg\"\ntitle-block-banner: false\n---\n\n::: {.featured-image}\n![](featured.jpg)\n:::\n\nContenido en Markdown...\n\n[← Volver a Noticias](../index.html)\nPaso 3 – Imagen principal\n\nPoner en la misma carpeta una imagen: featured.jpg, featured.png o featured.jpeg.\nEsa imagen se usa en la noticia, en el listado de noticias y (si aplica) en “Noticias recientes” de la portada.\n\nPaso 4 – Galería (opcional)\nPara varias imágenes en bloque:\n::: {.gallery}\n![](foto1.jpg) ![](foto2.jpg) ![](foto3.jpg)\n:::\nLas noticias se listan solas en /noticias/ por fecha (más recientes primero). No hace falta registrarlas en otro archivo.\n\n\n\n\nLas noticias que aparecen en la sección Destacados de la portada se generan solas al compilar: solo hace falta marcar en cada noticia si es destacada o no.\nCómo: En el YAML del index.qmd de la noticia, agrega:\ndestacado: true\n\nTodas las noticias con destacado: true salen en la sección Destacados.\nSe ordenan por fecha: la más reciente arriba.\nSi no pones destacado o pones destacado: false, esa noticia no sale en Destacados (sí puede salir en el listado de noticias y en “Noticias recientes”).\n\nNo hace falta tocar index.qmd de la portada para cambiar qué noticias están destacadas; solo editar el YAML de cada noticia y volver a ejecutar quarto render.\n\n\n\n\nLa sección “Noticias recientes” de la portada se genera con R dentro de index.qmd: toma automáticamente las 3 noticias más recientes por date de todas las carpetas noticias/YYYY-MM-DD/. No hay que configurar nada más; solo asegurarse de que cada noticia tenga date en el YAML.\n\n\n\n\n\n\n\n\nEquipo actual: archivos .qmd en equipo/ (ej. equipo/monica-gerber.qmd).\nAsistentes anteriores: archivos en equipo/asistentes-anteriores/ (ej. equipo/asistentes-anteriores/bruno-rojas.qmd).\n\nEl listado de la página “Equipo” se arma solo según esos archivos y su categoría.\n\n\n\nPaso 1 – Archivo del perfil\nCrear en equipo/ un archivo con nombre en minúsculas y guiones, por ejemplo: nombre-apellido.qmd.\nPaso 2 – Foto\nSubir la foto a equipo/image/ con un nombre coherente al perfil, por ejemplo nombre-apellido.jpg o .png.\nPaso 3 – YAML del perfil\nCampos importantes:\n\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\ntitle\nNombre completo (aparece en la card y en el perfil).\n\n\ncargo\nCargo o rol breve.\n\n\ncategories\nUna de: Dirección, Subdirección, Investigadores, Coordinador, Asistentes. Define en qué bloque aparece en /equipo/.\n\n\norden\nNúmero para ordenar dentro del mismo bloque (menor = primero).\n\n\nimage\nRuta a la foto desde equipo/, ej. image/nombre-apellido.jpg.\n\n\nemail, organizacion\nOpcionales.\n\n\nabout, links, areas-interes, educacion\nOpcionales; ver perfiles existentes.\n\n\n\nEjemplo mínimo:\n---\ntitle: \"Nombre Apellido\"\ncargo: \"Rol o cargo\"\ncategories: [Investigadores]\norden: 10\nimage: \"image/nombre-apellido.jpg\"\nemail: \"email@institucion.cl\"\norganizacion: \"Universidad X\"\n---\nPaso 4 – Texto del perfil\nDebajo del YAML, escribir en Markdown: descripción, áreas de interés, educación, etc. Al final, incluir el bloque de publicaciones y el enlace de vuelta:\n## Últimas publicaciones\n\n&#123;&#123;&lt; include _pub-nombre-apellido.md &gt;&#125;&#125;\n\n[← Volver al Equipo](index.html)\nEl archivo _pub-nombre-apellido.md no se escribe a mano: lo genera el script de publicaciones (ver sección 3).\n\n\n\nMismo esquema que el equipo actual, pero:\n\nEl archivo va en equipo/asistentes-anteriores/nombre-apellido.qmd.\nLa foto puede estar en equipo/image/ y referenciarse igual: image/nombre-apellido.jpg.\nEn “Últimas publicaciones” se usa &#123;&#123;&lt; include _pub-nombre-apellido.md &gt;&#125;&#125;; el script genera _pub-*.md en equipo/asistentes-anteriores/ para quienes estén ahí.\n\n\n\n\nLos “Proyectos de investigación” que ves en cada perfil son enlaces fijos que cada quien escribe en su .qmd, por ejemplo:\n## Proyectos de investigación\n\n- [Nombre del estudio](../estudios/slug-del-estudio.html) — Investigador responsable\nNo hay anclaje automático estudio ↔︎ persona; se mantiene a mano.\n\n\n\n\n\n\n\nPaso 1 – Archivo\nCrear en publicaciones/ un archivo .qmd con un slug estable, por ejemplo 2025-apellido-tema.qmd. No usar index.qmd para una publicación concreta.\nPaso 2 – YAML\nCampos importantes:\n\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\ntitle\nTítulo del artículo o libro.\n\n\ndescription\nResumen breve (listado de publicaciones).\n\n\ndate\nFecha de publicación, formato YYYY-MM-DD.\n\n\nauthors\nLista de slugs de perfiles de equipo/asistentes que son autores, en el orden que quieras. Ej.: [monica-gerber, ana-figueiredo, joaquin-bahamondes].\n\n\nreference\nReferencia bibliográfica en texto (cita corta o enlace).\n\n\n\nCada valor en authors debe coincidir con el nombre del archivo del perfil (sin .qmd):\n\nSi el perfil es equipo/monica-gerber.qmd → en authors pones monica-gerber.\nSi es equipo/asistentes-anteriores/bruno-rojas.qmd → en authors pones bruno-rojas.\n\nEjemplo:\n---\ntitle: \"Título del artículo\"\ndescription: \"Resumen breve.\"\ndate: \"2025-06-01\"\nauthors: [monica-gerber, ana-figueiredo, loreto-quiroz]\nreference: \"Apellido et al. (2025). Revista X. [DOI](url)\"\n---\nPaso 3 – Cuerpo del .qmd\nEn el cuerpo puedes poner resumen, enlaces, DOI y la lista “Autores OLES” con enlaces a los perfiles. Puedes copiar la estructura de publicaciones/2025-gerber-police-postures.qmd.\n\n\n\nEl listado “Últimas publicaciones” en cada perfil no se edita a mano. Lo generan los scripts así:\n\nScript: compilar_publicaciones_perfiles.R\n\nLee todos los .qmd de publicaciones/ (salvo index.qmd).\n\nPara cada uno lee el YAML y el campo authors.\n\nPara cada autor (slug) escribe o actualiza un archivo equipo/_pub-{slug}.md o equipo/asistentes-anteriores/_pub-{slug}.md con la lista de sus publicaciones (enlaces y referencia).\n\nCuándo se ejecuta: Está configurado como pre-render en _quarto.yml, así que al hacer quarto render (o render del sitio completo) primero se ejecuta este script y luego se compila el sitio. Así, cada perfil incluye con &#123;&#123;&lt; include _pub-nombre-apellido.md &gt;&#125;&#125; su lista actualizada.\n\nResumen:\n\nAgregas o editas una publicación en publicaciones/XXXX-slug.qmd con authors: [slug1, slug2, ...].\nEjecutas quarto render (o al menos el pre-render que corre el R).\nLos perfiles de esos slug muestran automáticamente la publicación en “Últimas publicaciones”.\n\nSi cambias authors o añades una publicación nueva, hace falta volver a ejecutar el render para que los _pub-*.md se regeneren.\n\n\n\n\n\n\n\n\nCada proyecto es una página con su propio .qmd en estudios/ (ej. estudios/esep.qmd, estudios/panel-legitimidad-policial.qmd).\nEl listado que se ve en “Proyectos de Investigación” no se genera automáticamente desde los .qmd: está escrito en HTML dentro de estudios/index.qmd. Ahí hay un bloque con tarjetas/enlaces a cada proyecto.\n\nPor tanto, para que un proyecto aparezca en la página de estudios hay que: 1. Tener (o crear) su .qmd en estudios/. 2. Añadir o modificar la tarjeta correspondiente en estudios/index.qmd.\n\n\n\nPaso 1 – Página del proyecto\nCrear en estudios/ un archivo con nombre descriptivo, por ejemplo mi-proyecto.qmd:\n---\ntitle: \"Nombre del proyecto\"\ndescription: \"Descripción breve para cards o metadatos.\"\ncategoria: \"encuestas\"\nestado: \"en-curso\"\nfecha-inicio: \"2024\"\nfecha-fin: \"Presente\"\n---\n\n## Descripción\n\nTexto del proyecto en Markdown...\n\n[← Volver a Estudios](index.qmd)\nPaso 2 – Enlazarlo en el listado\nAbrir estudios/index.qmd y, dentro del bloque HTML del grid (donde están las otras tarjetas), añadir una tarjeta que apunte a tu página:\n&lt;a href=\"mi-proyecto.html\" class=\"estudio-card\"&gt;\n  &lt;div class=\"estudio-card-body\"&gt;\n    &lt;span class=\"estudio-estado en-curso\"&gt;En curso&lt;/span&gt;\n    &lt;h3 class=\"estudio-titulo\"&gt;Nombre del proyecto&lt;/h3&gt;\n  &lt;/div&gt;\n&lt;/a&gt;\n\nhref debe ser el nombre del .qmd cambiado a .html (ej. mi-proyecto.html).\nPara “Finalizado” usa la clase estudio-estado finalizado en lugar de en-curso.\n\n\n\n\n\nSolo contenido: Editar el .qmd correspondiente en estudios/ (título, descripción, estado, texto).\nCambiar título o estado en el listado: Editar estudios/index.qmd y actualizar la tarjeta que tenga ese href (texto del &lt;h3&gt; y clase en-curso / finalizado si aplica).\nQuitar un proyecto del listado: Borrar o comentar la tarjeta en estudios/index.qmd. La página .qmd puede seguir existiendo si quieres mantener el enlace directo.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTarea\nDónde\nLuego\n\n\n\n\nNueva noticia\nnoticias/YYYY-MM-DD/index.qmd + imagen en esa carpeta\nquarto render\n\n\nDestacadas (portada)\nEn cada noticia: YAML destacado: true (se compilan solas, orden por fecha)\nquarto render\n\n\nNueva persona en equipo\nequipo/nombre-apellido.qmd + foto en equipo/image/\nquarto render\n\n\nAsistente anterior\nequipo/asistentes-anteriores/nombre-apellido.qmd\nquarto render\n\n\nNueva publicación\npublicaciones/YYYY-slug.qmd con authors: [slug1, ...]\nquarto render (corre R y regenera _pub-*.md)\n\n\nNuevo proyecto\nestudios/slug.qmd + tarjeta en estudios/index.qmd\nquarto render\n\n\nModificar proyecto\nestudios/slug.qmd y/o tarjeta en estudios/index.qmd\nquarto render\n\n\n\nSiempre que cambies publicaciones o equipo, conviene ejecutar quarto render desde la raíz para que el pre-render actualice los _pub-*.md y todo el sitio quede consistente."
   },
   {
-    "objectID": "publicaciones/2025-gerber-police-postures.html#referencia-completa",
-    "href": "publicaciones/2025-gerber-police-postures.html#referencia-completa",
-    "title": "How do individuals interact with the police?",
+    "objectID": "MANUAL.html#noticias-y-destacadas",
+    "href": "MANUAL.html#noticias-y-destacadas",
+    "title": "Manual de contenidos – Sitio OLES",
     "section": "",
-    "text": "Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. Peace and Conflict: Journal of Peace Psychology, 31(3), 285–298."
+    "text": "Paso 1 – Carpeta con fecha\nCrear una carpeta en noticias/ con formato YYYY-MM-DD:\nnoticias/2026-03-01/\nPaso 2 – Archivo de la noticia\nDentro de esa carpeta, crear index.qmd. Puedes basarte en _templates/noticia-template.qmd.\nCampos YAML importantes:\n\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\ntitle\nTítulo que se ve en listados y en la página.\n\n\ndescription\nBajada/resumen (cards y “Noticias recientes”).\n\n\ndate\nFecha de la noticia, formato YYYY-MM-DD.\n\n\nauthor\nAutor del texto.\n\n\ncategories\nEj.: [Noticias].\n\n\nimage\nNombre del archivo de imagen en la misma carpeta (ej. featured.jpg).\n\n\ndestacado\ntrue para que aparezca en la sección Destacados de la portada (orden por fecha, más reciente arriba). Opcional; por defecto no se muestra.\n\n\n\nEjemplo mínimo:\n---\ntitle: \"Título de la noticia\"\ndescription: \"Breve descripción para las cards.\"\ndate: \"2026-03-01\"\nauthor: \"Nombre\"\ncategories: [Noticias]\nimage: \"featured.jpg\"\ntitle-block-banner: false\n---\n\n::: {.featured-image}\n![](featured.jpg)\n:::\n\nContenido en Markdown...\n\n[← Volver a Noticias](../index.html)\nPaso 3 – Imagen principal\n\nPoner en la misma carpeta una imagen: featured.jpg, featured.png o featured.jpeg.\nEsa imagen se usa en la noticia, en el listado de noticias y (si aplica) en “Noticias recientes” de la portada.\n\nPaso 4 – Galería (opcional)\nPara varias imágenes en bloque:\n::: {.gallery}\n![](foto1.jpg) ![](foto2.jpg) ![](foto3.jpg)\n:::\nLas noticias se listan solas en /noticias/ por fecha (más recientes primero). No hace falta registrarlas en otro archivo.\n\n\n\n\nLas noticias que aparecen en la sección Destacados de la portada se generan solas al compilar: solo hace falta marcar en cada noticia si es destacada o no.\nCómo: En el YAML del index.qmd de la noticia, agrega:\ndestacado: true\n\nTodas las noticias con destacado: true salen en la sección Destacados.\nSe ordenan por fecha: la más reciente arriba.\nSi no pones destacado o pones destacado: false, esa noticia no sale en Destacados (sí puede salir en el listado de noticias y en “Noticias recientes”).\n\nNo hace falta tocar index.qmd de la portada para cambiar qué noticias están destacadas; solo editar el YAML de cada noticia y volver a ejecutar quarto render.\n\n\n\n\nLa sección “Noticias recientes” de la portada se genera con R dentro de index.qmd: toma automáticamente las 3 noticias más recientes por date de todas las carpetas noticias/YYYY-MM-DD/. No hay que configurar nada más; solo asegurarse de que cada noticia tenga date en el YAML."
   },
   {
-    "objectID": "publicaciones/2025-gerber-police-postures.html#doi",
-    "href": "publicaciones/2025-gerber-police-postures.html#doi",
-    "title": "How do individuals interact with the police?",
+    "objectID": "MANUAL.html#equipo-agregar-y-ordenar-personas",
+    "href": "MANUAL.html#equipo-agregar-y-ordenar-personas",
+    "title": "Manual de contenidos – Sitio OLES",
     "section": "",
-    "text": "10.1037/pac0000797"
+    "text": "Equipo actual: archivos .qmd en equipo/ (ej. equipo/monica-gerber.qmd).\nAsistentes anteriores: archivos en equipo/asistentes-anteriores/ (ej. equipo/asistentes-anteriores/bruno-rojas.qmd).\n\nEl listado de la página “Equipo” se arma solo según esos archivos y su categoría.\n\n\n\nPaso 1 – Archivo del perfil\nCrear en equipo/ un archivo con nombre en minúsculas y guiones, por ejemplo: nombre-apellido.qmd.\nPaso 2 – Foto\nSubir la foto a equipo/image/ con un nombre coherente al perfil, por ejemplo nombre-apellido.jpg o .png.\nPaso 3 – YAML del perfil\nCampos importantes:\n\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\ntitle\nNombre completo (aparece en la card y en el perfil).\n\n\ncargo\nCargo o rol breve.\n\n\ncategories\nUna de: Dirección, Subdirección, Investigadores, Coordinador, Asistentes. Define en qué bloque aparece en /equipo/.\n\n\norden\nNúmero para ordenar dentro del mismo bloque (menor = primero).\n\n\nimage\nRuta a la foto desde equipo/, ej. image/nombre-apellido.jpg.\n\n\nemail, organizacion\nOpcionales.\n\n\nabout, links, areas-interes, educacion\nOpcionales; ver perfiles existentes.\n\n\n\nEjemplo mínimo:\n---\ntitle: \"Nombre Apellido\"\ncargo: \"Rol o cargo\"\ncategories: [Investigadores]\norden: 10\nimage: \"image/nombre-apellido.jpg\"\nemail: \"email@institucion.cl\"\norganizacion: \"Universidad X\"\n---\nPaso 4 – Texto del perfil\nDebajo del YAML, escribir en Markdown: descripción, áreas de interés, educación, etc. Al final, incluir el bloque de publicaciones y el enlace de vuelta:\n## Últimas publicaciones\n\n&#123;&#123;&lt; include _pub-nombre-apellido.md &gt;&#125;&#125;\n\n[← Volver al Equipo](index.html)\nEl archivo _pub-nombre-apellido.md no se escribe a mano: lo genera el script de publicaciones (ver sección 3).\n\n\n\nMismo esquema que el equipo actual, pero:\n\nEl archivo va en equipo/asistentes-anteriores/nombre-apellido.qmd.\nLa foto puede estar en equipo/image/ y referenciarse igual: image/nombre-apellido.jpg.\nEn “Últimas publicaciones” se usa &#123;&#123;&lt; include _pub-nombre-apellido.md &gt;&#125;&#125;; el script genera _pub-*.md en equipo/asistentes-anteriores/ para quienes estén ahí.\n\n\n\n\nLos “Proyectos de investigación” que ves en cada perfil son enlaces fijos que cada quien escribe en su .qmd, por ejemplo:\n## Proyectos de investigación\n\n- [Nombre del estudio](../estudios/slug-del-estudio.html) — Investigador responsable\nNo hay anclaje automático estudio ↔︎ persona; se mantiene a mano."
   },
   {
-    "objectID": "publicaciones/2025-gerber-police-postures.html#resumen",
-    "href": "publicaciones/2025-gerber-police-postures.html#resumen",
-    "title": "How do individuals interact with the police?",
+    "objectID": "MANUAL.html#publicaciones-y-vínculo-con-el-equipo",
+    "href": "MANUAL.html#publicaciones-y-vínculo-con-el-equipo",
+    "title": "Manual de contenidos – Sitio OLES",
     "section": "",
-    "text": "Este artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en español.\n← Volver a Publicaciones"
+    "text": "Paso 1 – Archivo\nCrear en publicaciones/ un archivo .qmd con un slug estable, por ejemplo 2025-apellido-tema.qmd. No usar index.qmd para una publicación concreta.\nPaso 2 – YAML\nCampos importantes:\n\n\n\n\n\n\n\nCampo\nUso\n\n\n\n\ntitle\nTítulo del artículo o libro.\n\n\ndescription\nResumen breve (listado de publicaciones).\n\n\ndate\nFecha de publicación, formato YYYY-MM-DD.\n\n\nauthors\nLista de slugs de perfiles de equipo/asistentes que son autores, en el orden que quieras. Ej.: [monica-gerber, ana-figueiredo, joaquin-bahamondes].\n\n\nreference\nReferencia bibliográfica en texto (cita corta o enlace).\n\n\n\nCada valor en authors debe coincidir con el nombre del archivo del perfil (sin .qmd):\n\nSi el perfil es equipo/monica-gerber.qmd → en authors pones monica-gerber.\nSi es equipo/asistentes-anteriores/bruno-rojas.qmd → en authors pones bruno-rojas.\n\nEjemplo:\n---\ntitle: \"Título del artículo\"\ndescription: \"Resumen breve.\"\ndate: \"2025-06-01\"\nauthors: [monica-gerber, ana-figueiredo, loreto-quiroz]\nreference: \"Apellido et al. (2025). Revista X. [DOI](url)\"\n---\nPaso 3 – Cuerpo del .qmd\nEn el cuerpo puedes poner resumen, enlaces, DOI y la lista “Autores OLES” con enlaces a los perfiles. Puedes copiar la estructura de publicaciones/2025-gerber-police-postures.qmd.\n\n\n\nEl listado “Últimas publicaciones” en cada perfil no se edita a mano. Lo generan los scripts así:\n\nScript: compilar_publicaciones_perfiles.R\n\nLee todos los .qmd de publicaciones/ (salvo index.qmd).\n\nPara cada uno lee el YAML y el campo authors.\n\nPara cada autor (slug) escribe o actualiza un archivo equipo/_pub-{slug}.md o equipo/asistentes-anteriores/_pub-{slug}.md con la lista de sus publicaciones (enlaces y referencia).\n\nCuándo se ejecuta: Está configurado como pre-render en _quarto.yml, así que al hacer quarto render (o render del sitio completo) primero se ejecuta este script y luego se compila el sitio. Así, cada perfil incluye con &#123;&#123;&lt; include _pub-nombre-apellido.md &gt;&#125;&#125; su lista actualizada.\n\nResumen:\n\nAgregas o editas una publicación en publicaciones/XXXX-slug.qmd con authors: [slug1, slug2, ...].\nEjecutas quarto render (o al menos el pre-render que corre el R).\nLos perfiles de esos slug muestran automáticamente la publicación en “Últimas publicaciones”.\n\nSi cambias authors o añades una publicación nueva, hace falta volver a ejecutar el render para que los _pub-*.md se regeneren."
   },
   {
-    "objectID": "publicaciones/index.html",
-    "href": "publicaciones/index.html",
-    "title": "Publicaciones Académicas",
+    "objectID": "MANUAL.html#proyectos-de-investigación-estudios",
+    "href": "MANUAL.html#proyectos-de-investigación-estudios",
+    "title": "Manual de contenidos – Sitio OLES",
     "section": "",
-    "text": "Publicaciones académicas del equipo del Observatorio.\n\n\n\n\n\n\n\n\n\nHow do individuals interact with the police?\n\n\n\n\n\nValidation of a scale of motivational postures toward the police in Spanish.\n\n\n\n\n\n1 ene 2025\n\n\n\n\n\n\n\nJustificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche\n\n\n\n\n\nAnálisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.\n\n\n\n\n\n1 ene 2024\n\n\n\n\n\n\n\nLegitimidad, Justicia y la Justificación de la Violencia Intergrupal\n\n\n\n\n\nAnálisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.\n\n\n\n\n\n1 ene 2023\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Cada proyecto es una página con su propio .qmd en estudios/ (ej. estudios/esep.qmd, estudios/panel-legitimidad-policial.qmd).\nEl listado que se ve en “Proyectos de Investigación” no se genera automáticamente desde los .qmd: está escrito en HTML dentro de estudios/index.qmd. Ahí hay un bloque con tarjetas/enlaces a cada proyecto.\n\nPor tanto, para que un proyecto aparezca en la página de estudios hay que: 1. Tener (o crear) su .qmd en estudios/. 2. Añadir o modificar la tarjeta correspondiente en estudios/index.qmd.\n\n\n\nPaso 1 – Página del proyecto\nCrear en estudios/ un archivo con nombre descriptivo, por ejemplo mi-proyecto.qmd:\n---\ntitle: \"Nombre del proyecto\"\ndescription: \"Descripción breve para cards o metadatos.\"\ncategoria: \"encuestas\"\nestado: \"en-curso\"\nfecha-inicio: \"2024\"\nfecha-fin: \"Presente\"\n---\n\n## Descripción\n\nTexto del proyecto en Markdown...\n\n[← Volver a Estudios](index.qmd)\nPaso 2 – Enlazarlo en el listado\nAbrir estudios/index.qmd y, dentro del bloque HTML del grid (donde están las otras tarjetas), añadir una tarjeta que apunte a tu página:\n&lt;a href=\"mi-proyecto.html\" class=\"estudio-card\"&gt;\n  &lt;div class=\"estudio-card-body\"&gt;\n    &lt;span class=\"estudio-estado en-curso\"&gt;En curso&lt;/span&gt;\n    &lt;h3 class=\"estudio-titulo\"&gt;Nombre del proyecto&lt;/h3&gt;\n  &lt;/div&gt;\n&lt;/a&gt;\n\nhref debe ser el nombre del .qmd cambiado a .html (ej. mi-proyecto.html).\nPara “Finalizado” usa la clase estudio-estado finalizado en lugar de en-curso.\n\n\n\n\n\nSolo contenido: Editar el .qmd correspondiente en estudios/ (título, descripción, estado, texto).\nCambiar título o estado en el listado: Editar estudios/index.qmd y actualizar la tarjeta que tenga ese href (texto del &lt;h3&gt; y clase en-curso / finalizado si aplica).\nQuitar un proyecto del listado: Borrar o comentar la tarjeta en estudios/index.qmd. La página .qmd puede seguir existiendo si quieres mantener el enlace directo."
   },
   {
-    "objectID": "eventos/2026-01-20-seminario-legitimidad.html",
-    "href": "eventos/2026-01-20-seminario-legitimidad.html",
-    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
+    "objectID": "MANUAL.html#flujo-rápido-de-trabajo",
+    "href": "MANUAL.html#flujo-rápido-de-trabajo",
+    "title": "Manual de contenidos – Sitio OLES",
     "section": "",
-    "text": "Seminario sobre legitimidad institucional en tiempos de crisis, organizado por el Observatorio de Violencia y Legitimidad Social (OLES)."
+    "text": "Tarea\nDónde\nLuego\n\n\n\n\nNueva noticia\nnoticias/YYYY-MM-DD/index.qmd + imagen en esa carpeta\nquarto render\n\n\nDestacadas (portada)\nEn cada noticia: YAML destacado: true (se compilan solas, orden por fecha)\nquarto render\n\n\nNueva persona en equipo\nequipo/nombre-apellido.qmd + foto en equipo/image/\nquarto render\n\n\nAsistente anterior\nequipo/asistentes-anteriores/nombre-apellido.qmd\nquarto render\n\n\nNueva publicación\npublicaciones/YYYY-slug.qmd con authors: [slug1, ...]\nquarto render (corre R y regenera _pub-*.md)\n\n\nNuevo proyecto\nestudios/slug.qmd + tarjeta en estudios/index.qmd\nquarto render\n\n\nModificar proyecto\nestudios/slug.qmd y/o tarjeta en estudios/index.qmd\nquarto render\n\n\n\nSiempre que cambies publicaciones o equipo, conviene ejecutar quarto render desde la raíz para que el pre-render actualice los _pub-*.md y todo el sitio quede consistente."
   },
   {
-    "objectID": "eventos/2026-01-20-seminario-legitimidad.html#descripción",
-    "href": "eventos/2026-01-20-seminario-legitimidad.html#descripción",
-    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
+    "objectID": "publicaciones/2023-legitimidad-justicia.html",
+    "href": "publicaciones/2023-legitimidad-justicia.html",
+    "title": "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal",
     "section": "",
-    "text": "Seminario sobre legitimidad institucional en tiempos de crisis, organizado por el Observatorio de Violencia y Legitimidad Social (OLES)."
+    "text": "Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.\nAutores OLES: Mónica Gerber, Ana Figueiredo, Luciano Sáez Fuentealba, Macarena Orchard.\nFecha de publicación: 1 de enero de 2023.\n\n\nGerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile. Revista Psykhe, 32(1), 1-15.\n\n\n\n10.7764/psykhe.2021.31721\n← Volver a Publicaciones"
   },
   {
-    "objectID": "eventos/2026-01-20-seminario-legitimidad.html#fecha-y-lugar",
-    "href": "eventos/2026-01-20-seminario-legitimidad.html#fecha-y-lugar",
-    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
-    "section": "Fecha y lugar",
-    "text": "Fecha y lugar\n\nFecha: 20 de enero de 2026\nHora: 10:00 - 13:00\nLugar: Pontificia Universidad Católica de Chile"
+    "objectID": "publicaciones/2023-legitimidad-justicia.html#referencia-completa",
+    "href": "publicaciones/2023-legitimidad-justicia.html#referencia-completa",
+    "title": "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal",
+    "section": "",
+    "text": "Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile. Revista Psykhe, 32(1), 1-15."
   },
   {
-    "objectID": "eventos/2026-01-20-seminario-legitimidad.html#programa",
-    "href": "eventos/2026-01-20-seminario-legitimidad.html#programa",
-    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
-    "section": "Programa",
-    "text": "Programa\n\n10:00 - 10:30: Bienvenida\n10:30 - 11:30: Panel 1\n11:30 - 12:30: Panel 2\n12:30 - 13:00: Cierre\n\n← Volver a Eventos"
+    "objectID": "publicaciones/2023-legitimidad-justicia.html#doi",
+    "href": "publicaciones/2023-legitimidad-justicia.html#doi",
+    "title": "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal",
+    "section": "",
+    "text": "10.7764/psykhe.2021.31721\n← Volver a Publicaciones"
+  },
+  {
+    "objectID": "publicaciones/2024-gerber-mapuche.html",
+    "href": "publicaciones/2024-gerber-mapuche.html",
+    "title": "Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche",
+    "section": "",
+    "text": "Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.\nAutor OLES: Mónica Gerber.\nFecha de publicación: 1 de enero de 2024.\n\n\nGerber, M. M. (2024). Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche. In A. Mascareño & C. Le Foulon (Eds.), Mapuche en el sur de Chile. Sociedad e Identidad (pp. 283 – 306). Editorial CEP.\n← Volver a Publicaciones"
+  },
+  {
+    "objectID": "publicaciones/2024-gerber-mapuche.html#referencia-completa",
+    "href": "publicaciones/2024-gerber-mapuche.html#referencia-completa",
+    "title": "Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche",
+    "section": "",
+    "text": "Gerber, M. M. (2024). Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche. In A. Mascareño & C. Le Foulon (Eds.), Mapuche en el sur de Chile. Sociedad e Identidad (pp. 283 – 306). Editorial CEP.\n← Volver a Publicaciones"
+  },
+  {
+    "objectID": "eventos/index.html",
+    "href": "eventos/index.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "Próximos eventos y actividades del Observatorio de Violencia y Legitimidad Social.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeminario: Legitimidad institucional en tiempos de crisis\n\n\nSeminario sobre legitimidad institucional organizado por OLES.\n\n\n\n20 ene 2026\n\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "estudios/medios-post-estallido.html",
@@ -1610,45 +1631,101 @@
     "text": "Resultados\nEl estudio identificó tres posturas principales: compromiso, resistencia y evitación, mostrando la complejidad de las relaciones entre policía y ciudadanía en el contexto chileno post-estallido social.\n← Volver a Estudios"
   },
   {
-    "objectID": "eventos/index.html",
-    "href": "eventos/index.html",
-    "title": "Eventos",
+    "objectID": "NETLIFY-RECOMENDACIONES.html",
+    "href": "NETLIFY-RECOMENDACIONES.html",
+    "title": "Recomendaciones Netlify (plan básico)",
     "section": "",
-    "text": "Próximos eventos y actividades del Observatorio de Violencia y Legitimidad Social.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSeminario: Legitimidad institucional en tiempos de crisis\n\n\nSeminario sobre legitimidad institucional organizado por OLES.\n\n\n\n20 ene 2026\n\n\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Tu sitio se publica desde la carpeta docs. Este archivo está en la raíz del repo (no se publica).\n\n\n\nAncho de banda: 100 GB/mes\n\nAlmacenamiento: 10 GB\n\nMinutos de build: 300/mes (si usas build en Netlify)\n\n\n\n\n\nnetlify.toml en la raíz con cabeceras de caché:\n\nImágenes y assets estáticos: caché largo (1 año) → menos GB en visitas repetidas.\nHTML: revalidación en cada visita.\nCSS/JS: 1 día con revalidación en segundo plano.\n\n\n\n\n\n\n\n\nVideos en la portada: video_entrada.mp4 y video-entrada-nuevo.mov suman ~10 MB. Si puedes:\n\nDejar solo una versión en MP4 (mejor compatibilidad y menor tamaño).\nComprimir el video (resolución moderada, bitrate bajo) o subirlo a YouTube/Vimeo y embeber.\n\nImágenes: Comprimir fotos (equipo, noticias) antes de subir. Herramientas: Squoosh, TinyPNG.\nEvitar subir a docs/ archivos que no use el sitio (.RData, .mov de respaldo, etc.).\n\n\n\n\n\nDejar Build command vacío y publicar la carpeta docs ya generada en tu máquina.\nAsí no gastas minutos de build. Flujo: en local Rscript compilar_publicaciones_perfiles.R + quarto render, luego commit de docs/ y push.\n\n\n\n\n\nEn Site configuration → Usage (o Billing) ves ancho de banda y almacenamiento.\nNetlify avisa al 50%, 75% y 90% del límite.\n\n\n\n\n\nEl pre-render en R requiere R en el servidor. Opción: GitHub Actions que haga el build y suba docs/, o plan con soporte para R.\n\n\n\n\n\n\nCaché configurado en netlify.toml para ahorrar ancho de banda.\n\nMantén el sitio liviano (videos e imágenes comprimidos).\n\nSigue construyendo en local y publicando docs/ para no gastar build minutes."
   },
   {
-    "objectID": "publicaciones/2024-gerber-mapuche.html",
-    "href": "publicaciones/2024-gerber-mapuche.html",
-    "title": "Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche",
+    "objectID": "NETLIFY-RECOMENDACIONES.html#límites-del-plan-gratuito-referencia",
+    "href": "NETLIFY-RECOMENDACIONES.html#límites-del-plan-gratuito-referencia",
+    "title": "Recomendaciones Netlify (plan básico)",
     "section": "",
-    "text": "Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.\nAutor OLES: Mónica Gerber.\nFecha de publicación: 1 de enero de 2024.\n\n\nGerber, M. M. (2024). Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche. In A. Mascareño & C. Le Foulon (Eds.), Mapuche en el sur de Chile. Sociedad e Identidad (pp. 283 – 306). Editorial CEP.\n← Volver a Publicaciones"
+    "text": "Ancho de banda: 100 GB/mes\n\nAlmacenamiento: 10 GB\n\nMinutos de build: 300/mes (si usas build en Netlify)"
   },
   {
-    "objectID": "publicaciones/2024-gerber-mapuche.html#referencia-completa",
-    "href": "publicaciones/2024-gerber-mapuche.html#referencia-completa",
-    "title": "Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche",
+    "objectID": "NETLIFY-RECOMENDACIONES.html#qué-ya-está-hecho",
+    "href": "NETLIFY-RECOMENDACIONES.html#qué-ya-está-hecho",
+    "title": "Recomendaciones Netlify (plan básico)",
     "section": "",
-    "text": "Gerber, M. M. (2024). Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche. In A. Mascareño & C. Le Foulon (Eds.), Mapuche en el sur de Chile. Sociedad e Identidad (pp. 283 – 306). Editorial CEP.\n← Volver a Publicaciones"
+    "text": "netlify.toml en la raíz con cabeceras de caché:\n\nImágenes y assets estáticos: caché largo (1 año) → menos GB en visitas repetidas.\nHTML: revalidación en cada visita.\nCSS/JS: 1 día con revalidación en segundo plano."
   },
   {
-    "objectID": "publicaciones/2023-legitimidad-justicia.html",
-    "href": "publicaciones/2023-legitimidad-justicia.html",
-    "title": "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal",
+    "objectID": "NETLIFY-RECOMENDACIONES.html#recomendaciones-para-que-aguante-bien",
+    "href": "NETLIFY-RECOMENDACIONES.html#recomendaciones-para-que-aguante-bien",
+    "title": "Recomendaciones Netlify (plan básico)",
     "section": "",
-    "text": "Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.\nAutores OLES: Mónica Gerber, Ana Figueiredo, Luciano Sáez Fuentealba, Macarena Orchard.\nFecha de publicación: 1 de enero de 2023.\n\n\nGerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile. Revista Psykhe, 32(1), 1-15.\n\n\n\n10.7764/psykhe.2021.31721\n← Volver a Publicaciones"
+    "text": "Videos en la portada: video_entrada.mp4 y video-entrada-nuevo.mov suman ~10 MB. Si puedes:\n\nDejar solo una versión en MP4 (mejor compatibilidad y menor tamaño).\nComprimir el video (resolución moderada, bitrate bajo) o subirlo a YouTube/Vimeo y embeber.\n\nImágenes: Comprimir fotos (equipo, noticias) antes de subir. Herramientas: Squoosh, TinyPNG.\nEvitar subir a docs/ archivos que no use el sitio (.RData, .mov de respaldo, etc.).\n\n\n\n\n\nDejar Build command vacío y publicar la carpeta docs ya generada en tu máquina.\nAsí no gastas minutos de build. Flujo: en local Rscript compilar_publicaciones_perfiles.R + quarto render, luego commit de docs/ y push.\n\n\n\n\n\nEn Site configuration → Usage (o Billing) ves ancho de banda y almacenamiento.\nNetlify avisa al 50%, 75% y 90% del límite.\n\n\n\n\n\nEl pre-render en R requiere R en el servidor. Opción: GitHub Actions que haga el build y suba docs/, o plan con soporte para R."
   },
   {
-    "objectID": "publicaciones/2023-legitimidad-justicia.html#referencia-completa",
-    "href": "publicaciones/2023-legitimidad-justicia.html#referencia-completa",
-    "title": "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal",
+    "objectID": "NETLIFY-RECOMENDACIONES.html#resumen",
+    "href": "NETLIFY-RECOMENDACIONES.html#resumen",
+    "title": "Recomendaciones Netlify (plan básico)",
     "section": "",
-    "text": "Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile. Revista Psykhe, 32(1), 1-15."
+    "text": "Caché configurado en netlify.toml para ahorrar ancho de banda.\n\nMantén el sitio liviano (videos e imágenes comprimidos).\n\nSigue construyendo en local y publicando docs/ para no gastar build minutes."
   },
   {
-    "objectID": "publicaciones/2023-legitimidad-justicia.html#doi",
-    "href": "publicaciones/2023-legitimidad-justicia.html#doi",
-    "title": "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal",
+    "objectID": "eventos/2026-01-20-seminario-legitimidad.html",
+    "href": "eventos/2026-01-20-seminario-legitimidad.html",
+    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
     "section": "",
-    "text": "10.7764/psykhe.2021.31721\n← Volver a Publicaciones"
+    "text": "Seminario sobre legitimidad institucional en tiempos de crisis, organizado por el Observatorio de Violencia y Legitimidad Social (OLES)."
+  },
+  {
+    "objectID": "eventos/2026-01-20-seminario-legitimidad.html#descripción",
+    "href": "eventos/2026-01-20-seminario-legitimidad.html#descripción",
+    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
+    "section": "",
+    "text": "Seminario sobre legitimidad institucional en tiempos de crisis, organizado por el Observatorio de Violencia y Legitimidad Social (OLES)."
+  },
+  {
+    "objectID": "eventos/2026-01-20-seminario-legitimidad.html#fecha-y-lugar",
+    "href": "eventos/2026-01-20-seminario-legitimidad.html#fecha-y-lugar",
+    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
+    "section": "Fecha y lugar",
+    "text": "Fecha y lugar\n\nFecha: 20 de enero de 2026\nHora: 10:00 - 13:00\nLugar: Pontificia Universidad Católica de Chile"
+  },
+  {
+    "objectID": "eventos/2026-01-20-seminario-legitimidad.html#programa",
+    "href": "eventos/2026-01-20-seminario-legitimidad.html#programa",
+    "title": "Seminario: Legitimidad institucional en tiempos de crisis",
+    "section": "Programa",
+    "text": "Programa\n\n10:00 - 10:30: Bienvenida\n10:30 - 11:30: Panel 1\n11:30 - 12:30: Panel 2\n12:30 - 13:00: Cierre\n\n← Volver a Eventos"
+  },
+  {
+    "objectID": "publicaciones/index.html",
+    "href": "publicaciones/index.html",
+    "title": "Publicaciones Académicas",
+    "section": "",
+    "text": "Publicaciones académicas del equipo del Observatorio.\n\n\n\n\n\n\n\n\n\nHow do individuals interact with the police?\n\n\n\n\n\nValidation of a scale of motivational postures toward the police in Spanish.\n\n\n\n\n\n1 ene 2025\n\n\n\n\n\n\n\nJustificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche\n\n\n\n\n\nAnálisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.\n\n\n\n\n\n1 ene 2024\n\n\n\n\n\n\n\nLegitimidad, Justicia y la Justificación de la Violencia Intergrupal\n\n\n\n\n\nAnálisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.\n\n\n\n\n\n1 ene 2023\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "publicaciones/2025-gerber-police-postures.html",
+    "href": "publicaciones/2025-gerber-police-postures.html",
+    "title": "How do individuals interact with the police?",
+    "section": "",
+    "text": "Validation of a scale of motivational postures toward the police in Spanish.\nAutores OLES: Mónica Gerber, Luciano Sáez Fuentealba, Joaquín Bahamondes, Ana Figueiredo, Cristóbal Moya, Bruno Rojas, Macarena Orchard, Nicolás Tobar Jorquera.\nFecha de publicación: 1 de enero de 2025.\n\n\nGerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. Peace and Conflict: Journal of Peace Psychology, 31(3), 285–298.\n\n\n\n10.1037/pac0000797\n\n\n\nEste artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en español.\n← Volver a Publicaciones"
+  },
+  {
+    "objectID": "publicaciones/2025-gerber-police-postures.html#referencia-completa",
+    "href": "publicaciones/2025-gerber-police-postures.html#referencia-completa",
+    "title": "How do individuals interact with the police?",
+    "section": "",
+    "text": "Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. Peace and Conflict: Journal of Peace Psychology, 31(3), 285–298."
+  },
+  {
+    "objectID": "publicaciones/2025-gerber-police-postures.html#doi",
+    "href": "publicaciones/2025-gerber-police-postures.html#doi",
+    "title": "How do individuals interact with the police?",
+    "section": "",
+    "text": "10.1037/pac0000797"
+  },
+  {
+    "objectID": "publicaciones/2025-gerber-police-postures.html#resumen",
+    "href": "publicaciones/2025-gerber-police-postures.html#resumen",
+    "title": "How do individuals interact with the police?",
+    "section": "",
+    "text": "Este artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en español.\n← Volver a Publicaciones"
   }
 ]
