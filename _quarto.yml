@@ -21,6 +21,8 @@ website:
         menu:
           - text: "Proyectos de Investigación"
             href: estudios/index.qmd
+          - text: "Líneas de investigación"
+            href: estudios/lineas.qmd
           - text: "---"
           - text: "Publicaciones Académicas"
             href: publicaciones/index.qmd

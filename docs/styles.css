@@ -243,12 +243,19 @@ body:has(.hero-section) main.content {
   margin-top: 1rem;
 }
 
-/* Enlace que ocupa toda la tarjeta: clic en cualquier parte lleva a la noticia */
+/* Enlace que ocupa toda la tarjeta: no se trasluce como link; igual que Destacados */
 .noticia-card-link {
   display: block;
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none !important;
+  color: var(--text-color) !important;
   cursor: pointer;
+}
+
+.noticia-card-link:hover,
+.noticia-card-link:visited,
+.noticia-card-link:focus {
+  color: var(--text-color) !important;
+  text-decoration: none !important;
 }
 
 .noticia-card-link:hover .noticia-card {
@@ -283,6 +290,7 @@ body:has(.hero-section) main.content {
 
 .noticia-content {
   padding: 1.25rem;
+  color: var(--text-color);
 }
 
 .noticia-fecha {
@@ -297,16 +305,11 @@ body:has(.hero-section) main.content {
   font-weight: 600;
   margin: 0;
   line-height: 1.5;
-}
-
-.noticia-content h3 a {
   color: var(--text-color);
-  text-decoration: none;
-  transition: var(--transition);
 }
 
-.noticia-content h3 a:hover {
-  color: var(--primary-color);
+.noticia-content p {
+  color: var(--text-color);
 }
 
 /* =====================================================
