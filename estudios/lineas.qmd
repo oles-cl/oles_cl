@@ -1,0 +1,29 @@
+---
+title: "Líneas de investigación en OLES"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="lineas-index">
+  <p class="lineas-index-intro">En el Observatorio desarrollamos investigación en torno a la legitimidad institucional, el uso de la fuerza y la relación entre ciudadanía y policías. Selecciona una línea para conocer su contenido.</p>
+  <div class="lineas-index-grid">
+    <a href="policia-legitimidad.html" class="linea-index-card">
+      <h3>Policía y legitimidad</h3>
+      <p>Procesos de construcción de legitimidad social de las autoridades policiales y percepciones asociadas.</p>
+      <span class="linea-index-link">Ver línea →</span>
+    </a>
+    <a href="derechos-humanos.html" class="linea-index-card">
+      <h3>Derechos humanos</h3>
+      <p>Justicia procedimental, resguardo de derechos humanos y trato policial a distintos grupos sociales.</p>
+      <span class="linea-index-link">Ver línea →</span>
+    </a>
+    <a href="protesta-social-violencia.html" class="linea-index-card">
+      <h3>Protesta social y violencia</h3>
+      <p>Justificación de la violencia en la movilización y repertorios de acción colectiva en Chile.</p>
+      <span class="linea-index-link">Ver línea →</span>
+    </a>
+  </div>
+  <p class="lineas-index-back"><a href="../index.html">← Volver al inicio</a></p>
+</div>
+```

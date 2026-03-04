@@ -3,7 +3,7 @@ title: "Directora Monica Gerber se adjudica Fondecyt Regular"
 description: "La investigación busca aportar al análisis académico sobre policía, seguridad y legitimidad social en el contexto chileno"
 date: "2026-01-20"
 author: "Matías Deneken"
-categories: [Noticias, Proyectos]
+categories: [Proyectos]
 image: "featured.jpg"
 destacado: true
 title-block-banner: false

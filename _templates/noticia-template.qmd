@@ -3,6 +3,7 @@ title: "Título de la Noticia"
 description: "Breve descripción que aparece en las cards"
 date: "YYYY-MM-DD"
 author: "Matías Deneken"
+# Mínimo 1, máximo 2 categorías (ej.: [Noticias], [Noticias, Evento])
 categories: [Categoría1, Categoría2]
 image: "featured.jpg"
 destacado: false

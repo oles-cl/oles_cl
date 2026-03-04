@@ -3,7 +3,7 @@ title: "Nuevas publicación académica en OLES"
 description: "El articulo indaga en  cómo distintos grupos se posicionan frente a Carabineros"
 date: "2026-01-15"
 author: "Matías Deneken"
-categories: [Noticias, Publicación]
+categories: [Publicación]
 image: "featured.jpg"
 title-block-banner: false
 ---

@@ -3,7 +3,7 @@ title: "Matías Deneken en Intermedio Podcast "
 description: "Comenta sobre el libro [Re]configuraciones interculturales"
 date: "2026-01-15"
 author: "Matías Deneken"
-categories: [Noticias, Entrevista]
+categories: [Entrevista]
 image: "featured.jpg"
 title-block-banner: false
 ---

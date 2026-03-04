@@ -41,6 +41,18 @@ leer_metadatos_destacado <- function(archivo) {
   }
   dest_line <- grep("^destacado:", yaml_lineas, value = TRUE, ignore.case = TRUE)
   metadatos$destacado <- length(dest_line) > 0 && grepl("true|yes|1", trimws(sub("^[^:]+:\\s*", "", dest_line)), ignore.case = TRUE)
+  # Categories (máximo 2)
+  cat_line <- grep("^categories:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(cat_line) > 0) {
+    cat_str <- gsub("^categories:\\s*\\[([^]]*)\\]", "\\1", cat_line)
+    if (nchar(trimws(cat_str)) > 0) {
+      metadatos$categories <- head(trimws(strsplit(gsub("[\"']", "", cat_str), "\\s*,\\s*")[[1]]), 2)
+    } else {
+      metadatos$categories <- character(0)
+    }
+  } else {
+    metadatos$categories <- character(0)
+  }
   carpeta_padre <- basename(dirname(archivo))
   if (!grepl("^\\d{4}-\\d{2}-\\d{2}$", carpeta_padre)) return(NULL)
   metadatos$carpeta <- carpeta_padre
@@ -79,7 +91,14 @@ if (length(destacadas_lista) > 0) {
     titulo_esc <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", n$title %||% "")))
     fecha_f <- formatear_fecha_d(n$date)
     imagen <- n$image %||% "images/logos/icon.png"
-    out <- paste0(out, sprintf('      <a href="%s" class="destacado-card noticia">\n        <div class="destacado-imagen">\n          <img src="%s" alt="%s">\n        </div>\n        <div class="destacado-content">\n          <div class="destacado-tipo" data-i18n="tipos.noticia">Noticia</div>\n          <h3>%s</h3>\n          <div class="destacado-fecha">%s</div>\n        </div>\n      </a>\n', n$ruta_html, imagen, titulo_esc, titulo_esc, fecha_f))
+    cats <- n$categories %||% character(0)
+    if (length(cats) > 0) {
+      cats_esc <- vapply(cats, function(c) gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", c))), character(1))
+      tags_html <- paste0('<div class="noticia-categorias">', paste(sprintf('<span class="noticia-categoria">%s</span>', cats_esc), collapse = "\n          "), '</div>\n          ')
+    } else {
+      tags_html <- ""
+    }
+    out <- paste0(out, sprintf('      <a href="%s" class="destacado-card noticia">\n        <div class="destacado-imagen">\n          <img src="%s" alt="%s">\n        </div>\n        <div class="destacado-content">\n          %s\n          <h3>%s</h3>\n          <div class="destacado-fecha">%s</div>\n        </div>\n      </a>\n', n$ruta_html, imagen, titulo_esc, tags_html, titulo_esc, fecha_f))
   }
   out <- paste0(out, '    </div>\n  </div>\n</section>\n')
   knitr::asis_output(out)
@@ -155,6 +174,20 @@ leer_metadatos <- function(archivo) {
     }
   }
   
+  # Extraer categories: mínimo 1, máximo 2 (formato: categories: [Evento, Noticias] o [Noticias])
+  cat_line <- grep("^categories:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(cat_line) > 0) {
+    cat_str <- gsub("^categories:\\s*\\[([^]]*)\\]", "\\1", cat_line)
+    cat_str <- gsub("^categories:\\s*", "", cat_str)
+    if (nchar(trimws(cat_str)) > 0) {
+      metadatos$categories <- head(trimws(strsplit(gsub("[\"']", "", cat_str), "\\s*,\\s*")[[1]]), 2)
+    } else {
+      metadatos$categories <- character(0)
+    }
+  } else {
+    metadatos$categories <- character(0)
+  }
+  
   # Obtener nombre del archivo y carpeta
   carpeta_padre <- basename(dirname(archivo))
   nombre_archivo <- tools::file_path_sans_ext(basename(archivo))
@@ -220,6 +253,7 @@ if (length(noticias) > 0) {
     image = sapply(noticias, function(x) x$image %||% "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop"),
     ruta_html = sapply(noticias, function(x) x$ruta_html %||% ""),
     archivo = sapply(noticias, function(x) x$archivo %||% ""),
+    categories = I(lapply(noticias, function(x) if (length(x$categories) > 0) x$categories else character(0))),
     stringsAsFactors = FALSE
   )
   
@@ -254,19 +288,29 @@ if (length(noticias) > 0) {
       descripcion <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", noticia$description)))
       imagen <- noticia$image
       ruta <- noticia$ruta_html
-      
+      cats <- noticia$categories[[1]]
+      if (length(cats) > 0) {
+        cats <- head(cats, 2)
+        cats_esc <- vapply(cats, function(c) gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", c))), character(1))
+        categorias_html <- paste0('<div class="noticia-categorias">', paste(sprintf('<span class="noticia-categoria">%s</span>', cats_esc), collapse = "\n            "), '</div>\n            ')
+      } else {
+        categorias_html <- ""
+      }
       cat(sprintf('
-      <article class="noticia-card">
-        <div class="noticia-imagen">
-          <img src="%s" alt="%s">
-        </div>
-        <div class="noticia-content">
-          <span class="noticia-fecha">%s</span>
-          <h3><a href="%s">%s</a></h3>
-          <p>%s</p>
-        </div>
-      </article>
-', imagen, titulo, fecha_formateada, ruta, titulo, descripcion))
+      <a href="%s" class="noticia-card-link">
+        <article class="noticia-card">
+          <div class="noticia-imagen">
+            <img src="%s" alt="%s">
+          </div>
+          <div class="noticia-content">
+            %s
+            <span class="noticia-fecha">%s</span>
+            <h3>%s</h3>
+            <p>%s</p>
+          </div>
+        </article>
+      </a>
+', ruta, imagen, titulo, categorias_html, fecha_formateada, titulo, descripcion))
     }
   }
 }
@@ -283,38 +327,33 @@ if (length(noticias) > 0) {
   <div class="container">
     <h2 class="section-title">Líneas de investigación</h2>
     <div class="proyectos-cuadrantes">
-      <div class="proyecto-cuadrante proyecto-cuadrante-static">
+      <a href="estudios/policia-legitimidad.html" class="proyecto-cuadrante proyecto-cuadrante-link">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?w=600&h=400&fit=crop" alt="Impunidad policial">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Policía y legitimidad">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3>Impunidad policial</h3>
+          <h3>Policía y legitimidad</h3>
+          <span class="proyecto-ver-mas">Ver más</span>
         </div>
-      </div>
-      <div class="proyecto-cuadrante proyecto-cuadrante-static">
+      </a>
+      <a href="estudios/derechos-humanos.html" class="proyecto-cuadrante proyecto-cuadrante-link">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Legitimidad institucional">
+          <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop" alt="Derechos humanos">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3>Legitimidad institucional</h3>
+          <h3>Derechos humanos</h3>
+          <span class="proyecto-ver-mas">Ver más</span>
         </div>
-      </div>
-      <div class="proyecto-cuadrante proyecto-cuadrante-static">
+      </a>
+      <a href="estudios/protesta-social-violencia.html" class="proyecto-cuadrante proyecto-cuadrante-link">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Relación policías y grupos minoritarios">
+          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Protesta social y violencia">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3>Relación policías y grupos minoritarios</h3>
+          <h3>Protesta social y violencia</h3>
+          <span class="proyecto-ver-mas">Ver más</span>
         </div>
-      </div>
-      <div class="proyecto-cuadrante proyecto-cuadrante-static">
-        <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop" alt="Respeto">
-        </div>
-        <div class="proyecto-cuadrante-content">
-          <h3>Respeto</h3>
-        </div>
-      </div>
+      </a>
     </div>
     <div style="text-align: center; margin-top: 2rem;">
       <a href="estudios/index.html" class="btn-primary" style="display: inline-block; padding: 1rem 2.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Conoce nuestros estudios →</a>
