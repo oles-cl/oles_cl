@@ -298,13 +298,16 @@ body:has(.hero-section) main.content {
   color: var(--text-color);
 }
 
-.noticia-card-btn {
+/* Botón Leer en Noticias Recientes: mismo estilo que Destacados (pill morado) */
+.noticia-card-btn,
+.noticias-section .noticia-card .noticia-card-btn,
+a.noticia-card-btn {
   display: inline-block;
   margin-top: auto;
   padding: 0.5rem 1.25rem;
   align-self: flex-start;
   background: var(--primary-color);
-  color: white !important;
+  color: var(--white) !important;
   font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none !important;
@@ -312,13 +315,16 @@ body:has(.hero-section) main.content {
   border: none;
   cursor: pointer;
   transition: var(--transition);
+  box-shadow: var(--shadow-soft);
 }
-
-.noticia-card-btn:hover {
+.noticia-card-btn:hover,
+.noticias-section .noticia-card .noticia-card-btn:hover,
+a.noticia-card-btn:hover {
   background: var(--primary-dark);
-  color: white !important;
+  color: var(--white) !important;
   text-decoration: none !important;
   transform: translateY(-1px);
+  box-shadow: var(--shadow-medium);
 }
 
 /* =====================================================
