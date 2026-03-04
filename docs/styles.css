@@ -298,30 +298,32 @@ body:has(.hero-section) main.content {
   color: var(--text-color);
 }
 
-/* Botón Leer en Noticias Recientes: mismo estilo que Destacados (pill morado) */
+/* Botón Leer en Noticias Recientes: pill morado, blindado contra Bootstrap */
 .noticia-card-btn,
 .noticias-section .noticia-card .noticia-card-btn,
+.noticia-content a.noticia-card-btn,
 a.noticia-card-btn {
-  display: inline-block;
+  display: inline-block !important;
   margin-top: auto;
-  padding: 0.5rem 1.25rem;
+  padding: 0.5rem 1.25rem !important;
   align-self: flex-start;
-  background: var(--primary-color);
-  color: var(--white) !important;
-  font-size: 0.9rem;
-  font-weight: 600;
+  background: var(--primary-color) !important;
+  color: #ffffff !important;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
   text-decoration: none !important;
-  border-radius: 50px;
-  border: none;
+  border-radius: 50px !important;
+  border: none !important;
   cursor: pointer;
   transition: var(--transition);
   box-shadow: var(--shadow-soft);
 }
 .noticia-card-btn:hover,
 .noticias-section .noticia-card .noticia-card-btn:hover,
+.noticia-content a.noticia-card-btn:hover,
 a.noticia-card-btn:hover {
-  background: var(--primary-dark);
-  color: var(--white) !important;
+  background: var(--primary-dark) !important;
+  color: #ffffff !important;
   text-decoration: none !important;
   transform: translateY(-1px);
   box-shadow: var(--shadow-medium);
@@ -3450,67 +3452,89 @@ body:has(.lineas-page) .lineas-content {
 .lineas-index-intro {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: var(--text-light);
+  color: var(--text-light) !important;
   margin: 0 0 2rem 0;
 }
 
 .lineas-index-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.linea-index-card {
-  display: block;
-  padding: 1.5rem;
-  background: #f8f7fc;
-  border-radius: var(--border-radius);
-  border: 1px solid #e8e6f0;
-  text-decoration: none;
-  color: inherit;
-  transition: var(--transition);
+@media (max-width: 768px) {
+  .lineas-index-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
-.linea-index-card:hover {
-  background: #f0eef8;
-  border-color: var(--primary-color);
+a.linea-index-card,
+.linea-index-card {
+  display: block !important;
+  padding: 2rem !important;
+  background: #f8f7fc !important;
+  border-radius: var(--border-radius) !important;
+  border: 1px solid #e8e6f0 !important;
+  text-decoration: none !important;
+  color: var(--text-color) !important;
+  transition: var(--transition);
   box-shadow: var(--shadow-soft);
 }
 
+a.linea-index-card:hover,
+.linea-index-card:hover {
+  background: #f0eef8 !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: var(--shadow-medium) !important;
+  text-decoration: none !important;
+  transform: translateY(-4px);
+}
+
+a.linea-index-card h3,
 .linea-index-card h3 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--primary-color);
-  margin: 0 0 0.5rem 0;
-}
-
-.linea-index-card p {
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: var(--text-color);
+  color: var(--primary-color) !important;
   margin: 0 0 0.75rem 0;
 }
 
+a.linea-index-card p,
+.linea-index-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color) !important;
+  margin: 0 0 1rem 0;
+}
+
 .linea-index-link {
-  font-size: 0.9rem;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: var(--primary-color) !important;
+  color: var(--white) !important;
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--primary-color);
+  border-radius: 50px;
+  text-decoration: none !important;
+}
+
+a.linea-index-card:hover .linea-index-link {
+  background: var(--primary-dark) !important;
 }
 
 .lineas-index-back {
-  margin: 0;
+  margin: 1rem 0 0;
   font-size: 0.95rem;
 }
 
 .lineas-index-back a {
-  color: var(--primary-color);
-  text-decoration: none;
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
   font-weight: 500;
 }
 
 .lineas-index-back a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /* =====================================================
