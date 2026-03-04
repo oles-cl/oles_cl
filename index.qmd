@@ -297,20 +297,19 @@ if (length(noticias) > 0) {
         categorias_html <- ""
       }
       cat(sprintf('
-      <a href="%s" class="noticia-card-link">
-        <article class="noticia-card">
-          <div class="noticia-imagen">
-            <img src="%s" alt="%s">
-          </div>
-          <div class="noticia-content">
-            %s
-            <span class="noticia-fecha">%s</span>
-            <h3>%s</h3>
-            <p>%s</p>
-          </div>
-        </article>
-      </a>
-', ruta, imagen, titulo, categorias_html, fecha_formateada, titulo, descripcion))
+      <article class="noticia-card">
+        <div class="noticia-imagen">
+          <img src="%s" alt="%s">
+        </div>
+        <div class="noticia-content">
+          %s
+          <span class="noticia-fecha">%s</span>
+          <h3>%s</h3>
+          <p>%s</p>
+          <a href="%s" class="noticia-card-btn">Leer</a>
+        </div>
+      </article>
+', imagen, titulo, categorias_html, fecha_formateada, titulo, descripcion, ruta))
     }
   }
 }

@@ -1,0 +1,53 @@
+```{r}
+#| echo: false
+#| results: 'asis'
+`%||%` <- function(x, y) if (is.null(x) || length(x) == 0 || x == "") y else x
+leer_meta <- function(archivo) {
+  if (!file.exists(archivo)) return(NULL)
+  con <- readLines(archivo, warn = FALSE)
+  i <- grep("^---$", con)[1]; j <- grep("^---$", con)[2]
+  if (is.na(i) || is.na(j)) return(NULL)
+  lin <- con[(i+1):(j-1)]; meta <- list()
+  for (campo in c("title", "description", "date", "image")) {
+    l <- grep(paste0("^", campo, ":"), lin, value = TRUE, ignore.case = TRUE)
+    if (length(l)) meta[[campo]] <- trimws(gsub('^["\']|["\']$', '', sub("^[^:]+:\\s*", "", l)))
+  }
+  meta$carpeta <- basename(dirname(archivo)); meta
+}
+formatear_fecha <- function(fecha_str) {
+  if (is.null(fecha_str) || fecha_str == "") return("")
+  f <- tryCatch(as.Date(fecha_str), error = function(e) NA)
+  if (is.na(f)) return(fecha_str)
+  meses <- c("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+  paste(as.numeric(format(f, "%d")), meses[as.numeric(format(f, "%m"))], format(f, "%Y"))
+}
+cur <- tryCatch(knitr::current_input(), error = function(e) "")
+carpeta_actual <- if (grepl("noticias/[0-9]{4}-[0-9]{2}-[0-9]{2}", cur)) sub(".*noticias/([0-9]{4}-[0-9]{2}-[0-9]{2}).*", "\\1", cur) else ""
+if (!nzchar(carpeta_actual) && grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", basename(getwd()))) carpeta_actual <- basename(getwd())
+root <- getwd()
+if (!dir.exists(file.path(root, "noticias"))) root <- normalizePath("..", mustWork = FALSE)
+if (!dir.exists(file.path(root, "noticias"))) root <- normalizePath("../..", mustWork = FALSE)
+noticias_dir <- file.path(root, "noticias")
+dirs <- character(0)
+if (dir.exists(noticias_dir)) {
+  dirs <- list.dirs(noticias_dir, full.names = FALSE, recursive = FALSE)
+  dirs <- dirs[grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", dirs)]
+  dirs <- setdiff(dirs, carpeta_actual)
+}
+lista <- list()
+for (d in dirs) { m <- leer_meta(file.path(noticias_dir, d, "index.qmd")); if (!is.null(m) && !is.null(m$date)) lista[[length(lista)+1]] <- m }
+lista <- lista[order(sapply(lista, function(x) as.numeric(as.Date(x$date %||% "1970-01-01"))), decreasing = TRUE)]
+lista <- head(lista, 3)
+if (length(lista) == 0) {
+  knitr::asis_output('\n<section class="otras-noticias-section"><h2 class="otras-noticias-titulo">Otras noticias</h2><p>No hay otras noticias en este momento.</p></section>\n')
+} else {
+  html <- '\n<section class="otras-noticias-section">\n  <h2 class="otras-noticias-titulo">Otras noticias</h2>\n  <div class="otras-noticias-grid">\n'
+  for (n in lista) {
+    titulo <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", n$title %||% "")))
+    desc <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", substr(n$description %||% "", 1, 120))))
+    if (nchar(n$description %||% "") > 120) desc <- paste0(desc, "...")
+    html <- paste0(html, sprintf('    <a href="../%s/index.html" class="otras-noticias-card">\n      <div class="otras-noticias-imagen"><img src="../%s/%s" alt=""></div>\n      <div class="otras-noticias-content">\n        <span class="otras-noticias-fecha">%s</span>\n        <h3>%s</h3>\n        <p>%s</p>\n        <span class="otras-noticias-btn">Leer</span>\n      </div>\n    </a>\n', n$carpeta, n$carpeta, n$image %||% "featured.jpg", formatear_fecha(n$date), titulo, desc))
+  }
+  knitr::asis_output(paste0(html, '  </div>\n</section>\n'))
+}
+```
