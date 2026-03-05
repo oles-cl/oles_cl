@@ -1,1 +1,1 @@
-- (Aún no hay publicaciones listadas.)
+- (RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016–2024) — Deneken, M., & Valenzuela, E. (2025). Editorial Catalonia.

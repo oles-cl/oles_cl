@@ -3,6 +3,7 @@ title: "(RE) Configuraciones Interculturales: Un estudio longitudinal de las rel
 description: "Libro basado en el Estudio Longitudinal de Relaciones Interculturales (ELRI) entre 2016 y 2023."
 date: "2025-01-01"
 author: "Matías Deneken, Eduardo Valenzuela, CIIR"
+authors: [matias-deneken]
 reference: "Deneken, M., & Valenzuela, E. (2025). (RE) configuraciones interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024). Santiago: Editorial Catalonia. ISBN 9789564151809."
 format:
   html:
