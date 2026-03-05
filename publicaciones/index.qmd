@@ -5,6 +5,7 @@ listing:
   type: default
   sort: "date desc"
   fields: [date, title, description]
+  date-format: "YYYY"
 format:
   html:
     body-classes: publicaciones-listing

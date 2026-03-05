@@ -1,8 +1,26 @@
 [
   {
-    "listing": "/eventos/index.html",
+    "listing": "/equipo/asistentes-anteriores/index.html",
     "items": [
-      "/eventos/2026-01-20-seminario-legitimidad.html"
+      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html",
+      "/equipo/asistentes-anteriores/bruno-rojas.html"
+    ]
+  },
+  {
+    "listing": "/equipo/index.html",
+    "items": [
+      "/equipo/monica-gerber.html",
+      "/equipo/ana-figueiredo.html",
+      "/equipo/joaquin-bahamondes.html",
+      "/equipo/macarena-orchard.html",
+      "/equipo/ismael-puga.html",
+      "/equipo/cristobal-moya.html",
+      "/equipo/loreto-quiroz.html",
+      "/equipo/claudio-fuentes.html",
+      "/equipo/paz-irarrazabal.html",
+      "/equipo/luciano-saez-fuentealba.html",
+      "/equipo/matias-deneken.html",
+      "/equipo/amparo-feller.html"
     ]
   },
   {
@@ -48,32 +66,15 @@
     ]
   },
   {
-    "listing": "/equipo/index.html",
+    "listing": "/eventos/index.html",
     "items": [
-      "/equipo/monica-gerber.html",
-      "/equipo/ana-figueiredo.html",
-      "/equipo/joaquin-bahamondes.html",
-      "/equipo/macarena-orchard.html",
-      "/equipo/ismael-puga.html",
-      "/equipo/cristobal-moya.html",
-      "/equipo/loreto-quiroz.html",
-      "/equipo/claudio-fuentes.html",
-      "/equipo/paz-irarrazabal.html",
-      "/equipo/luciano-saez-fuentealba.html",
-      "/equipo/matias-deneken.html",
-      "/equipo/amparo-feller.html"
-    ]
-  },
-  {
-    "listing": "/equipo/asistentes-anteriores/index.html",
-    "items": [
-      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html",
-      "/equipo/asistentes-anteriores/bruno-rojas.html"
+      "/eventos/2026-01-20-seminario-legitimidad.html"
     ]
   },
   {
     "listing": "/publicaciones/index.html",
     "items": [
+      "/publicaciones/2025-configuraciones-interculturales.html",
       "/publicaciones/2025-gerber-police-postures.html",
       "/publicaciones/2024-gerber-mapuche.html",
       "/publicaciones/2023-legitimidad-justicia.html"

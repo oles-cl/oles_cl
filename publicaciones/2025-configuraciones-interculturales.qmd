@@ -1,0 +1,35 @@
+---
+title: "(RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024)"
+description: "Libro basado en el Estudio Longitudinal de Relaciones Interculturales (ELRI) entre 2016 y 2023."
+date: "2025-01-01"
+author: "Matías Deneken, Eduardo Valenzuela, CIIR"
+reference: "Deneken, M., & Valenzuela, E. (2025). (RE) configuraciones interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024). Santiago: Editorial Catalonia. ISBN 9789564151809."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# (RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024)
+
+Libro basado en el Estudio Longitudinal de Relaciones Interculturales (ELRI) entre 2016 y 2023.
+
+**Autores:** Matías Deneken, Eduardo Valenzuela, CIIR.  
+**Editorial:** Editorial Catalonia, 2025.  
+**ISBN:** 9789564151809 (9564151805).  
+**Páginas:** 328.
+
+**Autores OLES:** [Matías Deneken](../equipo/matias-deneken.html).  
+**Fecha de publicación:** 2025.
+
+## Referencia (formato APA)
+
+Deneken, M., & Valenzuela, E. (2025). *(RE) configuraciones interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016–2024).* Santiago, Chile: Editorial Catalonia. ISBN 9789564151809.
+
+## Resumen
+
+Las ciencias sociales han buscado entender cómo conviven y se transforman las sociedades. En Chile, una pregunta persistente es cómo se configuran las relaciones entre pueblos indígenas y no indígenas. Este libro aborda la cuestión con datos del Estudio Longitudinal de Relaciones Interculturales (ELRI), desarrollado por el CIIR entre 2016 y 2023. Durante cuatro olas de encuestas se entrevistó a chilenos indígenas y no indígenas en un contexto marcado por la Operación Huracán, el asesinato de Camilo Catrillanca, el Estallido Social y la Convención Constitucional.
+
+Once capítulos analizan identidad étnica, transmisión del mapudungun, salud mental, estilos de crianza, movilidad social, percepciones de conflicto y confianza intergrupal, además de las disputas en torno a la plurinacionalidad. Con metodologías rigurosas y enfoques diversos, los autores muestran tensiones persistentes y oportunidades de cooperación, ofreciendo una mirada fundamental para entender cambios y continuidades en actitudes hacia la diversidad cultural en Chile.
+
+[← Volver a Publicaciones](index.qmd)
