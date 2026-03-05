@@ -85,8 +85,13 @@ format:
 .fondos-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 1.25rem;
   margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f8f7fc;
+  border-radius: 16px;
+  justify-items: center;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -96,30 +101,32 @@ format:
 }
 
 .fondo-card {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
+  background: transparent;
+  border-radius: 0;
+  padding: 0.5rem;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease;
+  box-shadow: none;
+  transition: transform 0.2s ease;
 }
 
 .fondo-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
 }
 
 .fondo-card img {
-  width: 100%;
-  max-width: 120px;
-  height: 80px;
+  width: auto;
+  max-width: 140px;
+  height: 64px;
   object-fit: contain;
-  margin-bottom: 1rem;
+  margin: 0;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.08));
 }
 
 .fondo-card h4 {
   color: #4E4976;
-  margin: 0 0 0.3rem 0;
-  font-size: 1.1rem;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .fondo-card p {
@@ -166,7 +173,7 @@ Actualmente cuenta con el apoyo del <strong>Centro de Estudios de Conflicto y Co
 <p><a href="equipo/index.html" class="btn-primary" style="display: inline-block; padding: 0.75rem 1.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Ver equipo completo →</a></p>
 
 <div class="somos-section">
-<h2>🤝 Fondos y Apoyo Institucional</h2>
+<h2>Fondos y Apoyo Institucional</h2>
 <p>OLES cuenta con el reconocimiento y apoyo financiero de:</p>
 
 <div class="fondos-grid">
@@ -194,6 +201,11 @@ Actualmente cuenta con el apoyo del <strong>Centro de Estudios de Conflicto y Co
     <img src="images/logos/uchile-logo.svg" alt="UChile">
     <h4>UChile</h4>
     <p>Universidad de Chile</p>
+  </div>
+  <div class="fondo-card">
+    <img src="images/logos/diw.png" alt="DIW">
+    <h4>DIW</h4>
+    <p>Institute of German Studies</p>
   </div>
 </div>
 </div>
