@@ -15,7 +15,7 @@ format:
 
 ## Investigadores
 
-[Claudio Fuentes](../equipo/claudio-fuentes.html), [Mónica Gerber](../equipo/monica-gerber.html)
+[Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
 
 ## Asistentes de investigación
 

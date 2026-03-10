@@ -6,8 +6,11 @@ estado: "en-curso"
 fecha-inicio: "2022"
 fecha-fin: "Presente"
 investigadores:
-  - "Claudio Fuentes"
-  - "Mónica Gerber"
+  - "Macarena Orchard"
+  - "Luciano Sáez Fuentealba"
+  - "Bruno Rojas"
+  - "Paz Irarrázabal"
+  - "Loreto Quiroz"
 tags:
   - "Datos Administrativos"
   - "Gestión Policial"
@@ -16,11 +19,7 @@ image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fi
 
 ## Equipo del proyecto
 
-**Investigador responsable:** [Claudio Fuentes](../equipo/claudio-fuentes.html)
-
-**Investigadores:** [Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
-
-**Asistentes de investigación:** [Matías Deneken](../equipo/matias-deneken.html)
+[Macarena Orchard](../equipo/macarena-orchard.html), [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Bruno Rojas](../equipo/asistentes-anteriores/bruno-rojas.html), [Paz Irarrázabal](../equipo/paz-irarrazabal.html), [Loreto Quiroz](../equipo/loreto-quiroz.html).
 
 ## Descripción
 

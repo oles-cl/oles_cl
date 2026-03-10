@@ -1,7 +1,7 @@
 ---
 title: "Estudio de Datos Administrativos"
 estado: "en-curso"
-investigador_responsable: "Claudio Fuentes"
+investigador_responsable: "Luciano Sáez Fuentealba"
 format:
   html:
     body-classes: estudio-page
@@ -11,11 +11,11 @@ format:
 :::{.estudio-col-izq}
 ## Investigador responsable
 
-[Claudio Fuentes](../equipo/luciano-saez-fuentealba.html)
+[Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
 
 ## Investigadores
 
-[Mónica Gerber](../equipo/ismael-puga.html)
+[Mónica Gerber](../equipo/monica-gerber.html)
 
 ## Asistentes de investigación
 
