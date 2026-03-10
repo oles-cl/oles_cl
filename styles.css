@@ -2104,9 +2104,12 @@ article.page-columns li {
   }
 }
 
-/* Legacy support */
-.btn-volver {
+/* Botón Volver (estudios, equipo, noticias, etc.) */
+.btn-volver,
+.volver-wrap a,
+.volver-btn {
   display: inline-block;
+  margin-top: 0.5rem;
   padding: 0.75rem 1.5rem;
   background: var(--bg-light);
   color: var(--primary-color);
@@ -2114,11 +2117,15 @@ article.page-columns li {
   border-radius: 8px;
   font-weight: 600;
   transition: var(--transition);
+  border: 1px solid rgba(78, 73, 118, 0.2);
 }
 
-.btn-volver:hover {
+.btn-volver:hover,
+.volver-wrap a:hover,
+.volver-btn:hover {
   background: var(--primary-color);
   color: var(--white);
+  border-color: var(--primary-color);
 }
 
 /* =====================================================
@@ -3236,15 +3243,15 @@ body:not(.quarto-listing-page) #quarto-content article {
 
 /* Back link below layout */
 .estudio-page .estudio-back-wrap {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid #e8e6f0;
 }
 
 /* Volver como botón en páginas de estudio */
-.estudio-page .estudio-back-wrap a,
-a.btn-volver {
+.estudio-page .estudio-back-wrap a {
   display: inline-block;
+  margin-top: 0.5rem;
   padding: 0.75rem 1.5rem;
   background: var(--bg-light);
   color: var(--primary-color);
@@ -3252,12 +3259,13 @@ a.btn-volver {
   border-radius: 8px;
   font-weight: 600;
   transition: var(--transition);
+  border: 1px solid rgba(78, 73, 118, 0.2);
 }
 
-.estudio-page .estudio-back-wrap a:hover,
-a.btn-volver:hover {
+.estudio-page .estudio-back-wrap a:hover {
   background: var(--primary-color);
   color: var(--white);
+  border-color: var(--primary-color);
 }
 
 .estudio-page .estudio-col-izq a,

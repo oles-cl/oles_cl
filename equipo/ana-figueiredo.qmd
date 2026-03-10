@@ -59,4 +59,4 @@ Profesora asociada del Instituto de Ciencias Sociales de la Universidad de O'Hig
 
 {{< include _pub-ana-figueiredo.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

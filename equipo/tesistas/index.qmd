@@ -7,19 +7,6 @@ toc: false
 ```{=html}
 <style>
 /* Estilos para la sección de tesistas */
-.volver-btn {
-  display: inline-block;
-  color: var(--primary-color, #4E4976);
-  text-decoration: none;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  transition: color 0.3s ease;
-}
-
-.volver-btn:hover {
-  color: var(--primary-dark, #453958);
-}
-
 .tesistas-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -224,7 +211,7 @@ toc: false
 </style>
 ```
 
-<a href="../index.html" class="volver-btn">← Volver al Equipo</a>
+<a href="../index.html" class="btn-volver">← Volver al Equipo</a>
 
 ```{r}
 #| echo: false

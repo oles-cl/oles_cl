@@ -60,4 +60,4 @@ Escribe aquí una breve descripción de la persona, su trayectoria y trabajo act
 
 - **Título académico** - Universidad
 
-[← Volver al Equipo](index.qmd)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

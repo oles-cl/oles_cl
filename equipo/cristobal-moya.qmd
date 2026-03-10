@@ -49,4 +49,4 @@ Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociól
 
 {{< include _pub-cristobal-moya.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

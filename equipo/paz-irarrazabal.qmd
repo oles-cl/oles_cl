@@ -51,4 +51,4 @@ Es abogada y se desempeñó como académica e investigadora en la Universidad de
 
 {{< include _pub-paz-irarrazabal.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

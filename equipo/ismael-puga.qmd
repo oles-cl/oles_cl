@@ -49,4 +49,4 @@ Doctor en Sociología de la Universidad Humboldt de Berlín, Alemania. Sociólog
 
 {{< include _pub-ismael-puga.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

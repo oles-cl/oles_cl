@@ -9,4 +9,4 @@ pdf_link: ""
 categories: [Tesistas]
 ---
 
-[← Volver a Tesistas](index.html)
+<a href="index.html" class="btn-volver">← Volver a Tesistas</a>

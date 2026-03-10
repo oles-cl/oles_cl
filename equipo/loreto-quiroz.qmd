@@ -49,4 +49,4 @@ Doctora en Estudios Americanos por la Universidad de Santiago de Chile, Magíste
 
 {{< include _pub-loreto-quiroz.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

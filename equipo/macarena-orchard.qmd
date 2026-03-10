@@ -58,4 +58,4 @@ Profesora Asistente de la Escuela de Sociología y Directora del Diplomado en M�
 
 {{< include _pub-macarena-orchard.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

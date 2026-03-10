@@ -52,4 +52,4 @@ Sociólogo, Magíster en Sociología y candidato a Magíster en Data Science. Ac
 
 {{< include _pub-matias-deneken.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

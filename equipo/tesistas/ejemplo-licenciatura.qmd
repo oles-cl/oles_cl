@@ -9,4 +9,4 @@ pdf_link: "https://example.com/tesis/carlos-martinez.pdf"
 categories: [Tesistas]
 ---
 
-[← Volver a Tesistas](index.html)
+<a href="index.html" class="btn-volver">← Volver a Tesistas</a>

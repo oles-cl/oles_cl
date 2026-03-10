@@ -50,4 +50,4 @@ Su trayectoria de investigación ha estado vinculada al análisis y la visibiliz
 
 {{< include _pub-amparo-feller.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

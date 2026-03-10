@@ -49,4 +49,4 @@ Asistente cuantitativo de investigación en OLES. Sociólogo titulado de la Univ
 
 {{< include _pub-nicolas-tobar-jorquera.md >}}
 
-[← Volver a Asistentes anteriores](index.html)
+<a href="index.html" class="btn-volver">← Volver a Asistentes anteriores</a>

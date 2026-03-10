@@ -68,4 +68,4 @@ Profesora de la Escuela de Gobierno de la Pontificia Universidad Católica de Ch
 
 {{< include _pub-monica-gerber.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

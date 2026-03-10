@@ -46,4 +46,4 @@ Licenciado en historia, Magister en Ciencias Sociales de la Universidad de Chile
 
 {{< include _pub-bruno-rojas.md >}}
 
-[← Volver a Asistentes anteriores](index.html)
+<a href="index.html" class="btn-volver">← Volver a Asistentes anteriores</a>

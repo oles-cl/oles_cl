@@ -65,4 +65,4 @@ Sus principales líneas de investigación se enmarcan en la psicología social y
 
 {{< include _pub-joaquin-bahamondes.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

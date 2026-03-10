@@ -49,4 +49,4 @@ Es profesor titular de la Escuela de Ciencia Política de la Universidad Diego P
 
 {{< include _pub-claudio-fuentes.md >}}
 
-[← Volver al Equipo](index.html)
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

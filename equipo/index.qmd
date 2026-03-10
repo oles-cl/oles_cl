@@ -190,4 +190,4 @@ listing:
 <a href="tesistas/index.html" class="tesistas-link">Tesistas y pasantes</a>
 </div>
 
-[← Volver al Inicio](../index.html)
+<a href="../index.html" class="btn-volver">← Volver al Inicio</a>
