@@ -11,9 +11,9 @@ fecha-fin: "Presente"
 
 **Investigador responsable:** [Ismael Puga](../equipo/ismael-puga.html)
 
-**Investigadores:** [Claudio Fuentes](../equipo/claudio-fuentes.html), [Mónica Gerber](../equipo/monica-gerber.html)
+**Investigadores:** [Luciano Saéz - Fuentealba](../equipo/luciano-saez-fuentealba.html)
 
-**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+**Asistentes de investigación:** [Matías Deneken](../equipo/matias-deneken.html)
 
 ## Descripción
 

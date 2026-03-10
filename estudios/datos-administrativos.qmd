@@ -11,15 +11,15 @@ format:
 :::{.estudio-col-izq}
 ## Investigador responsable
 
-[Claudio Fuentes](../equipo/claudio-fuentes.html)
+[Claudio Fuentes](../equipo/luciano-saez-fuentealba.html)
 
 ## Investigadores
 
-[Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+[Mónica Gerber](../equipo/ismael-puga.html)
 
 ## Asistentes de investigación
 
-[Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+[Matías Deneken](../equipo/matias-deneken.html)
 :::
 
 :::{.estudio-col-der}

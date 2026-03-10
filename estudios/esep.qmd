@@ -15,11 +15,12 @@ format:
 
 ## Investigadores
 
-[Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Macarena Orchard](../equipo/macarena-orchard.html)
+[Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), 
+[Cristóbal Moya](../equipo/cristobal-moya.html)
 
 ## Asistentes de investigación
 
-[Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+[Matías Deneken](../equipo/matias-deneken.html)
 :::
 
 :::{.estudio-col-der}

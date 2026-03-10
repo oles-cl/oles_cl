@@ -1,6 +1,6 @@
 ---
 title: "Matías Deneken"
-cargo: "Asistente de Investigación Cuantitativa"
+cargo: "Investigador asistente"
 categories: [Asistentes]
 orden: 10
 email: "matdknu@gmail.com"

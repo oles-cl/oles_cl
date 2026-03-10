@@ -19,7 +19,7 @@ format:
 
 ## Asistentes de investigación
 
-[Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+[Matías Deneken](../equipo/matias-deneken.html)
 :::
 
 :::{.estudio-col-der}

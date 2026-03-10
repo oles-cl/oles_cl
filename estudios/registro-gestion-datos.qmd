@@ -20,7 +20,7 @@ image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fi
 
 **Investigadores:** [Mónica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
 
-**Asistentes de investigación:** [Matías Deneken](../equipo/asistentes-anteriores/matias-deneken.html)
+**Asistentes de investigación:** [Matías Deneken](../equipo/matias-deneken.html)
 
 ## Descripción
 
