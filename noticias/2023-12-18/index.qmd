@@ -3,7 +3,7 @@ title: "Investigadora Ana Figueiredo participa en Congreso de Psicología en Bue
 description: "SIMPOSIO| El pasado 1 de diciembre Ana Figueiredo, investigadora de OLES, participó en el XV Congreso internacional de Investigación y Práctica Profesional en Psicología, organizado por la Universidad..."
 date: "2023-12-18"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

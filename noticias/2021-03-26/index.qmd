@@ -4,7 +4,7 @@ description: "<p class = 'cta-btns' align='right'>
 <a href='https://psicologia.udp.cl/proyecto-con-fondo-vra-de-monica-gerber-analizara-la-experiencia-de-aprendizaje-de-estudiantes-que-participan-en-proyectos-de-in..."
 date: "2021-03-26"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

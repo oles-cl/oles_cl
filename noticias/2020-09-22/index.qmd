@@ -4,7 +4,7 @@ description: "<p class = 'cta-btns' align='right'>
 <a href='https://psicologia.udp.cl/profesora-monica-gerber-se-adjudica-fondo-asociativo-udp-2020-como-investigadora-principal/' style='text-decoration:none' target..."
 date: "2020-09-22"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

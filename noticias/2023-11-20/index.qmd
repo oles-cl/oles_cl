@@ -3,7 +3,7 @@ title: "Investigadoras e investigadores OLES participan de la X Conferencia anua
 description: "CONFERENCIA| Durante los días 8, 9 y 10 de noviembre se realizó la X Conferencia Internacional de COES, titulado “La gran transformación: pasado, presente y futuro del conflicto y la cohesión social”...."
 date: "2023-11-20"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

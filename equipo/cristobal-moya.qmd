@@ -20,7 +20,11 @@ areas-interes:
   - "Mercados laborales"
   - "Conflictos políticos"
 educacion:
-  - titulo: "Sociólogo"
+  - titulo: "Doctor en Sociología"
+    institucion: "Universität Bielefeld, Alemania"
+  - titulo: "Magíster en Sociología"
+    institucion: "Pontificia Universidad Católica de Chile"
+  - titulo: "Sociólogo y Magíster en Ciencias Sociales"
     institucion: "Universidad de Chile"
 ---
 
@@ -37,7 +41,9 @@ Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociól
 
 ## Educación
 
-- **Sociólogo** - Universidad de Chile
+- **Doctor en Sociología** - Universität Bielefeld, Alemania
+- **Magíster en Sociología** - Pontificia Universidad Católica de Chile
+- **Sociólogo y Magíster en Ciencias Sociales** - Universidad de Chile
 
 ## Últimas publicaciones
 

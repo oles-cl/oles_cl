@@ -3,7 +3,7 @@ title: "Taller “Policía y Márgenes Urbanos: Perspectivas interseccionales de
 description: "El pasado viernes 28 de marzo, en la Facultad de Filosofía y Humanidades de la Universidad de Chile, se llevó a cabo el Taller de trabajo “Policía y Márgenes Urbanos: Perspectivas interseccionales de ..."
 date: "2025-04-09"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=400&fit=crop"
 title-block-banner: false
 ---

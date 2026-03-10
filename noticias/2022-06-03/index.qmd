@@ -3,7 +3,7 @@ title: "La Dra. Monica Gerber asume como Directora del Grupo de Evaluación de S
 description: ""
 date: "2022-06-03"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

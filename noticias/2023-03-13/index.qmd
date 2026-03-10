@@ -3,7 +3,7 @@ title: "Investigadoras e investigadores OLES se adjudican un Proyecto de Explora
 description: "Investigadoras e investigadores del Observatorio de Violencia y Legitimidad Social suman nuevos proyectos financiados por la Agencia Nacional de Investigación y Desarrollo (ANID). A través de la Subdi..."
 date: "2023-03-13"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

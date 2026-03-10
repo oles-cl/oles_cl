@@ -15,7 +15,7 @@ format:
 
 ## Investigadores
 
-[Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+[Loreto Quiroz](../equipo/loreto-quiroz.html), [Macarena Orchard](../equipo/macarena-orchard.html), [Claudio Fuentes](../equipo/claudio-fuentes.html), [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
 
 ## Asistentes de investigación
 

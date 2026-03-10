@@ -3,7 +3,7 @@ title: "Macarena Orchard participó en el capítulo del programa Sanamente: ¿C�
 description: "Puedes revisar el vídeo de su participación en el siguiente ."
 date: "2022-10-13"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

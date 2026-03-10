@@ -3241,12 +3241,33 @@ body:not(.quarto-listing-page) #quarto-content article {
   border-top: 1px solid #e8e6f0;
 }
 
-.estudio-page a {
+/* Volver como botón en páginas de estudio */
+.estudio-page .estudio-back-wrap a,
+a.btn-volver {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--bg-light);
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.estudio-page .estudio-back-wrap a:hover,
+a.btn-volver:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.estudio-page .estudio-col-izq a,
+.estudio-page .estudio-col-der a {
   color: #4E4976;
   font-weight: 500;
 }
 
-.estudio-page a:hover {
+.estudio-page .estudio-col-izq a:hover,
+.estudio-page .estudio-col-der a:hover {
   text-decoration: underline;
 }
 

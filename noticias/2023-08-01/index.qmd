@@ -3,7 +3,7 @@ title: "Investigadoras OLES presentan ponencias en Congresos internacionales ISP
 description: "Durante el mes de julio, investigadoras e investigadores de OLES participaron de congresos internacionales para difundir sus hallazgos respecto a los estudios de legitimidad social y violencia que ha ..."
 date: "2023-08-01"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Evento]
 image: "featured.jpg"
 title-block-banner: false
 ---

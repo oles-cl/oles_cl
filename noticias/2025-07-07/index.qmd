@@ -5,7 +5,7 @@ description: "Nuestra directora, Mónica Gerber, advierte sobre los efectos de m
 Según Gerber, “es una medida que debiera ser extraordinaria y, después de..."
 date: "2025-07-07"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

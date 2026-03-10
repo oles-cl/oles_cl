@@ -3,7 +3,7 @@ title: "¡Equipo OLES publica nuevo artículo! Significados atribuidos a la inve
 description: "La enseñanza de métodos de investigación en la educación superior ha sido un tema de creciente interés en los últimos años, especialmente en el ámbito de las ciencias sociales. Pese a los avances que ..."
 date: "2024-05-13"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

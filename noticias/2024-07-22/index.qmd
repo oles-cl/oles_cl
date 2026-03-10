@@ -3,7 +3,7 @@ title: "Dra. Macarena Orchard imparte seminario doctoral acerda de sus estudios 
 description: "En el marco del doctorado en Ciencias sociales de la Universidad de Playa Ancha, en el curso “Análisis y discusión de metodologías de investigación en Ciencias Sociales” dictado por la académica Claud..."
 date: "2024-07-22"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

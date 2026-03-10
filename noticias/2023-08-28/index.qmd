@@ -3,7 +3,7 @@ title: "Equipo OLES organiza y participa en el Seminario: «Estrategias frente a
 description: "El pasado jueves 17 de agosto se realizó de manera hibrida en la Facultad de Psicología de la UDP el seminario “Estrategias frente a la inseguridad en América Latina: entre la gestión pública y privad..."
 date: "2023-08-28"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

@@ -3,7 +3,7 @@ title: "Macarena Orchard analiza la primera Encuesta Nacional de Autoridad y dic
 description: "El estudio revela que el 88% de los chilenos les han perdido el respeto a las autoridades. Puedes revisar la nota completa en el siguiente ."
 date: "2022-09-06"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

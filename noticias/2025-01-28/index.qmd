@@ -3,7 +3,7 @@ title: "Jornada OLES y proyecciones 2025"
 description: "El 27 de enero de 2025 el equipo de investigación del Observatorio de Violencia y Legitimidad social (OLES) se reunió en la Universidad Diego Portales a realizar un balance del 2024 y proyecciones par..."
 date: "2025-01-28"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

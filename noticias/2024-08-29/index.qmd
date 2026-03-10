@@ -3,7 +3,7 @@ title: "Investigador OLES participa de la V Jornada de Investigadoras/es Jóvene
 description: "El viernes pasado, nuestro Investigador de la UDP, Luciano Saez, compartió su investigación en la “V Jornada de Investigadoras/es Jóvenes en Temáticas sobre Desigualdades y Cohesión Social” del Observ..."
 date: "2024-08-29"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

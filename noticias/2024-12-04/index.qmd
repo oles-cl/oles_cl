@@ -3,7 +3,7 @@ title: "Asistentes de Investigación de OLES obtienen Beca de Doctorado FullBrig
 description: "Nos complace anunciar que nuestros asistentes de investigación, Bruno Rojas y Matías Deneken, han sido seleccionados como adjudicatarios de la Beca Fulbright Igualdad de Oportunidades, convocatoria 20..."
 date: "2024-12-04"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Reconocimiento]
 image: "featured.jpeg"
 title-block-banner: false
 ---

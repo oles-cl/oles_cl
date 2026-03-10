@@ -3,7 +3,7 @@ title: "Investigadoras/es OLES se adjudican fondo MaxiCOES 🙌"
 description: "Felicitamos a Mónica Gerber, Macarena Orchard, Ana Figueiredo, Claudio Fuentes, Cristóbal Moya y Luciano Sáez quienes se adjudican fondos MaxiCOES para el proyecto 'Legitimidad de las policías en Chil..."
 date: "2024-08-27"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

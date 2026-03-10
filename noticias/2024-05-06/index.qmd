@@ -5,7 +5,7 @@ sociología 2024 el día viernes 3 de mayo. Nuestro equipo expuso los avances de
 trabajos más recientes lo que..."
 date: "2024-05-06"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Evento]
 image: "featured.jpg"
 title-block-banner: false
 ---

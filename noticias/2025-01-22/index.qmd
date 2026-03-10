@@ -3,7 +3,7 @@ title: "Investigación sobre el empoderamiento de las policías en Chile: Simpos
 description: "En el marco de los Simposio de Investigación, la Dra. Mónica Gerber de la Facultad de Psicología de la Universidad Diego Portales presentó una ponencia titulada “Empoderando a las policías: apoyo al a..."
 date: "2025-01-22"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

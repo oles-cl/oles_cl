@@ -3,7 +3,7 @@ title: "Macarena Orchard participó en el podcast 'Hay algo allá afuera' con Al
 description: "Puedes escuchar este y otros episodios del podcast en el siguiente ."
 date: "2022-11-03"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

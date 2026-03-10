@@ -3,7 +3,7 @@ title: "La Dra. Gerber es nombrada como parte del comité de expertos de la Comi
 description: ""
 date: "2022-03-22"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

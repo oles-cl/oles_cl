@@ -3,7 +3,7 @@ title: "Felicitamos a nuestros investigadores Monica Gerber, Macarena Orchard , 
 description: "Todos los años el Centro de Estudios de Conflicto y Cohesión Social (COES) abre un concurso para financiar proyectos de investigación, dirigido sus investigadores/as asociados, adjuntos y postdoctoran..."
 date: "2022-09-12"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

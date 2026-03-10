@@ -4,7 +4,7 @@ description: "<p class = 'cta-btns' align='right'>
 <a href='https://socialesehistoria.udp.cl/macaren-orchard-participo-en-foro-sobre-violencias-en-la-movilizacion-social-y-la-protesta/' style='text-decoration:none'..."
 date: "2021-03-31"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

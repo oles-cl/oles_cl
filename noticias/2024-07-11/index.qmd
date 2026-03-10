@@ -3,7 +3,7 @@ title: "OLES participa en el Encuentro anual del ISPP"
 description: "Del 4 al 6 de julio tuvo lugar en Santiago el Annual Scientific Meeting realizado por el International Society of Political Psychology (ISPP). Este importante congreso internacional tuvo como centro t..."
 date: "2024-07-11"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.png"
 title-block-banner: false
 ---

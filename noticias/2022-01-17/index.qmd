@@ -4,7 +4,7 @@ description: "<p class = 'cta-btns' align='right'>
 <a href='https://psicologia.udp.cl/tres-fondecyt-y-dos-fondos-internos-de-investigacion-son-adjudicados-a-docentes-de-psicologia-udp-para-periodo-2022/' style='tex..."
 date: "2022-01-17"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpg"
 title-block-banner: false
 ---

@@ -3,7 +3,7 @@ title: "Equipo OLES en LASA 2025"
 description: "Con una participación híbrida, el equipo de OLES formó parte de la Conferencia Anual de la Latin American Studies Association (LASA), realizada entre el 24 y el 26 de mayo de 2025 en la ciudad de San ..."
 date: "2025-05-26"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Evento]
 image: "featured.jpeg"
 title-block-banner: false
 ---

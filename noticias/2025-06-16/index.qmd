@@ -3,7 +3,7 @@ title: "Investigadora OLES en el podcast Tras las Líneas"
 description: "La investigadora del Observatorio de Desigualdades, académica de la Escuela de Sociología y directora del Magíster en Métodos para la Investigación Social UDP, Macarena Orchard, fue invitada al podcas..."
 date: "2025-06-16"
 author: "Matías Deneken"
-categories: [Noticias]
+categories: [Noticia]
 image: "featured.jpeg"
 title-block-banner: false
 ---
