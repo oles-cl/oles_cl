@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Manual de Uso OLES</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Manual de Uso OLES</h1>
+</header>
+<h1 id="tutorial-de-edición-del-sitio-oles">Tutorial de Edición del
+Sitio OLES</h1>
+<p>Esta guía está pensada para <strong>editar y mantener la
+web</strong>, no para navegarla como visitante. Explica cómo agregar
+personas, publicaciones, proyectos, noticias y cómo funciona la portada
+(<code>index.qmd</code>) y la configuración general del sitio.</p>
+<hr />
+<h2 id="cómo-está-organizado-el-sitio">1. Cómo está organizado el
+sitio</h2>
+<p>El sitio está hecho en <strong>Quarto</strong>. Los archivos fuente
+están en <code>.qmd</code> y el sitio compilado se genera en la carpeta
+<code>docs/</code>.</p>
+<p>Archivos y carpetas clave:</p>
+<ul>
+<li><code>_quarto.yml</code> → configuración general del sitio, navbar,
+salida a <code>docs/</code>.</li>
+<li><code>index.qmd</code> → portada.</li>
+<li><code>somos.qmd</code> → página “Acerca de OLES”.</li>
+<li><code>contacto.qmd</code> → página de contacto.</li>
+<li><code>styles.css</code> → estilos globales.</li>
+<li><code>equipo/</code> → perfiles del equipo.</li>
+<li><code>noticias/</code> → noticias, una carpeta por fecha.</li>
+<li><code>estudios/</code> → proyectos y líneas de investigación.</li>
+<li><code>publicaciones/</code> → publicaciones académicas.</li>
+<li><code>repositorio/</code> → repositorio de datos, como EPSEP.</li>
+<li><code>_templates/</code> → plantillas base para crear nuevo
+contenido.</li>
+</ul>
+<p>Importante:</p>
+<ul>
+<li>El archivo <code>_quarto.yml</code> indica que el sitio se compila
+en <code>docs/</code>.</li>
+<li>Antes del render se ejecuta
+<code>compilar_publicaciones_perfiles.R</code>, que arma automáticamente
+los listados de publicaciones dentro de los perfiles del equipo.</li>
+</ul>
+<hr />
+<h2 id="flujo-básico-para-editar">2. Flujo básico para editar</h2>
+<p>Cada vez que hagas cambios, el flujo normal es:</p>
+<ol type="1">
+<li>Editar o crear el archivo <code>.qmd</code>.</li>
+<li>Guardar imágenes o PDFs en la carpeta correcta.</li>
+<li>Ejecutar <code>quarto render</code>.</li>
+<li>Revisar el resultado generado en <code>docs/</code>.</li>
+</ol>
+<p>Si el sitio se publica desde GitHub Pages o Netlify usando
+<code>docs/</code>, esa carpeta debe quedar actualizada.</p>
+<hr />
+<h2 id="cómo-agregar-una-persona-al-equipo">3. Cómo agregar una persona
+al equipo</h2>
+<p>La plantilla base está en:</p>
+<ul>
+<li><code>_templates/PERSONA.qmd</code></li>
+</ul>
+<h3 id="dónde-crear-el-archivo">Dónde crear el archivo</h3>
+<p>Depende de la categoría:</p>
+<ul>
+<li><code>equipo/</code> → Dirección, Subdirección, Investigadores,
+Coordinador, Asistentes.</li>
+<li><code>equipo/asistentes-anteriores/</code> → asistentes
+anteriores.</li>
+<li><code>equipo/tesistas/</code> → tesistas y pasantes.</li>
+</ul>
+<h3 id="nombre-del-archivo">Nombre del archivo</h3>
+<p>Usa un slug simple, por ejemplo:</p>
+<ul>
+<li><code>equipo/matias-deneken.qmd</code></li>
+<li><code>equipo/ana-figueiredo.qmd</code></li>
+</ul>
+<p>Ese nombre importa porque:</p>
+<ul>
+<li>define la URL final;</li>
+<li>se usa también para vincular publicaciones con la persona.</li>
+</ul>
+<h3 id="campos-importantes-del-yaml">Campos importantes del YAML</h3>
+<p>Ejemplo:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Nombre Apellido&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">cargo</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Cargo o Posición&quot;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">Asistentes</span><span class="kw">]</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">orden</span><span class="kw">:</span><span class="at"> </span><span class="dv">50</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">email</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;correo@ejemplo.com&quot;</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">organizacion</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Universidad o Institución&quot;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;image/foto.jpg&quot;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">about</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">template</span><span class="kw">:</span><span class="at"> trestles</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">image-shape</span><span class="kw">:</span><span class="at"> round</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">image-width</span><span class="kw">:</span><span class="at"> 12em</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">links</span><span class="kw">:</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">icon</span><span class="kw">:</span><span class="at"> envelope</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Email</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">href</span><span class="kw">:</span><span class="at"> mailto:correo@ejemplo.com</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">areas-interes</span><span class="kw">:</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="st">&quot;Área 1&quot;</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">educacion</span><span class="kw">:</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="fu">titulo</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Grado&quot;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">institucion</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Universidad&quot;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<h3 id="qué-hace-cada-campo">Qué hace cada campo</h3>
+<ul>
+<li><code>title</code> → nombre que aparecerá en la tarjeta y en el
+perfil.</li>
+<li><code>cargo</code> → cargo visible en el perfil.</li>
+<li><code>categories</code> → define en qué bloque aparece en
+<code>equipo/index.qmd</code>.</li>
+<li><code>orden</code> → orden dentro de la categoría; números más bajos
+aparecen primero.</li>
+<li><code>image</code> → foto del perfil.</li>
+<li><code>areas-interes</code> y <code>educacion</code> → se usan en el
+contenido del perfil.</li>
+</ul>
+<h3 id="categorías-válidas-en-equipo">Categorías válidas en
+<code>equipo/</code></h3>
+<ul>
+<li><code>Dirección</code></li>
+<li><code>Subdirección</code></li>
+<li><code>Investigadores</code></li>
+<li><code>Coordinador</code></li>
+<li><code>Asistentes</code></li>
+</ul>
+<h3 id="fotos">Fotos</h3>
+<p>Lo normal en este proyecto es guardar imágenes del equipo en:</p>
+<ul>
+<li><code>equipo/image/</code></li>
+</ul>
+<p>Y luego usar, por ejemplo:</p>
+<ul>
+<li><code>image: "image/matias-deneken.jpg"</code></li>
+</ul>
+<h3 id="cómo-aparece-en-la-página-equipo">Cómo aparece en la página
+Equipo</h3>
+<p>La página <code>equipo/index.qmd</code> usa listings automáticos por
+categoría. Si el archivo está en la carpeta correcta y el YAML tiene la
+categoría correcta, la persona aparece sola tras
+<code>quarto render</code>.</p>
+<h3 id="publicaciones-dentro-del-perfil">Publicaciones dentro del
+perfil</h3>
+<p>Muchos perfiles incluyen una línea como esta:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>{{&lt; include _pub-matias-deneken.md &gt;}}</span></code></pre></div>
+<p>Ese archivo <code>_pub-...md</code> no se edita a mano: lo genera
+<code>compilar_publicaciones_perfiles.R</code> a partir de
+<code>publicaciones/*.qmd</code>.</p>
+<hr />
+<h2 id="cómo-agregar-una-publicación">4. Cómo agregar una
+publicación</h2>
+<p>La plantilla base está en:</p>
+<ul>
+<li><code>_templates/publicacion.qmd</code></li>
+</ul>
+<h3 id="dónde-crear-el-archivo-1">Dónde crear el archivo</h3>
+<p>En:</p>
+<ul>
+<li><code>publicaciones/</code></li>
+</ul>
+<p>Ejemplo:</p>
+<ul>
+<li><code>publicaciones/2026-articulo-ejemplo.qmd</code></li>
+</ul>
+<h3 id="estructura-mínima">Estructura mínima</h3>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Título de la publicación&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Una línea descriptiva.&quot;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;2026-01-20&quot;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Apellido, N., Apellido, N.&quot;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">authors</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">slug-perfil</span><span class="dv">-1</span><span class="kw">,</span><span class="at"> slug-perfil</span><span class="dv">-2</span><span class="kw">]</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">reference</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Revista, volumen, DOI&quot;</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<h3 id="diferencia-entre-author-y-authors">Diferencia entre
+<code>author</code> y <code>authors</code></h3>
+<ul>
+<li><code>author</code> → texto visible para la publicación.</li>
+<li><code>authors</code> → lista de slugs de personas OLES para enlazar
+la publicación a sus perfiles.</li>
+</ul>
+<p>Esto es clave. Si en <code>authors</code> pones:</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">authors</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">matias-deneken</span><span class="kw">,</span><span class="at"> monica-gerber</span><span class="kw">]</span></span></code></pre></div>
+<p>el script <code>compilar_publicaciones_perfiles.R</code> agregará esa
+publicación a:</p>
+<ul>
+<li><code>equipo/_pub-matias-deneken.md</code></li>
+<li><code>equipo/_pub-monica-gerber.md</code></li>
+</ul>
+<h3 id="qué-hace-reference">Qué hace <code>reference</code></h3>
+<p><code>reference</code> se usa como referencia corta en los perfiles
+del equipo. Conviene completarla siempre.</p>
+<h3 id="cómo-aparece-en-la-web">Cómo aparece en la web</h3>
+<ul>
+<li>Aparece automáticamente en <code>publicaciones/index.qmd</code>,
+porque esa página lista todos los <code>.qmd</code> dentro de
+<code>publicaciones/</code>.</li>
+<li>También puede aparecer en los perfiles si <code>authors</code> está
+bien definido.</li>
+</ul>
+<h3 id="si-hay-doi-o-enlace-externo">Si hay DOI o enlace externo</h3>
+<p>Puedes agregar una sección como:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## DOI</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">10.xxxx/xxxxx</span><span class="co">](https://doi.org/...)</span></span></code></pre></div>
+<h3 id="regla-importante">Regla importante</h3>
+<p>Si el slug de una persona en <code>authors</code> no coincide
+exactamente con el nombre del archivo en <code>equipo/</code> o
+<code>equipo/asistentes-anteriores/</code>, la publicación no se
+asociará bien a su perfil.</p>
+<hr />
+<h2 id="cómo-agregar-una-noticia">5. Cómo agregar una noticia</h2>
+<p>La plantilla base está en:</p>
+<ul>
+<li><code>_templates/noticia-template.qmd</code></li>
+</ul>
+<h3 id="dónde-crearla">Dónde crearla</h3>
+<p>Cada noticia va en su propia carpeta con fecha:</p>
+<ul>
+<li><code>noticias/AAAA-MM-DD/</code></li>
+</ul>
+<p>Dentro de esa carpeta debe existir:</p>
+<ul>
+<li><code>index.qmd</code></li>
+<li><code>featured.jpg</code> o <code>featured.png</code> si tiene
+imagen principal</li>
+<li>otras imágenes, si hay galería</li>
+</ul>
+<p>Ejemplo:</p>
+<ul>
+<li><code>noticias/2026-01-20/index.qmd</code></li>
+</ul>
+<h3 id="estructura-mínima-1">Estructura mínima</h3>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Título de la noticia&quot;</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Breve descripción&quot;</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;2026-01-20&quot;</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Nombre&quot;</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">Noticia</span><span class="kw">]</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;featured.jpg&quot;</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">destacado</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="fu">title-block-banner</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<h3 id="categorías-recomendadas">Categorías recomendadas</h3>
+<p>Hoy el sitio usa categorías como:</p>
+<ul>
+<li><code>Noticia</code></li>
+<li><code>Evento</code></li>
+<li><code>Entrevista</code></li>
+<li><code>Publicación</code></li>
+<li><code>Proyecto</code></li>
+<li><code>Reconocimiento</code></li>
+</ul>
+<p>Se recomienda usar <strong>1 o máximo 2</strong>.</p>
+<h3 id="campo-destacado">Campo <code>destacado</code></h3>
+<p>Si pones:</p>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">destacado</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div>
+<p>la noticia puede aparecer en la sección <strong>Destacados</strong>
+de la portada, porque <code>index.qmd</code> busca las noticias con ese
+campo activado.</p>
+<h3 id="cómo-aparece-en-la-web-1">Cómo aparece en la web</h3>
+<ul>
+<li>Aparece automáticamente en <code>noticias/index.qmd</code>.</li>
+<li>Puede aparecer en la portada si es reciente y/o si está marcada como
+destacada.</li>
+</ul>
+<h3 id="imágenes">Imágenes</h3>
+<p>La imagen principal suele ir así:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>::: {.featured-image}</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="al">![](featured.jpg)</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div>
+<p>Si hay más imágenes:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>::: {.gallery}</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="al">![](foto1.jpg)</span> <span class="al">![](foto2.jpg)</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div>
+<hr />
+<h2 id="cómo-agregar-un-proyecto-o-estudio">6. Cómo agregar un proyecto
+o estudio</h2>
+<p>La plantilla base está en:</p>
+<ul>
+<li><code>_templates/proyecto.qmd</code></li>
+</ul>
+<h3 id="dónde-crearlo">Dónde crearlo</h3>
+<p>En:</p>
+<ul>
+<li><code>estudios/</code></li>
+</ul>
+<p>Ejemplo:</p>
+<ul>
+<li><code>estudios/nuevo-estudio.qmd</code></li>
+</ul>
+<h3 id="estructura-base">Estructura base</h3>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Título del proyecto&quot;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">estado</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;en-curso&quot;</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="fu">investigador_responsable</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Nombre&quot;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">body-classes</span><span class="kw">:</span><span class="at"> estudio-page</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<p>Después viene el cuerpo con dos columnas:</p>
+<ul>
+<li>columna izquierda → equipo del proyecto;</li>
+<li>columna derecha → introducción, objetivos, métodos, etc.</li>
+</ul>
+<h3 id="qué-campos-conviene-completar">Qué campos conviene
+completar</h3>
+<ul>
+<li><code>title</code> → nombre visible del proyecto.</li>
+<li><code>estado</code> → normalmente <code>en-curso</code> o
+<code>finalizado</code>.</li>
+<li><code>investigador_responsable</code> → sirve como metadato del
+estudio.</li>
+</ul>
+<h3 id="importante-crear-el-archivo-no-basta">Importante: crear el
+archivo no basta</h3>
+<p>Aunque el proyecto exista en <code>estudios/nuevo-estudio.qmd</code>,
+para que se vea en la página de proyectos hay que agregar manualmente su
+tarjeta en:</p>
+<ul>
+<li><code>estudios/index.qmd</code></li>
+</ul>
+<p>Eso es porque <code>estudios/index.qmd</code> no usa listing
+automático; está armado a mano con tarjetas HTML.</p>
+<h3 id="qué-editar-en-estudiosindex.qmd">Qué editar en
+<code>estudios/index.qmd</code></h3>
+<p>Debes agregar un bloque como este dentro del grid:</p>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode html"><code class="sourceCode html"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">a</span><span class="ot"> href</span><span class="op">=</span><span class="st">&quot;nuevo-estudio.html&quot;</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;estudio-card&quot;</span><span class="dt">&gt;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;estudio-card-body&quot;</span><span class="dt">&gt;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">span</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;estudio-estado en-curso&quot;</span><span class="dt">&gt;</span>En curso<span class="dt">&lt;/</span><span class="kw">span</span><span class="dt">&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">h3</span><span class="ot"> class</span><span class="op">=</span><span class="st">&quot;estudio-titulo&quot;</span><span class="dt">&gt;</span>Nuevo estudio<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">a</span><span class="dt">&gt;</span></span></code></pre></div>
+<p>Si no agregas la tarjeta ahí, el estudio existirá, pero no aparecerá
+en el listado principal.</p>
+<hr />
+<h2 id="cómo-editar-la-portada-index.qmd">7. Cómo editar la portada
+(<code>index.qmd</code>)</h2>
+<p><code>index.qmd</code> es una de las páginas más importantes del
+sitio. Mezcla HTML y R.</p>
+<h3 id="qué-controla">Qué controla</h3>
+<ul>
+<li>video principal;</li>
+<li>sección de destacados;</li>
+<li>noticias recientes;</li>
+<li>líneas de investigación;</li>
+<li>bloque “Acerca del Observatorio”;</li>
+<li>logos de instituciones asociadas;</li>
+<li>footer.</li>
+</ul>
+<h3 id="cómo-funciona-la-sección-destacados">Cómo funciona la sección
+Destacados</h3>
+<p>Hay un bloque en R que:</p>
+<ul>
+<li>revisa las carpetas dentro de <code>noticias/</code>;</li>
+<li>lee el YAML de cada <code>index.qmd</code>;</li>
+<li>busca las noticias con <code>destacado: true</code>;</li>
+<li>construye automáticamente las tarjetas destacadas.</li>
+</ul>
+<p>Eso significa que para destacar una noticia no hay que editar la
+portada: basta con poner <code>destacado: true</code> en esa
+noticia.</p>
+<h3 id="cómo-funciona-noticias-recientes">Cómo funciona Noticias
+recientes</h3>
+<p>También se arma automáticamente leyendo las noticias desde
+<code>noticias/</code>.</p>
+<h3 id="qué-sí-se-edita-manualmente-en-index.qmd">Qué sí se edita
+manualmente en <code>index.qmd</code></h3>
+<ul>
+<li>el video del hero;</li>
+<li>los textos fijos de la portada;</li>
+<li>los botones;</li>
+<li>los bloques de líneas de investigación;</li>
+<li>logos y enlaces institucionales;</li>
+<li>footer.</li>
+</ul>
+<h3 id="cuándo-editar-index.qmd">Cuándo editar
+<code>index.qmd</code></h3>
+<p>Edita <code>index.qmd</code> cuando quieras cambiar:</p>
+<ul>
+<li>el diseño o estructura de la portada;</li>
+<li>los textos visibles de la home;</li>
+<li>los botones principales;</li>
+<li>la lista de instituciones asociadas;</li>
+<li>la forma en que se muestran destacados o noticias.</li>
+</ul>
+<p>No hace falta editarlo para sumar una noticia común.</p>
+<hr />
+<h2 id="cómo-editar-la-navegación-principal">8. Cómo editar la
+navegación principal</h2>
+<p>La navbar no se cambia en <code>index.qmd</code>, sino en:</p>
+<ul>
+<li><code>_quarto.yml</code></li>
+</ul>
+<p>Ahí se define:</p>
+<ul>
+<li><code>Inicio</code></li>
+<li><code>Acerca de OLES</code></li>
+<li><code>Noticias</code></li>
+<li>menú <code>Investigación</code></li>
+<li>menú <code>Repositorio de datos</code></li>
+<li><code>Equipo</code></li>
+<li><code>Contacto</code></li>
+</ul>
+<p>Si quieres cambiar el nombre de una sección, moverla o agregar una
+nueva, debes editar <code>_quarto.yml</code>.</p>
+<p>Ejemplo:</p>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">website</span><span class="kw">:</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">navbar</span><span class="kw">:</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">left</span><span class="kw">:</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">text</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Inicio&quot;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">href</span><span class="kw">:</span><span class="at"> index.qmd</span></span></code></pre></div>
+<hr />
+<h2 id="cómo-funciona-la-página-equipo">9. Cómo funciona la página
+Equipo</h2>
+<p>La página:</p>
+<ul>
+<li><code>equipo/index.qmd</code></li>
+</ul>
+<p>usa <strong>listings automáticos por categoría</strong>.</p>
+<p>Eso significa:</p>
+<ul>
+<li>no tienes que agregar manualmente una tarjeta por persona;</li>
+<li>basta con que el archivo exista y su <code>categories</code>
+coincida con una categoría listada.</li>
+</ul>
+<p>Actualmente las secciones del index de equipo se arman con:</p>
+<ul>
+<li><code>Dirección</code></li>
+<li><code>Subdirección</code></li>
+<li><code>Investigadores</code></li>
+<li><code>Coordinador</code></li>
+<li><code>Asistentes</code></li>
+</ul>
+<p>Si inventas una categoría nueva, no aparecerá a menos que también
+edites <code>equipo/index.qmd</code>.</p>
+<hr />
+<h2 id="cómo-funcionan-noticias-y-publicaciones-index">10. Cómo
+funcionan Noticias y Publicaciones index</h2>
+<h3 id="noticiasindex.qmd"><code>noticias/index.qmd</code></h3>
+<p>Usa un <code>listing</code> automático de:</p>
+<ul>
+<li><code>*/index.qmd</code></li>
+</ul>
+<p>dentro de la carpeta <code>noticias/</code>.</p>
+<p>Por eso, para que una noticia aparezca:</p>
+<ul>
+<li>debe estar en una subcarpeta;</li>
+<li>el archivo debe llamarse <code>index.qmd</code>.</li>
+</ul>
+<h3
+id="publicacionesindex.qmd"><code>publicaciones/index.qmd</code></h3>
+<p>Usa un <code>listing</code> automático de:</p>
+<ul>
+<li><code>*.qmd</code></li>
+</ul>
+<p>dentro de <code>publicaciones/</code>.</p>
+<p>Por eso, cualquier publicación nueva que agregues allí aparecerá sola
+tras renderizar.</p>
+<hr />
+<h2 id="cómo-subir-archivos-e-imágenes">11. Cómo subir archivos e
+imágenes</h2>
+<h3 id="personas">Personas</h3>
+<ul>
+<li>fotos del equipo: normalmente en <code>equipo/image/</code></li>
+</ul>
+<h3 id="noticias">Noticias</h3>
+<ul>
+<li>imágenes dentro de la carpeta de la noticia:
+<ul>
+<li><code>noticias/2026-01-20/featured.jpg</code></li>
+<li><code>noticias/2026-01-20/foto1.jpg</code></li>
+</ul></li>
+</ul>
+<h3 id="repositorio">Repositorio</h3>
+<ul>
+<li>PDFs e informes dentro de la carpeta correspondiente, por ejemplo:
+<ul>
+<li><code>repositorio/2025_epsep_informe_w01-w04.pdf</code></li>
+</ul></li>
+</ul>
+<h3 id="recomendación-práctica">Recomendación práctica</h3>
+<p>Usa nombres simples, sin espacios, por ejemplo:</p>
+<ul>
+<li><code>featured.jpg</code></li>
+<li><code>foto1.jpg</code></li>
+<li><code>luciano-saez.jpg</code></li>
+<li><code>2026-informe-epsep.pdf</code></li>
+</ul>
+<hr />
+<h2 id="cómo-actualizar-epsep-o-el-repositorio">12. Cómo actualizar
+EPSEP o el repositorio</h2>
+<p>La página actual está en:</p>
+<ul>
+<li><code>repositorio/epsep.qmd</code></li>
+</ul>
+<p>Si quieres subir una nueva versión del informe:</p>
+<ol type="1">
+<li>Guarda el PDF nuevo en <code>repositorio/</code>.</li>
+<li>Actualiza el nombre del archivo enlazado en
+<code>repositorio/epsep.qmd</code>.</li>
+<li>Si cambia el enlace al informe online, actualiza también esa
+URL.</li>
+</ol>
+<p>Si en el futuro hay más repositorios, tendrás que:</p>
+<ol type="1">
+<li>crear nuevas páginas en <code>repositorio/</code>;</li>
+<li>agregarlas en el menú correspondiente de
+<code>_quarto.yml</code>.</li>
+</ol>
+<hr />
+<h2 id="cómo-editar-acerca-de-oles-y-contacto">13. Cómo editar “Acerca
+de OLES” y “Contacto”</h2>
+<h3 id="somos.qmd"><code>somos.qmd</code></h3>
+<p>Edita aquí:</p>
+<ul>
+<li>descripción institucional;</li>
+<li>objetivo;</li>
+<li>apoyos y fondos;</li>
+<li>texto sobre el equipo;</li>
+<li>logos de financiamiento o instituciones.</li>
+</ul>
+<h3 id="contacto.qmd"><code>contacto.qmd</code></h3>
+<p>Edita aquí:</p>
+<ul>
+<li>correo de contacto;</li>
+<li>enlaces a LinkedIn, Instagram y X;</li>
+<li>cualquier texto de presentación.</li>
+</ul>
+<hr />
+<h2 id="sobre-estilos-y-botones">14. Sobre estilos y botones</h2>
+<p>Los estilos globales están en:</p>
+<ul>
+<li><code>styles.css</code></li>
+</ul>
+<p>Ahí se controlan:</p>
+<ul>
+<li>colores;</li>
+<li>tipografías;</li>
+<li>cards;</li>
+<li>botones;</li>
+<li>botones “Volver”;</li>
+<li>layouts de estudios, noticias y otras páginas.</li>
+</ul>
+<p>Si quieres que un cambio visual afecte muchas páginas a la vez, casi
+siempre el lugar correcto es <code>styles.css</code>.</p>
+<hr />
+<h2 id="errores-comunes">15. Errores comunes</h2>
+<h3 id="la-persona-no-aparece-en-equipo">La persona no aparece en
+Equipo</h3>
+<p>Revisa:</p>
+<ul>
+<li>que el archivo esté en la carpeta correcta;</li>
+<li>que <code>categories</code> tenga una categoría existente;</li>
+<li>que hiciste <code>quarto render</code>.</li>
+</ul>
+<h3 id="la-publicación-no-aparece-en-el-perfil">La publicación no
+aparece en el perfil</h3>
+<p>Revisa:</p>
+<ul>
+<li>que <code>authors</code> tenga slugs correctos;</li>
+<li>que la publicación esté dentro de <code>publicaciones/</code>;</li>
+<li>que el script pre-render haya corrido al hacer
+<code>quarto render</code>.</li>
+</ul>
+<h3 id="la-noticia-no-aparece-en-noticias">La noticia no aparece en
+Noticias</h3>
+<p>Revisa:</p>
+<ul>
+<li>que esté en una carpeta tipo <code>noticias/AAAA-MM-DD/</code>;</li>
+<li>que el archivo se llame <code>index.qmd</code>;</li>
+<li>que tenga YAML válido;</li>
+<li>que hayas renderizado.</li>
+</ul>
+<h3 id="el-proyecto-existe-pero-no-se-ve-en-la-lista-de-estudios">El
+proyecto existe, pero no se ve en la lista de estudios</h3>
+<p>Revisa:</p>
+<ul>
+<li>que hayas agregado también su tarjeta en
+<code>estudios/index.qmd</code>.</li>
+</ul>
+<hr />
+<h2 id="resumen-rápido-qué-archivo-tocar-según-lo-que-quieras-hacer">16.
+Resumen rápido: qué archivo tocar según lo que quieras hacer</h2>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Quiero hacer esto</th>
+<th>Archivo o carpeta principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agregar una persona</td>
+<td><code>equipo/</code> o subcarpetas, usando
+<code>_templates/PERSONA.qmd</code></td>
+</tr>
+<tr>
+<td>Agregar una publicación</td>
+<td><code>publicaciones/</code>, usando
+<code>_templates/publicacion.qmd</code></td>
+</tr>
+<tr>
+<td>Agregar una noticia</td>
+<td><code>noticias/AAAA-MM-DD/index.qmd</code>, usando
+<code>_templates/noticia-template.qmd</code></td>
+</tr>
+<tr>
+<td>Agregar un proyecto</td>
+<td><code>estudios/nuevo-proyecto.qmd</code> y además
+<code>estudios/index.qmd</code></td>
+</tr>
+<tr>
+<td>Cambiar portada</td>
+<td><code>index.qmd</code></td>
+</tr>
+<tr>
+<td>Cambiar menú superior</td>
+<td><code>_quarto.yml</code></td>
+</tr>
+<tr>
+<td>Cambiar estilos globales</td>
+<td><code>styles.css</code></td>
+</tr>
+<tr>
+<td>Cambiar página “Acerca de OLES”</td>
+<td><code>somos.qmd</code></td>
+</tr>
+<tr>
+<td>Cambiar contacto</td>
+<td><code>contacto.qmd</code></td>
+</tr>
+<tr>
+<td>Cambiar EPSEP</td>
+<td><code>repositorio/epsep.qmd</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="recomendación-final-de-trabajo">17. Recomendación final de
+trabajo</h2>
+<p>Cuando quieras subir contenido nuevo, conviene seguir siempre esta
+lógica:</p>
+<ol type="1">
+<li>copiar una plantilla desde <code>_templates/</code>;</li>
+<li>nombrar bien el archivo;</li>
+<li>revisar el YAML con cuidado;</li>
+<li>guardar imágenes en la carpeta correcta;</li>
+<li>renderizar;</li>
+<li>revisar visualmente la página generada en <code>docs/</code>.</li>
+</ol>
+<p>Si el cambio es en proyectos o portada, revisa además que los botones
+y enlaces sigan funcionando.</p>
+</body>
+</html>
