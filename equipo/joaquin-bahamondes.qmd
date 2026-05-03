@@ -2,7 +2,7 @@
 title: "Joaquín Bahamondes"
 cargo: "Académico, Escuela de Psicología"
 categories: [Investigadores principales]
-orden: 33
+orden: 32
 email: "jbahamondes@ucn.cl"
 organizacion: "Universidad Católica del Norte"
 image: "image/joaquin-bahamondes.webp"

@@ -2,7 +2,7 @@
 title: "Matías Gómez"
 cargo: "Investigador principal"
 categories: [Investigadores principales]
-orden: 35
+orden: 34
 organizacion: "Pontificia Universidad Católica de Chile"
 image: "../images/logos/icon.png"
 about:

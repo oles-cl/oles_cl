@@ -534,33 +534,6 @@ a.noticia-card-btn:hover {
   }
 }
 
-/* Líneas de investigación (index): tarjetas con texto breve, sin listados */
-.lineas-index-cuadrantes .proyecto-cuadrante {
-  height: auto;
-  min-height: 380px;
-}
-
-.lineas-index-cuadrantes .proyecto-cuadrante-content {
-  padding: 1.25rem 1.35rem 1.5rem;
-}
-
-.lineas-index-cuadrantes .proyecto-linea-desc {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.lineas-index-cuadrantes .proyecto-linea-meta {
-  display: block;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  opacity: 0.88;
-  color: rgba(255, 255, 255, 0.95);
-}
-
 .proyecto-cuadrante {
   position: relative;
   border-radius: var(--border-radius);
@@ -705,19 +678,6 @@ a.noticia-card-btn:hover {
   opacity: 0.9;
   margin: 0 0 1rem 0;
   line-height: 1.5;
-}
-
-.lineas-index-cuadrantes.proyectos-cuadrantes-cuatro .proyecto-cuadrante-content h3 {
-  font-size: 1.02rem;
-  line-height: 1.28;
-  margin-bottom: 0.45rem;
-}
-
-.lineas-index-cuadrantes .proyecto-cuadrante-content p.proyecto-linea-desc {
-  font-size: 0.82rem;
-  line-height: 1.45;
-  opacity: 0.92;
-  margin: 0 0 0.65rem 0;
 }
 
 .proyecto-link {
@@ -1098,6 +1058,24 @@ a.noticia-card-btn:hover {
     radial-gradient(ellipse 95% 60% at 78% 12%, rgba(255, 255, 255, 0.55) 0%, transparent 52%),
     radial-gradient(ellipse 75% 50% at 18% 55%, rgba(255, 255, 255, 0.28) 0%, transparent 48%),
     linear-gradient(135deg, #f5f0f5 0%, #ebe3ee 18%, #e8dfe8 38%, #d4c5d9 52%, #ded2e4 72%, #f5f0f5 100%);
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/*
+ * Full-bleed: Quarto coloca include-after-body (nuestro pie) como hermano de
+ * <main> dentro de #quarto-content; en layouts .page-columns el grid acota
+ * el ancho del footer. Rompemos al ancho del viewport; 50% es respecto al
+ * bloque contenedor (la celda del grid), no del main.
+ * Evitamos 100vw solo en el margen negativo para reducir riesgo de scroll
+ * horizontal por barra de desplazamiento vertical.
+ */
+#quarto-content > footer.footer-section {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  position: relative;
 }
 
 .footer-content {
@@ -3787,6 +3765,11 @@ a.linea-index-card:hover .linea-index-link {
   border-bottom: 3px solid var(--primary-color);
   padding-bottom: 0.45rem;
   margin-bottom: 0.4rem;
+}
+
+/* Quarto inserta este nodo en cada listing; ocultar para no mostrar "No hay resultados" junto a cards con contenido */
+.equipo-roster-page .listing-no-matching {
+  display: none !important;
 }
 
 .equipo-tier-hint {

@@ -2,7 +2,7 @@
 title: "Manuela Badilla Rajevic"
 cargo: "Académica · Investigadora principal"
 categories: [Investigadores principales]
-orden: 38
+orden: 37
 organizacion: "Universidad de Chile"
 image: "../images/logos/icon.png"
 about:

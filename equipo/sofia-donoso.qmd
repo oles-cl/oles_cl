@@ -2,7 +2,7 @@
 title: "Sofía Donoso"
 cargo: "Profesora asistente · Subdirectora Departamento de Sociología"
 categories: [Investigadores principales]
-orden: 36
+orden: 35
 email: "sofia.donoso@uchile.cl"
 organizacion: "Universidad de Chile"
 image: "../images/logos/icon.png"

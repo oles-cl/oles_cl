@@ -2,7 +2,7 @@
 title: "Paz Irarrázabal González"
 cargo: "Profesora asistente, Facultad de Derecho"
 categories: [Investigadores principales]
-orden: 11
+orden: 30
 email: "pirarrazabal@derecho.uchile.cl"
 organizacion: "Universidad de Chile"
 image: "image/paz-irarrazabal.jpg"

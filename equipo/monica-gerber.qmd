@@ -1,6 +1,6 @@
 ---
 title: "Monica M. Gerber"
-cargo: "Directora ejecutiva"
+cargo: "Directora Ejecutiva"
 categories: [Dirección]
 orden: 2
 email: "mgerber@uc.cl"

@@ -3,46 +3,56 @@ title: "Equipo OLES"
 page-layout: full
 toc: false
 listing:
+  # Cada bloque usa `contents` explícito: si varios listings comparten "*.qmd",
+  # Quarto asigna cada documento solo a uno y el resto queda vacío/incompleto.
   - id: direccion
-    contents: "*.qmd"
+    contents:
+      - ana-figueiredo.qmd
+      - monica-gerber.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
-    include:
-      categories: [Dirección]
   - id: comite
-    contents: "*.qmd"
+    contents:
+      - luciano-saez-fuentealba.qmd
+      - cristobal-moya.qmd
+      - macarena-orchard.qmd
+      - coordinacion-vinculacion-medio.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
-    include:
-      categories: [Comité directivo]
   - id: investigadores-principales
-    contents: "*.qmd"
+    contents:
+      - paz-irarrazabal.qmd
+      - loreto-quiroz.qmd
+      - joaquin-bahamondes.qmd
+      - ismael-puga.qmd
+      - matias-gomez.qmd
+      - sofia-donoso.qmd
+      - gloria-jimenez-moya.qmd
+      - manuela-badilla.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
-    include:
-      categories: [Investigadores principales]
   - id: adjuntos
     contents:
-      - "matias-deneken.qmd"
-      - "asistentes-anteriores/bruno-rojas.qmd"
+      - matias-deneken.qmd
+      - asistentes-anteriores/bruno-rojas.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
   - id: asociados
-    contents: "*.qmd"
+    contents:
+      - claudio-fuentes.qmd
+      - amparo-feller.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
-    include:
-      categories: [Investigadores asociados]
 ---
 
 <div class="equipo-page-intro">

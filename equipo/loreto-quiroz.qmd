@@ -2,7 +2,7 @@
 title: "Loreto Quiroz"
 cargo: "Profesora e Investigadora adjunta COES"
 categories: [Investigadores principales]
-orden: 12
+orden: 31
 email: "loretoqr@gmail.com"
 organizacion: "Universidad Alberto Hurtado"
 image: "image/loreto-quiroz.jpg"

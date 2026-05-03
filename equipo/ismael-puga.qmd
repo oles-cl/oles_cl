@@ -2,7 +2,7 @@
 title: "Ismael Puga"
 cargo: "Profesor Asociado"
 categories: [Investigadores principales]
-orden: 34
+orden: 33
 email: "ismael.puga@ucentral.cl"
 organizacion: "Universidad Central"
 image: "image/ismael-puga.webp"
