@@ -1,0 +1,21 @@
+---
+title: "Por definir"
+cargo: "Coord. de Vinculación con el Medio"
+categories: [Comité directivo]
+orden: 24
+organizacion: "OLES"
+image: "../images/logos/icon.png"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links: []
+areas-interes: []
+educacion: []
+---
+
+## Estado del cargo
+
+La **coordinación de Vinculación con el Medio** del Comité directivo del OLES está **por definir**. Esta página se actualizará cuando se confirme la persona designada.
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

@@ -1,0 +1,56 @@
+---
+title: "Manuela Badilla Rajevic"
+cargo: "Académica · Investigadora principal"
+categories: [Investigadores principales]
+orden: 38
+organizacion: "Universidad de Chile"
+image: "../images/logos/icon.png"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links: []
+areas-interes:
+  - "Psicología social comunitaria y sociología política y cultural"
+  - "Metodologías cualitativas"
+  - "Movilización social, memoria colectiva y temporalidad"
+  - "Justicia transicional"
+  - "Identidades y discursos políticos"
+educacion:
+  - titulo: "Ph.D. en Sociología"
+    institucion: "The New School for Social Research (USA)"
+  - titulo: "Magíster en Sociología"
+    institucion: "The New School for Social Research (USA)"
+  - titulo: "Psicóloga"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Su trabajo de investigación se enmarca en la intersección entre la psicología social comunitaria y la sociología política y cultural, con especial interés en el uso, el desarrollo y la innovación en metodologías cualitativas.
+
+La relación entre movilización social, memoria colectiva y temporalidad en la activación y/o resolución de conflictos territoriales es una de sus principales líneas de estudio. Ha analizado especialmente la conformación de memoria de las nuevas generaciones; el cuestionamiento y resignificación de espacios urbanos y objetos patrimoniales; las disputas por el género y sus memorias; así como la emergencia de memorias coloniales y nacionales y sus efectos en activismos políticos y culturales.
+
+Su investigación aborda también los procesos y mecanismos de justicia transicional y su rol en el fortalecimiento o deterioro del tejido social y la convivencia en sociedades posconflicto. Desde una perspectiva crítica problematiza la implementación estandarizada de la justicia transicional con el fin de incorporar perspectivas generacionales, interculturales y de género al desarrollo de estas estrategias.
+
+Actualmente busca comprender la emergencia de nuevas identidades y discursos políticos indagando en la relación entre la producción moral y cultural de símbolos y discursos nacionalistas y la acción colectiva.
+
+## Áreas de interés
+
+- Psicología social comunitaria y sociología política y cultural
+- Metodologías cualitativas
+- Movilización social, memoria y territorialidad
+- Justicia transicional y convivencia
+- Nacionalismo, símbolos y acción colectiva
+
+## Educación
+
+- **Ph.D. en Sociología** — The New School for Social Research (USA)
+- **Magíster en Sociología** — The New School for Social Research (USA)
+- **Psicóloga** — Universidad de Chile
+
+## Últimas publicaciones
+
+{{< include _pub-manuela-badilla.md >}}
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

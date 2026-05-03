@@ -1,8 +1,8 @@
 ---
 title: "Macarena Orchard"
-cargo: "Profesora Asistente, Escuela de Sociología"
-categories: [Subdirección]
-orden: 4
+cargo: "Coord. de Transferencia e Incidencia · Profesora Asistente, Escuela de Sociología"
+categories: [Comité directivo]
+orden: 23
 email: "macarenaorchard@gmail.com"
 organizacion: "Universidad Diego Portales"
 image: "image/macarena-orchard.jpg"

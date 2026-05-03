@@ -1,8 +1,8 @@
 ---
 title: "Ana Figueiredo"
-cargo: "Profesora Asociada, Instituto de Ciencias Sociales"
-categories: [Subdirección]
-orden: 2
+cargo: "Directora"
+categories: [Dirección]
+orden: 1
 email: "figueiredo.anacm@gmail.com"
 organizacion: "Universidad de O'Higgins"
 image: "image/ana-figuereido.jpg"

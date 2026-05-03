@@ -1,7 +1,7 @@
 ---
 title: "Matías Deneken"
-cargo: "Investigador asistente"
-categories: [Asistentes]
+cargo: "Investigador adjunto · Asistente de investigación"
+categories: [Asistentes, Investigadores adjuntos]
 orden: 10
 email: "matdknu@gmail.com"
 organizacion: "Centro CIIR y OLES"

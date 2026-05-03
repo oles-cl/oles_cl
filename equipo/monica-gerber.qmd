@@ -1,8 +1,8 @@
 ---
 title: "Monica M. Gerber"
-cargo: "Profesora, Escuela de Gobierno"
+cargo: "Directora ejecutiva"
 categories: [Dirección]
-orden: 1
+orden: 2
 email: "mgerber@uc.cl"
 organizacion: "Pontificia Universidad Católica de Chile"
 image: "image/monica-gerber.jpg"

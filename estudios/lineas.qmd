@@ -6,24 +6,30 @@ toc: false
 
 ```{=html}
 <div class="lineas-index">
-  <p class="lineas-index-intro">En el Observatorio desarrollamos investigación en torno a la legitimidad institucional, el uso de la fuerza y la relación entre ciudadanía y policías. Selecciona una línea para conocer su contenido.</p>
-  <div class="lineas-index-grid">
-    <a href="policia-legitimidad.html" class="linea-index-card">
-      <h3>Policía y legitimidad</h3>
-      <p>Procesos de construcción de legitimidad social de las autoridades policiales y percepciones asociadas.</p>
-      <span class="linea-index-link">Ver línea →</span>
+  <p class="lineas-index-intro">El OLES organiza su investigación en <strong>cuatro líneas institucionales</strong> que articulan personas, proyectos (Fondecyt, doctorados, pilotos) y estudios del Observatorio. Aquí tienes un acceso rápido; el detalle de integrantes y proyectos asociados está en la sección <a href="../equipo/index.html#lineas-investigacion-institucional">Equipo → Líneas de investigación</a>. Las páginas temáticas de <a href="index.html">estudios</a> siguen agrupando instrumentos y reportes por enfoque.</p>
+  <div class="lineas-index-grid lineas-index-grid-4">
+    <a href="../equipo/index.html#linea-institucional-1" class="linea-index-card">
+      <h3>Línea 1 — Violencia estatal, control social y derechos humanos</h3>
+      <p>Estado, control social, DDHH y legitimidad en torno a instituciones de seguridad y reparación.</p>
+      <span class="linea-index-link">Ver en Equipo →</span>
     </a>
-    <a href="derechos-humanos.html" class="linea-index-card">
-      <h3>Derechos humanos</h3>
-      <p>Justicia procedimental, resguardo de derechos humanos y trato policial a distintos grupos sociales.</p>
-      <span class="linea-index-link">Ver línea →</span>
+    <a href="../equipo/index.html#linea-institucional-2" class="linea-index-card">
+      <h3>Línea 2 — Movimientos sociales y violencia</h3>
+      <p>Movilización, repertorios de acción colectiva y justificación de la violencia en contextos democráticos.</p>
+      <span class="linea-index-link">Ver en Equipo →</span>
     </a>
-    <a href="protesta-social-violencia.html" class="linea-index-card">
-      <h3>Protesta social y violencia</h3>
-      <p>Justificación de la violencia en la movilización y repertorios de acción colectiva en Chile.</p>
-      <span class="linea-index-link">Ver línea →</span>
+    <a href="../equipo/index.html#linea-institucional-3" class="linea-index-card">
+      <h3>Línea 3 — Violencia, género y salud</h3>
+      <p>Desigualdad de género, salud y experiencias de violencia en instituciones y trayectorias vitales.</p>
+      <span class="linea-index-link">Ver en Equipo →</span>
+    </a>
+    <a href="../equipo/index.html#linea-institucional-4" class="linea-index-card">
+      <h3>Línea 4 — Legitimidad y justicia social</h3>
+      <p>Legitimidad institucional, percepción de justicia y desigualdad en la opinión pública y la cultura política.</p>
+      <span class="linea-index-link">Ver en Equipo →</span>
     </a>
   </div>
+  <p class="lineas-index-intro" style="margin-top: 2rem;">Explora además los <strong>estudios y productos</strong> por tema: <a href="policia-legitimidad.html">Policía y legitimidad</a>, <a href="derechos-humanos.html">Derechos humanos</a> y <a href="protesta-social-violencia.html">Protesta social y violencia</a>.</p>
   <p class="lineas-index-back"><a href="../index.html">← Volver al inicio</a></p>
 </div>
 ```

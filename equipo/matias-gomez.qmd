@@ -1,0 +1,32 @@
+---
+title: "Matías Gómez"
+cargo: "Investigador principal"
+categories: [Investigadores principales]
+orden: 35
+organizacion: "Pontificia Universidad Católica de Chile"
+image: "../images/logos/icon.png"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links: []
+areas-interes:
+  - "Legitimidad institucional"
+  - "Opinión pública y métodos cuantitativos"
+educacion: []
+---
+
+## Descripción
+
+Sociólogo e investigador vinculado a OLES en la línea de legitimidad y justicia social. Perfil en actualización.
+
+## Áreas de interés
+
+- Legitimidad institucional
+- Opinión pública y métodos cuantitativos
+
+## Últimas publicaciones
+
+{{< include _pub-matias-gomez.md >}}
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

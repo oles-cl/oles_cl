@@ -1,8 +1,8 @@
 ---
 title: "Bruno Rojas"
 cargo: "Ex Asistente de Investigación"
-categories: [Asistentes Anteriores]
-orden: 3
+categories: [Asistentes Anteriores, Investigadores adjuntos]
+orden: 11
 email: "bruno.rojas@gmail.com"
 organizacion: "OLES"
 image: "../image/bruno-rojas.jpg"

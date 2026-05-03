@@ -1,7 +1,7 @@
 ---
 title: "Amparo Feller"
 cargo: "Asistente de Investigación"
-categories: [Asistentes]
+categories: [Investigadores asociados]
 orden: 33
 email: "amparo.feller@udp.cl"
 organizacion: "Universidad Diego Portales"

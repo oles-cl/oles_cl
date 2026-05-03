@@ -52,6 +52,7 @@ format:
       - text: |
           <script src="translations.js" defer></script>
     include-after-body:
+      - _footer.html
       - text: |
           <script>
           document.addEventListener('DOMContentLoaded', function() {

@@ -1,7 +1,7 @@
 ---
 title: "Claudio Fuentes"
 cargo: "Profesor Titular, Escuela de Ciencia Política"
-categories: [Investigadores]
+categories: [Investigadores asociados]
 orden: 13
 email: "claudio.fuentessaa@udp.cl"
 organizacion: "Universidad Diego Portales"

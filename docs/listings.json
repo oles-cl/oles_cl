@@ -1,26 +1,22 @@
 [
   {
+    "listing": "/equipo/index.html",
+    "items": [
+      "/equipo/monica-gerber.html",
+      "/equipo/coordinacion-vinculacion-medio.html",
+      "/equipo/matias-gomez.html",
+      "/equipo/sofia-donoso.html",
+      "/equipo/gloria-jimenez-moya.html",
+      "/equipo/manuela-badilla.html",
+      "/equipo/asistentes-anteriores/bruno-rojas.html",
+      "/equipo/matias-deneken.html"
+    ]
+  },
+  {
     "listing": "/equipo/asistentes-anteriores/index.html",
     "items": [
       "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html",
       "/equipo/asistentes-anteriores/bruno-rojas.html"
-    ]
-  },
-  {
-    "listing": "/equipo/index.html",
-    "items": [
-      "/equipo/monica-gerber.html",
-      "/equipo/ana-figueiredo.html",
-      "/equipo/joaquin-bahamondes.html",
-      "/equipo/macarena-orchard.html",
-      "/equipo/ismael-puga.html",
-      "/equipo/cristobal-moya.html",
-      "/equipo/loreto-quiroz.html",
-      "/equipo/claudio-fuentes.html",
-      "/equipo/paz-irarrazabal.html",
-      "/equipo/luciano-saez-fuentealba.html",
-      "/equipo/matias-deneken.html",
-      "/equipo/amparo-feller.html"
     ]
   },
   {

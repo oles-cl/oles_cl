@@ -1,0 +1,48 @@
+---
+title: "Gloria Jiménez-Moya"
+cargo: "Profesora asociada, Escuela de Psicología"
+categories: [Investigadores principales]
+orden: 37
+organizacion: "Pontificia Universidad Católica de Chile"
+image: "../images/logos/icon.png"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links: []
+areas-interes:
+  - "Desigualdad de género: mecanismos y consecuencias"
+  - "Relaciones intergrupales"
+  - "Antecedentes de los movimientos sociales"
+  - "Igualdad de género en contexto escolar"
+educacion:
+  - titulo: "Doctora en Psicología"
+    institucion: "Universidad de Granada, España"
+  - titulo: "Máster en Psicología de la Intervención Social"
+    institucion: "Universidad de Granada, España"
+---
+
+## Descripción
+
+Profesora asociada de la Escuela de Psicología de la Pontificia Universidad Católica de Chile e investigadora asociada de la línea Interacciones Grupales e Individuales de COES. Es psicóloga social, máster en Psicología de la Intervención Social y doctora en Psicología por la Universidad de Granada, España. Sus líneas principales de investigación son el estudio de la desigualdad de género, sus mecanismos y consecuencias; las relaciones intergrupales y los antecedentes de los movimientos sociales.
+
+En la actualidad dirige el Fondecyt Regular (N° 1240064) «Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia».
+
+## Áreas de interés
+
+- Desigualdad de género: mecanismos y consecuencias
+- Relaciones intergrupales
+- Antecedentes de los movimientos sociales
+- Igualdad de género y contexto escolar (normas sociales y autoeficacia)
+
+## Educación
+
+- **Doctora en Psicología** — Universidad de Granada, España
+- **Máster en Psicología de la Intervención Social** — Universidad de Granada, España
+- **Psicóloga social** (pregrado)
+
+## Últimas publicaciones
+
+{{< include _pub-gloria-jimenez-moya.md >}}
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

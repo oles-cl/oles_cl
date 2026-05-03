@@ -1,0 +1,55 @@
+---
+title: "Sofía Donoso"
+cargo: "Profesora asistente · Subdirectora Departamento de Sociología"
+categories: [Investigadores principales]
+orden: 36
+email: "sofia.donoso@uchile.cl"
+organizacion: "Universidad de Chile"
+image: "../images/logos/icon.png"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:sofia.donoso@uchile.cl
+    - icon: globe2
+      text: ORCID
+      href: https://orcid.org/0000-0001-5053-0198
+areas-interes:
+  - "Movimientos sociales"
+  - "Institucionalización de la protesta"
+  - "Partidos-movimientos"
+  - "Participación en la protesta en perspectiva comparada"
+educacion:
+  - titulo: "Doctora en Estudios del Desarrollo"
+    institucion: "Universidad de Oxford, Inglaterra"
+  - titulo: "Master of Philosophy en Estudios del Desarrollo"
+    institucion: "Universidad de Oxford, Inglaterra"
+  - titulo: "Socióloga"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Doctora en Estudios del Desarrollo de la Universidad de Oxford, Inglaterra. Master of Philosophy en Estudios del Desarrollo. Socióloga de la Universidad de Chile. Entre 2014 y 2016 realizó un postdoctorado en el Centro de Estudios de Conflicto y Cohesión Social (COES), donde luego fue investigadora asociada hasta 2025. Es investigadora principal del proyecto Fondecyt Regular «Aprendizaje político en movimientos sociales» (2024–2028) y del Núcleo Milenio en Política Laboral y Vida Familiar y Colectiva (LABOFAM) (2024–2027).
+
+## Áreas de interés
+
+- Movimientos sociales
+- Institucionalización de la protesta
+- Partidos-movimientos
+- Participación en la protesta en perspectiva comparada
+
+## Educación
+
+- **Doctora en Estudios del Desarrollo** — Universidad de Oxford, Inglaterra
+- **Master of Philosophy en Estudios del Desarrollo** — Universidad de Oxford, Inglaterra
+- **Socióloga** — Universidad de Chile
+
+## Últimas publicaciones
+
+{{< include _pub-sofia-donoso.md >}}
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

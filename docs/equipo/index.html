@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-subdireccion .list');
+    const listingTargetEl = window.document.querySelector('#listing-comite .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-subdireccion'] = new List('listing-subdireccion', options);
+    window['quarto-listings']['listing-comite'] = new List('listing-comite', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-investigadores .list');
+    const listingTargetEl = window.document.querySelector('#listing-investigadores-principales .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-investigadores'] = new List('listing-investigadores', options);
+    window['quarto-listings']['listing-investigadores-principales'] = new List('listing-investigadores-principales', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-coordinador .list');
+    const listingTargetEl = window.document.querySelector('#listing-adjuntos .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -169,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-coordinador'] = new List('listing-coordinador', options);
+    window['quarto-listings']['listing-adjuntos'] = new List('listing-adjuntos', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -184,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-asistentes .list');
+    const listingTargetEl = window.document.querySelector('#listing-asociados .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -193,11 +193,11 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-asistentes'] = new List('listing-asistentes', options);
+    window['quarto-listings']['listing-asociados'] = new List('listing-asociados', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -347,101 +347,23 @@ window.Quarto = {
 </header>
 
 
-<style>
-.equipo-section {
-  margin-bottom: 3rem;
-}
-
-.equipo-section h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color, #4E4976);
-  border-bottom: 3px solid var(--primary-color, #4E4976);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-/* Tarjeta */
-.quarto-listing-default .card {
-  text-align: center;
-  border: none;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  padding: 1.5rem 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.quarto-listing-default .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-}
-
-/* Imagen grande y centrada */
-.quarto-listing-default .card-img-top {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.quarto-listing-default .card-img-top img,
-.quarto-listing-default .thumbnail-image {
-  border-radius: 50% !important;
-  width: 160px !important;
-  height: 160px !important;
-  object-fit: cover !important;
-  margin: 0 auto !important;
-}
-
-.quarto-listing-default .card-body {
-  padding: 0.8rem 0.5rem 0;
-  width: 100%;
-}
-
-.quarto-listing-default .card-title {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #4E4976;
-  margin: 0;
-  line-height: 1.3;
-  text-align: center;
-}
-
-.tesistas-link {
-  display: inline-block;
-  background: linear-gradient(135deg, #4E4976, #453958);
-  color: white;
-  padding: 0.8rem 2rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tesistas-link:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 20px rgba(78, 73, 118, 0.4);
-  color: white;
-  text-decoration: none;
-}
-
-.tesistas-section {
-  text-align: center;
-  padding: 2rem;
-  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-  border-radius: 12px;
-  margin-top: 2rem;
-}
-</style>
+<div class="equipo-page-intro">
+<p>
+El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional, las <strong>líneas de investigación</strong> (cada una articula <strong>proyectos de investigación</strong> como Fondecyt, doctorados y pilotos del Observatorio) y los perfiles del equipo.
+</p>
+<p>
+En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong> (coordinaciones), <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong> y <strong>jóvenes investigadoras/es en formación</strong>. Las líneas de investigación conectan personas con <strong>proyectos</strong> (Fondecyt, tesis doctorales, pilotos, etc.) publicados o en curso en el <a href="../estudios/index.html">área de estudios</a>.
+</p>
+</div>
+<div class="equipo-roster-page">
 <section id="dirección" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="dirección">🎓 Dirección</h2>
+<h2 class="anchored" data-anchor-id="dirección">Dirección</h2>
+<p class="equipo-tier-hint">
+Responsabilidad académica y ejecutiva del Observatorio.
+</p>
 <div id="listing-direccion" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1773157959117" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1777847664393" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
 <a href="../equipo/monica-gerber.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -461,47 +383,22 @@ No hay resultados
 </div>
 </div>
 </section>
-<section id="subdirección" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="subdirección">👥 Subdirección</h2>
-<div id="listing-subdireccion" class="quarto-listing quarto-listing-container-grid">
+<section id="comité-directivo-coordinaciones" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="comité-directivo-coordinaciones">Comité directivo (coordinaciones)</h2>
+<p class="equipo-tier-hint">
+Coordinaciones que acompañan la agenda colectiva del OLES.
+</p>
+<div id="listing-comite" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Subdirección" data-listing-file-modified-sort="1773157956553" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
-<a href="../equipo/ana-figueiredo.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Comité directivo" data-listing-file-modified-sort="1777847718787" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<a href="../equipo/coordinacion-vinculacion-medio.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/ana-figuereido.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../images/logos/icon.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Ana Figueiredo
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Subdirección" data-listing-file-modified-sort="1773157955490" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
-<a href="../equipo/joaquin-bahamondes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../equipo/image/joaquin-bahamondes.webp" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Joaquín Bahamondes
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Subdirección" data-listing-file-modified-sort="1773157957922" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
-<a href="../equipo/macarena-orchard.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../equipo/image/macarena-orchard.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Macarena Orchard
+Por definir
 </h5>
 </div>
 </div>
@@ -513,75 +410,64 @@ No hay resultados
 </div>
 </div>
 </section>
-<section id="investigadores-asociados" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="investigadores-asociados">🔬 Investigadores Asociados</h2>
-<div id="listing-investigadores" class="quarto-listing quarto-listing-container-grid">
+<section id="investigadorases-principales" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="investigadorases-principales">Investigadoras/es principales</h2>
+<p class="equipo-tier-hint">
+Investigación de planta y líneas de fondo del Observatorio.
+</p>
+<div id="listing-investigadores-principales" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Investigadores" data-listing-file-modified-sort="1773157951101" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<a href="../equipo/ismael-puga.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Investigadores principales" data-listing-file-modified-sort="1777847707623" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="../equipo/matias-gomez.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/ismael-puga.webp" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../images/logos/icon.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Ismael Puga
+Matías Gómez
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Investigadores" data-listing-file-modified-sort="1773157947245" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<a href="../equipo/cristobal-moya.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="Investigadores principales" data-listing-file-modified-sort="1777848074991" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+<a href="../equipo/sofia-donoso.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/cristobal-moya.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../images/logos/icon.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Cristóbal Moya
+Sofía Donoso
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Investigadores" data-listing-file-modified-sort="1773157953310" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
-<a href="../equipo/loreto-quiroz.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="Investigadores principales" data-listing-file-modified-sort="1777848061405" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<a href="../equipo/gloria-jimenez-moya.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/loreto-quiroz.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../images/logos/icon.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Loreto Quiroz
+Gloria Jiménez-Moya
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Investigadores" data-listing-file-modified-sort="1773157949114" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
-<a href="../equipo/claudio-fuentes.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="Investigadores principales" data-listing-file-modified-sort="1777848042899" data-listing-reading-time-sort="2" data-listing-word-count-sort="253">
+<a href="../equipo/manuela-badilla.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/claudio-fuentes.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../images/logos/icon.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Claudio Fuentes
-</h5>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Investigadores" data-listing-file-modified-sort="1773157952199" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
-<a href="../equipo/paz-irarrazabal.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../equipo/image/paz-irarrazabal.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Paz Irarrázabal González
+Manuela Badilla Rajevic
 </h5>
 </div>
 </div>
@@ -593,35 +479,28 @@ No hay resultados
 </div>
 </div>
 </section>
-<section id="asistente-coordinador" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="asistente-coordinador">📋 Asistente Coordinador</h2>
-<div id="listing-coordinador" class="quarto-listing quarto-listing-container-grid">
+<section id="investigadorases-adjuntosas" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="investigadorases-adjuntosas">Investigadoras/es adjuntos/as</h2>
+<p class="equipo-tier-hint">
+Participación en instancias sustantivas de OLES manteniendo otras afiliaciones (algunas/os aparecen también en otras secciones del sitio).
+</p>
+<div id="listing-adjuntos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Coordinador" data-listing-file-modified-sort="1773157954356" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
-<a href="../equipo/luciano-saez-fuentealba.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Asistentes Anteriores" data-listing-file-modified-sort="1777847796265" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<a href="../equipo/asistentes-anteriores/bruno-rojas.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/luciano-saez.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../equipo/image/bruno-rojas.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Luciano Sáez Fuentealba
+Bruno Rojas
 </h5>
 </div>
 </div>
 </a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-</section>
-<section id="asistentes-de-investigación" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="asistentes-de-investigación">💼 Asistentes de Investigación</h2>
-<div id="listing-asistentes" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Asistentes" data-listing-file-modified-sort="1773157948397" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+<div class="g-col-1" data-index="1" data-categories="Asistentes,Investigadores adjuntos" data-listing-file-modified-sort="1777847844942" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
 <a href="../equipo/matias-deneken.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -635,20 +514,98 @@ Matías Deneken
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Asistentes" data-listing-file-modified-sort="1773157950100" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
-<a href="../equipo/amparo-feller.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../equipo/image/amparo-feller.png" class="thumbnail-image card-img" style="height: 150px;">
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
+<section id="asistentes-de-investigación" class="level3 equipo-bloque-generico">
+<h3 class="anchored" data-anchor-id="asistentes-de-investigación">Asistentes de investigación</h3>
+<p>Personas que apoyan levantamiento de información, codificación, preparación de bases de datos y tareas técnicas vinculadas a los proyectos. <strong>La nómina detallada se publicará próximamente</strong>; por ahora el Equipo incluye también perfiles de <strong>colaboración</strong> y trayectorias en otras secciones.</p>
+</section>
+<section id="jóvenes-investigadorases-en-formación" class="level3 equipo-bloque-generico">
+<h3 class="anchored" data-anchor-id="jóvenes-investigadorases-en-formación">Jóvenes investigadoras/es en formación</h3>
+<p>Integran tesistas de pregrado y postgrado, prácticas y proyectos formativos vinculados a las líneas del Observatorio. Consulta el listado en <a href="tesistas/index.html">tesistas y pasantes</a>.</p>
+</section>
+<div class="equipo-lineas-institucional" id="lineas-investigacion-institucional">
+<h2 class="anchored">Líneas de investigación</h2>
+<p class="equipo-lineas-intro">Estas líneas organizan el trabajo colectivo del OLES y los <strong>estudios y proyectos asociados</strong>. Una misma persona puede participar en más de una línea. Para otros ángulos temáticos del sitio se mantiene el <a href="../estudios/lineas.html">índice de líneas temáticas en estudios</a>.</p>
+<div class="equipo-lineas-grid">
+<article class="equipo-linea-panel" id="linea-institucional-1">
+<h3 class="anchored">Línea 1 — Violencia estatal, control social y derechos humanos</h3>
+<h4 class="anchored">Investigadoras/es</h4>
+<ul>
+<li><a href="luciano-saez-fuentealba.html">Luciano Sáez Fuentealba</a></li>
+<li><a href="ana-figueiredo.html">Ana Figueiredo</a></li>
+<li><a href="paz-irarrazabal.html">Paz Irarrázabal</a></li>
+<li><a href="loreto-quiroz.html">Loreto Quiroz</a></li>
+<li><a href="monica-gerber.html">Mónica Gerber</a></li>
+<li><a href="manuela-badilla.html">Manuela Badilla Rajevic</a></li>
+</ul>
+<h4 class="anchored">Proyectos asociados</h4>
+<ul>
+<li><a href="../estudios/cualitativo-longitudinal.html">Fondecyt Ana</a></li>
+<li><a href="luciano-saez-fuentealba.html">Tesis Luciano</a></li>
+<li><a href="paz-irarrazabal.html">Fondecyt Paz</a></li>
+<li><a href="loreto-quiroz.html">Fondecyt Loreto</a></li>
+<li><a href="../estudios/grupos-focales.html">Exploración</a></li>
+<li><a href="../estudios/esep.html">Fondecyt Mónica (anterior y nuevo)</a></li>
+</ul>
+</article>
+<article class="equipo-linea-panel" id="linea-institucional-2">
+<h3 class="anchored">Línea 2 — Movimientos sociales y violencia</h3>
+<h4 class="anchored">Investigadoras/es</h4>
+<ul>
+<li><a href="ismael-puga.html">Ismael Puga</a></li>
+<li><a href="sofia-donoso.html">Sofía Donoso</a></li>
+</ul>
+<h4 class="anchored">Proyectos asociados</h4>
+<ul>
+<li><a href="../estudios/protesta-social-violencia.html">Fondecyt Ismael</a></li>
+<li><a href="sofia-donoso.html">Fondecyt Sofía</a></li>
+</ul>
+</article>
+<article class="equipo-linea-panel" id="linea-institucional-3">
+<h3 class="anchored">Línea 3 — Violencia, género y salud</h3>
+<h4 class="anchored">Investigadoras/es</h4>
+<ul>
+<li><a href="macarena-orchard.html">Macarena Orchard</a></li>
+<li><a href="gloria-jimenez-moya.html">Gloria Jiménez-Moya</a></li>
+</ul>
+<h4 class="anchored">Proyectos asociados</h4>
+<ul>
+<li><a href="macarena-orchard.html">Fondecyt Macarena</a></li>
+<li><a href="gloria-jimenez-moya.html">Fondecyt Gloria</a></li>
+</ul>
+</article>
+<article class="equipo-linea-panel" id="linea-institucional-4">
+<h3 class="anchored">Línea 4 — Legitimidad y justicia social</h3>
+<h4 class="anchored">Investigadoras/es</h4>
+<ul>
+<li><a href="joaquin-bahamondes.html">Joaquín Bahamondes</a></li>
+<li><a href="ismael-puga.html">Ismael Puga</a></li>
+<li><a href="cristobal-moya.html">Cristóbal Moya</a></li>
+<li><a href="matias-gomez.html">Matías Gómez</a></li>
+</ul>
+<h4 class="anchored">Proyectos asociados</h4>
+<ul>
+<li><a href="cristobal-moya.html">Doctorado Cristóbal</a></li>
+<li><a href="../estudios/protesta-social-violencia.html">Fondecyt Ismael</a></li>
+<li><a href="matias-gomez.html">Doctorado Matías</a></li>
+</ul>
+<p class="equipo-linea-proyectos" style="margin-top: 0.75rem;">Ver también <a href="../estudios/esep.html">ESEP</a> y <a href="../estudios/confianza-institucional.html">estudios sobre legitimidad</a>.</p>
+</article>
+</div>
+</div>
+<section id="investigadorases-asociadosas-y-colaboración" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="investigadorases-asociadosas-y-colaboración">Investigadoras/es asociados/as y colaboración</h2>
+<p class="equipo-tier-hint">
+Vínculos académicos que apoyan el quehacer del Observatorio sin integrar la estructura permanente descrita arriba.
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Amparo Feller
-</h5>
-</div>
-</div>
-</a>
-</div>
+<div id="listing-asociados" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+
 </div>
 <div class="listing-no-matching d-none">
 No hay resultados
@@ -657,9 +614,10 @@ No hay resultados
 </section>
 <div class="tesistas-section">
 <h3 class="anchored">
-Otros participantes en OLES
+Otras trayectorias en OLES
 </h3>
 <p><a href="asistentes-anteriores/index.html" class="tesistas-link">Asistentes anteriores</a> <span style="margin: 0 0.5rem;">·</span> <a href="tesistas/index.html" class="tesistas-link">Tesistas y pasantes</a></p>
+</div>
 </div>
 <p><a href="../index.html" class="btn-volver">← Volver al Inicio</a></p>
 
@@ -667,6 +625,39 @@ Otros participantes en OLES
 
 
 </main> <!-- /main -->
+<footer class="footer-section">
+  <div class="footer-content">
+    <div class="footer-col footer-col-brand">
+      <div class="footer-logo-wrap">
+        <img src="../images/logos/logo.png" alt="OLES — Observatorio de Violencia y Legitimidad Social" class="footer-logo">
+      </div>
+      <p class="footer-tagline">Observatorio de Violencia y Legitimidad Social</p>
+      <div class="footer-social">
+        <a href="https://x.com/OLES_CL" target="_blank" rel="noopener noreferrer" aria-label="OLES en X (Twitter)"><span aria-hidden="true">𝕏</span></a>
+        <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener noreferrer" aria-label="OLES en Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener noreferrer" aria-label="OLES en LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+        <a href="mailto:contacto.oles@gmail.com" aria-label="Enviar correo a contacto de OLES"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Enlaces</h4>
+      <a href="../">Inicio</a>
+      <a href="../somos.html">Acerca de OLES</a>
+      <a href="../noticias/">Noticias</a>
+      <a href="../equipo/">Equipo</a>
+      <a href="../contacto.html">Contacto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Investigación</h4>
+      <a href="../estudios/">Proyectos de Investigación</a>
+      <a href="../publicaciones/">Publicaciones</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 OLES - Observatorio de Violencia y Legitimidad Social. Todos los derechos reservados.</p>
+    <p class="footer-credit">Página web diseñada por <a href="../equipo/matias-deneken.html">Matías Deneken</a>.</p>
+  </div>
+</footer>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
