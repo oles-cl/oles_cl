@@ -10,8 +10,7 @@ title-block: none
 <!-- Hero Section con Video -->
 <section class="hero-section">
   <video class="hero-video" autoplay muted loop playsinline>
-    <source src="images/logos/video-entrada-nuevo.mov" type="video/quicktime">
-    <source src="images/logos/video_entrada.mp4" type="video/mp4">
+    <source src="images/logos/download.mp4?v=20260329-1" type="video/mp4">
   </video>
 </section>
 ```
@@ -111,6 +110,8 @@ if (length(destacadas_lista) > 0) {
   <div class="container">
     <h2 class="section-title" data-i18n="secciones.noticiasRecientes">Noticias Recientes</h2>
     <div class="noticias-grid">
+```
+
 ```{r}
 #| echo: false
 #| results: 'asis'
@@ -292,28 +293,30 @@ if (length(noticias) > 0) {
       if (length(cats) > 0) {
         cats <- head(cats, 2)
         cats_esc <- vapply(cats, function(c) gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", c))), character(1))
-        categorias_html <- paste0('<div class="noticia-categorias">', paste(sprintf('<span class="noticia-categoria">%s</span>', cats_esc), collapse = "\n            "), '</div>\n            ')
+        categorias_html <- paste0('<div class="noticia-categorias">', paste(sprintf('<span class="noticia-categoria">%s</span>', cats_esc), collapse = ""), "</div>")
       } else {
         categorias_html <- ""
       }
-      cat(sprintf('
-      <article class="noticia-card">
-        <div class="noticia-imagen">
-          <img src="%s" alt="%s">
-        </div>
-        <div class="noticia-content">
-          %s
-          <span class="noticia-fecha">%s</span>
-          <h3>%s</h3>
-          <p>%s</p>
-          <a href="%s" class="noticia-card-btn">Leer más</a>
-        </div>
-      </article>
+      # HTML sin sangría inicial: si no, el Markdown lo interpreta como bloque de código
+      cat(sprintf('<article class="noticia-card">
+<div class="noticia-imagen">
+<img src="%s" alt="%s">
+</div>
+<div class="noticia-content">
+%s
+<span class="noticia-fecha">%s</span>
+<h3>%s</h3>
+<p>%s</p>
+<a href="%s" class="noticia-card-btn">Leer más</a>
+</div>
+</article>
 ', imagen, titulo, categorias_html, fecha_formateada, titulo, descripcion, ruta))
     }
   }
 }
 ```
+
+```{=html}
     </div>
     <div style="text-align: center; margin-top: 2rem;">
       <a href="noticias/index.html" class="btn-primary" data-i18n="nav.verTodas">Ver todas las noticias →</a>
@@ -390,32 +393,35 @@ if (length(noticias) > 0) {
 <!-- Footer -->
 <footer class="footer-section">
   <div class="footer-content">
-    <div class="footer-col">
-      <img src="images/logos/logo.png" alt="OLES Logo" class="footer-logo" style="height: 80px; margin-bottom: 1rem;">
-      <p>Observatorio de Violencia y Legitimidad Social</p>
-      <div style="display: flex; gap: 1rem; margin-top: 1rem; font-size: 1.25rem;">
-        <a href="https://x.com/OLES_CL" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="X / Twitter">𝕏</a>
-        <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="Instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.8);" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-        <a href="mailto:contacto.oles@gmail.com" style="color: rgba(255,255,255,0.8);" title="Email"><i class="bi bi-envelope"></i></a>
+    <div class="footer-col footer-col-brand">
+      <div class="footer-logo-wrap">
+        <img src="images/logos/logo.png" alt="OLES — Observatorio de Violencia y Legitimidad Social" class="footer-logo">
+      </div>
+      <p class="footer-tagline">Observatorio de Violencia y Legitimidad Social</p>
+      <div class="footer-social">
+        <a href="https://x.com/OLES_CL" target="_blank" rel="noopener noreferrer" aria-label="OLES en X (Twitter)"><span aria-hidden="true">𝕏</span></a>
+        <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener noreferrer" aria-label="OLES en Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener noreferrer" aria-label="OLES en LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+        <a href="mailto:contacto.oles@gmail.com" aria-label="Enviar correo a contacto de OLES"><i class="bi bi-envelope" aria-hidden="true"></i></a>
       </div>
     </div>
     <div class="footer-col">
       <h4>Enlaces</h4>
-      <a href="index.html">Inicio</a>
-      <a href="somos.html">Acerca de OLES</a>
-      <a href="noticias/index.html">Noticias</a>
-      <a href="equipo/index.html">Equipo</a>
-      <a href="contacto.html">Contacto</a>
+      <a href="/">Inicio</a>
+      <a href="/somos.html">Acerca de OLES</a>
+      <a href="/noticias/">Noticias</a>
+      <a href="/equipo/">Equipo</a>
+      <a href="/contacto.html">Contacto</a>
     </div>
     <div class="footer-col">
       <h4>Investigación</h4>
-      <a href="estudios/index.html">Proyectos de Investigación</a>
-      <a href="publicaciones/index.html">Publicaciones</a>
+      <a href="/estudios/">Proyectos de Investigación</a>
+      <a href="/publicaciones/">Publicaciones</a>
     </div>
   </div>
   <div class="footer-bottom">
     <p>© 2026 OLES - Observatorio de Violencia y Legitimidad Social. Todos los derechos reservados.</p>
+    <p class="footer-credit">Página web diseñada por <a href="equipo/matias-deneken.html">Matías Deneken</a>.</p>
   </div>
 </footer>
 ```

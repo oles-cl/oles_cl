@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
   pre-render: compilar_publicaciones_perfiles.R
+  resources:
+    - images/logos/*.mp4
+    - images/logos/*.mov
 
 website:
   title: ""
