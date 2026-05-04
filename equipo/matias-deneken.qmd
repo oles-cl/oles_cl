@@ -33,18 +33,18 @@ educacion:
 
 ## Descripción
 
-Sociólogo, Magíster en Sociología y candidato a Magíster en Data Science. Actualmente desempeña labores en investigación social aplicada en el Centro CIIR y OLES, con temáticas vinculadas a interculturalidad y violencia. Dentro de sus méritos académicos fue Premio Universidad de Concepción y Becario ANID - Magíster Nacional.
+Sociólogo, Magíster en Sociología y  Magíster en Data Science. Al día de hoy su agenda se centra en la ciencia social computacional, usando grandes volúmenes de datos e Inteligencia Artificial para estudiarlos. 
 
 ## Áreas de Interés
 
 - Relaciones Intergrupales
-- Historia de la Sociología Chilena
+- Pensamiento social latinoamericano
 - Ciencias Sociales Computacionales
 - Text as data
 
 ## Educación
 
-- **Magíster en Data Science (en curso)** - Universidad de Concepción
+- **Magíster en Data Science ** - Universidad de Concepción
 - **Magíster en Sociología** - Pontificia Universidad Católica de Chile
 - **Sociólogo** - Universidad de Concepción
 

@@ -1,0 +1,30 @@
+---
+title: "Doctorado — Cristóbal Moya"
+estado: "en-curso"
+investigador_responsable: "Cristóbal Moya"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Cristóbal Moya](../equipo/cristobal-moya.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Proyecto en curso del OLES. Información detallada próximamente.
+
+## Métodos
+
+Metodología y avances se publicarán cuando el estudio lo permita.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

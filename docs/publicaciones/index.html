@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logos/icon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,71 +67,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script src="translations.js" defer=""></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed publicaciones-listing fullcontent">
+<body class="nav-fixed publicaciones-index-v2 fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -235,129 +175,160 @@ window.Quarto = {
 </header>
 
 
-<p>Publicaciones académicas del equipo del Observatorio.</p>
+<div class="publicaciones-page">
+<div class="publicaciones-intro">
+<p>
+Publicaciones académicas del equipo del Observatorio: artículos, libros, capítulos e informes vinculados a nuestra agenda de investigación.
+</p>
+</div>
+<div class="publicaciones-filtros" role="tablist" aria-label="Filtrar por tipo de publicación">
+<button type="button" class="filtro-btn active" data-filtro="todos">
+Todos
+</button>
+<button type="button" class="filtro-btn" data-filtro="articulo">
+Artículos
+</button>
+<button type="button" class="filtro-btn" data-filtro="libro">
+Libros
+</button>
+<button type="button" class="filtro-btn" data-filtro="capitulo">
+Capítulos
+</button>
+<button type="button" class="filtro-btn" data-filtro="policy-brief">
+Policy briefs
+</button>
+<button type="button" class="filtro-btn" data-filtro="reporte">
+Reportes
+</button>
+</div>
+<div class="publicaciones-grid">
+<article class="publicacion-card" data-tipo="libro">
+<div class="publicacion-card-header">
+<span class="publicacion-tipo" data-tipo="libro">Libro</span><span class="publicacion-anio">2025</span>
+</div>
+<h3 class="anchored">
+<a href="2025-configuraciones-interculturales.html">(RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024)</a>
+</h3>
+<p class="publicacion-autores">
+Matías <strong>Deneken</strong>, Eduardo Valenzuela, CIIR
+</p>
+<p class="publicacion-venue">
+Editorial Catalonia, 2025 · ISBN 9789564151809
+</p>
+<div class="publicacion-card-actions">
+<a class="publicacion-btn publicacion-btn-detalle" href="2025-configuraciones-interculturales.html">Ver detalle</a>
+</div>
+</article>
+<article class="publicacion-card" data-tipo="articulo">
+<div class="publicacion-card-header">
+<span class="publicacion-tipo" data-tipo="articulo">Artículo</span><span class="publicacion-anio">2025</span>
+</div>
+<h3 class="anchored">
+<a href="2025-gerber-police-postures.html">How do individuals interact with the police?</a>
+</h3>
+<p class="publicacion-autores">
+<strong>Gerber</strong>, M. M., <strong>Sáez-Fuentealba</strong>, L., <strong>Bahamondes</strong>, J., <strong>Figueiredo</strong>, A., <strong>Moya</strong>, C., <strong>Rojas</strong>, B., <strong>Orchard</strong>, M., &amp; <strong>Tobar Jorquera</strong>, N.
+</p>
+<p class="publicacion-venue">
+Peace and Conflict: Journal of Peace Psychology, 31(3)
+</p>
+<div class="publicacion-card-actions">
+<a class="publicacion-btn publicacion-btn-detalle" href="2025-gerber-police-postures.html">Ver detalle</a> <a class="publicacion-btn publicacion-btn-doi" href="https://doi.org/10.1037/pac0000797" target="_blank" rel="noopener noreferrer">DOI ↗</a>
+</div>
+</article>
+<article class="publicacion-card" data-tipo="capitulo">
+<div class="publicacion-card-header">
+<span class="publicacion-tipo" data-tipo="capitulo">Capítulo</span><span class="publicacion-anio">2024</span>
+</div>
+<h3 class="anchored">
+<a href="2024-gerber-mapuche.html">Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche</a>
+</h3>
+<p class="publicacion-autores">
+<strong>Gerber</strong>, M. M.
+</p>
+<p class="publicacion-venue">
+Capítulo en Mapuche en el sur de Chile (Mascareño &amp; Le Foulon, Eds.), Editorial CEP
+</p>
+<div class="publicacion-card-actions">
+<a class="publicacion-btn publicacion-btn-detalle" href="2024-gerber-mapuche.html">Ver detalle</a>
+</div>
+</article>
+<article class="publicacion-card" data-tipo="articulo">
+<div class="publicacion-card-header">
+<span class="publicacion-tipo" data-tipo="articulo">Artículo</span><span class="publicacion-anio">2023</span>
+</div>
+<h3 class="anchored">
+<a href="2023-legitimidad-justicia.html">Legitimidad, Justicia y la Justificación de la Violencia Intergrupal</a>
+</h3>
+<p class="publicacion-autores">
+<strong>Gerber</strong>, M.M., <strong>Figueiredo</strong>, A., Sáez, L. &amp; <strong>Orchard</strong>, M.
+</p>
+<p class="publicacion-venue">
+Revista Psykhe, 32(1)
+</p>
+<div class="publicacion-card-actions">
+<a class="publicacion-btn publicacion-btn-detalle" href="2023-legitimidad-justicia.html">Ver detalle</a> <a class="publicacion-btn publicacion-btn-doi" href="https://doi.org/10.7764/psykhe.2021.31721" target="_blank" rel="noopener noreferrer">DOI ↗</a>
+</div>
+</article>
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const filtros = document.querySelectorAll(".filtro-btn");
+  const cards = document.querySelectorAll(".publicacion-card");
+  filtros.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      const filtro = btn.getAttribute("data-filtro");
+      filtros.forEach(function(b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      cards.forEach(function(card) {
+        if (filtro === "todos" || card.getAttribute("data-tipo") === filtro) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+});
+</script>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1772723040299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../publicaciones/2025-configuraciones-interculturales.html" class="no-external">(RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024)</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../publicaciones/2025-configuraciones-interculturales.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../publicaciones/2025-configuraciones-interculturales.html" class="no-external">Libro basado en el Estudio Longitudinal de Relaciones Interculturales (ELRI) entre 2016 y 2023.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../publicaciones/2025-configuraciones-interculturales.html" class="no-external">
-<div class="listing-date">
-2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1772722257502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../publicaciones/2025-gerber-police-postures.html" class="no-external">How do individuals interact with the police?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../publicaciones/2025-gerber-police-postures.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../publicaciones/2025-gerber-police-postures.html" class="no-external">Validation of a scale of motivational postures toward the police in Spanish.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../publicaciones/2025-gerber-police-postures.html" class="no-external">
-<div class="listing-date">
-2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1772722267293" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../publicaciones/2024-gerber-mapuche.html" class="no-external">Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../publicaciones/2024-gerber-mapuche.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../publicaciones/2024-gerber-mapuche.html" class="no-external">Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../publicaciones/2024-gerber-mapuche.html" class="no-external">
-<div class="listing-date">
-2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1772722279430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../publicaciones/2023-legitimidad-justicia.html" class="no-external">Legitimidad, Justicia y la Justificación de la Violencia Intergrupal</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../publicaciones/2023-legitimidad-justicia.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="../publicaciones/2023-legitimidad-justicia.html" class="no-external">Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../publicaciones/2023-legitimidad-justicia.html" class="no-external">
-<div class="listing-date">
-2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div></main> <!-- /main -->
-<footer class="footer-section">
-  <div class="footer-content">
-    <div class="footer-col footer-col-brand">
-      <div class="footer-logo-wrap">
-        <img src="../images/logos/logo.png" alt="OLES — Observatorio de Violencia y Legitimidad Social" class="footer-logo">
+</main> <!-- /main -->
+<footer class="footer-section oles-footer" role="contentinfo">
+  <div class="oles-footer-inner">
+    <div class="footer-content">
+      <div class="footer-col footer-col-brand">
+        <div class="footer-logo-wrap">
+          <img src="../images/logos/logo.png" alt="OLES — Observatorio de Violencia y Legitimidad Social" class="footer-logo">
+        </div>
+        <p class="footer-tagline">Observatorio de Violencia y Legitimidad Social</p>
+        <div class="footer-social">
+          <a href="https://x.com/OLES_CL" target="_blank" rel="noopener noreferrer" aria-label="OLES en X (Twitter)"><span aria-hidden="true">𝕏</span></a>
+          <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener noreferrer" aria-label="OLES en Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener noreferrer" aria-label="OLES en LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+          <a href="mailto:contacto.oles@gmail.com" aria-label="Enviar correo a contacto de OLES"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+        </div>
       </div>
-      <p class="footer-tagline">Observatorio de Violencia y Legitimidad Social</p>
-      <div class="footer-social">
-        <a href="https://x.com/OLES_CL" target="_blank" rel="noopener noreferrer" aria-label="OLES en X (Twitter)"><span aria-hidden="true">𝕏</span></a>
-        <a href="https://www.instagram.com/oles_cl/" target="_blank" rel="noopener noreferrer" aria-label="OLES en Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/observatorio-de-violencia-y-legitimidad-social-oles-279449392/" target="_blank" rel="noopener noreferrer" aria-label="OLES en LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-        <a href="mailto:contacto.oles@gmail.com" aria-label="Enviar correo a contacto de OLES"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <a href="../">Inicio</a>
+        <a href="../somos.html">Acerca de OLES</a>
+        <a href="../noticias/">Noticias</a>
+        <a href="../equipo/">Equipo</a>
+        <a href="../contacto.html">Contacto</a>
+      </div>
+      <div class="footer-col">
+        <h4>Investigación</h4>
+        <a href="../estudios/">Proyectos de Investigación</a>
+        <a href="../publicaciones/">Publicaciones</a>
       </div>
     </div>
-    <div class="footer-col">
-      <h4>Enlaces</h4>
-      <a href="../">Inicio</a>
-      <a href="../somos.html">Acerca de OLES</a>
-      <a href="../noticias/">Noticias</a>
-      <a href="../equipo/">Equipo</a>
-      <a href="../contacto.html">Contacto</a>
+    <div class="footer-bottom">
+      <p>© 2026 OLES - Observatorio de Violencia y Legitimidad Social. Todos los derechos reservados.</p>
+      <p class="footer-credit">Página web diseñada por <a href="../equipo/matias-deneken.html">Matías Deneken</a>.</p>
     </div>
-    <div class="footer-col">
-      <h4>Investigación</h4>
-      <a href="../estudios/">Proyectos de Investigación</a>
-      <a href="../publicaciones/">Publicaciones</a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 OLES - Observatorio de Violencia y Legitimidad Social. Todos los derechos reservados.</p>
-    <p class="footer-credit">Página web diseñada por <a href="../equipo/matias-deneken.html">Matías Deneken</a>.</p>
   </div>
 </footer>
 <script id="quarto-html-after-body" type="application/javascript">

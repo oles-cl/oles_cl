@@ -1,0 +1,32 @@
+---
+title: "Línea 4 — Legitimidad y justicia social"
+page-layout: full
+toc: false
+---
+
+<div class="estudio-linea-institucional">
+
+## Introducción
+
+[Descripción ampliada — pendiente de redacción.]
+
+Esta línea aborda legitimidad institucional, percepciones de justicia, confianza y desigualdad en opinión pública y cultura política.
+
+## Investigadoras/es
+
+- [Joaquín Bahamondes](../../equipo/joaquin-bahamondes.html)
+- [Ismael Puga](../../equipo/ismael-puga.html)
+- [Cristóbal Moya](../../equipo/cristobal-moya.html)
+- [Matías Gómez](../../equipo/matias-gomez.html)
+
+## Proyectos asociados
+
+- [Doctorado Cristóbal Moya](../doctorado-cristobal-moya.html)
+- [Fondecyt Ismael Puga](../protesta-social-violencia.html)
+- [Doctorado Matías Gómez](../doctorado-matias-gomez.html)
+
+<p class="estudio-linea-extra">Ver también el estudio panel <a href="../esep.html">ESEP</a> y <a href="../confianza-institucional.html">Confianza institucional</a> en el listado de proyectos.</p>
+
+</div>
+
+<p class="lineas-index-back"><a href="../lineas.html">← Volver a Líneas de investigación</a></p>

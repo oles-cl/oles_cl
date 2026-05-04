@@ -1,0 +1,30 @@
+---
+title: "Fondecyt — Loreto Quiroz"
+estado: "en-curso"
+investigador_responsable: "Loreto Quiroz"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Loreto Quiroz](../equipo/loreto-quiroz.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Proyecto en curso del OLES. Información detallada próximamente.
+
+## Métodos
+
+Metodología y avances se publicarán cuando el estudio lo permita.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

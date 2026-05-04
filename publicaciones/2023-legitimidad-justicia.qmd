@@ -1,6 +1,9 @@
 ---
 title: "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal"
 description: "Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes."
+venue: "Revista Psykhe, 32(1)"
+tipo: articulo
+doi: "10.7764/psykhe.2021.31721"
 date: "2023-01-01"
 author: "Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M."
 authors: [monica-gerber, ana-figueiredo, luciano-saez-fuentealba, macarena-orchard]

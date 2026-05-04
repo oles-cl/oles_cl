@@ -1,6 +1,9 @@
 ---
 title: "How do individuals interact with the police?"
 description: "Validation of a scale of motivational postures toward the police in Spanish."
+venue: "Peace and Conflict: Journal of Peace Psychology, 31(3)"
+tipo: articulo
+doi: "10.1037/pac0000797"
 date: "2025-01-01"
 author: "Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N."
 authors: [monica-gerber, luciano-saez-fuentealba, joaquin-bahamondes, ana-figueiredo, cristobal-moya, bruno-rojas, macarena-orchard, nicolas-tobar-jorquera]

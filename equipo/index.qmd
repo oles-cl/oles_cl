@@ -45,10 +45,10 @@ listing:
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
-  - id: asociados
+  - id: asistentes
     contents:
-      - claudio-fuentes.qmd
       - amparo-feller.qmd
+      - martin-venegas.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
@@ -57,9 +57,9 @@ listing:
 
 <div class="equipo-page-intro">
 
-<p>El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional, las <strong>líneas de investigación</strong> (cada una articula <strong>proyectos de investigación</strong> como Fondecyt, doctorados y pilotos del Observatorio) y los perfiles del equipo.</p>
+<p>El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional y los perfiles del equipo.</p>
 
-<p>En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong> (coordinaciones), <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong> y <strong>jóvenes investigadoras/es en formación</strong>. Las líneas de investigación conectan personas con <strong>proyectos</strong> (Fondecyt, tesis doctorales, pilotos, etc.) publicados o en curso en el <a href="../estudios/index.html">área de estudios</a>.</p>
+<p>En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong> (coordinaciones), <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong> y <strong>jóvenes investigadoras/es en formación</strong>.</p>
 
 </div>
 
@@ -111,11 +111,14 @@ listing:
 
 </div>
 
-<div class="equipo-bloque-generico">
+<div class="equipo-section">
 
-### Asistentes de investigación
+## Asistentes de investigación
 
-Personas que apoyan levantamiento de información, codificación, preparación de bases de datos y tareas técnicas vinculadas a los proyectos. **La nómina detallada se publicará próximamente**; por ahora el Equipo incluye también perfiles de **colaboración** y trayectorias en otras secciones.
+<p class="equipo-tier-hint">Personas que apoyan levantamiento de información, codificación, preparación de bases de datos y tareas técnicas vinculadas a los proyectos.</p>
+
+::: {#asistentes}
+:::
 
 </div>
 
@@ -125,97 +128,6 @@ Personas que apoyan levantamiento de información, codificación, preparación d
 
 Integran tesistas de pregrado y postgrado, prácticas y proyectos formativos vinculados a las líneas del Observatorio. Consulta el listado en [tesistas y pasantes](tesistas/index.html).
 
-</div>
-
-```{=html}
-<div class="equipo-lineas-institucional" id="lineas-investigacion-institucional">
-<h2>Líneas de investigación</h2>
-<p class="equipo-lineas-intro">Estas líneas organizan el trabajo colectivo del OLES y los <strong>estudios y proyectos asociados</strong>. Una misma persona puede participar en más de una línea. Para otros ángulos temáticos del sitio se mantiene el <a href="../estudios/lineas.html">índice de líneas temáticas en estudios</a>.</p>
-<div class="equipo-lineas-grid">
-<article class="equipo-linea-panel" id="linea-institucional-1">
-<h3>Línea 1 — Violencia estatal, control social y derechos humanos</h3>
-<h4>Investigadoras/es</h4>
-<ul>
-<li><a href="luciano-saez-fuentealba.html">Luciano Sáez Fuentealba</a></li>
-<li><a href="ana-figueiredo.html">Ana Figueiredo</a></li>
-<li><a href="paz-irarrazabal.html">Paz Irarrázabal</a></li>
-<li><a href="loreto-quiroz.html">Loreto Quiroz</a></li>
-<li><a href="monica-gerber.html">Mónica Gerber</a></li>
-<li><a href="manuela-badilla.html">Manuela Badilla Rajevic</a></li>
-</ul>
-<h4>Proyectos asociados</h4>
-<ul>
-<li><a href="../estudios/cualitativo-longitudinal.html">Fondecyt Ana</a></li>
-<li><a href="luciano-saez-fuentealba.html">Tesis Luciano</a></li>
-<li><a href="paz-irarrazabal.html">Fondecyt Paz</a></li>
-<li><a href="loreto-quiroz.html">Fondecyt Loreto</a></li>
-<li><a href="../estudios/grupos-focales.html">Exploración</a></li>
-<li><a href="../estudios/esep.html">Fondecyt Mónica (anterior y nuevo)</a></li>
-</ul>
-</article>
-<article class="equipo-linea-panel" id="linea-institucional-2">
-<h3>Línea 2 — Movimientos sociales y violencia</h3>
-<h4>Investigadoras/es</h4>
-<ul>
-<li><a href="ismael-puga.html">Ismael Puga</a></li>
-<li><a href="sofia-donoso.html">Sofía Donoso</a></li>
-</ul>
-<h4>Proyectos asociados</h4>
-<ul>
-<li><a href="../estudios/protesta-social-violencia.html">Fondecyt Ismael</a></li>
-<li><a href="sofia-donoso.html">Fondecyt Sofía</a></li>
-</ul>
-</article>
-<article class="equipo-linea-panel" id="linea-institucional-3">
-<h3>Línea 3 — Violencia, género y salud</h3>
-<h4>Investigadoras/es</h4>
-<ul>
-<li><a href="macarena-orchard.html">Macarena Orchard</a></li>
-<li><a href="gloria-jimenez-moya.html">Gloria Jiménez-Moya</a></li>
-</ul>
-<h4>Proyectos asociados</h4>
-<ul>
-<li><a href="macarena-orchard.html">Fondecyt Macarena</a></li>
-<li><a href="gloria-jimenez-moya.html">Fondecyt Gloria</a></li>
-</ul>
-</article>
-<article class="equipo-linea-panel" id="linea-institucional-4">
-<h3>Línea 4 — Legitimidad y justicia social</h3>
-<h4>Investigadoras/es</h4>
-<ul>
-<li><a href="joaquin-bahamondes.html">Joaquín Bahamondes</a></li>
-<li><a href="ismael-puga.html">Ismael Puga</a></li>
-<li><a href="cristobal-moya.html">Cristóbal Moya</a></li>
-<li><a href="matias-gomez.html">Matías Gómez</a></li>
-</ul>
-<h4>Proyectos asociados</h4>
-<ul>
-<li><a href="cristobal-moya.html">Doctorado Cristóbal</a></li>
-<li><a href="../estudios/protesta-social-violencia.html">Fondecyt Ismael</a></li>
-<li><a href="matias-gomez.html">Doctorado Matías</a></li>
-</ul>
-<p class="equipo-linea-proyectos" style="margin-top: 0.75rem;">Ver también <a href="../estudios/esep.html">ESEP</a> y <a href="../estudios/confianza-institucional.html">estudios sobre legitimidad</a>.</p>
-</article>
-</div>
-</div>
-```
-
-<div class="equipo-section">
-
-## Investigadoras/es asociados/as y colaboración
-
-<p class="equipo-tier-hint">Vínculos académicos que apoyan el quehacer del Observatorio sin integrar la estructura permanente descrita arriba.</p>
-
-::: {#asociados}
-:::
-
-</div>
-
-<div class="tesistas-section">
-<h3>Otras trayectorias en OLES</h3>
-<a href="asistentes-anteriores/index.html" class="tesistas-link">Asistentes anteriores</a>
-<span style="margin: 0 0.5rem;">·</span>
-<a href="tesistas/index.html" class="tesistas-link">Tesistas y pasantes</a>
 </div>
 
 ```{=html}

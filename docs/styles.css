@@ -1063,19 +1063,38 @@ a.noticia-card-btn:hover {
 }
 
 /*
- * Full-bleed: Quarto coloca include-after-body (nuestro pie) como hermano de
- * <main> dentro de #quarto-content; en layouts .page-columns el grid acota
- * el ancho del footer. Rompemos al ancho del viewport; 50% es respecto al
- * bloque contenedor (la celda del grid), no del main.
- * Evitamos 100vw solo en el margen negativo para reducir riesgo de scroll
- * horizontal por barra de desplazamiento vertical.
+ * Pie full-bleed: el partial va dentro de #quarto-content. En layouts
+ * page-layout-full / article, Quarto usa CSS grid: el <main> solo ocupa la
+ * columna del cuerpo; sin forzar columna, el <footer> queda confinado ahí.
+ * grid-column: 1 / -1 hace que el pie abarque todas las columnas del grid.
+ * .oles-footer-inner sigue centrando el contenido (1200px).
  */
-#quarto-content > footer.footer-section {
-  width: 100vw;
+#quarto-content > footer.footer-section.oles-footer {
+  grid-column: 1 / -1;
+  justify-self: stretch;
+  width: 100%;
   max-width: none;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  margin-left: 0;
+  margin-right: 0;
   position: relative;
+  box-sizing: border-box;
+}
+
+.oles-footer-inner {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 2rem;
+}
+
+.footer-section.oles-footer .footer-content {
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer-content {
@@ -1538,6 +1557,11 @@ article.page-columns {
   .footer-content {
     grid-template-columns: 1fr;
     text-align: center;
+  }
+
+  .oles-footer-inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .footer-col-brand {
@@ -3734,6 +3758,31 @@ a.linea-index-card:hover .linea-index-link {
   text-decoration: underline !important;
 }
 
+/* Páginas dedicadas por línea institucional (estudios/lineas/linea-X) */
+.estudio-linea-institucional {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1.5rem 2.5rem;
+}
+
+.estudio-linea-institucional h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.estudio-linea-institucional ul {
+  line-height: 1.65;
+}
+
+.estudio-linea-extra {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
 /* =====================================================
    EQUIPO: página índice (organigrama + líneas institucionales)
    ===================================================== */
@@ -3967,4 +4016,251 @@ a.linea-index-card:hover .linea-index-link {
   .navbar {
     display: none;
   }
+}
+
+/* =====================================================
+   PUBLICACIONES — Grid de cards con filtros (index v2)
+   (No modifica .publicaciones-listing; body-class distinta.)
+   ===================================================== */
+.publicaciones-index-v2 #quarto-content {
+  max-width: none !important;
+  width: 100%;
+}
+
+.publicaciones-index-v2 #quarto-document-content {
+  max-width: none;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.publicaciones-page {
+  max-width: min(100%, 1380px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem clamp(0.5rem, 2vw, 1rem) 3rem;
+  box-sizing: border-box;
+}
+
+.publicaciones-intro {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: var(--text-light);
+  font-size: 1.05rem;
+}
+
+.publicaciones-intro p {
+  margin: 0;
+}
+
+.publicaciones-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0 0 2.5rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e8e6f0;
+}
+
+.filtro-btn {
+  padding: 0.5rem 1.15rem;
+  background: white;
+  border: 2px solid #e8e6f0;
+  color: var(--text-color);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filtro-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.filtro-btn.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 4px 12px rgba(78, 73, 118, 0.25);
+}
+
+.publicaciones-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .publicaciones-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.publicacion-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #e8e6f0;
+  border-radius: var(--border-radius);
+  padding: 1.5rem 1.5rem 1.25rem;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition);
+  position: relative;
+}
+
+.publicacion-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--primary-light);
+}
+
+.publicacion-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 0.75rem;
+}
+
+/* Pandoc puede envolver el contenido del header en <p> */
+.publicacion-card-header > p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+  width: 100%;
+  margin: 0;
+}
+
+.publicacion-card-actions > p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.publicacion-tipo {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.publicacion-tipo[data-tipo="articulo"] {
+  background: rgba(78, 73, 118, 0.12);
+  color: var(--primary-color);
+}
+
+.publicacion-tipo[data-tipo="libro"] {
+  background: rgba(195, 184, 211, 0.35);
+  color: var(--primary-dark);
+}
+
+.publicacion-tipo[data-tipo="capitulo"] {
+  background: rgba(153, 138, 175, 0.25);
+  color: var(--primary-dark);
+}
+
+.publicacion-tipo[data-tipo="policy-brief"] {
+  background: rgba(229, 158, 89, 0.18);
+  color: #b56b1f;
+}
+
+.publicacion-tipo[data-tipo="working-paper"] {
+  background: rgba(107, 114, 128, 0.15);
+  color: #4b5563;
+}
+
+.publicacion-tipo[data-tipo="reporte"] {
+  background: rgba(59, 130, 246, 0.12);
+  color: #1e40af;
+}
+
+.publicacion-anio {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.publicacion-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.85rem 0;
+}
+
+.publicacion-card h3 a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.publicacion-card h3 a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.publicacion-autores {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--text-color);
+  margin: 0 0 0.65rem 0;
+}
+
+.publicacion-venue {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-light);
+  margin: 0 0 1.15rem 0;
+  flex: 1 1 auto;
+}
+
+.publicacion-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: auto;
+  padding-top: 0.25rem;
+}
+
+.publicacion-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 1rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.publicacion-btn-detalle {
+  background: var(--primary-color);
+  color: white !important;
+  border: 2px solid var(--primary-color);
+}
+
+.publicacion-btn-detalle:hover {
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: white !important;
+}
+
+.publicacion-btn-doi {
+  background: white;
+  color: var(--primary-dark) !important;
+  border: 2px solid #e8e6f0;
+}
+
+.publicacion-btn-doi:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color) !important;
 }

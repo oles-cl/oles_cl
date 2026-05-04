@@ -1,0 +1,30 @@
+---
+title: "Doctorado — Matías Gómez"
+estado: "en-curso"
+investigador_responsable: "Matías Gómez"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Matías Gómez](../equipo/matias-gomez.html)
+:::
+
+:::{.estudio-col-der}
+## Introducción
+
+Proyecto en curso del OLES. Información detallada próximamente.
+
+## Métodos
+
+Metodología y avances se publicarán cuando el estudio lo permita.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

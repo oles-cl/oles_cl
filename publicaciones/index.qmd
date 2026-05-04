@@ -1,14 +1,155 @@
 ---
 title: "Publicaciones Académicas"
-listing:
-  contents: "*.qmd"
-  type: default
-  sort: "date desc"
-  fields: [date, title, description]
-  date-format: "YYYY"
+toc: false
 format:
   html:
-    body-classes: publicaciones-listing
+    title-block-style: default
+    body-classes: publicaciones-index-v2
 ---
 
-Publicaciones académicas del equipo del Observatorio.
+```{r}
+#| echo: false
+#| results: asis
+
+`%||%` <- function(x, y) if (is.null(x) || length(x) == 0 || (is.character(x) && all(nchar(trimws(x)) == 0))) y else x
+
+html_escape <- function(text) {
+  if (length(text) == 0 || is.na(text)) return("")
+  t <- as.character(text)[[1]]
+  t <- gsub("&", "&amp;", t, fixed = TRUE)
+  t <- gsub("<", "&lt;", t, fixed = TRUE)
+  t <- gsub(">", "&gt;", t, fixed = TRUE)
+  t <- gsub("\"", "&quot;", t, fixed = TRUE)
+  t
+}
+
+apellidos_oles <- c(
+  "Sáez-Fuentealba", "Tobar Jorquera", "Bahamondes", "Figueiredo",
+  "Gerber", "Orchard", "Deneken", "Moya", "Rojas"
+)
+
+autores_con_negrita <- function(author_str) {
+  t <- html_escape(author_str %||% "")
+  for (a in apellidos_oles) {
+    if (!nzchar(a)) next
+    if (!grepl(a, t, fixed = TRUE)) next
+    t <- gsub(a, sprintf("<strong>%s</strong>", a), t, fixed = TRUE)
+  }
+  t
+}
+
+tipo_etiqueta <- c(
+  "articulo" = "Artículo",
+  "libro" = "Libro",
+  "capitulo" = "Capítulo",
+  "policy-brief" = "Policy brief",
+  "reporte" = "Reporte",
+  "working-paper" = "Working paper"
+)
+
+leer_yaml_publicacion <- function(path) {
+  ln <- readLines(path, warn = FALSE, encoding = "UTF-8")
+  d <- which(ln == "---")
+  if (length(d) < 2) return(NULL)
+  block <- paste(ln[(d[1] + 1):(d[2] - 1)], collapse = "\n")
+  if (!requireNamespace("yaml", quietly = TRUE)) return(NULL)
+  yaml::yaml.load(block)
+}
+
+root <- Sys.getenv("QUARTO_PROJECT_DIR", unset = "")
+if (!nzchar(root)) root <- getwd()
+pub_dir <- if (dir.exists(file.path(root, "publicaciones"))) {
+  file.path(root, "publicaciones")
+} else if (basename(getwd()) == "publicaciones") {
+  getwd()
+} else {
+  file.path(root, "publicaciones")
+}
+pub_paths <- list.files(pub_dir, pattern = "\\.qmd$", full.names = TRUE)
+pub_paths <- pub_paths[!grepl("index\\.qmd$", basename(pub_paths))]
+
+metas <- lapply(pub_paths, leer_yaml_publicacion)
+names(metas) <- tools::file_path_sans_ext(basename(pub_paths))
+metas <- metas[!sapply(metas, is.null)]
+
+fechas <- sapply(metas, function(y) {
+  d <- tryCatch(as.Date(y$date %||% "1900-01-01"), error = function(e) as.Date("1900-01-01"))
+  as.numeric(d)
+})
+ord <- order(fechas, decreasing = TRUE)
+metas <- metas[ord]
+
+# Sin indentación de 4+ espacios: Markdown lo interpretaría como bloque de código.
+cat('<div class="publicaciones-page">\n')
+cat('<div class="publicaciones-intro">\n')
+cat('<p>Publicaciones académicas del equipo del Observatorio: artículos, libros, capítulos e informes vinculados a nuestra agenda de investigación.</p>\n')
+cat('</div>\n')
+cat('<div class="publicaciones-filtros" role="tablist" aria-label="Filtrar por tipo de publicación">\n')
+cat('<button type="button" class="filtro-btn active" data-filtro="todos">Todos</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="articulo">Artículos</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="libro">Libros</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="capitulo">Capítulos</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="policy-brief">Policy briefs</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="reporte">Reportes</button>\n')
+cat('</div>\n')
+cat('<div class="publicaciones-grid">\n')
+
+for (slug in names(metas)) {
+  y <- metas[[slug]]
+  tipo <- trimws(as.character(y$tipo %||% "articulo"))
+  if (!tipo %in% names(tipo_etiqueta)) tipo <- "articulo"
+  lab <- tipo_etiqueta[[tipo]] %||% "Publicación"
+  anio <- format(as.Date(y$date %||% "1900-01-01"), "%Y")
+  if (anio == "1900") anio <- ""
+  tit <- html_escape(y$title %||% slug)
+  venue <- y$venue %||% y$description %||% ""
+  venue <- html_escape(venue)
+  aut <- autores_con_negrita(y$author %||% "")
+  doi <- trimws(as.character(y$doi %||% ""))
+  doi_clean <- gsub("^https?://(dx\\.)?doi\\.org/", "", doi, ignore.case = TRUE)
+  doi_url <- if (nzchar(doi_clean)) paste0("https://doi.org/", doi_clean) else ""
+
+  cat(sprintf('<article class="publicacion-card" data-tipo="%s">\n', html_escape(tipo)))
+  cat(sprintf(
+    '<div class="publicacion-card-header"><span class="publicacion-tipo" data-tipo="%s">%s</span><span class="publicacion-anio">%s</span></div>\n',
+    html_escape(tipo), html_escape(lab), html_escape(anio)
+  ))
+  cat(sprintf('<h3><a href="%s.html">%s</a></h3>\n', html_escape(slug), tit))
+  cat(sprintf('<p class="publicacion-autores">%s</p>\n', aut))
+  cat(sprintf('<p class="publicacion-venue">%s</p>\n', venue))
+  doi_a <- if (nzchar(doi_url)) {
+    paste0(' <a class="publicacion-btn publicacion-btn-doi" href="', html_escape(doi_url), '" target="_blank" rel="noopener noreferrer">DOI ↗</a>')
+  } else ""
+  cat(sprintf(
+    '<div class="publicacion-card-actions"><a class="publicacion-btn publicacion-btn-detalle" href="%s.html">Ver detalle</a>%s</div>\n',
+    html_escape(slug), doi_a
+  ))
+  cat('</article>\n')
+}
+
+cat('</div>\n')
+cat('</div>\n')
+```
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const filtros = document.querySelectorAll(".filtro-btn");
+  const cards = document.querySelectorAll(".publicacion-card");
+  filtros.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      const filtro = btn.getAttribute("data-filtro");
+      filtros.forEach(function(b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      cards.forEach(function(card) {
+        if (filtro === "todos" || card.getAttribute("data-tipo") === filtro) {
+          card.style.display = "";
+        } else {
+          card.style.display = "none";
+        }
+      });
+    });
+  });
+});
+</script>
+```

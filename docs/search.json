@@ -140,25 +140,81 @@
     "text": "Caché configurado en netlify.toml para ahorrar ancho de banda.\n\nMantén el sitio liviano (videos e imágenes comprimidos).\n\nSigue construyendo en local y publicando docs/ para no gastar build minutes."
   },
   {
-    "objectID": "estudios/derechos-humanos.html",
-    "href": "estudios/derechos-humanos.html",
-    "title": "Derechos humanos",
+    "objectID": "estudios/medios-post-estallido.html",
+    "href": "estudios/medios-post-estallido.html",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
     "section": "",
-    "text": "Líneas de trabajo:\n  Policía y legitimidad\n  Derechos humanos\n  Protesta social y violencia\n  Ver todas\n\nUno de los elementos centrales que promueven la legitimidad policial es la justicia procedimental, esto es, la percepción de que las policías actúan de manera adecuada, imparcial, respetuosa y equitativa con todos los miembros de la sociedad. En esta línea, el resguardo de los derechos humanos pasa a ser una cuestión fundamental para normar y limitar el actuar policial y hacer un uso adecuado de la fuerza. Una de las instituciones conformadas internacionalmente para resguardar las arbitrariedades de las policías sobre los ciudadanos se basan en los principios definidos y promovidos por los derechos humanos.\nEn el caso chileno, Carabineros ha sido criticado por distintas instituciones nacionales e internacionales por uso excesivo de la fuerza, abuso policial y por cómo se relaciona con distintos grupos sociales. Como en otras partes del mundo, la evidencia señala que el trato policial difiere para distintos grupos socioeconómicos, étnicos y etarios. Esto es particularmente relevante entre los jóvenes populares, urbanos y varones. Al mismo tiempo, la desigualdad en la protección policial en detrimento de los barrios de bajos ingresos se ha convertido en una condición estructural de su funcionamiento. La etnicidad es otro criterio de discriminación policial: diversos estudios en Chile muestran que las minorías indígenas (especialmente mapuche) y los migrantes reciben peores tratos. La desigualdad en el trato puede dañar la confianza general hacia las policías, o la relación entre estos grupos desaventajados y Carabineros, lo que ha afectado fuertemente la legitimidad policial. Una novedad y aporte de este proyecto es profundizar en estas interacciones causales.\nPensando en el principio de imparcialidad que promulgan los derechos humanos, en esta línea se están desarrollando estudios sobre las percepciones en torno a las vulneraciones de estos principios en el marco de procesos de violencia estatal y policial. Al mismo tiempo, se exploran los procesos de impunidad frente a formas de violencia policial y su relación con la legitimidad de las instituciones policiales.\n← Ver todas las líneas · ← Inicio"
+    "text": "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/analisis-redes-sociales.html",
-    "href": "estudios/analisis-redes-sociales.html",
-    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "objectID": "estudios/medios-post-estallido.html#descripción",
+    "href": "estudios/medios-post-estallido.html#descripción",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
     "section": "",
-    "text": "Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.\n← Volver a Estudios"
+    "text": "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/analisis-redes-sociales.html#descripción",
-    "href": "estudios/analisis-redes-sociales.html#descripción",
-    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "objectID": "estudios/proyecto-postdoctoral.html",
+    "href": "estudios/proyecto-postdoctoral.html",
+    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
     "section": "",
-    "text": "Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.\n← Volver a Estudios"
+    "text": "Proyecto postdoctoral que investiga las posturas motivacionales de la ciudadanía hacia Carabineros de Chile, explorando las dinámicas de compromiso, resistencia y evitación en la relación policía-ciudadanía."
+  },
+  {
+    "objectID": "estudios/proyecto-postdoctoral.html#descripción",
+    "href": "estudios/proyecto-postdoctoral.html#descripción",
+    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
+    "section": "",
+    "text": "Proyecto postdoctoral que investiga las posturas motivacionales de la ciudadanía hacia Carabineros de Chile, explorando las dinámicas de compromiso, resistencia y evitación en la relación policía-ciudadanía."
+  },
+  {
+    "objectID": "estudios/proyecto-postdoctoral.html#objetivos",
+    "href": "estudios/proyecto-postdoctoral.html#objetivos",
+    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nCaracterizar las posturas motivacionales hacia la policía en Chile\nIdentificar factores que determinan diferentes posturas ciudadanas\nAnalizar cómo varían las posturas según grupos sociales\nContribuir a la teoría sobre legitimidad policial"
+  },
+  {
+    "objectID": "estudios/proyecto-postdoctoral.html#metodología",
+    "href": "estudios/proyecto-postdoctoral.html#metodología",
+    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
+    "section": "Metodología",
+    "text": "Metodología\nEstudio cualitativo basado en grupos focales con diferentes segmentos de la población chilena, incluyendo jóvenes, mapuche, inmigrantes y manifestantes."
+  },
+  {
+    "objectID": "estudios/proyecto-postdoctoral.html#resultados",
+    "href": "estudios/proyecto-postdoctoral.html#resultados",
+    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
+    "section": "Resultados",
+    "text": "Resultados\nEl estudio identificó tres posturas principales: compromiso, resistencia y evitación, mostrando la complejidad de las relaciones entre policía y ciudadanía en el contexto chileno post-estallido social.\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/doctorado-matias-gomez.html",
+    "href": "estudios/doctorado-matias-gomez.html",
+    "title": "Doctorado — Matías Gómez",
+    "section": "",
+    "text": "Matías Gómez\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/doctorado-matias-gomez.html#investigador-responsable",
+    "href": "estudios/doctorado-matias-gomez.html#investigador-responsable",
+    "title": "Doctorado — Matías Gómez",
+    "section": "",
+    "text": "Matías Gómez"
+  },
+  {
+    "objectID": "estudios/doctorado-matias-gomez.html#introducción",
+    "href": "estudios/doctorado-matias-gomez.html#introducción",
+    "title": "Doctorado — Matías Gómez",
+    "section": "",
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
+  },
+  {
+    "objectID": "estudios/doctorado-matias-gomez.html#métodos",
+    "href": "estudios/doctorado-matias-gomez.html#métodos",
+    "title": "Doctorado — Matías Gómez",
+    "section": "",
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
   },
   {
     "objectID": "estudios/grupos-focales.html",
@@ -175,158 +231,172 @@
     "text": "Investigación cualitativa que utiliza grupos focales para explorar las dinámicas sociales que influyen en la confianza institucional.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/lineas.html",
-    "href": "estudios/lineas.html",
-    "title": "Líneas de investigación en OLES",
+    "objectID": "estudios/protesta-social-violencia.html",
+    "href": "estudios/protesta-social-violencia.html",
+    "title": "Protesta social y violencia",
     "section": "",
-    "text": "El OLES organiza su investigación en cuatro líneas institucionales que articulan personas, proyectos (Fondecyt, doctorados, pilotos) y estudios del Observatorio. Aquí tienes un acceso rápido; el detalle de integrantes y proyectos asociados está en la sección Equipo → Líneas de investigación. Las páginas temáticas de estudios siguen agrupando instrumentos y reportes por enfoque.\n  \n    \n      Línea 1 — Violencia estatal, control social y derechos humanos\n      Estado, control social, DDHH y legitimidad en torno a instituciones de seguridad y reparación.\n      Ver en Equipo →\n    \n    \n      Línea 2 — Movimientos sociales y violencia\n      Movilización, repertorios de acción colectiva y justificación de la violencia en contextos democráticos.\n      Ver en Equipo →\n    \n    \n      Línea 3 — Violencia, género y salud\n      Desigualdad de género, salud y experiencias de violencia en instituciones y trayectorias vitales.\n      Ver en Equipo →\n    \n    \n      Línea 4 — Legitimidad y justicia social\n      Legitimidad institucional, percepción de justicia y desigualdad en la opinión pública y la cultura política.\n      Ver en Equipo →\n    \n  \n  Explora además los estudios y productos por tema: Policía y legitimidad, Derechos humanos y Protesta social y violencia.\n  ← Volver al inicio"
+    "text": "Líneas de trabajo:\n  Policía y legitimidad\n  Derechos humanos\n  Protesta social y violencia\n  Ver todas\n\nEl ideal de igualdad se ha establecido como una expectativa social en las sociedades humanas y su incumplimiento puede generar rabia y malestar. Las personas interpretan la injusticia como un indicador de rechazo y exclusión, pues sienten que la expectativa de igualdad que promueven sus instituciones se quiebra. Una vez que se produce este quiebre, la disposición de las personas a cooperar voluntariamente por el bienestar social disminuye, conformando un proceso de deslegitimación de las autoridades, lo que aumenta la percepción de que el uso de la violencia es necesario para lograr cambios. Otra condición relevante tiene que ver con la percepción de eficacia grupal, es decir, la creencia de que es posible lograr un cambio por medio de la acción colectiva. Cuando una movilización empieza a masificarse, el sentimiento de poder cambiar las cosas crece y lleva a la gente a manifestarse. Sin embargo, no es suficiente percibir injusticia y sentir rabia para movilizarse. También es necesario que se genere una identidad común en torno al problema y, si esta identidad se politiza, mayor es la probabilidad de que las personas quieran protestar. En el Chile de los últimos años, una ola de movimientos (No +AFP, movimientos por la educación y feministas, alza de precios, entre otros) han demostrado que la sensación de deprivación no se reduce a un grupo particular y que la rabia es compartida, permitiendo la politización de una identidad en torno al malestar. A partir de octubre de 2019 Chile se vuelve testigo de protestas que reflejan una cristalización de demandas sociales, pero también un sentimiento de rabia e injusticia que decanta en la justificación generalizada del uso de la violencia en la movilización.\nEn esta línea se exploran los procesos de construcción y los mecanismos de justificación de repertorios de acción normativos y no normativos, explorando la justificación de la violencia intergrupal en Chile. En un momento en el que erosiona la legitimidad de las autoridades, las y los investigadores de OLES levantan datos e interpretaciones que permiten comprender los motivos por los cuales la ciudadanía llega a legitimar la violencia como una opción viable de protesta, y el modo en que se organiza para mostrar su descontento.\n← Ver todas las líneas · ← Inicio"
   },
   {
-    "objectID": "estudios/confianza-institucional.html",
-    "href": "estudios/confianza-institucional.html",
-    "title": "Encuesta de Confianza Institucional",
+    "objectID": "estudios/analisis-prensa.html",
+    "href": "estudios/analisis-prensa.html",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
     "section": "",
-    "text": "Estudio que analiza los niveles de confianza ciudadana en diversas instituciones del Estado chileno."
+    "text": "Investigador responsable: Ismael Puga\nInvestigadores: Luciano Saéz - Fuentealba\nAsistentes de investigación: Matías Deneken"
   },
   {
-    "objectID": "estudios/confianza-institucional.html#descripción",
-    "href": "estudios/confianza-institucional.html#descripción",
-    "title": "Encuesta de Confianza Institucional",
+    "objectID": "estudios/analisis-prensa.html#equipo-del-proyecto",
+    "href": "estudios/analisis-prensa.html#equipo-del-proyecto",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
     "section": "",
-    "text": "Estudio que analiza los niveles de confianza ciudadana en diversas instituciones del Estado chileno."
+    "text": "Investigador responsable: Ismael Puga\nInvestigadores: Luciano Saéz - Fuentealba\nAsistentes de investigación: Matías Deneken"
   },
   {
-    "objectID": "estudios/confianza-institucional.html#objetivos",
-    "href": "estudios/confianza-institucional.html#objetivos",
-    "title": "Encuesta de Confianza Institucional",
-    "section": "Objetivos",
-    "text": "Objetivos\n\nMedir niveles de confianza en instituciones públicas\nIdentificar determinantes de la confianza institucional\nComparar confianza entre diferentes instituciones\n\n← Volver a Estudios"
+    "objectID": "estudios/analisis-prensa.html#descripción",
+    "href": "estudios/analisis-prensa.html#descripción",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "section": "Descripción",
+    "text": "Descripción\nEstudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.\n← Volver a Proyectos de Investigación"
   },
   {
-    "objectID": "estudios/cualitativo-longitudinal.html",
-    "href": "estudios/cualitativo-longitudinal.html",
-    "title": "Estudio cualitativo longitudinal",
+    "objectID": "estudios/narrativas-estallido.html",
+    "href": "estudios/narrativas-estallido.html",
+    "title": "Narrativas del Estallido Social",
     "section": "",
-    "text": "Ana Figueiredo\n\n\n\nLoreto Quiroz, Macarena Orchard, Claudio Fuentes, Luciano Sáez Fuentealba\n\n\n\nBruno Rojas\n\n\n\n\n\nEstudio cualitativo de tipo longitudinal sobre percepciones y legitimidad de las instituciones policiales. Busca comprender cómo cambian las representaciones y las experiencias de las personas en el tiempo en relación con Carabineros y la seguridad.\n\n\n\nDiseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica."
+    "text": "Análisis de las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de 2019."
   },
   {
-    "objectID": "estudios/cualitativo-longitudinal.html#investigador-responsable",
-    "href": "estudios/cualitativo-longitudinal.html#investigador-responsable",
-    "title": "Estudio cualitativo longitudinal",
+    "objectID": "estudios/narrativas-estallido.html#descripción",
+    "href": "estudios/narrativas-estallido.html#descripción",
+    "title": "Narrativas del Estallido Social",
     "section": "",
-    "text": "Ana Figueiredo"
+    "text": "Análisis de las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de 2019."
   },
   {
-    "objectID": "estudios/cualitativo-longitudinal.html#investigadores",
-    "href": "estudios/cualitativo-longitudinal.html#investigadores",
-    "title": "Estudio cualitativo longitudinal",
+    "objectID": "estudios/narrativas-estallido.html#resultados",
+    "href": "estudios/narrativas-estallido.html#resultados",
+    "title": "Narrativas del Estallido Social",
+    "section": "Resultados",
+    "text": "Resultados\nEste estudio finalizó en 2022 y contribuyó a comprender cómo los ciudadanos construyeron narrativas sobre la legitimidad institucional en el contexto del estallido social.\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/prensa.html",
+    "href": "estudios/prensa.html",
+    "title": "Estudio de prensa",
     "section": "",
-    "text": "Loreto Quiroz, Macarena Orchard, Claudio Fuentes, Luciano Sáez Fuentealba"
+    "text": "Ismael Puga\n\n\n\nLuciano Sáez Fuentealba\n\n\n\nMatías Deneken\n\n\n\n\n\nAnálisis de la cobertura de prensa sobre policías, seguridad y legitimidad institucional. El estudio indaga cómo los medios representan a Carabineros, las reformas policiales y el debate público en torno a la confianza y la violencia.\n\n\n\nMonitoreo y codificación de noticias en medios escritos y digitales; análisis de marcos (framing) y de tendencias temporales; posible complemento con análisis de redes o de contenido automatizado."
   },
   {
-    "objectID": "estudios/cualitativo-longitudinal.html#asistentes-de-investigación",
-    "href": "estudios/cualitativo-longitudinal.html#asistentes-de-investigación",
-    "title": "Estudio cualitativo longitudinal",
+    "objectID": "estudios/prensa.html#investigador-responsable",
+    "href": "estudios/prensa.html#investigador-responsable",
+    "title": "Estudio de prensa",
     "section": "",
-    "text": "Bruno Rojas"
+    "text": "Ismael Puga"
   },
   {
-    "objectID": "estudios/cualitativo-longitudinal.html#introducción",
-    "href": "estudios/cualitativo-longitudinal.html#introducción",
-    "title": "Estudio cualitativo longitudinal",
+    "objectID": "estudios/prensa.html#investigadores",
+    "href": "estudios/prensa.html#investigadores",
+    "title": "Estudio de prensa",
     "section": "",
-    "text": "Estudio cualitativo de tipo longitudinal sobre percepciones y legitimidad de las instituciones policiales. Busca comprender cómo cambian las representaciones y las experiencias de las personas en el tiempo en relación con Carabineros y la seguridad."
+    "text": "Luciano Sáez Fuentealba"
   },
   {
-    "objectID": "estudios/cualitativo-longitudinal.html#métodos",
-    "href": "estudios/cualitativo-longitudinal.html#métodos",
-    "title": "Estudio cualitativo longitudinal",
+    "objectID": "estudios/prensa.html#asistentes-de-investigación",
+    "href": "estudios/prensa.html#asistentes-de-investigación",
+    "title": "Estudio de prensa",
     "section": "",
-    "text": "Diseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica."
+    "text": "Matías Deneken"
   },
   {
-    "objectID": "estudios/percepcion-carabineros.html",
-    "href": "estudios/percepcion-carabineros.html",
-    "title": "Encuesta de Percepción de Carabineros",
+    "objectID": "estudios/prensa.html#introducción",
+    "href": "estudios/prensa.html#introducción",
+    "title": "Estudio de prensa",
     "section": "",
-    "text": "Análisis comprehensivo de la percepción ciudadana sobre la legitimidad de Carabineros de Chile."
+    "text": "Análisis de la cobertura de prensa sobre policías, seguridad y legitimidad institucional. El estudio indaga cómo los medios representan a Carabineros, las reformas policiales y el debate público en torno a la confianza y la violencia."
   },
   {
-    "objectID": "estudios/percepcion-carabineros.html#descripción",
-    "href": "estudios/percepcion-carabineros.html#descripción",
-    "title": "Encuesta de Percepción de Carabineros",
+    "objectID": "estudios/prensa.html#métodos",
+    "href": "estudios/prensa.html#métodos",
+    "title": "Estudio de prensa",
     "section": "",
-    "text": "Análisis comprehensivo de la percepción ciudadana sobre la legitimidad de Carabineros de Chile."
+    "text": "Monitoreo y codificación de noticias en medios escritos y digitales; análisis de marcos (framing) y de tendencias temporales; posible complemento con análisis de redes o de contenido automatizado."
   },
   {
-    "objectID": "estudios/percepcion-carabineros.html#resultados-principales",
-    "href": "estudios/percepcion-carabineros.html#resultados-principales",
-    "title": "Encuesta de Percepción de Carabineros",
-    "section": "Resultados principales",
-    "text": "Resultados principales\nEste estudio finalizó en 2023 y contribuyó a comprender las percepciones ciudadanas sobre Carabineros en el período post-estallido social.\n← Volver a Estudios"
-  },
-  {
-    "objectID": "estudios/panel-legitimidad-policial.html",
-    "href": "estudios/panel-legitimidad-policial.html",
-    "title": "Estudio Panel de Legitimidad Policial",
+    "objectID": "estudios/index.html",
+    "href": "estudios/index.html",
+    "title": "Proyectos de Investigación",
     "section": "",
-    "text": "Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo."
+    "text": "Proyectos de Investigación\n  Listado completo de todos nuestros proyectos de investigación.\n\n\n\n  \n    \n      En curso\n      Estudio Panel de Percepciones y Seguridad (ESEP)\n    \n  \n  \n    \n      En curso\n      Estudio de Datos Administrativos\n    \n  \n  \n    \n      En curso\n      Estudio cualitativo longitudinal\n    \n  \n  \n    \n      En curso\n      Estudio de prensa\n    \n  \n  \n    \n      En curso\n      Seguimiento a las policías\n    \n  \n  \n    \n      En curso\n      Proyecto en desarrollo 1\n    \n  \n  \n    \n      En curso\n      Proyecto en desarrollo 2\n    \n  \n  \n    \n      En curso\n      Proyecto en desarrollo 3\n    \n  \n\n← Volver al Inicio"
   },
   {
-    "objectID": "estudios/panel-legitimidad-policial.html#descripción",
-    "href": "estudios/panel-legitimidad-policial.html#descripción",
-    "title": "Estudio Panel de Legitimidad Policial",
+    "objectID": "estudios/monitoreo-opinion-digital.html",
+    "href": "estudios/monitoreo-opinion-digital.html",
+    "title": "Monitoreo de Opinión Pública Digital",
     "section": "",
-    "text": "Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo."
+    "text": "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/panel-legitimidad-policial.html#objetivos",
-    "href": "estudios/panel-legitimidad-policial.html#objetivos",
-    "title": "Estudio Panel de Legitimidad Policial",
-    "section": "Objetivos",
-    "text": "Objetivos\n\nAnalizar cambios en percepciones de legitimidad policial\nIdentificar factores que explican cambios en el tiempo\nEvaluar el impacto de eventos específicos en las percepciones\n\n← Volver a Estudios"
-  },
-  {
-    "objectID": "estudios/placeholder-3.html",
-    "href": "estudios/placeholder-3.html",
-    "title": "Proyecto en desarrollo 3",
+    "objectID": "estudios/monitoreo-opinion-digital.html#descripción",
+    "href": "estudios/monitoreo-opinion-digital.html#descripción",
+    "title": "Monitoreo de Opinión Pública Digital",
     "section": "",
-    "text": "Por definir.\n\n\n\nPor definir.\n\n\n\nPor definir.\n\n\n\n\n\nProyecto en etapa de diseño. Próximamente se incorporará la descripción del estudio, sus objetivos y su relevancia para el Observatorio.\n\n\n\nMetodología y diseño en definición. Se actualizará con el avance del proyecto."
+    "text": "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/placeholder-3.html#investigador-responsable",
-    "href": "estudios/placeholder-3.html#investigador-responsable",
-    "title": "Proyecto en desarrollo 3",
+    "objectID": "estudios/fondecyt-sofia-donoso.html",
+    "href": "estudios/fondecyt-sofia-donoso.html",
+    "title": "Fondecyt — Sofía Donoso",
     "section": "",
-    "text": "Por definir."
+    "text": "Sofía Donoso\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
   },
   {
-    "objectID": "estudios/placeholder-3.html#investigadores",
-    "href": "estudios/placeholder-3.html#investigadores",
-    "title": "Proyecto en desarrollo 3",
+    "objectID": "estudios/fondecyt-sofia-donoso.html#investigador-responsable",
+    "href": "estudios/fondecyt-sofia-donoso.html#investigador-responsable",
+    "title": "Fondecyt — Sofía Donoso",
     "section": "",
-    "text": "Por definir."
+    "text": "Sofía Donoso"
   },
   {
-    "objectID": "estudios/placeholder-3.html#asistentes-de-investigación",
-    "href": "estudios/placeholder-3.html#asistentes-de-investigación",
-    "title": "Proyecto en desarrollo 3",
+    "objectID": "estudios/fondecyt-sofia-donoso.html#introducción",
+    "href": "estudios/fondecyt-sofia-donoso.html#introducción",
+    "title": "Fondecyt — Sofía Donoso",
     "section": "",
-    "text": "Por definir."
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
   },
   {
-    "objectID": "estudios/placeholder-3.html#introducción",
-    "href": "estudios/placeholder-3.html#introducción",
-    "title": "Proyecto en desarrollo 3",
+    "objectID": "estudios/fondecyt-sofia-donoso.html#métodos",
+    "href": "estudios/fondecyt-sofia-donoso.html#métodos",
+    "title": "Fondecyt — Sofía Donoso",
     "section": "",
-    "text": "Proyecto en etapa de diseño. Próximamente se incorporará la descripción del estudio, sus objetivos y su relevancia para el Observatorio."
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
   },
   {
-    "objectID": "estudios/placeholder-3.html#métodos",
-    "href": "estudios/placeholder-3.html#métodos",
-    "title": "Proyecto en desarrollo 3",
+    "objectID": "estudios/fondecyt-paz-irarrazabal.html",
+    "href": "estudios/fondecyt-paz-irarrazabal.html",
+    "title": "Fondecyt — Paz Irarrázabal",
     "section": "",
-    "text": "Metodología y diseño en definición. Se actualizará con el avance del proyecto."
+    "text": "Paz Irarrázabal González\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/fondecyt-paz-irarrazabal.html#investigador-responsable",
+    "href": "estudios/fondecyt-paz-irarrazabal.html#investigador-responsable",
+    "title": "Fondecyt — Paz Irarrázabal",
+    "section": "",
+    "text": "Paz Irarrázabal González"
+  },
+  {
+    "objectID": "estudios/fondecyt-paz-irarrazabal.html#introducción",
+    "href": "estudios/fondecyt-paz-irarrazabal.html#introducción",
+    "title": "Fondecyt — Paz Irarrázabal",
+    "section": "",
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
+  },
+  {
+    "objectID": "estudios/fondecyt-paz-irarrazabal.html#métodos",
+    "href": "estudios/fondecyt-paz-irarrazabal.html#métodos",
+    "title": "Fondecyt — Paz Irarrázabal",
+    "section": "",
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
   },
   {
     "objectID": "estudios/policia-legitimidad.html",
@@ -434,18 +504,102 @@
     "text": "Diseño panel con mediciones repetidas; encuestas en línea y cuestionarios estandarizados sobre legitimidad, experiencias con policías y percepción de seguridad. Análisis longitudinal y comparativo."
   },
   {
-    "objectID": "estudios/analisis-georreferenciado.html",
-    "href": "estudios/analisis-georreferenciado.html",
-    "title": "Análisis Georreferenciado de Interacciones",
+    "objectID": "estudios/lineas/linea-1.html",
+    "href": "estudios/lineas/linea-1.html",
+    "title": "Línea 1 — Violencia estatal, control social y derechos humanos",
     "section": "",
-    "text": "Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales.\n← Volver a Estudios"
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea agrupa investigaciones sobre el ejercicio de la fuerza estatal, prácticas de control social, vulneraciones a derechos fundamentales y legitimidad en torno a instituciones de seguridad y reparación.\n\n\n\n\nLuciano Sáez Fuentealba\nAna Figueiredo\nPaz Irarrázabal González\nLoreto Quiroz\nMónica Gerber\nManuela Badilla Rajevic\n\n\n\n\n\nFondecyt Ana\nTesis (doctorado) Luciano Sáez\nFondecyt Paz Irarrázabal\nFondecyt Loreto Quiroz\nExploración (grupos focales)\nFondecyt Mónica — ESEP y trayectoria\n← Volver a Líneas de investigación"
   },
   {
-    "objectID": "estudios/analisis-georreferenciado.html#descripción",
-    "href": "estudios/analisis-georreferenciado.html#descripción",
-    "title": "Análisis Georreferenciado de Interacciones",
+    "objectID": "estudios/lineas/linea-1.html#introducción",
+    "href": "estudios/lineas/linea-1.html#introducción",
+    "title": "Línea 1 — Violencia estatal, control social y derechos humanos",
     "section": "",
-    "text": "Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales.\n← Volver a Estudios"
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea agrupa investigaciones sobre el ejercicio de la fuerza estatal, prácticas de control social, vulneraciones a derechos fundamentales y legitimidad en torno a instituciones de seguridad y reparación."
+  },
+  {
+    "objectID": "estudios/lineas/linea-1.html#investigadorases",
+    "href": "estudios/lineas/linea-1.html#investigadorases",
+    "title": "Línea 1 — Violencia estatal, control social y derechos humanos",
+    "section": "",
+    "text": "Luciano Sáez Fuentealba\nAna Figueiredo\nPaz Irarrázabal González\nLoreto Quiroz\nMónica Gerber\nManuela Badilla Rajevic"
+  },
+  {
+    "objectID": "estudios/lineas/linea-1.html#proyectos-asociados",
+    "href": "estudios/lineas/linea-1.html#proyectos-asociados",
+    "title": "Línea 1 — Violencia estatal, control social y derechos humanos",
+    "section": "",
+    "text": "Fondecyt Ana\nTesis (doctorado) Luciano Sáez\nFondecyt Paz Irarrázabal\nFondecyt Loreto Quiroz\nExploración (grupos focales)\nFondecyt Mónica — ESEP y trayectoria"
+  },
+  {
+    "objectID": "estudios/lineas/linea-2.html",
+    "href": "estudios/lineas/linea-2.html",
+    "title": "Línea 2 — Movimientos sociales y violencia",
+    "section": "",
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea reúne trabajos sobre movilización, repertorios de acción colectiva, protesta social y dinámicas de conflicto y legitimidad en contextos democráticos.\n\n\n\n\nIsmael Puga\nSofía Donoso\n\n\n\n\n\nFondecyt Ismael Puga\nFondecyt Sofía Donoso\n← Volver a Líneas de investigación"
+  },
+  {
+    "objectID": "estudios/lineas/linea-2.html#introducción",
+    "href": "estudios/lineas/linea-2.html#introducción",
+    "title": "Línea 2 — Movimientos sociales y violencia",
+    "section": "",
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea reúne trabajos sobre movilización, repertorios de acción colectiva, protesta social y dinámicas de conflicto y legitimidad en contextos democráticos."
+  },
+  {
+    "objectID": "estudios/lineas/linea-2.html#investigadorases",
+    "href": "estudios/lineas/linea-2.html#investigadorases",
+    "title": "Línea 2 — Movimientos sociales y violencia",
+    "section": "",
+    "text": "Ismael Puga\nSofía Donoso"
+  },
+  {
+    "objectID": "estudios/lineas/linea-2.html#proyectos-asociados",
+    "href": "estudios/lineas/linea-2.html#proyectos-asociados",
+    "title": "Línea 2 — Movimientos sociales y violencia",
+    "section": "",
+    "text": "Fondecyt Ismael Puga\nFondecyt Sofía Donoso"
+  },
+  {
+    "objectID": "estudios/fondecyt-gloria-jimenez-moya.html",
+    "href": "estudios/fondecyt-gloria-jimenez-moya.html",
+    "title": "Fondecyt — Gloria Jiménez-Moya",
+    "section": "",
+    "text": "Gloria Jiménez-Moya\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/fondecyt-gloria-jimenez-moya.html#investigador-responsable",
+    "href": "estudios/fondecyt-gloria-jimenez-moya.html#investigador-responsable",
+    "title": "Fondecyt — Gloria Jiménez-Moya",
+    "section": "",
+    "text": "Gloria Jiménez-Moya"
+  },
+  {
+    "objectID": "estudios/fondecyt-gloria-jimenez-moya.html#introducción",
+    "href": "estudios/fondecyt-gloria-jimenez-moya.html#introducción",
+    "title": "Fondecyt — Gloria Jiménez-Moya",
+    "section": "",
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
+  },
+  {
+    "objectID": "estudios/fondecyt-gloria-jimenez-moya.html#métodos",
+    "href": "estudios/fondecyt-gloria-jimenez-moya.html#métodos",
+    "title": "Fondecyt — Gloria Jiménez-Moya",
+    "section": "",
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html",
+    "href": "estudios/estadisticas-delitos.html",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "",
+    "text": "Análisis de estadísticas oficiales de delitos y victimización para comprender la relación entre criminalidad y percepciones de legitimidad.\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#descripción",
+    "href": "estudios/estadisticas-delitos.html#descripción",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "",
+    "text": "Análisis de estadísticas oficiales de delitos y victimización para comprender la relación entre criminalidad y percepciones de legitimidad.\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/etnografia-policia.html",
@@ -760,7 +914,7 @@
     "href": "equipo/index.html",
     "title": "Equipo OLES",
     "section": "",
-    "text": "El Observatorio de Violencia y Legitimidad Social (OLES) es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional, las líneas de investigación (cada una articula proyectos de investigación como Fondecyt, doctorados y pilotos del Observatorio) y los perfiles del equipo.\n\n\nEn OLES trabajamos de forma articulada entre dirección, comité directivo (coordinaciones), investigadoras/es principales, investigadoras/es adjuntos/as, asistentes de investigación y jóvenes investigadoras/es en formación. Las líneas de investigación conectan personas con proyectos (Fondecyt, tesis doctorales, pilotos, etc.) publicados o en curso en el área de estudios.\n← Volver al Inicio"
+    "text": "El Observatorio de Violencia y Legitimidad Social (OLES) es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional y los perfiles del equipo.\n\n\nEn OLES trabajamos de forma articulada entre dirección, comité directivo (coordinaciones), investigadoras/es principales, investigadoras/es adjuntos/as, asistentes de investigación y jóvenes investigadoras/es en formación.\n← Volver al Inicio"
   },
   {
     "objectID": "equipo/index.html#dirección",
@@ -774,7 +928,7 @@
     "href": "equipo/index.html#comité-directivo-coordinaciones",
     "title": "Equipo OLES",
     "section": "Comité directivo (coordinaciones)",
-    "text": "Comité directivo (coordinaciones)\n\nCoordinaciones que acompañan la agenda colectiva del OLES.\n\n\n\n\n\n\n\n\n\n\n\nMacarena Orchard\n\n\n\n\n\n\n\n\n\n\n\n\n\nCristóbal Moya\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuciano Sáez Fuentealba\n\n\n\n\n\n\n\n\n\n\n\n\n\nPor definir\n\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Comité directivo (coordinaciones)\n\nCoordinaciones que acompañan la agenda colectiva del OLES.\n\n\n\n\n\n\n\n\n\n\n\nLuciano Sáez Fuentealba\n\n\n\n\n\n\n\n\n\n\n\n\n\nCristóbal Moya\n\n\n\n\n\n\n\n\n\n\n\n\n\nMacarena Orchard\n\n\n\n\n\n\n\n\n\n\n\n\n\nPor definir\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "equipo/index.html#investigadorases-principales",
@@ -791,11 +945,18 @@
     "text": "Investigadoras/es adjuntos/as\n\nParticipación en instancias sustantivas de OLES manteniendo otras afiliaciones (algunas/os aparecen también en otras secciones del sitio).\n\n\n\n\n\n\n\n\n\n\n\nMatías Deneken\n\n\n\n\n\n\n\n\n\n\n\n\n\nBruno Rojas\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
+    "objectID": "equipo/index.html#asistentes-de-investigación",
+    "href": "equipo/index.html#asistentes-de-investigación",
+    "title": "Equipo OLES",
+    "section": "Asistentes de investigación",
+    "text": "Asistentes de investigación\n\nPersonas que apoyan levantamiento de información, codificación, preparación de bases de datos y tareas técnicas vinculadas a los proyectos.\n\n\n\n\n\n\n\n\n\n\n\nAmparo Feller\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartín Venegas\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
     "objectID": "equipo/index.html#investigadorases-asociadosas-y-colaboración",
     "href": "equipo/index.html#investigadorases-asociadosas-y-colaboración",
     "title": "Equipo OLES",
     "section": "Investigadoras/es asociados/as y colaboración",
-    "text": "Investigadoras/es asociados/as y colaboración\n\nVínculos académicos que apoyan el quehacer del Observatorio sin integrar la estructura permanente descrita arriba.\n\n\n\n\n\n\n\n\n\n\n\nClaudio Fuentes\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmparo Feller\n\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Investigadoras/es asociados/as y colaboración\n\nVínculos académicos que apoyan el quehacer del Observatorio sin integrar la estructura permanente descrita arriba.\n\n\n\n\n\n\n\n\n\n\n\nClaudio Fuentes\n\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "equipo/paz-irarrazabal.html",
@@ -1015,6 +1176,41 @@
     "text": "Últimas publicaciones\n\n(Aún no hay publicaciones listadas.)\n\n← Volver al Equipo"
   },
   {
+    "objectID": "equipo/amparo-feller.html",
+    "href": "equipo/amparo-feller.html",
+    "title": "Amparo Feller",
+    "section": "",
+    "text": "Socióloga y Magíster en Métodos para la Investigación Social por la Universidad Diego Portales. Actualmente se desempeña como Coordinadora del Observatorio de Desigualdades de la misma universidad.\nSu trayectoria de investigación ha estado vinculada al análisis y la visibilización de las experiencias de mujeres durante la dictadura militar en Chile. En la actualidad, su interés investigativo se orienta al estudio de la machosfera y sus implicancias socioculturales, con especial atención al contexto latinoamericano."
+  },
+  {
+    "objectID": "equipo/amparo-feller.html#descripción",
+    "href": "equipo/amparo-feller.html#descripción",
+    "title": "Amparo Feller",
+    "section": "",
+    "text": "Socióloga y Magíster en Métodos para la Investigación Social por la Universidad Diego Portales. Actualmente se desempeña como Coordinadora del Observatorio de Desigualdades de la misma universidad.\nSu trayectoria de investigación ha estado vinculada al análisis y la visibilización de las experiencias de mujeres durante la dictadura militar en Chile. En la actualidad, su interés investigativo se orienta al estudio de la machosfera y sus implicancias socioculturales, con especial atención al contexto latinoamericano."
+  },
+  {
+    "objectID": "equipo/amparo-feller.html#áreas-de-interés",
+    "href": "equipo/amparo-feller.html#áreas-de-interés",
+    "title": "Amparo Feller",
+    "section": "Áreas de Interés",
+    "text": "Áreas de Interés\n\nSociología de la memoria\nDesigualdades de género\nCosificación de la mujer\nMasculinidades\nMetodologías digitales y narrativas en la investigación social"
+  },
+  {
+    "objectID": "equipo/amparo-feller.html#educación",
+    "href": "equipo/amparo-feller.html#educación",
+    "title": "Amparo Feller",
+    "section": "Educación",
+    "text": "Educación\n\nMagíster en Métodos para la Investigación Social - Universidad Diego Portales\nSocióloga - Universidad Diego Portales"
+  },
+  {
+    "objectID": "equipo/amparo-feller.html#últimas-publicaciones",
+    "href": "equipo/amparo-feller.html#últimas-publicaciones",
+    "title": "Amparo Feller",
+    "section": "Últimas publicaciones",
+    "text": "Últimas publicaciones\n\n(Aún no hay publicaciones listadas.)\n\n← Volver al Equipo"
+  },
+  {
     "objectID": "TUTORIAL-USO-PAGINA.html",
     "href": "TUTORIAL-USO-PAGINA.html",
     "title": "Tutorial de Edición del Sitio OLES",
@@ -1141,37 +1337,23 @@
     "text": "Cuando quieras subir contenido nuevo, conviene seguir siempre esta lógica:\n\ncopiar una plantilla desde _templates/;\nnombrar bien el archivo;\nrevisar el YAML con cuidado;\nguardar imágenes en la carpeta correcta;\nrenderizar;\nrevisar visualmente la página generada en docs/.\n\nSi el cambio es en proyectos o portada, revisa además que los botones y enlaces sigan funcionando."
   },
   {
-    "objectID": "equipo/amparo-feller.html",
-    "href": "equipo/amparo-feller.html",
-    "title": "Amparo Feller",
+    "objectID": "equipo/martin-venegas.html",
+    "href": "equipo/martin-venegas.html",
+    "title": "Martín Venegas",
     "section": "",
-    "text": "Socióloga y Magíster en Métodos para la Investigación Social por la Universidad Diego Portales. Actualmente se desempeña como Coordinadora del Observatorio de Desigualdades de la misma universidad.\nSu trayectoria de investigación ha estado vinculada al análisis y la visibilización de las experiencias de mujeres durante la dictadura militar en Chile. En la actualidad, su interés investigativo se orienta al estudio de la machosfera y sus implicancias socioculturales, con especial atención al contexto latinoamericano."
+    "text": "Asistente de investigación del Observatorio de Violencia y Legitimidad Social. Información detallada próximamente."
   },
   {
-    "objectID": "equipo/amparo-feller.html#descripción",
-    "href": "equipo/amparo-feller.html#descripción",
-    "title": "Amparo Feller",
+    "objectID": "equipo/martin-venegas.html#descripción",
+    "href": "equipo/martin-venegas.html#descripción",
+    "title": "Martín Venegas",
     "section": "",
-    "text": "Socióloga y Magíster en Métodos para la Investigación Social por la Universidad Diego Portales. Actualmente se desempeña como Coordinadora del Observatorio de Desigualdades de la misma universidad.\nSu trayectoria de investigación ha estado vinculada al análisis y la visibilización de las experiencias de mujeres durante la dictadura militar en Chile. En la actualidad, su interés investigativo se orienta al estudio de la machosfera y sus implicancias socioculturales, con especial atención al contexto latinoamericano."
+    "text": "Asistente de investigación del Observatorio de Violencia y Legitimidad Social. Información detallada próximamente."
   },
   {
-    "objectID": "equipo/amparo-feller.html#áreas-de-interés",
-    "href": "equipo/amparo-feller.html#áreas-de-interés",
-    "title": "Amparo Feller",
-    "section": "Áreas de Interés",
-    "text": "Áreas de Interés\n\nSociología de la memoria\nDesigualdades de género\nCosificación de la mujer\nMasculinidades\nMetodologías digitales y narrativas en la investigación social"
-  },
-  {
-    "objectID": "equipo/amparo-feller.html#educación",
-    "href": "equipo/amparo-feller.html#educación",
-    "title": "Amparo Feller",
-    "section": "Educación",
-    "text": "Educación\n\nMagíster en Métodos para la Investigación Social - Universidad Diego Portales\nSocióloga - Universidad Diego Portales"
-  },
-  {
-    "objectID": "equipo/amparo-feller.html#últimas-publicaciones",
-    "href": "equipo/amparo-feller.html#últimas-publicaciones",
-    "title": "Amparo Feller",
+    "objectID": "equipo/martin-venegas.html#últimas-publicaciones",
+    "href": "equipo/martin-venegas.html#últimas-publicaciones",
+    "title": "Martín Venegas",
     "section": "Últimas publicaciones",
     "text": "Últimas publicaciones\n\n(Aún no hay publicaciones listadas.)\n\n← Volver al Equipo"
   },
@@ -1215,28 +1397,28 @@
     "href": "equipo/matias-deneken.html",
     "title": "Matías Deneken",
     "section": "",
-    "text": "Sociólogo, Magíster en Sociología y candidato a Magíster en Data Science. Actualmente desempeña labores en investigación social aplicada en el Centro CIIR y OLES, con temáticas vinculadas a interculturalidad y violencia. Dentro de sus méritos académicos fue Premio Universidad de Concepción y Becario ANID - Magíster Nacional."
+    "text": "Sociólogo, Magíster en Sociología y Magíster en Data Science. Al día de hoy su agenda se centra en la ciencia social computacional, usando grandes volúmenes de datos e Inteligencia Artificial para estudiarlos."
   },
   {
     "objectID": "equipo/matias-deneken.html#descripción",
     "href": "equipo/matias-deneken.html#descripción",
     "title": "Matías Deneken",
     "section": "",
-    "text": "Sociólogo, Magíster en Sociología y candidato a Magíster en Data Science. Actualmente desempeña labores en investigación social aplicada en el Centro CIIR y OLES, con temáticas vinculadas a interculturalidad y violencia. Dentro de sus méritos académicos fue Premio Universidad de Concepción y Becario ANID - Magíster Nacional."
+    "text": "Sociólogo, Magíster en Sociología y Magíster en Data Science. Al día de hoy su agenda se centra en la ciencia social computacional, usando grandes volúmenes de datos e Inteligencia Artificial para estudiarlos."
   },
   {
     "objectID": "equipo/matias-deneken.html#áreas-de-interés",
     "href": "equipo/matias-deneken.html#áreas-de-interés",
     "title": "Matías Deneken",
     "section": "Áreas de Interés",
-    "text": "Áreas de Interés\n\nRelaciones Intergrupales\nHistoria de la Sociología Chilena\nCiencias Sociales Computacionales\nText as data"
+    "text": "Áreas de Interés\n\nRelaciones Intergrupales\nPensamiento social latinoamericano\nCiencias Sociales Computacionales\nText as data"
   },
   {
     "objectID": "equipo/matias-deneken.html#educación",
     "href": "equipo/matias-deneken.html#educación",
     "title": "Matías Deneken",
     "section": "Educación",
-    "text": "Educación\n\nMagíster en Data Science (en curso) - Universidad de Concepción\nMagíster en Sociología - Pontificia Universidad Católica de Chile\nSociólogo - Universidad de Concepción"
+    "text": "Educación\n\nMagíster en Data Science  - Universidad de Concepción\nMagíster en Sociología - Pontificia Universidad Católica de Chile\nSociólogo - Universidad de Concepción"
   },
   {
     "objectID": "equipo/matias-deneken.html#últimas-publicaciones",
@@ -1666,18 +1848,46 @@
     "text": "Metodología\nAnálisis de documentos institucionales, entrevistas con personal policial y análisis de bases de datos administrativas.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/estadisticas-delitos.html",
-    "href": "estudios/estadisticas-delitos.html",
-    "title": "Estadísticas de Delitos y Victimización",
+    "objectID": "estudios/tesis-doctorado-luciano-saez.html",
+    "href": "estudios/tesis-doctorado-luciano-saez.html",
+    "title": "Tesis de doctorado — Luciano Sáez Fuentealba",
     "section": "",
-    "text": "Análisis de estadísticas oficiales de delitos y victimización para comprender la relación entre criminalidad y percepciones de legitimidad.\n← Volver a Estudios"
+    "text": "Luciano Sáez Fuentealba\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
   },
   {
-    "objectID": "estudios/estadisticas-delitos.html#descripción",
-    "href": "estudios/estadisticas-delitos.html#descripción",
-    "title": "Estadísticas de Delitos y Victimización",
+    "objectID": "estudios/tesis-doctorado-luciano-saez.html#investigador-responsable",
+    "href": "estudios/tesis-doctorado-luciano-saez.html#investigador-responsable",
+    "title": "Tesis de doctorado — Luciano Sáez Fuentealba",
     "section": "",
-    "text": "Análisis de estadísticas oficiales de delitos y victimización para comprender la relación entre criminalidad y percepciones de legitimidad.\n← Volver a Estudios"
+    "text": "Luciano Sáez Fuentealba"
+  },
+  {
+    "objectID": "estudios/tesis-doctorado-luciano-saez.html#introducción",
+    "href": "estudios/tesis-doctorado-luciano-saez.html#introducción",
+    "title": "Tesis de doctorado — Luciano Sáez Fuentealba",
+    "section": "",
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
+  },
+  {
+    "objectID": "estudios/tesis-doctorado-luciano-saez.html#métodos",
+    "href": "estudios/tesis-doctorado-luciano-saez.html#métodos",
+    "title": "Tesis de doctorado — Luciano Sáez Fuentealba",
+    "section": "",
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html",
+    "href": "estudios/analisis-georreferenciado.html",
+    "title": "Análisis Georreferenciado de Interacciones",
+    "section": "",
+    "text": "Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales.\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#descripción",
+    "href": "estudios/analisis-georreferenciado.html#descripción",
+    "title": "Análisis Georreferenciado de Interacciones",
+    "section": "",
+    "text": "Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales.\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/entrevistas-legitimidad.html",
@@ -1699,6 +1909,62 @@
     "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
     "section": "Metodología",
     "text": "Metodología\nSe realizan entrevistas semi-estructuradas con ciudadanos de diferentes perfiles sociodemográficos.\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/lineas/linea-3.html",
+    "href": "estudios/lineas/linea-3.html",
+    "title": "Línea 3 — Violencia, género y salud",
+    "section": "",
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea concentra investigaciones sobre violencia de género, salud, desigualdad y respuestas institucionales y comunitarias.\n\n\n\n\nMacarena Orchard\nGloria Jiménez-Moya\n\n\n\n\n\nFondecyt Macarena Orchard\nFondecyt Gloria Jiménez-Moya\n← Volver a Líneas de investigación"
+  },
+  {
+    "objectID": "estudios/lineas/linea-3.html#introducción",
+    "href": "estudios/lineas/linea-3.html#introducción",
+    "title": "Línea 3 — Violencia, género y salud",
+    "section": "",
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea concentra investigaciones sobre violencia de género, salud, desigualdad y respuestas institucionales y comunitarias."
+  },
+  {
+    "objectID": "estudios/lineas/linea-3.html#investigadorases",
+    "href": "estudios/lineas/linea-3.html#investigadorases",
+    "title": "Línea 3 — Violencia, género y salud",
+    "section": "",
+    "text": "Macarena Orchard\nGloria Jiménez-Moya"
+  },
+  {
+    "objectID": "estudios/lineas/linea-3.html#proyectos-asociados",
+    "href": "estudios/lineas/linea-3.html#proyectos-asociados",
+    "title": "Línea 3 — Violencia, género y salud",
+    "section": "",
+    "text": "Fondecyt Macarena Orchard\nFondecyt Gloria Jiménez-Moya"
+  },
+  {
+    "objectID": "estudios/lineas/linea-4.html",
+    "href": "estudios/lineas/linea-4.html",
+    "title": "Línea 4 — Legitimidad y justicia social",
+    "section": "",
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea aborda legitimidad institucional, percepciones de justicia, confianza y desigualdad en opinión pública y cultura política.\n\n\n\n\nJoaquín Bahamondes\nIsmael Puga\nCristóbal Moya\nMatías Gómez\n\n\n\n\n\nDoctorado Cristóbal Moya\nFondecyt Ismael Puga\nDoctorado Matías Gómez\n\n\nVer también el estudio panel ESEP y Confianza institucional en el listado de proyectos.\n← Volver a Líneas de investigación"
+  },
+  {
+    "objectID": "estudios/lineas/linea-4.html#introducción",
+    "href": "estudios/lineas/linea-4.html#introducción",
+    "title": "Línea 4 — Legitimidad y justicia social",
+    "section": "",
+    "text": "[Descripción ampliada — pendiente de redacción.]\nEsta línea aborda legitimidad institucional, percepciones de justicia, confianza y desigualdad en opinión pública y cultura política."
+  },
+  {
+    "objectID": "estudios/lineas/linea-4.html#investigadorases",
+    "href": "estudios/lineas/linea-4.html#investigadorases",
+    "title": "Línea 4 — Legitimidad y justicia social",
+    "section": "",
+    "text": "Joaquín Bahamondes\nIsmael Puga\nCristóbal Moya\nMatías Gómez"
+  },
+  {
+    "objectID": "estudios/lineas/linea-4.html#proyectos-asociados",
+    "href": "estudios/lineas/linea-4.html#proyectos-asociados",
+    "title": "Línea 4 — Legitimidad y justicia social",
+    "section": "",
+    "text": "Doctorado Cristóbal Moya\nFondecyt Ismael Puga\nDoctorado Matías Gómez\n\n\nVer también el estudio panel ESEP y Confianza institucional en el listado de proyectos."
   },
   {
     "objectID": "estudios/placeholder-1.html",
@@ -1841,116 +2107,214 @@
     "text": "Estudio de registros administrativos de denuncias a la policía para comprender patrones de victimización y confianza institucional.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/monitoreo-opinion-digital.html",
-    "href": "estudios/monitoreo-opinion-digital.html",
-    "title": "Monitoreo de Opinión Pública Digital",
+    "objectID": "estudios/placeholder-3.html",
+    "href": "estudios/placeholder-3.html",
+    "title": "Proyecto en desarrollo 3",
     "section": "",
-    "text": "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.\n← Volver a Estudios"
+    "text": "Por definir.\n\n\n\nPor definir.\n\n\n\nPor definir.\n\n\n\n\n\nProyecto en etapa de diseño. Próximamente se incorporará la descripción del estudio, sus objetivos y su relevancia para el Observatorio.\n\n\n\nMetodología y diseño en definición. Se actualizará con el avance del proyecto."
   },
   {
-    "objectID": "estudios/monitoreo-opinion-digital.html#descripción",
-    "href": "estudios/monitoreo-opinion-digital.html#descripción",
-    "title": "Monitoreo de Opinión Pública Digital",
+    "objectID": "estudios/placeholder-3.html#investigador-responsable",
+    "href": "estudios/placeholder-3.html#investigador-responsable",
+    "title": "Proyecto en desarrollo 3",
     "section": "",
-    "text": "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.\n← Volver a Estudios"
+    "text": "Por definir."
   },
   {
-    "objectID": "estudios/index.html",
-    "href": "estudios/index.html",
-    "title": "Proyectos de Investigación",
+    "objectID": "estudios/placeholder-3.html#investigadores",
+    "href": "estudios/placeholder-3.html#investigadores",
+    "title": "Proyecto en desarrollo 3",
     "section": "",
-    "text": "Proyectos de Investigación\n  Listado completo de todos nuestros proyectos de investigación.\n\n\n\n  \n    \n      En curso\n      Estudio Panel de Percepciones y Seguridad (ESEP)\n    \n  \n  \n    \n      En curso\n      Estudio de Datos Administrativos\n    \n  \n  \n    \n      En curso\n      Estudio cualitativo longitudinal\n    \n  \n  \n    \n      En curso\n      Estudio de prensa\n    \n  \n  \n    \n      En curso\n      Seguimiento a las policías\n    \n  \n  \n    \n      En curso\n      Proyecto en desarrollo 1\n    \n  \n  \n    \n      En curso\n      Proyecto en desarrollo 2\n    \n  \n  \n    \n      En curso\n      Proyecto en desarrollo 3\n    \n  \n\n← Volver al Inicio"
+    "text": "Por definir."
   },
   {
-    "objectID": "estudios/prensa.html",
-    "href": "estudios/prensa.html",
-    "title": "Estudio de prensa",
+    "objectID": "estudios/placeholder-3.html#asistentes-de-investigación",
+    "href": "estudios/placeholder-3.html#asistentes-de-investigación",
+    "title": "Proyecto en desarrollo 3",
     "section": "",
-    "text": "Ismael Puga\n\n\n\nLuciano Sáez Fuentealba\n\n\n\nMatías Deneken\n\n\n\n\n\nAnálisis de la cobertura de prensa sobre policías, seguridad y legitimidad institucional. El estudio indaga cómo los medios representan a Carabineros, las reformas policiales y el debate público en torno a la confianza y la violencia.\n\n\n\nMonitoreo y codificación de noticias en medios escritos y digitales; análisis de marcos (framing) y de tendencias temporales; posible complemento con análisis de redes o de contenido automatizado."
+    "text": "Por definir."
   },
   {
-    "objectID": "estudios/prensa.html#investigador-responsable",
-    "href": "estudios/prensa.html#investigador-responsable",
-    "title": "Estudio de prensa",
+    "objectID": "estudios/placeholder-3.html#introducción",
+    "href": "estudios/placeholder-3.html#introducción",
+    "title": "Proyecto en desarrollo 3",
     "section": "",
-    "text": "Ismael Puga"
+    "text": "Proyecto en etapa de diseño. Próximamente se incorporará la descripción del estudio, sus objetivos y su relevancia para el Observatorio."
   },
   {
-    "objectID": "estudios/prensa.html#investigadores",
-    "href": "estudios/prensa.html#investigadores",
-    "title": "Estudio de prensa",
+    "objectID": "estudios/placeholder-3.html#métodos",
+    "href": "estudios/placeholder-3.html#métodos",
+    "title": "Proyecto en desarrollo 3",
     "section": "",
-    "text": "Luciano Sáez Fuentealba"
+    "text": "Metodología y diseño en definición. Se actualizará con el avance del proyecto."
   },
   {
-    "objectID": "estudios/prensa.html#asistentes-de-investigación",
-    "href": "estudios/prensa.html#asistentes-de-investigación",
-    "title": "Estudio de prensa",
+    "objectID": "estudios/fondecyt-loreto-quiroz.html",
+    "href": "estudios/fondecyt-loreto-quiroz.html",
+    "title": "Fondecyt — Loreto Quiroz",
     "section": "",
-    "text": "Matías Deneken"
+    "text": "Loreto Quiroz\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
   },
   {
-    "objectID": "estudios/prensa.html#introducción",
-    "href": "estudios/prensa.html#introducción",
-    "title": "Estudio de prensa",
+    "objectID": "estudios/fondecyt-loreto-quiroz.html#investigador-responsable",
+    "href": "estudios/fondecyt-loreto-quiroz.html#investigador-responsable",
+    "title": "Fondecyt — Loreto Quiroz",
     "section": "",
-    "text": "Análisis de la cobertura de prensa sobre policías, seguridad y legitimidad institucional. El estudio indaga cómo los medios representan a Carabineros, las reformas policiales y el debate público en torno a la confianza y la violencia."
+    "text": "Loreto Quiroz"
   },
   {
-    "objectID": "estudios/prensa.html#métodos",
-    "href": "estudios/prensa.html#métodos",
-    "title": "Estudio de prensa",
+    "objectID": "estudios/fondecyt-loreto-quiroz.html#introducción",
+    "href": "estudios/fondecyt-loreto-quiroz.html#introducción",
+    "title": "Fondecyt — Loreto Quiroz",
     "section": "",
-    "text": "Monitoreo y codificación de noticias en medios escritos y digitales; análisis de marcos (framing) y de tendencias temporales; posible complemento con análisis de redes o de contenido automatizado."
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
   },
   {
-    "objectID": "estudios/narrativas-estallido.html",
-    "href": "estudios/narrativas-estallido.html",
-    "title": "Narrativas del Estallido Social",
+    "objectID": "estudios/fondecyt-loreto-quiroz.html#métodos",
+    "href": "estudios/fondecyt-loreto-quiroz.html#métodos",
+    "title": "Fondecyt — Loreto Quiroz",
     "section": "",
-    "text": "Análisis de las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de 2019."
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
   },
   {
-    "objectID": "estudios/narrativas-estallido.html#descripción",
-    "href": "estudios/narrativas-estallido.html#descripción",
-    "title": "Narrativas del Estallido Social",
+    "objectID": "estudios/panel-legitimidad-policial.html",
+    "href": "estudios/panel-legitimidad-policial.html",
+    "title": "Estudio Panel de Legitimidad Policial",
     "section": "",
-    "text": "Análisis de las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de 2019."
+    "text": "Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo."
   },
   {
-    "objectID": "estudios/narrativas-estallido.html#resultados",
-    "href": "estudios/narrativas-estallido.html#resultados",
-    "title": "Narrativas del Estallido Social",
-    "section": "Resultados",
-    "text": "Resultados\nEste estudio finalizó en 2022 y contribuyó a comprender cómo los ciudadanos construyeron narrativas sobre la legitimidad institucional en el contexto del estallido social.\n← Volver a Estudios"
-  },
-  {
-    "objectID": "estudios/analisis-prensa.html",
-    "href": "estudios/analisis-prensa.html",
-    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "objectID": "estudios/panel-legitimidad-policial.html#descripción",
+    "href": "estudios/panel-legitimidad-policial.html#descripción",
+    "title": "Estudio Panel de Legitimidad Policial",
     "section": "",
-    "text": "Investigador responsable: Ismael Puga\nInvestigadores: Luciano Saéz - Fuentealba\nAsistentes de investigación: Matías Deneken"
+    "text": "Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo."
   },
   {
-    "objectID": "estudios/analisis-prensa.html#equipo-del-proyecto",
-    "href": "estudios/analisis-prensa.html#equipo-del-proyecto",
-    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "objectID": "estudios/panel-legitimidad-policial.html#objetivos",
+    "href": "estudios/panel-legitimidad-policial.html#objetivos",
+    "title": "Estudio Panel de Legitimidad Policial",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nAnalizar cambios en percepciones de legitimidad policial\nIdentificar factores que explican cambios en el tiempo\nEvaluar el impacto de eventos específicos en las percepciones\n\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html",
+    "href": "estudios/percepcion-carabineros.html",
+    "title": "Encuesta de Percepción de Carabineros",
     "section": "",
-    "text": "Investigador responsable: Ismael Puga\nInvestigadores: Luciano Saéz - Fuentealba\nAsistentes de investigación: Matías Deneken"
+    "text": "Análisis comprehensivo de la percepción ciudadana sobre la legitimidad de Carabineros de Chile."
   },
   {
-    "objectID": "estudios/analisis-prensa.html#descripción",
-    "href": "estudios/analisis-prensa.html#descripción",
-    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
-    "section": "Descripción",
-    "text": "Descripción\nEstudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.\n← Volver a Proyectos de Investigación"
-  },
-  {
-    "objectID": "estudios/protesta-social-violencia.html",
-    "href": "estudios/protesta-social-violencia.html",
-    "title": "Protesta social y violencia",
+    "objectID": "estudios/percepcion-carabineros.html#descripción",
+    "href": "estudios/percepcion-carabineros.html#descripción",
+    "title": "Encuesta de Percepción de Carabineros",
     "section": "",
-    "text": "Líneas de trabajo:\n  Policía y legitimidad\n  Derechos humanos\n  Protesta social y violencia\n  Ver todas\n\nEl ideal de igualdad se ha establecido como una expectativa social en las sociedades humanas y su incumplimiento puede generar rabia y malestar. Las personas interpretan la injusticia como un indicador de rechazo y exclusión, pues sienten que la expectativa de igualdad que promueven sus instituciones se quiebra. Una vez que se produce este quiebre, la disposición de las personas a cooperar voluntariamente por el bienestar social disminuye, conformando un proceso de deslegitimación de las autoridades, lo que aumenta la percepción de que el uso de la violencia es necesario para lograr cambios. Otra condición relevante tiene que ver con la percepción de eficacia grupal, es decir, la creencia de que es posible lograr un cambio por medio de la acción colectiva. Cuando una movilización empieza a masificarse, el sentimiento de poder cambiar las cosas crece y lleva a la gente a manifestarse. Sin embargo, no es suficiente percibir injusticia y sentir rabia para movilizarse. También es necesario que se genere una identidad común en torno al problema y, si esta identidad se politiza, mayor es la probabilidad de que las personas quieran protestar. En el Chile de los últimos años, una ola de movimientos (No +AFP, movimientos por la educación y feministas, alza de precios, entre otros) han demostrado que la sensación de deprivación no se reduce a un grupo particular y que la rabia es compartida, permitiendo la politización de una identidad en torno al malestar. A partir de octubre de 2019 Chile se vuelve testigo de protestas que reflejan una cristalización de demandas sociales, pero también un sentimiento de rabia e injusticia que decanta en la justificación generalizada del uso de la violencia en la movilización.\nEn esta línea se exploran los procesos de construcción y los mecanismos de justificación de repertorios de acción normativos y no normativos, explorando la justificación de la violencia intergrupal en Chile. En un momento en el que erosiona la legitimidad de las autoridades, las y los investigadores de OLES levantan datos e interpretaciones que permiten comprender los motivos por los cuales la ciudadanía llega a legitimar la violencia como una opción viable de protesta, y el modo en que se organiza para mostrar su descontento.\n← Ver todas las líneas · ← Inicio"
+    "text": "Análisis comprehensivo de la percepción ciudadana sobre la legitimidad de Carabineros de Chile."
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#resultados-principales",
+    "href": "estudios/percepcion-carabineros.html#resultados-principales",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Resultados principales",
+    "text": "Resultados principales\nEste estudio finalizó en 2023 y contribuyó a comprender las percepciones ciudadanas sobre Carabineros en el período post-estallido social.\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/cualitativo-longitudinal.html",
+    "href": "estudios/cualitativo-longitudinal.html",
+    "title": "Estudio cualitativo longitudinal",
+    "section": "",
+    "text": "Ana Figueiredo\n\n\n\nLoreto Quiroz, Macarena Orchard, Claudio Fuentes, Luciano Sáez Fuentealba\n\n\n\nBruno Rojas\n\n\n\n\n\nEstudio cualitativo de tipo longitudinal sobre percepciones y legitimidad de las instituciones policiales. Busca comprender cómo cambian las representaciones y las experiencias de las personas en el tiempo en relación con Carabineros y la seguridad.\n\n\n\nDiseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica."
+  },
+  {
+    "objectID": "estudios/cualitativo-longitudinal.html#investigador-responsable",
+    "href": "estudios/cualitativo-longitudinal.html#investigador-responsable",
+    "title": "Estudio cualitativo longitudinal",
+    "section": "",
+    "text": "Ana Figueiredo"
+  },
+  {
+    "objectID": "estudios/cualitativo-longitudinal.html#investigadores",
+    "href": "estudios/cualitativo-longitudinal.html#investigadores",
+    "title": "Estudio cualitativo longitudinal",
+    "section": "",
+    "text": "Loreto Quiroz, Macarena Orchard, Claudio Fuentes, Luciano Sáez Fuentealba"
+  },
+  {
+    "objectID": "estudios/cualitativo-longitudinal.html#asistentes-de-investigación",
+    "href": "estudios/cualitativo-longitudinal.html#asistentes-de-investigación",
+    "title": "Estudio cualitativo longitudinal",
+    "section": "",
+    "text": "Bruno Rojas"
+  },
+  {
+    "objectID": "estudios/cualitativo-longitudinal.html#introducción",
+    "href": "estudios/cualitativo-longitudinal.html#introducción",
+    "title": "Estudio cualitativo longitudinal",
+    "section": "",
+    "text": "Estudio cualitativo de tipo longitudinal sobre percepciones y legitimidad de las instituciones policiales. Busca comprender cómo cambian las representaciones y las experiencias de las personas en el tiempo en relación con Carabineros y la seguridad."
+  },
+  {
+    "objectID": "estudios/cualitativo-longitudinal.html#métodos",
+    "href": "estudios/cualitativo-longitudinal.html#métodos",
+    "title": "Estudio cualitativo longitudinal",
+    "section": "",
+    "text": "Diseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica."
+  },
+  {
+    "objectID": "estudios/confianza-institucional.html",
+    "href": "estudios/confianza-institucional.html",
+    "title": "Encuesta de Confianza Institucional",
+    "section": "",
+    "text": "Estudio que analiza los niveles de confianza ciudadana en diversas instituciones del Estado chileno."
+  },
+  {
+    "objectID": "estudios/confianza-institucional.html#descripción",
+    "href": "estudios/confianza-institucional.html#descripción",
+    "title": "Encuesta de Confianza Institucional",
+    "section": "",
+    "text": "Estudio que analiza los niveles de confianza ciudadana en diversas instituciones del Estado chileno."
+  },
+  {
+    "objectID": "estudios/confianza-institucional.html#objetivos",
+    "href": "estudios/confianza-institucional.html#objetivos",
+    "title": "Encuesta de Confianza Institucional",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nMedir niveles de confianza en instituciones públicas\nIdentificar determinantes de la confianza institucional\nComparar confianza entre diferentes instituciones\n\n← Volver a Estudios"
+  },
+  {
+    "objectID": "estudios/lineas.html",
+    "href": "estudios/lineas.html",
+    "title": "Líneas de investigación en OLES",
+    "section": "",
+    "text": "El OLES organiza su investigación en cuatro líneas institucionales que articulan personas, proyectos (Fondecyt, doctorados, pilotos) y estudios del Observatorio. Cada tarjeta enlaza a una página dedicada con integrantes y proyectos asociados. El organigrama del equipo sigue en Equipo. Las páginas temáticas de estudios agrupan además instrumentos y reportes por enfoque.\n  \n    \n      Línea 1 — Violencia estatal, control social y derechos humanos\n      Estado, control social, DDHH y legitimidad en torno a instituciones de seguridad y reparación.\n      Ver línea →\n    \n    \n      Línea 2 — Movimientos sociales y violencia\n      Movilización, repertorios de acción colectiva y justificación de la violencia en contextos democráticos.\n      Ver línea →\n    \n    \n      Línea 3 — Violencia, género y salud\n      Desigualdad de género, salud y experiencias de violencia en instituciones y trayectorias vitales.\n      Ver línea →\n    \n    \n      Línea 4 — Legitimidad y justicia social\n      Legitimidad institucional, percepción de justicia y desigualdad en la opinión pública y la cultura política.\n      Ver línea →\n    \n  \n  Explora además los estudios y productos por tema: Policía y legitimidad, Derechos humanos y Protesta social y violencia.\n  ← Volver al inicio"
+  },
+  {
+    "objectID": "estudios/doctorado-cristobal-moya.html",
+    "href": "estudios/doctorado-cristobal-moya.html",
+    "title": "Doctorado — Cristóbal Moya",
+    "section": "",
+    "text": "Cristóbal Moya\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/doctorado-cristobal-moya.html#investigador-responsable",
+    "href": "estudios/doctorado-cristobal-moya.html#investigador-responsable",
+    "title": "Doctorado — Cristóbal Moya",
+    "section": "",
+    "text": "Cristóbal Moya"
+  },
+  {
+    "objectID": "estudios/doctorado-cristobal-moya.html#introducción",
+    "href": "estudios/doctorado-cristobal-moya.html#introducción",
+    "title": "Doctorado — Cristóbal Moya",
+    "section": "",
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
+  },
+  {
+    "objectID": "estudios/doctorado-cristobal-moya.html#métodos",
+    "href": "estudios/doctorado-cristobal-moya.html#métodos",
+    "title": "Doctorado — Cristóbal Moya",
+    "section": "",
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
   },
   {
     "objectID": "estudios/autolegitimidad-policial.html",
@@ -1988,53 +2352,53 @@
     "text": "Metodología\nEstudio cualitativo basado en entrevistas en profundidad y grupos focales con personal de Carabineros de distintos rangos y regiones del país.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/proyecto-postdoctoral.html",
-    "href": "estudios/proyecto-postdoctoral.html",
-    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
+    "objectID": "estudios/analisis-redes-sociales.html",
+    "href": "estudios/analisis-redes-sociales.html",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
     "section": "",
-    "text": "Proyecto postdoctoral que investiga las posturas motivacionales de la ciudadanía hacia Carabineros de Chile, explorando las dinámicas de compromiso, resistencia y evitación en la relación policía-ciudadanía."
+    "text": "Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/proyecto-postdoctoral.html#descripción",
-    "href": "estudios/proyecto-postdoctoral.html#descripción",
-    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
+    "objectID": "estudios/analisis-redes-sociales.html#descripción",
+    "href": "estudios/analisis-redes-sociales.html#descripción",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
     "section": "",
-    "text": "Proyecto postdoctoral que investiga las posturas motivacionales de la ciudadanía hacia Carabineros de Chile, explorando las dinámicas de compromiso, resistencia y evitación en la relación policía-ciudadanía."
+    "text": "Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.\n← Volver a Estudios"
   },
   {
-    "objectID": "estudios/proyecto-postdoctoral.html#objetivos",
-    "href": "estudios/proyecto-postdoctoral.html#objetivos",
-    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
-    "section": "Objetivos",
-    "text": "Objetivos\n\nCaracterizar las posturas motivacionales hacia la policía en Chile\nIdentificar factores que determinan diferentes posturas ciudadanas\nAnalizar cómo varían las posturas según grupos sociales\nContribuir a la teoría sobre legitimidad policial"
-  },
-  {
-    "objectID": "estudios/proyecto-postdoctoral.html#metodología",
-    "href": "estudios/proyecto-postdoctoral.html#metodología",
-    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
-    "section": "Metodología",
-    "text": "Metodología\nEstudio cualitativo basado en grupos focales con diferentes segmentos de la población chilena, incluyendo jóvenes, mapuche, inmigrantes y manifestantes."
-  },
-  {
-    "objectID": "estudios/proyecto-postdoctoral.html#resultados",
-    "href": "estudios/proyecto-postdoctoral.html#resultados",
-    "title": "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía",
-    "section": "Resultados",
-    "text": "Resultados\nEl estudio identificó tres posturas principales: compromiso, resistencia y evitación, mostrando la complejidad de las relaciones entre policía y ciudadanía en el contexto chileno post-estallido social.\n← Volver a Estudios"
-  },
-  {
-    "objectID": "estudios/medios-post-estallido.html",
-    "href": "estudios/medios-post-estallido.html",
-    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "objectID": "estudios/derechos-humanos.html",
+    "href": "estudios/derechos-humanos.html",
+    "title": "Derechos humanos",
     "section": "",
-    "text": "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.\n← Volver a Estudios"
+    "text": "Líneas de trabajo:\n  Policía y legitimidad\n  Derechos humanos\n  Protesta social y violencia\n  Ver todas\n\nUno de los elementos centrales que promueven la legitimidad policial es la justicia procedimental, esto es, la percepción de que las policías actúan de manera adecuada, imparcial, respetuosa y equitativa con todos los miembros de la sociedad. En esta línea, el resguardo de los derechos humanos pasa a ser una cuestión fundamental para normar y limitar el actuar policial y hacer un uso adecuado de la fuerza. Una de las instituciones conformadas internacionalmente para resguardar las arbitrariedades de las policías sobre los ciudadanos se basan en los principios definidos y promovidos por los derechos humanos.\nEn el caso chileno, Carabineros ha sido criticado por distintas instituciones nacionales e internacionales por uso excesivo de la fuerza, abuso policial y por cómo se relaciona con distintos grupos sociales. Como en otras partes del mundo, la evidencia señala que el trato policial difiere para distintos grupos socioeconómicos, étnicos y etarios. Esto es particularmente relevante entre los jóvenes populares, urbanos y varones. Al mismo tiempo, la desigualdad en la protección policial en detrimento de los barrios de bajos ingresos se ha convertido en una condición estructural de su funcionamiento. La etnicidad es otro criterio de discriminación policial: diversos estudios en Chile muestran que las minorías indígenas (especialmente mapuche) y los migrantes reciben peores tratos. La desigualdad en el trato puede dañar la confianza general hacia las policías, o la relación entre estos grupos desaventajados y Carabineros, lo que ha afectado fuertemente la legitimidad policial. Una novedad y aporte de este proyecto es profundizar en estas interacciones causales.\nPensando en el principio de imparcialidad que promulgan los derechos humanos, en esta línea se están desarrollando estudios sobre las percepciones en torno a las vulneraciones de estos principios en el marco de procesos de violencia estatal y policial. Al mismo tiempo, se exploran los procesos de impunidad frente a formas de violencia policial y su relación con la legitimidad de las instituciones policiales.\n← Ver todas las líneas · ← Inicio"
   },
   {
-    "objectID": "estudios/medios-post-estallido.html#descripción",
-    "href": "estudios/medios-post-estallido.html#descripción",
-    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "objectID": "estudios/fondecyt-macarena-orchard.html",
+    "href": "estudios/fondecyt-macarena-orchard.html",
+    "title": "Fondecyt — Macarena Orchard",
     "section": "",
-    "text": "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.\n← Volver a Estudios"
+    "text": "Macarena Orchard\n\n\n\n\nProyecto en curso del OLES. Información detallada próximamente.\n\n\n\nMetodología y avances se publicarán cuando el estudio lo permita."
+  },
+  {
+    "objectID": "estudios/fondecyt-macarena-orchard.html#investigador-responsable",
+    "href": "estudios/fondecyt-macarena-orchard.html#investigador-responsable",
+    "title": "Fondecyt — Macarena Orchard",
+    "section": "",
+    "text": "Macarena Orchard"
+  },
+  {
+    "objectID": "estudios/fondecyt-macarena-orchard.html#introducción",
+    "href": "estudios/fondecyt-macarena-orchard.html#introducción",
+    "title": "Fondecyt — Macarena Orchard",
+    "section": "",
+    "text": "Proyecto en curso del OLES. Información detallada próximamente."
+  },
+  {
+    "objectID": "estudios/fondecyt-macarena-orchard.html#métodos",
+    "href": "estudios/fondecyt-macarena-orchard.html#métodos",
+    "title": "Fondecyt — Macarena Orchard",
+    "section": "",
+    "text": "Metodología y avances se publicarán cuando el estudio lo permita."
   },
   {
     "objectID": "eventos/index.html",
@@ -2069,7 +2433,7 @@
     "href": "publicaciones/index.html",
     "title": "Publicaciones Académicas",
     "section": "",
-    "text": "Publicaciones académicas del equipo del Observatorio.\n\n\n\n\n\n\n\n\n\n(RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024)\n\n\n\n\n\nLibro basado en el Estudio Longitudinal de Relaciones Interculturales (ELRI) entre 2016 y 2023.\n\n\n\n\n\n2025\n\n\n\n\n\n\n\nHow do individuals interact with the police?\n\n\n\n\n\nValidation of a scale of motivational postures toward the police in Spanish.\n\n\n\n\n\n2025\n\n\n\n\n\n\n\nJustificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche\n\n\n\n\n\nAnálisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche.\n\n\n\n\n\n2024\n\n\n\n\n\n\n\nLegitimidad, Justicia y la Justificación de la Violencia Intergrupal\n\n\n\n\n\nAnálisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes.\n\n\n\n\n\n2023\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Publicaciones académicas del equipo del Observatorio: artículos, libros, capítulos e informes vinculados a nuestra agenda de investigación.\n\n\n\n\nTodos\n\n\nArtículos\n\n\nLibros\n\n\nCapítulos\n\n\nPolicy briefs\n\n\nReportes\n\n\n\n\n\nLibro2025\n\n\n(RE) Configuraciones Interculturales: Un estudio longitudinal de las relaciones entre indígenas y no indígenas en Chile (2016-2024)\n\n\nMatías Deneken, Eduardo Valenzuela, CIIR\n\n\nEditorial Catalonia, 2025 · ISBN 9789564151809\n\n\nVer detalle\n\n\n\n\nArtículo2025\n\n\nHow do individuals interact with the police?\n\n\nGerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N.\n\n\nPeace and Conflict: Journal of Peace Psychology, 31(3)\n\n\nVer detalle DOI ↗\n\n\n\n\nCapítulo2024\n\n\nJustificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche\n\n\nGerber, M. M.\n\n\nCapítulo en Mapuche en el sur de Chile (Mascareño & Le Foulon, Eds.), Editorial CEP\n\n\nVer detalle\n\n\n\n\nArtículo2023\n\n\nLegitimidad, Justicia y la Justificación de la Violencia Intergrupal\n\n\nGerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M.\n\n\nRevista Psykhe, 32(1)\n\n\nVer detalle DOI ↗"
   },
   {
     "objectID": "publicaciones/2025-gerber-police-postures.html",
@@ -2098,40 +2462,5 @@
     "title": "How do individuals interact with the police?",
     "section": "",
     "text": "Este artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en español.\n← Volver a Publicaciones"
-  },
-  {
-    "objectID": "equipo/index.html#dirección-1",
-    "href": "equipo/index.html#dirección-1",
-    "title": "Equipo OLES",
-    "section": "Dirección",
-    "text": "Dirección\n\nResponsabilidad académica y ejecutiva del Observatorio."
-  },
-  {
-    "objectID": "equipo/index.html#comité-directivo-coordinaciones-1",
-    "href": "equipo/index.html#comité-directivo-coordinaciones-1",
-    "title": "Equipo OLES",
-    "section": "Comité directivo (coordinaciones)",
-    "text": "Comité directivo (coordinaciones)\n\nCoordinaciones que acompañan la agenda colectiva del OLES."
-  },
-  {
-    "objectID": "equipo/index.html#investigadorases-principales-1",
-    "href": "equipo/index.html#investigadorases-principales-1",
-    "title": "Equipo OLES",
-    "section": "Investigadoras/es principales",
-    "text": "Investigadoras/es principales\n\nInvestigación de planta y líneas de fondo del Observatorio."
-  },
-  {
-    "objectID": "equipo/index.html#investigadorases-adjuntosas-1",
-    "href": "equipo/index.html#investigadorases-adjuntosas-1",
-    "title": "Equipo OLES",
-    "section": "Investigadoras/es adjuntos/as",
-    "text": "Investigadoras/es adjuntos/as\n\nParticipación en instancias sustantivas de OLES manteniendo otras afiliaciones (algunas/os aparecen también en otras secciones del sitio)."
-  },
-  {
-    "objectID": "equipo/index.html#investigadorases-asociadosas-y-colaboración-1",
-    "href": "equipo/index.html#investigadorases-asociadosas-y-colaboración-1",
-    "title": "Equipo OLES",
-    "section": "Investigadoras/es asociados/as y colaboración",
-    "text": "Investigadoras/es asociados/as y colaboración\n\nVínculos académicos que apoyan el quehacer del Observatorio sin integrar la estructura permanente descrita arriba."
   }
 ]

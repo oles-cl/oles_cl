@@ -1,6 +1,8 @@
 ---
 title: "Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche"
 description: "Análisis de la justificación de la violencia en el contexto del conflicto Estado-Pueblo Mapuche."
+venue: "Capítulo en Mapuche en el sur de Chile (Mascareño & Le Foulon, Eds.), Editorial CEP"
+tipo: capitulo
 date: "2024-01-01"
 author: "Gerber, M. M."
 authors: [monica-gerber]

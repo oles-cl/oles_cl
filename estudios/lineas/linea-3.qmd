@@ -1,0 +1,27 @@
+---
+title: "Línea 3 — Violencia, género y salud"
+page-layout: full
+toc: false
+---
+
+<div class="estudio-linea-institucional">
+
+## Introducción
+
+[Descripción ampliada — pendiente de redacción.]
+
+Esta línea concentra investigaciones sobre violencia de género, salud, desigualdad y respuestas institucionales y comunitarias.
+
+## Investigadoras/es
+
+- [Macarena Orchard](../../equipo/macarena-orchard.html)
+- [Gloria Jiménez-Moya](../../equipo/gloria-jimenez-moya.html)
+
+## Proyectos asociados
+
+- [Fondecyt Macarena Orchard](../fondecyt-macarena-orchard.html)
+- [Fondecyt Gloria Jiménez-Moya](../fondecyt-gloria-jimenez-moya.html)
+
+</div>
+
+<p class="lineas-index-back"><a href="../lineas.html">← Volver a Líneas de investigación</a></p>

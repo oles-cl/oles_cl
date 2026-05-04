@@ -329,45 +329,45 @@ if (length(noticias) > 0) {
   <div class="container">
     <h2 class="section-title">Líneas de investigación</h2>
     <div class="proyectos-cuadrantes proyectos-cuadrantes-cuatro">
-      <a href="equipo/index.html#linea-institucional-1" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Línea 1: Violencia estatal, control social y derechos humanos. Ver en Equipo.">
+      <a href="estudios/lineas/linea-1.html" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Ver línea de investigación">
         <div class="proyecto-imagen">
           <img src="images/lineas/linea-derecho-humano.jpg" alt="">
         </div>
         <div class="proyecto-cuadrante-content">
           <h3>Violencia estatal, control social y derechos humanos</h3>
-          <span class="proyecto-ver-mas">Ver línea y equipo →</span>
+          <span class="proyecto-ver-mas">Ver línea →</span>
         </div>
       </a>
-      <a href="equipo/index.html#linea-institucional-2" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Línea 2: Movimientos sociales y violencia. Ver en Equipo.">
+      <a href="estudios/lineas/linea-2.html" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Ver línea de investigación">
         <div class="proyecto-imagen">
           <img src="images/lineas/linea-protestas.jpg" alt="">
         </div>
         <div class="proyecto-cuadrante-content">
           <h3>Movimientos sociales y violencia</h3>
-          <span class="proyecto-ver-mas">Ver línea y equipo →</span>
+          <span class="proyecto-ver-mas">Ver línea →</span>
         </div>
       </a>
-      <a href="equipo/index.html#linea-institucional-3" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Línea 3: Violencia, género y salud. Ver en Equipo.">
+      <a href="estudios/lineas/linea-3.html" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Ver línea de investigación">
         <div class="proyecto-imagen">
           <img src="images/lineas/linea-policias.jpg" alt="">
         </div>
         <div class="proyecto-cuadrante-content">
           <h3>Violencia, género y salud</h3>
-          <span class="proyecto-ver-mas">Ver línea y equipo →</span>
+          <span class="proyecto-ver-mas">Ver línea →</span>
         </div>
       </a>
-      <a href="equipo/index.html#linea-institucional-4" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Línea 4: Legitimidad y justicia social. Ver en Equipo.">
+      <a href="estudios/lineas/linea-4.html" class="proyecto-cuadrante proyecto-cuadrante-link" aria-label="Ver línea de investigación">
         <div class="proyecto-imagen">
           <img src="images/lineas/linea-policias.jpg" alt="">
         </div>
         <div class="proyecto-cuadrante-content">
           <h3>Legitimidad y justicia social</h3>
-          <span class="proyecto-ver-mas">Ver línea y equipo →</span>
+          <span class="proyecto-ver-mas">Ver línea →</span>
         </div>
       </a>
     </div>
     <div style="text-align: center; margin-top: 2rem;">
-      <a href="equipo/index.html#linea-institucional-1" class="btn-primary" style="display: inline-block; padding: 1rem 2.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Ver líneas en la página de Equipo →</a>
+      <a href="estudios/lineas.html" class="btn-primary" style="display: inline-block; padding: 1rem 2.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Ver todas las líneas de investigación →</a>
     </div>
   </div>
 </section>

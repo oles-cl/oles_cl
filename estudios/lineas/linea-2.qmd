@@ -1,0 +1,27 @@
+---
+title: "Línea 2 — Movimientos sociales y violencia"
+page-layout: full
+toc: false
+---
+
+<div class="estudio-linea-institucional">
+
+## Introducción
+
+[Descripción ampliada — pendiente de redacción.]
+
+Esta línea reúne trabajos sobre movilización, repertorios de acción colectiva, protesta social y dinámicas de conflicto y legitimidad en contextos democráticos.
+
+## Investigadoras/es
+
+- [Ismael Puga](../../equipo/ismael-puga.html)
+- [Sofía Donoso](../../equipo/sofia-donoso.html)
+
+## Proyectos asociados
+
+- [Fondecyt Ismael Puga](../protesta-social-violencia.html)
+- [Fondecyt Sofía Donoso](../fondecyt-sofia-donoso.html)
+
+</div>
+
+<p class="lineas-index-back"><a href="../lineas.html">← Volver a Líneas de investigación</a></p>

@@ -1,0 +1,35 @@
+---
+title: "Línea 1 — Violencia estatal, control social y derechos humanos"
+page-layout: full
+toc: false
+---
+
+<div class="estudio-linea-institucional">
+
+## Introducción
+
+[Descripción ampliada — pendiente de redacción.]
+
+Esta línea agrupa investigaciones sobre el ejercicio de la fuerza estatal, prácticas de control social, vulneraciones a derechos fundamentales y legitimidad en torno a instituciones de seguridad y reparación.
+
+## Investigadoras/es
+
+- [Luciano Sáez Fuentealba](../../equipo/luciano-saez-fuentealba.html)
+- [Ana Figueiredo](../../equipo/ana-figueiredo.html)
+- [Paz Irarrázabal González](../../equipo/paz-irarrazabal.html)
+- [Loreto Quiroz](../../equipo/loreto-quiroz.html)
+- [Mónica Gerber](../../equipo/monica-gerber.html)
+- [Manuela Badilla Rajevic](../../equipo/manuela-badilla.html)
+
+## Proyectos asociados
+
+- [Fondecyt Ana](../cualitativo-longitudinal.html)
+- [Tesis (doctorado) Luciano Sáez](../tesis-doctorado-luciano-saez.html)
+- [Fondecyt Paz Irarrázabal](../fondecyt-paz-irarrazabal.html)
+- [Fondecyt Loreto Quiroz](../fondecyt-loreto-quiroz.html)
+- [Exploración (grupos focales)](../grupos-focales.html)
+- [Fondecyt Mónica — ESEP y trayectoria](../esep.html)
+
+</div>
+
+<p class="lineas-index-back"><a href="../lineas.html">← Volver a Líneas de investigación</a></p>

@@ -1,0 +1,25 @@
+---
+title: "Martín Venegas"
+cargo: "Asistente de investigación"
+categories: [Asistentes de investigación]
+orden: 50
+organizacion: "OLES"
+image: "../images/logos/icon.png"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links: []
+areas-interes: []
+educacion: []
+---
+
+## Descripción
+
+Asistente de investigación del Observatorio de Violencia y Legitimidad Social. Información detallada próximamente.
+
+## Últimas publicaciones
+
+{{< include _pub-martin-venegas.md >}}
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>
