@@ -57,13 +57,6 @@ Profesora de la Escuela de Gobierno de la Pontificia Universidad Católica de Ch
 - **Magíster en Métodos de Investigación Social** - London School of Economics and Political Science (2008)
 - **Socióloga** - Universidad de Chile (2007)
 
-## Proyectos de investigación
-
-- [Estudio Panel de Percepciones y Seguridad (ESEP)](../estudios/esep.html) — Investigadora responsable
-- [Seguimiento a las policías](../estudios/seguimiento-policias.html) — Investigadora responsable
-- [Estudio de Datos Administrativos](../estudios/datos-administrativos.html)
-- [Estudio de prensa](../estudios/prensa.html)
-
 ## Últimas publicaciones
 
 {{< include _pub-monica-gerber.md >}}

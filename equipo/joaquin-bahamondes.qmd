@@ -55,12 +55,6 @@ Sus principales líneas de investigación se enmarcan en la psicología social y
 - **Master en Psicología Social** - Universidad Católica del Norte (2016)
 - **Licenciatura en Psicología** - Universidad Católica del Norte (2014)
 
-## Proyectos de investigación
-
-- [Estudio Panel de Percepciones y Seguridad (ESEP)](../estudios/esep.html)
-- [Estudio cualitativo longitudinal](../estudios/cualitativo-longitudinal.html)
-- [Seguimiento a las policías](../estudios/seguimiento-policias.html)
-
 ## Últimas publicaciones
 
 {{< include _pub-joaquin-bahamondes.md >}}

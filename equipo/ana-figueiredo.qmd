@@ -49,12 +49,6 @@ Profesora asociada del Instituto de Ciencias Sociales de la Universidad de O'Hig
 - **PhD en Psicología Social** - Universidade de Coimbra, Portugal (2012)
 - **Master Program in Psychology** - Universidade de Coimbra, Portugal (2007)
 
-## Proyectos de investigación
-
-- [Estudio Panel de Percepciones y Seguridad (ESEP)](../estudios/esep.html)
-- [Estudio cualitativo longitudinal](../estudios/cualitativo-longitudinal.html) — Investigadora responsable
-- [Seguimiento a las policías](../estudios/seguimiento-policias.html)
-
 ## Últimas publicaciones
 
 {{< include _pub-ana-figueiredo.md >}}

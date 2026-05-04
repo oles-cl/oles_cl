@@ -23,7 +23,7 @@ Esta línea aborda legitimidad institucional, percepciones de justicia, confianz
 
 - [Doctorado Cristóbal Moya](../doctorado-cristobal-moya.html)
 - [Fondecyt Ismael Puga](../protesta-social-violencia.html)
-- [Doctorado Matías Gómez](../doctorado-matias-gomez.html)
+- [Doctorado Matías](../doctorado-matias-gomez.html)
 
 <p class="estudio-linea-extra">Ver también el estudio panel <a href="../esep.html">ESEP</a> y <a href="../confianza-institucional.html">Confianza institucional</a> en el listado de proyectos.</p>
 

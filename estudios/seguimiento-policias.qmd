@@ -9,7 +9,7 @@ format:
 
 :::{.estudio-layout}
 :::{.estudio-col-izq}
-## Investigador responsable
+## Investigadora responsable
 
 [Mónica Gerber](../equipo/monica-gerber.html)
 

@@ -6,7 +6,7 @@ toc: false
 
 ```{=html}
 <div class="lineas-index">
-  <p class="lineas-index-intro">El OLES organiza su investigación en <strong>cuatro líneas institucionales</strong> que articulan personas, proyectos (Fondecyt, doctorados, pilotos) y estudios del Observatorio. Cada tarjeta enlaza a una <strong>página dedicada</strong> con integrantes y proyectos asociados. El organigrama del equipo sigue en <a href="../equipo/index.html#lineas-investigacion-institucional">Equipo</a>. Las páginas temáticas de <a href="index.html">estudios</a> agrupan además instrumentos y reportes por enfoque.</p>
+  <p class="lineas-index-intro">El OLES organiza su investigación en <strong>cuatro líneas institucionales</strong> que articulan personas, proyectos (Fondecyt, doctorados, pilotos) y estudios del Observatorio. Cada tarjeta enlaza a una <strong>página dedicada</strong> con integrantes y proyectos asociados. El equipo completo está en <a href="../equipo/index.html">Equipo</a>. Las páginas temáticas de <a href="index.html">estudios</a> agrupan además instrumentos y reportes por enfoque.</p>
   <div class="lineas-index-grid lineas-index-grid-4">
     <a href="lineas/linea-1.html" class="linea-index-card">
       <h3>Línea 1 — Violencia estatal, control social y derechos humanos</h3>

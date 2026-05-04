@@ -1,7 +1,7 @@
 # compilar_publicaciones_perfiles.R
 # Lee publicaciones/*.qmd (campo authors: y reference:) y escribe
 # equipo/_pub-{autor}.md y equipo/asistentes-anteriores/_pub-{autor}.md
-# para incluir en cada perfil. Ejecutar antes de quarto render.
+# para incluir en cada perfil. Ejecutar antes de quarto render (también como pre-render del proyecto).
 
 root <- "."
 pub_dir <- file.path(root, "publicaciones")

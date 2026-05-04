@@ -4264,3 +4264,26 @@ a.linea-index-card:hover .linea-index-link {
   border-color: var(--primary-color);
   color: var(--primary-color) !important;
 }
+
+/* Estudios — filtros por línea de investigación (index proyectos) */
+.estudios-filtros-linea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0 auto 2rem;
+  padding: 0.75rem 0 1.5rem;
+  max-width: 960px;
+  border-bottom: 1px solid #e8e6f0;
+}
+
+.estudios-proyectos-page .estudios-grid {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .estudios-filtros-linea .filtro-btn {
+    font-size: 0.78rem;
+    padding: 0.45rem 0.85rem;
+  }
+}
