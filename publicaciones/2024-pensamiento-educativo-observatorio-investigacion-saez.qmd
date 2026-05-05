@@ -1,0 +1,29 @@
+---
+title: "Significados de la investigación en estudiantes de pregrado vía observatorio universitario"
+description: "Participación estudiantil en observatorio."
+venue: "Pensamiento Educativo, 61(1)"
+tipo: articulo
+doi: "10.7764/PEL.61.1.2024.8"
+date: "2024-09-01"
+author: "Sáez, L., Gerber, M. M., Orchard, M., & Figueiredo, A."
+authors: [luciano-saez-fuentealba, monica-gerber, macarena-orchard, ana-figueiredo]
+reference: "Sáez, L., Gerber, M. M., Orchard, M., & Figueiredo, A. (2024). Significados atribuidos a la investigación en estudiantes de pregrado: la experiencia de participación en un observatorio de investigación universitario. *Pensamiento Educativo*, 61(1). [DOI](https://doi.org/10.7764/PEL.61.1.2024.8)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Significados de la investigación en estudiantes de pregrado vía observatorio universitario
+
+Participación estudiantil en observatorio.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html), [Mónica Gerber](../equipo/monica-gerber.html), [Macarena Orchard](../equipo/macarena-orchard.html), [Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+**Fecha:** 2024.
+
+## Referencia sugerida
+
+Sáez, L., *et al*. (2024). *Pensamiento Educativo*, 61(1). DOI 10.7764/PEL.61.1.2024.8.
+
+[← Volver a Publicaciones](index.qmd)

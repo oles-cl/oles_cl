@@ -1,1 +1,2 @@
-- (Aún no hay publicaciones listadas.)
+- [Atribuciones de ideas y proceso constituyente en Chile (aceptado)](../publicaciones/2025-forthcoming-politica-sociedad-ideas-constituyente.html) — Sáez, L., Puga, I., Gerber, M., Figueiredo, A., & Moya, C. (aceptado). Atribuciones de ideas y proceso constituyente en Chile: estudio cualitativo sobre construcción de consensos en tiempos de incertidumbre. *Política y Sociedad*.
+- [Orientaciones para aplicación de juegos de clasificación de viñetas (en revisión)](../publicaciones/2025-working-vignette-games-guide-puga-saez.html) — Puga, I., & Sáez, F. (en revisión). Orientaciones para la aplicación de juegos de clasificación de viñetas: reflexiones y recomendaciones a partir de un estudio empírico.

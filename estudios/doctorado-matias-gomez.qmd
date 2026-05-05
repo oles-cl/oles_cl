@@ -1,6 +1,7 @@
 ---
 title: "Doctorado — Matías Gómez"
 estado: "en-curso"
+etiqueta: "doctorado"
 investigador_responsable: "Matías Gómez"
 format:
   html:

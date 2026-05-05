@@ -1,6 +1,7 @@
 ---
 title: "Fondecyt — Macarena Orchard"
 estado: "en-curso"
+etiqueta: "fondecyt"
 investigador_responsable: "Macarena Orchard"
 format:
   html:

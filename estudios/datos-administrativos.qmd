@@ -1,11 +1,13 @@
 ---
 title: "Estudio de Datos Administrativos"
-estado: "en-curso"
+estado: "finalizado"
 investigador_responsable: "Luciano Sáez Fuentealba"
 format:
   html:
     body-classes: estudio-page
 ---
+
+<p class="estudio-estado-banner"><span class="estudio-estado finalizado-morado">Finalizado</span></p>
 
 :::{.estudio-layout}
 :::{.estudio-col-izq}

@@ -1,0 +1,61 @@
+---
+title: "Carlos Anriquez Gundián"
+cargo: "Colaborador externo"
+categories: [Colaboradores externos]
+orden: 53
+email: "carlos.anriquez@ug.uchile.cl"
+organizacion: "Universidad de Chile"
+image: "image/carlos_anriquez.jpeg"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:carlos.anriquez@ug.uchile.cl
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0009-0002-4999-2023
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/carlos-anriquez-gundi%C3%A1n/
+areas-interes:
+  - "Justificación de la violencia"
+  - "Emociones"
+  - "Legitimidad social"
+educacion:
+  - titulo: "Sociólogo"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Sociólogo de la Universidad de Chile con experiencia en investigación cuantitativa, estadística y análisis de datos. Actualmente trabaja como asistente de investigación para el Fondecyt 11241304 («Re-conociendo las desigualdades en la academia chilena») y en la Dirección de investigación-creación de la Facultad de Comunicación e Imagen de la Universidad de Chile. Su principal interés está en la relación entre emociones y justificación de la violencia.
+
+## Áreas de interés
+
+- Justificación de la violencia
+- Emociones
+- Legitimidad social
+
+## Educación
+
+- **Sociólogo** — Universidad de Chile
+
+## Últimas publicaciones
+
+### 2025
+
+- Lagos, A., Salinas, C., Berríos, C., & Anriquez, C. (2025). Violencia y desinformación: ¿cómo cubren los medios las acciones violentas originadas por bulos informativos?. *Aula y Ciencia*, (19), 91–110.
+
+### 2024
+
+- Anríquez, C. (2024). El rol del miedo y la orientación política en la justificación de la violencia policial.
+
+### Manuscritos en preparación
+
+- Anríquez, C., Lagos, A., & Berríos, C. (en progreso). Exploración de la percepción de la libertad de expresión y el derecho a la comunicación en redes sociales.
+- Chiappa, R., & Anríquez, C. (en progreso). ¿Persistent or new inequalities? The effects of gender, social class, and geographic origins in scientific productivity of Chilean doctoral fellows.
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

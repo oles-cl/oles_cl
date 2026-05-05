@@ -5,6 +5,8 @@ project:
   resources:
     - images/logos/*.mp4
     - images/logos/*.mov
+    # Asegura que todas las fotos del equipo lleguen a docs/ (evita rotas si un render no touchó cada perfil).
+    - equipo/image/*
 
 website:
   title: ""

@@ -1,0 +1,29 @@
+---
+title: "\"Ensamblajes y performatividad de la verdad\": informes de DDHH y estallido"
+description: "Agencia de informes durante el estallido social."
+venue: "Castalia. Revista de Psicología de la Academia"
+tipo: articulo
+doi: "10.25074/07198051.43.2842"
+date: "2024-07-01"
+author: "Sáez Fuentealba, L."
+authors: [luciano-saez-fuentealba]
+reference: "Sáez Fuentealba, L. (2024). «Ensamblajes y performatividad de la verdad»: la agencia de los informes sobre violaciones a los derechos humanos durante el estallido social chileno. *Castalia*. [DOI](https://doi.org/10.25074/07198051.43.2842)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# \"Ensamblajes y performatividad de la verdad\": informes de DDHH y estallido
+
+Agencia de informes durante el estallido social.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2024.
+
+## Referencia sugerida
+
+Sáez Fuentealba, L. (2024). *Castalia*. DOI 10.25074/07198051.43.2842.
+
+[← Volver a Publicaciones](index.qmd)

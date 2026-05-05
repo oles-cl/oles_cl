@@ -1,6 +1,7 @@
 ---
 title: "Fondecyt — Sofía Donoso"
 estado: "en-curso"
+etiqueta: "fondecyt"
 investigador_responsable: "Sofía Donoso"
 format:
   html:

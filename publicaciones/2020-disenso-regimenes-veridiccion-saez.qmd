@@ -1,0 +1,28 @@
+---
+title: "Pactos vigentes, peligros latentes: regímenes de veridicción y octubre chileno"
+description: "Análisis del largo octubre chileno."
+venue: "Disenso, 1(2), 91–102"
+tipo: articulo
+date: "2020-12-01"
+author: "Sáez, L."
+authors: [luciano-saez-fuentealba]
+reference: "Sáez, L. (2020). Pactos vigentes, peligros latentes. Regímenes de veridicción frente al largo octubre chileno. *Disenso*, 1(2), 91–102."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Pactos vigentes, peligros latentes: regímenes de veridicción y octubre chileno
+
+Análisis del largo octubre chileno.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2020.
+
+## Referencia sugerida
+
+Sáez, L. (2020). *Disenso*, 1(2), 91–102.
+
+[← Volver a Publicaciones](index.qmd)

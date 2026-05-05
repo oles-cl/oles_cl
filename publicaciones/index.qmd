@@ -1,5 +1,6 @@
 ---
 title: "Publicaciones Académicas"
+page-layout: full
 toc: false
 format:
   html:
@@ -79,10 +80,22 @@ fechas <- sapply(metas, function(y) {
 ord <- order(fechas, decreasing = TRUE)
 metas <- metas[ord]
 
+n_listadas <- length(metas)
+n_contador <- max(50L, n_listadas)
+
 # Sin indentación de 4+ espacios: Markdown lo interpretaría como bloque de código.
 cat('<div class="publicaciones-page">\n')
 cat('<div class="publicaciones-intro">\n')
 cat('<p>Publicaciones académicas del equipo del Observatorio: artículos, libros, capítulos e informes vinculados a nuestra agenda de investigación.</p>\n')
+cat('</div>\n')
+cat(sprintf(
+  '<div class="publicaciones-count-wrap" data-count-target="%s" data-count-listed="%s" aria-label="Publicaciones destacadas">\n',
+  html_escape(as.character(n_contador)), html_escape(as.character(n_listadas))
+))
+cat('  <p class="publicaciones-count-line">\n')
+cat('    <span class="publicaciones-count-plus" aria-hidden="true">+</span>')
+cat('<span id="publicaciones-count-num" class="publicaciones-count-value">1</span><span class="publicaciones-count-label"> publicaciones</span>\n')
+cat('  </p>\n')
 cat('</div>\n')
 cat('<div class="publicaciones-filtros" role="tablist" aria-label="Filtrar por tipo de publicación">\n')
 cat('<button type="button" class="filtro-btn active" data-filtro="todos">Todos</button>\n')
@@ -91,6 +104,7 @@ cat('<button type="button" class="filtro-btn" data-filtro="libro">Libros</button
 cat('<button type="button" class="filtro-btn" data-filtro="capitulo">Capítulos</button>\n')
 cat('<button type="button" class="filtro-btn" data-filtro="policy-brief">Policy briefs</button>\n')
 cat('<button type="button" class="filtro-btn" data-filtro="reporte">Reportes</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="working-paper">Working papers</button>\n')
 cat('</div>\n')
 cat('<div class="publicaciones-grid">\n')
 
@@ -134,6 +148,46 @@ cat('</div>\n')
 ```{=html}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  (function animatePubCount() {
+    var wrap = document.querySelector(".publicaciones-count-wrap");
+    var el = document.getElementById("publicaciones-count-num");
+    if (!wrap || !el) return;
+    var raw = wrap.getAttribute("data-count-target");
+    var target = parseInt(raw, 10);
+    if (!target || target < 1) target = 50;
+    var stepSize = 6;
+    var msBetween = 175;
+    el.textContent = "1";
+    if (target <= 1) {
+      finish();
+      return;
+    }
+
+    function finish() {
+      el.textContent = String(target);
+      var listed = wrap.getAttribute("data-count-listed") || String(target);
+      wrap.setAttribute(
+        "aria-label",
+        "Más de " + target + " publicaciones (" + listed + " registros visibles en este listado)."
+      );
+    }
+
+    var displayed = 1;
+
+    function nextStep() {
+      var nextVal = Math.min(target, displayed + stepSize);
+      displayed = nextVal;
+      el.textContent = String(displayed);
+      if (displayed >= target) {
+        finish();
+      } else {
+        window.setTimeout(nextStep, msBetween);
+      }
+    }
+
+    window.setTimeout(nextStep, msBetween);
+  })();
+
   const filtros = document.querySelectorAll(".filtro-btn");
   const cards = document.querySelectorAll(".publicacion-card");
   filtros.forEach(function(btn) {

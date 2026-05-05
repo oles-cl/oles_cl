@@ -1,11 +1,11 @@
 ---
 title: "Cristóbal Moya"
-cargo: "Coord. de Publicaciones y Proyectos · Research Fellow, Facultad de Sociología"
+cargo: "Coord. de Publicaciones y Proyectos · Investigador adjunto"
 categories: [Comité directivo]
 orden: 22
 email: "cristobalmoya@gmail.com"
-organizacion: "Universität Bielefeld"
-image: "image/cristobal-moya.jpg"
+organizacion: "DIW Berlin · Universidad Central de Chile"
+image: "image/cristobal_moya.jpg"
 about:
   template: trestles
   image-shape: round
@@ -14,11 +14,14 @@ about:
     - icon: envelope
       text: Email
       href: mailto:cristobalmoya@gmail.com
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0000-0002-7176-4775
 areas-interes:
   - "Desigualdades sociales"
-  - "Justicia social"
+  - "Legitimidad social"
+  - "Políticas sociales y públicas"
   - "Mercados laborales"
-  - "Conflictos políticos"
 educacion:
   - titulo: "Doctor en Sociología"
     institucion: "Universität Bielefeld, Alemania"
@@ -30,14 +33,15 @@ educacion:
 
 ## Descripción
 
-Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociólogo de la Universidad de Chile. Sus líneas de interés están enfocadas en temas de desigualdades sociales, justicia social, mercados laborales y conflictos políticos. Tiene un fuerte interés en la investigación social cuantitativa, la inferencia causal y la sociología analítica.
+Investigador en el Instituto Alemán de Investigación Económica (DIW Berlin), donde está vinculado al Socio-Economic Panel (SOEP), y académico del Centro de Investigación en Economía y Sociedad de la Universidad Central de Chile. Es doctor por Universität Bielefeld y ha desarrollado una trayectoria centrada en el estudio de la desigualdad social, las percepciones de justicia, la legitimidad y las preferencias de política pública.
 
-## Áreas de Interés
+Su trabajo combina métodos cuantitativos, experimentos de encuesta y análisis de datos longitudinales. Ha investigado temas como las percepciones sobre la desigualdad económica, la brecha salarial de género, la legitimación de desigualdades organizacionales y las respuestas públicas frente a desventajas de estatus. Además de su labor en investigación, participa activamente en la docencia metodológica y en iniciativas de capacitación para el uso de datos panel en ciencias sociales.
 
-- Desigualdades sociales
-- Justicia social
-- Mercados laborales
-- Conflictos políticos
+## Áreas de interés
+
+- Desigualdades sociales y legitimidad
+- Políticas sociales y públicas
+- Mercados laborales y métodos cuantitativos
 
 ## Educación
 
@@ -48,5 +52,9 @@ Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociól
 ## Últimas publicaciones
 
 {{< include _pub-cristobal-moya.md >}}
+
+### Producción más amplia
+
+Listado completo en [Google Scholar](https://scholar.google.com/citations?hl=es&user=PeKObcsAAAAJ&view_op=list_works&sortby=pubdate).
 
 <a href="index.html" class="btn-volver">← Volver al Equipo</a>

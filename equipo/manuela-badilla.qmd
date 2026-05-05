@@ -1,21 +1,28 @@
 ---
 title: "Manuela Badilla Rajevic"
-cargo: "Académica · Investigadora principal"
+cargo: "Profesora asistente · Investigadora principal"
 categories: [Investigadores principales]
 orden: 37
-organizacion: "Universidad de Chile"
-image: "../images/logos/icon.png"
+email: "manuela.badilla@uc.cl"
+organizacion: "Pontificia Universidad Católica de Chile"
+image: "image/manuela.png"
 about:
   template: trestles
   image-shape: round
   image-width: 12em
-  links: []
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:manuela.badilla@uc.cl
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0000-0002-9643-3761
 areas-interes:
-  - "Psicología social comunitaria y sociología política y cultural"
+  - "Violencia política"
+  - "Conflictos territoriales"
+  - "Memoria colectiva"
+  - "Sociología política y cultural"
   - "Metodologías cualitativas"
-  - "Movilización social, memoria colectiva y temporalidad"
-  - "Justicia transicional"
-  - "Identidades y discursos políticos"
 educacion:
   - titulo: "Ph.D. en Sociología"
     institucion: "The New School for Social Research (USA)"
@@ -27,21 +34,14 @@ educacion:
 
 ## Descripción
 
-Su trabajo de investigación se enmarca en la intersección entre la psicología social comunitaria y la sociología política y cultural, con especial interés en el uso, el desarrollo y la innovación en metodologías cualitativas.
-
-La relación entre movilización social, memoria colectiva y temporalidad en la activación y/o resolución de conflictos territoriales es una de sus principales líneas de estudio. Ha analizado especialmente la conformación de memoria de las nuevas generaciones; el cuestionamiento y resignificación de espacios urbanos y objetos patrimoniales; las disputas por el género y sus memorias; así como la emergencia de memorias coloniales y nacionales y sus efectos en activismos políticos y culturales.
-
-Su investigación aborda también los procesos y mecanismos de justicia transicional y su rol en el fortalecimiento o deterioro del tejido social y la convivencia en sociedades posconflicto. Desde una perspectiva crítica problematiza la implementación estandarizada de la justicia transicional con el fin de incorporar perspectivas generacionales, interculturales y de género al desarrollo de estas estrategias.
-
-Actualmente busca comprender la emergencia de nuevas identidades y discursos políticos indagando en la relación entre la producción moral y cultural de símbolos y discursos nacionalistas y la acción colectiva.
+Profesora asistente de la Escuela de Psicología de la Pontificia Universidad Católica de Chile e investigadora del Instituto Milenio para el Estudio de la Violencia y la Democracia (VioDemos). Psicóloga de la Universidad de Chile, magíster en Sociología y doctora en Sociología por The New School for Social Research (EE.UU.). Su trabajo de investigación se enmarca en la intersección entre la sociología política y cultural y la psicología social, con especial interés en el uso, desarrollo e innovación en metodologías cualitativas. La relación entre movilización social, memoria colectiva, temporalidad y violencia es una de sus principales líneas de estudio. También aborda los procesos y mecanismos de justicia transicional y su papel en el fortalecimiento o deterioro del tejido social y la convivencia en sociedades postconflicto.
 
 ## Áreas de interés
 
-- Psicología social comunitaria y sociología política y cultural
-- Metodologías cualitativas
-- Movilización social, memoria y territorialidad
+- Violencia política y conflictos territoriales
+- Memoria colectiva y movilización social
 - Justicia transicional y convivencia
-- Nacionalismo, símbolos y acción colectiva
+- Metodologías cualitativas
 
 ## Educación
 

@@ -1,0 +1,28 @@
+---
+title: "Teorías de integración y linchamiento: capacidades explicativas"
+description: "Análisis de linchamiento desde teorías de integración, dominación e interdependencia."
+venue: "Cinta de Moebio, 58"
+tipo: articulo
+date: "2017-04-01"
+author: "Quiroz, L."
+authors: [loreto-quiroz]
+reference: "Quiroz, L. (2017). Capacidades explicativas de las teorías de integración, dominación e interdependencia en el análisis de los linchamientos. *Cinta de Moebio*, 58."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Teorías de integración y linchamiento: capacidades explicativas
+
+Análisis de linchamiento desde teorías de integración, dominación e interdependencia.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2017.
+
+## Referencia sugerida
+
+Quiroz, L. (2017). Capacidades explicativas de las teorías de integración, dominación e interdependencia en el análisis de los linchamientos. *Cinta de Moebio*, 58.
+
+[← Volver a Publicaciones](index.qmd)

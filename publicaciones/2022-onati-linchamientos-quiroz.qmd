@@ -1,0 +1,28 @@
+---
+title: "Linchamientos en Chile y Argentina: jueces, fiscales y defensores"
+description: "Aproximación sociojurídica comparada."
+venue: "Oñati Socio-Legal Series, 12(2), 383–413"
+tipo: articulo
+date: "2022-08-01"
+author: "Quiroz, L."
+authors: [loreto-quiroz]
+reference: "Quiroz, L. (2022). Linchamientos en Chile y Argentina: una aproximación desde el quehacer de jueces, fiscales y defensores. *Oñati Socio-Legal Series*, 12(2), 383–413."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Linchamientos en Chile y Argentina: jueces, fiscales y defensores
+
+Aproximación sociojurídica comparada.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2022.
+
+## Referencia sugerida
+
+Quiroz, L. (2022). Linchamientos en Chile y Argentina: una aproximación desde el quehacer de jueces, fiscales y defensores. *Oñati Socio-Legal Series*, 12(2), 383–413.
+
+[← Volver a Publicaciones](index.qmd)

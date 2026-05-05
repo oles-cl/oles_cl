@@ -1,6 +1,7 @@
 ---
 title: "Fondecyt — Gloria Jiménez-Moya"
 estado: "en-curso"
+etiqueta: "fondecyt"
 investigador_responsable: "Gloria Jiménez-Moya"
 format:
   html:

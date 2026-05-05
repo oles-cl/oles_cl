@@ -1,0 +1,28 @@
+---
+title: "Los caminos de la inmunización democrática: la masacre de Apoquindo (1993)"
+description: "Memoria y violencia política."
+venue: "Divergencia, 7, 71–101"
+tipo: articulo
+date: "2017-05-01"
+author: "Sáez, L."
+authors: [luciano-saez-fuentealba]
+reference: "Sáez, L. (2017). Los caminos de la inmunización democrática. Ecos y significados de La Masacre de Apoquindo, 21 octubre de 1993. *Divergencia*, 7, 71–101."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Los caminos de la inmunización democrática: la masacre de Apoquindo (1993)
+
+Memoria y violencia política.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2017.
+
+## Referencia sugerida
+
+Sáez, L. (2017). *Divergencia*, 7, 71–101.
+
+[← Volver a Publicaciones](index.qmd)

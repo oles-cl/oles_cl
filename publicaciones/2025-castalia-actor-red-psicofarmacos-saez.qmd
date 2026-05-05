@@ -1,0 +1,29 @@
+---
+title: "¿Pueden hablar los psicofármacos? Teoría del actor-red e infancia"
+description: "Uso de psicofármacos en infancias y adolescencias."
+venue: "Castalia – Revista de Psicología de la Academia (44)"
+tipo: articulo
+doi: "10.25074/07198051.44.2889"
+date: "2025-05-01"
+author: "Pinto Venegas, J., & Sáez-Fuentealba, L."
+authors: [luciano-saez-fuentealba]
+reference: "Pinto Venegas, J., & Sáez-Fuentealba, L. (2025). ¿Pueden hablar los psicofármacos? Aproximaciones desde la teoría del actor-red sobre el uso de psicofármacos en infancias y adolescencias. *Castalia*, (44), 51–69. [DOI](https://doi.org/10.25074/07198051.44.2889)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# ¿Pueden hablar los psicofármacos? Teoría del actor-red e infancia
+
+Uso de psicofármacos en infancias y adolescencias.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Pinto Venegas, J., & Sáez-Fuentealba, L. (2025). *Castalia*, (44). DOI 10.25074/07198051.44.2889.
+
+[← Volver a Publicaciones](index.qmd)

@@ -1,0 +1,29 @@
+---
+title: "Violencia hacia pobladores en dictadura: disputas sobre narrativas oficiales (1973–2023)"
+description: "Historiografía y violencia política."
+venue: "Colombia Internacional, 119, 37–64"
+tipo: articulo
+doi: "10.7440/colombiaint119.2024.02"
+date: "2024-03-01"
+author: "Sáez Fuentealba, L."
+authors: [luciano-saez-fuentealba]
+reference: "Sáez Fuentealba, L. (2024). El lugar de la violencia hacia los pobladores durante la dictadura cívico-militar en Chile: disputas y silenciamientos en la construcción de narrativas oficiales (1973–2023). *Colombia Internacional*, 119, 37–64. [DOI](https://doi.org/10.7440/colombiaint119.2024.02)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Violencia hacia pobladores en dictadura: disputas sobre narrativas oficiales (1973–2023)
+
+Historiografía y violencia política.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2024.
+
+## Referencia sugerida
+
+Sáez Fuentealba, L. (2024). *Colombia Internacional*, 119. DOI 10.7440/colombiaint119.2024.02.
+
+[← Volver a Publicaciones](index.qmd)

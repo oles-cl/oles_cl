@@ -1,11 +1,11 @@
 ---
 title: "Loreto Quiroz"
-cargo: "Profesora e Investigadora adjunta COES"
+cargo: "Profesora asistente (ICS-UOH) · Investigadora principal"
 categories: [Investigadores principales]
 orden: 31
 email: "loretoqr@gmail.com"
-organizacion: "Universidad Alberto Hurtado"
-image: "image/loreto-quiroz.jpg"
+organizacion: "Universidad de O'Higgins"
+image: "image/loreto-quiroz.jpeg"
 about:
   template: trestles
   image-shape: round
@@ -14,11 +14,14 @@ about:
     - icon: envelope
       text: Email
       href: mailto:loretoqr@gmail.com
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0000-0002-0403-3948
 areas-interes:
-  - "Legitimidad del derecho"
-  - "Sociología del derecho"
-  - "Vigilantismo"
   - "Violencia"
+  - "Derecho"
+  - "Vigilantismo"
+  - "Sociología del derecho"
 educacion:
   - titulo: "Doctora en Estudios Americanos"
     institucion: "Universidad de Santiago de Chile"
@@ -30,14 +33,14 @@ educacion:
 
 ## Descripción
 
-Doctora en Estudios Americanos por la Universidad de Santiago de Chile, Magíster en Ciencias Sociales por la Universidad de Chile y Abogada por la misma universidad. Su tesis doctoral corresponde a un estudio comparativo orientado por el caso, en la investigación analizó la relación entre los linchamientos y el derecho en Chile y Argentina, con el objetivo de contribuir a una comprensión de estas acciones desde una perspectiva sociojurídica. Sus intereses de investigación se relacionan con la sociología jurídica, la legitimidad del derecho y la violencia colectiva de carácter vigilantista, entre otros. Es parte de la coordinación del Grupo de Trabajo de CLACSO sobre vigilantismo y violencia colectiva en América Latina. Entre sus temas de investigación se encuentra la sociología del derecho, legitimidad del derecho, violencia, vigilantismo.
+Profesora asistente del Instituto de Ciencias Sociales de la Universidad de O'Higgins. Abogada por la Universidad de Chile y doctora en Estudios Americanos por la Universidad de Santiago de Chile. Su tesis doctoral es un estudio comparativo Chile–Argentina sobre linchamientos y derecho desde una perspectiva sociojurídica; sus líneas incluyen legitimidad del derecho, vigilantismo y violencia colectiva. Es parte de la coordinación del Grupo de Trabajo de CLACSO sobre vigilantismo y violencia colectiva en América Latina.
 
-## Áreas de Interés
+## Áreas de interés
 
-- Legitimidad del derecho
-- Sociología del derecho
+- Violencia y derecho
 - Vigilantismo
-- Violencia
+- Sociología del derecho
+- Legitimidad del derecho
 
 ## Educación
 

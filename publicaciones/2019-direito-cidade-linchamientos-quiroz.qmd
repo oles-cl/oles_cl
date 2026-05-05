@@ -1,0 +1,28 @@
+---
+title: "Linchamientos y derecho en Chile: ineficacia y poder simbólico"
+description: "Sociología jurídica y vigilantismo."
+venue: "Revista de Direito da Cidade, 11(2)"
+tipo: articulo
+date: "2019-07-01"
+author: "Quiroz, L."
+authors: [loreto-quiroz]
+reference: "Quiroz, L. (2019). Linchamientos y derecho en Chile: entre la ineficacia y el poder simbólico. *Revista de Direito da Cidade*, 11(2)."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Linchamientos y derecho en Chile: ineficacia y poder simbólico
+
+Sociología jurídica y vigilantismo.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2019.
+
+## Referencia sugerida
+
+Quiroz, L. (2019). Linchamientos y derecho en Chile: entre la ineficacia y el poder simbólico. *Revista de Direito da Cidade*, 11(2).
+
+[← Volver a Publicaciones](index.qmd)

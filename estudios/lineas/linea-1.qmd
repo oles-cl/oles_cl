@@ -23,10 +23,10 @@ Esta línea agrupa investigaciones sobre el ejercicio de la fuerza estatal, prá
 
 ## Proyectos asociados
 
-- [Fondecyt Ana](../cualitativo-longitudinal.html)
+- [Rethinking police empowerment: unpacking its meaning and consequences](../fondecyt-rethinking.html)
 - [Tesis (doctorado) Luciano Sáez](../tesis-doctorado-luciano-saez.html)
 - [Fondecyt Paz Irarrázabal](../fondecyt-paz-irarrazabal.html)
-- [Fondecyt Loreto Quiroz](../fondecyt-loreto-quiroz.html)
+- [El derecho a la seguridad y la agencia ciudadana frente al delito en Chile](../fondecyt-loreto-quiroz.html)
 - [Exploración (grupos focales)](../grupos-focales.html)
 - [Fondecyt Mónica — ESEP y trayectoria](../esep.html)
 

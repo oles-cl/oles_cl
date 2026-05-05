@@ -1,0 +1,28 @@
+---
+title: "Orientaciones para aplicación de juegos de clasificación de viñetas (en revisión)"
+description: "Reflexiones metodológicas desde un estudio empírico."
+venue: "Working paper · en revisión"
+tipo: working-paper
+date: "2025-10-01"
+author: "Puga, I., & Sáez, F."
+authors: [ismael-puga, luciano-saez-fuentealba]
+reference: "Puga, I., & Sáez, F. (en revisión). Orientaciones para la aplicación de juegos de clasificación de viñetas: reflexiones y recomendaciones a partir de un estudio empírico."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Orientaciones para aplicación de juegos de clasificación de viñetas (en revisión)
+
+Reflexiones metodológicas desde un estudio empírico.
+
+**Autores OLES:** [Ismael Puga](../equipo/ismael-puga.html), [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Puga, I., & Sáez, F. (en revisión). Orientaciones para la aplicación de juegos de clasificación de viñetas.
+
+[← Volver a Publicaciones](index.qmd)

@@ -1,0 +1,28 @@
+---
+title: "From hard vigilantism to soft vigilantism in Latin America"
+description: "Vigilantismo en América Latina."
+venue: "Contemporánea, 13(3)"
+tipo: articulo
+date: "2023-12-01"
+author: "Fuentes, A., González, J., & Quiroz, L."
+authors: [loreto-quiroz]
+reference: "Fuentes, A., González, J., & Quiroz, L. (2023). From hard vigilantism to soft vigilantism in Latin America. *Contemporánea*, 13(3)."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# From hard vigilantism to soft vigilantism in Latin America
+
+Vigilantismo en América Latina.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2023.
+
+## Referencia sugerida
+
+Fuentes, A., González, J., & Quiroz, L. (2023). From hard vigilantism to soft vigilantism in Latin America. *Contemporánea*, 13(3).
+
+[← Volver a Publicaciones](index.qmd)

@@ -19,14 +19,16 @@
       "/equipo/matias-deneken.html",
       "/equipo/asistentes-anteriores/bruno-rojas.html",
       "/equipo/amparo-feller.html",
-      "/equipo/martin-venegas.html"
+      "/equipo/martin-venegas.html",
+      "/equipo/rene-canales-selles.html",
+      "/equipo/lidia-yanez-lagos.html",
+      "/equipo/carlos-anriquez-gundian.html"
     ]
   },
   {
-    "listing": "/equipo/asistentes-anteriores/index.html",
+    "listing": "/eventos/index.html",
     "items": [
-      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html",
-      "/equipo/asistentes-anteriores/bruno-rojas.html"
+      "/eventos/2026-01-20-seminario-legitimidad.html"
     ]
   },
   {
@@ -69,21 +71,6 @@
       "/noticias/2021-03-30/index.html",
       "/noticias/2021-03-26/index.html",
       "/noticias/2020-09-22/index.html"
-    ]
-  },
-  {
-    "listing": "/eventos/index.html",
-    "items": [
-      "/eventos/2026-01-20-seminario-legitimidad.html"
-    ]
-  },
-  {
-    "listing": "/publicaciones/index.html",
-    "items": [
-      "/publicaciones/2025-configuraciones-interculturales.html",
-      "/publicaciones/2025-gerber-police-postures.html",
-      "/publicaciones/2024-gerber-mapuche.html",
-      "/publicaciones/2023-legitimidad-justicia.html"
     ]
   }
 ]

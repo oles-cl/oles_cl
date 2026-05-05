@@ -1,0 +1,28 @@
+---
+title: "Lobbying y difusión de la Embajada de Chile en España (1983–1988)"
+description: "Historia política y diplomacia."
+venue: "Tiempo Histórico, 17, 87–107"
+tipo: articulo
+date: "2018-11-01"
+author: "Santoni, A., Elgueta, R., & Sáez, L."
+authors: [luciano-saez-fuentealba]
+reference: "Santoni, A., Elgueta, R., & Sáez, L. (2018). En direcciones opuestas: la acción de lobbying y de difusión de la Embajada de Chile en la España de Felipe González (1983–1988). *Tiempo Histórico*, 17, 87–107."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Lobbying y difusión de la Embajada de Chile en España (1983–1988)
+
+Historia política y diplomacia.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2018.
+
+## Referencia sugerida
+
+Santoni, A., Elgueta, R., & Sáez, L. (2018). *Tiempo Histórico*, 17, 87–107.
+
+[← Volver a Publicaciones](index.qmd)

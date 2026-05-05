@@ -1,0 +1,29 @@
+---
+title: "Between iconophilia and iconoclasm: advances of conservative memory in Chile"
+description: "Memoria política patrimonio herencia."
+venue: "International Journal of Heritage Studies"
+tipo: articulo
+doi: "10.1080/13527258.2025.2484678"
+date: "2025-02-01"
+author: "Badilla Rajevic, M., & Infante-Batiste, V."
+authors: [manuela-badilla]
+reference: "Badilla Rajevic, M., & Infante-Batiste, V. (2025). Between iconophilia and iconoclasm: advances of conservative memory in Chile. *International Journal of Heritage Studies*. [DOI](https://doi.org/10.1080/13527258.2025.2484678)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Between iconophilia and iconoclasm: advances of conservative memory in Chile
+
+Memoria política patrimonio herencia.
+
+**Autores OLES:** [Manuela Badilla Rajevic](../equipo/manuela-badilla.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Badilla Rajevic, M., & Infante-Batiste, V. (2025). Between iconophilia and iconoclasm: advances of conservative memory in Chile. *International Journal of Heritage Studies*. DOI 10.1080/13527258.2025.2484678.
+
+[← Volver a Publicaciones](index.qmd)

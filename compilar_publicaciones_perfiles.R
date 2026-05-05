@@ -8,8 +8,18 @@ pub_dir <- file.path(root, "publicaciones")
 equipo_dir <- file.path(root, "equipo")
 asistentes_dir <- file.path(equipo_dir, "asistentes-anteriores")
 
+# Slugs cuyo `equipo/_pub-{slug}.md` no debe regenerarse (vacío = todos automáticos).
+perfiles_pub_manual <- character(0)
+
 if (!requireNamespace("yaml", quietly = TRUE)) {
   stop("Instala el paquete yaml: install.packages('yaml')")
+}
+
+perfil_incluye_bloque_pub <- function(out_dir, slug) {
+  qmd <- file.path(out_dir, paste0(slug, ".qmd"))
+  if (!file.exists(qmd)) return(FALSE)
+  txt <- paste(readLines(qmd, warn = FALSE, encoding = "UTF-8"), collapse = "\n")
+  grepl(paste0("_pub-", slug, ".md"), txt, fixed = TRUE)
 }
 
 # Archivos de publicación (excluir index.qmd)
@@ -29,12 +39,22 @@ for (f in pub_files) {
   href_asistentes <- paste0("../../publicaciones/", slug, ".html")
   ref <- if (is.null(y$reference)) "" else y$reference
   title <- if (is.null(y$title)) slug else y$title
+  dfecha <- if (is.null(y$date) || !nzchar(as.character(y$date)[1])) "1900-01-01" else as.character(y$date)[1]
+  dsort <- suppressWarnings(as.numeric(as.Date(dfecha)))
   for (a in y$authors) {
     if (is.null(pubs_by_author[[a]])) pubs_by_author[[a]] <- list()
     pubs_by_author[[a]] <- c(pubs_by_author[[a]], list(list(
-      title = title, href_equipo = href_equipo, href_asistentes = href_asistentes, reference = ref
+      title = title, href_equipo = href_equipo, href_asistentes = href_asistentes,
+      reference = ref, date_sort = dsort
     )))
   }
+}
+
+# Ordenar por fecha (más reciente primero) en cada perfil
+for (nm in names(pubs_by_author)) {
+  lst <- pubs_by_author[[nm]]
+  ord <- order(vapply(lst, function(z) if (is.null(z$date_sort)) 0 else z$date_sort, numeric(1)), decreasing = TRUE)
+  pubs_by_author[[nm]] <- lst[ord]
 }
 
 # Quién está en equipo/ vs asistentes-anteriores/
@@ -49,6 +69,9 @@ asistentes_slugs <- if (!dir.exists(asistentes_dir)) character(0) else
 placeholder <- "- (Aún no hay publicaciones listadas.)"
 
 for (slug in names(pubs_by_author)) {
+  if (slug %in% perfiles_pub_manual) next
+  out_dir <- if (slug %in% asistentes_slugs) asistentes_dir else equipo_dir
+  if (!perfil_incluye_bloque_pub(out_dir, slug)) next
   pubs <- pubs_by_author[[slug]]
   lines <- character(length(pubs))
   for (i in seq_along(pubs)) {
@@ -56,7 +79,6 @@ for (slug in names(pubs_by_author)) {
     href <- if (slug %in% asistentes_slugs) p$href_asistentes else p$href_equipo
     lines[i] <- sprintf("- [%s](%s) — %s", p$title, href, p$reference)
   }
-  out_dir <- if (slug %in% asistentes_slugs) asistentes_dir else equipo_dir
   out_file <- file.path(out_dir, paste0("_pub-", slug, ".md"))
   writeLines(lines, out_file, useBytes = TRUE)
   message("Escrito: ", out_file)
@@ -65,8 +87,10 @@ for (slug in names(pubs_by_author)) {
 # Quienes están en equipo o asistentes pero no tienen publicaciones: archivo con placeholder
 todos_slugs <- c(equipo_slugs, asistentes_slugs)
 for (slug in todos_slugs) {
+  if (slug %in% perfiles_pub_manual) next
   if (slug %in% names(pubs_by_author)) next
   out_dir <- if (slug %in% asistentes_slugs) asistentes_dir else equipo_dir
+  if (!perfil_incluye_bloque_pub(out_dir, slug)) next
   out_file <- file.path(out_dir, paste0("_pub-", slug, ".md"))
   writeLines(placeholder, out_file, useBytes = TRUE)
   message("Escrito (placeholder): ", out_file)

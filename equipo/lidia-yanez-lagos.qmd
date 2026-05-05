@@ -1,0 +1,70 @@
+---
+title: "Lidia Yáñez Lagos"
+cargo: "Colaboradora externa"
+categories: [Colaboradores externos]
+orden: 52
+email: "lyanezlagos@gmail.com"
+organizacion: "Universidad de Manchester"
+image: "image/lidia_yanez.jpeg"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lyanezlagos@gmail.com
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0000-0001-8561-7461
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/lidia-yanez-lagos
+areas-interes:
+  - "Social movement studies"
+  - "Estudios de la memoria"
+  - "Violencia y represión policial"
+educacion:
+  - titulo: "Doctorado en Sociología (en curso)"
+    institucion: "Universidad de Manchester"
+  - titulo: "MSc en Sociological Research"
+    institucion: "Universidad de Manchester"
+  - titulo: "Licenciatura en Sociología"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Candidata a doctora en Sociología en la Universidad de Manchester, donde también se desempeña como teaching assistant. Es licenciada en Sociología por la Universidad de Chile y cuenta con un MSc en Sociological Research por la Universidad de Manchester.
+
+Su investigación se centra en la agencia política de los movimientos sociales en el Sur Global, con especial atención a las formas en que activistas y manifestantes resisten la violencia estatal y la represión policial desde una perspectiva interseccional. Su tesis doctoral analiza la relación entre memorias colectivas y resistencia a la represión en el estallido social chileno (Chile Despertó).
+
+Ha participado en diversos proyectos colaborativos, coordinando equipos de investigación, analizando datos cualitativos y cuantitativos, y organizando conferencias académicas y espacios de articulación entre academia y activismo. Actualmente forma parte del comité organizador de la conferencia *Alternative Futures and Popular Protest*. Su trabajo combina compromiso político y rigurosidad metodológica, con el objetivo de contribuir tanto al debate académico como a las luchas sociales contemporáneas.
+
+## Áreas de interés
+
+- Social movement studies
+- Estudios de la memoria
+- Violencia y represión policial
+
+## Educación
+
+- **Doctorado en Sociología** (en curso) — Universidad de Manchester
+- **MSc en Sociological Research** — Universidad de Manchester
+- **Licenciatura en Sociología** — Universidad de Chile
+
+## Últimas publicaciones
+
+### En prensa
+
+- Yáñez-Lagos, L. (forthcoming). The battle for memory in the 2019 Chilean social outburst: infra-repression, transitional vacuum, and the rearticulation of counter-memories. En *Participation and Conflict*.
+
+### 2023
+
+- Yáñez-Lagos, L. (2023). The tensions between the mass movement and the institutional path: an analysis of the «Chile woke up» movement. En *Inequalities, resistances and rights in Latin America and the Caribbean* (p. 208).
+
+### 2019
+
+- Asún, R. A., Yáñez-Lagos, L., Villalobos, C., & Zúñiga-Rivas, C. (2019). How social sciences investigate issues of high political contingency: the case of the Chilean student movement. *Cinta de Moebio*, (65), 235–253.
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

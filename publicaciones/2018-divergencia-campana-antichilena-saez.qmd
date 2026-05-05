@@ -1,0 +1,28 @@
+---
+title: "Chile vs el mundo: la revista Qué Pasa y la campaña antichilena"
+description: "Análisis de medios y diplomacia cultural."
+venue: "Divergencia, 11, 127–146"
+tipo: articulo
+date: "2018-06-01"
+author: "Santoni, A., & Sáez, L."
+authors: [luciano-saez-fuentealba]
+reference: "Santoni, A., & Sáez, L. (2018). Chile vs El Mundo. El caso de la revista Qué Pasa y la campaña antichilena. *Divergencia*, 11, 127–146."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Chile vs el mundo: la revista Qué Pasa y la campaña antichilena
+
+Análisis de medios y diplomacia cultural.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2018.
+
+## Referencia sugerida
+
+Santoni, A., & Sáez, L. (2018). *Divergencia*, 11, 127–146.
+
+[← Volver a Publicaciones](index.qmd)

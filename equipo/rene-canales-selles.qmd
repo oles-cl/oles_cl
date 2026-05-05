@@ -1,0 +1,53 @@
+---
+title: "René Canales Sellés"
+cargo: "Colaborador externo"
+categories: [Colaboradores externos]
+orden: 51
+email: "renecanales@uc.cl"
+organizacion: "Universidad de Chile"
+image: "image/rene-canales.jpg"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:renecanales@uc.cl
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0009-0002-4299-2725
+areas-interes:
+  - "Sociología política"
+  - "Movimientos sociales"
+  - "Protesta"
+educacion:
+  - titulo: "Magíster en Sociología"
+    institucion: "Pontificia Universidad Católica de Chile"
+  - titulo: "Sociólogo"
+    institucion: "Pontificia Universidad Católica de Chile"
+---
+
+## Descripción
+
+Sociólogo por la Pontificia Universidad Católica de Chile y magíster en Sociología por la misma institución. Su investigación se centra en la política contenciosa, las actitudes políticas y la estratificación social, con especial énfasis en cómo la protesta influye en las actitudes hacia el cambio institucional mediante procesos de socialización. Actualmente se desempeña como asistente de investigación en el proyecto Fondecyt N.º 1250518 «Market Justice and Deservingness of Social Welfare». Anteriormente trabajó en el Observatorio de Cohesión Social (OCS-COES) y en el Laboratorio de Ciencia Social Abierta del Centro de Estudios de Conflicto y Cohesión Social (COES).
+
+## Áreas de interés
+
+- Sociología política
+- Movimientos sociales
+- Protesta
+
+## Educación
+
+- **Magíster en Sociología** — Pontificia Universidad Católica de Chile
+- **Sociólogo** — Pontificia Universidad Católica de Chile
+
+## Últimas publicaciones
+
+### 2026
+
+- Castillo, J. C., Canales Sellés, R., Laffert, A., & Urzúa, T. (2026). Justification trajectories for pension inequality in Chile (2016–2023): the role of social class and beliefs in meritocracy. *Frontiers in Sociology*, 11, 1771856. [DOI](https://doi.org/10.3389/fsoc.2026.1771856).
+- Karle, C., Sánchez-Barría, F., & Canales Sellés, R. (2026). When protest becomes institutionalized: evidence from the Chilean student movement under military rule, 1982–1989. *The Sociological Quarterly*, 1–27. [DOI](https://doi.org/10.1080/00380253.2026.2643335).
+
+<a href="index.html" class="btn-volver">← Volver al Equipo</a>

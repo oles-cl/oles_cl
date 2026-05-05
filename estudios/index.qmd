@@ -181,6 +181,7 @@ toc: false
 .estudio-card-img-wrap .estudio-card-img {
   filter: brightness(1.08) saturate(0.88) contrast(0.96);
 }
+
 </style>
 
 <div class="estudios-proyectos-page">
@@ -198,141 +199,148 @@ toc: false
 </div>
 
 <div class="estudios-grid" id="estudios-proyectos-grid">
-  <a href="esep.html" class="estudio-card" data-lineas="1,4">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-esep/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Mónica — ESEP y trayectoria</h3>
-    </div>
-  </a>
-  <a href="cualitativo-longitudinal.html" class="estudio-card" data-lineas="1">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-longitudinal/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Ana</h3>
-    </div>
-  </a>
-  <a href="tesis-doctorado-luciano-saez.html" class="estudio-card" data-lineas="1">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-tesis-luciano/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Tesis (doctorado) Luciano Sáez</h3>
-    </div>
-  </a>
-  <a href="fondecyt-paz-irarrazabal.html" class="estudio-card" data-lineas="1">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-paz/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Paz Irarrázabal</h3>
-    </div>
-  </a>
-  <a href="fondecyt-loreto-quiroz.html" class="estudio-card" data-lineas="1">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-loreto/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Loreto Quiroz</h3>
-    </div>
-  </a>
-  <a href="grupos-focales.html" class="estudio-card" data-lineas="1">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-grupos-focales/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Exploración (grupos focales)</h3>
-    </div>
-  </a>
-  <a href="protesta-social-violencia.html" class="estudio-card" data-lineas="2,4">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-protesta/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Ismael Puga</h3>
-    </div>
-  </a>
-  <a href="fondecyt-sofia-donoso.html" class="estudio-card" data-lineas="2">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-sofia/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Sofía Donoso</h3>
-    </div>
-  </a>
-  <a href="fondecyt-macarena-orchard.html" class="estudio-card" data-lineas="3">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-macarena/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Macarena Orchard</h3>
-    </div>
-  </a>
-  <a href="fondecyt-gloria-jimenez-moya.html" class="estudio-card" data-lineas="3">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-gloria/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Fondecyt Gloria Jiménez-Moya</h3>
-    </div>
-  </a>
-  <a href="doctorado-cristobal-moya.html" class="estudio-card" data-lineas="4">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-doc-cristobal/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Doctorado Cristóbal Moya</h3>
-    </div>
-  </a>
-  <a href="doctorado-matias-gomez.html" class="estudio-card" data-lineas="4">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-doc-matias/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Doctorado Matías</h3>
-    </div>
-  </a>
-  <a href="datos-administrativos.html" class="estudio-card">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-datos-admin/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Estudio de Datos Administrativos</h3>
-    </div>
-  </a>
-  <a href="prensa.html" class="estudio-card">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-prensa/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Estudio de prensa</h3>
-    </div>
-  </a>
-  <a href="seguimiento-policias.html" class="estudio-card">
-    <div class="estudio-card-img-wrap">
-      <img src="https://picsum.photos/seed/olesproj-seguimiento-pol/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">
-    </div>
-    <div class="estudio-card-body">
-      <span class="estudio-estado en-curso">En curso</span>
-      <h3 class="estudio-titulo">Seguimiento a las policías</h3>
-    </div>
-  </a>
+```
+
+```{r}
+#| echo: false
+#| results: asis
+
+# Tarjetas de proyectos en /estudios/: estado y etiqueta (opcional) desde frontmatter;
+# orden, picsum/seed y algunos titulos públicos siguen definidos aquí por diseño editorial.
+`%||%` <- function(x, y) {
+  if (is.null(x) || length(x) == 0) return(y)
+  if (length(x) == 1 && is.na(x[[1]])) return(y)
+  x
+}
+
+esc_html <- function(x) {
+  if (length(x) == 0 || is.na(x) || !nzchar(as.character(x))) return("")
+  x <- as.character(x)
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  x
+}
+
+leyaml_estudio <- function(ruta) {
+  if (!nzchar(ruta) || !file.exists(ruta))
+    return(list(titulo = "", estado = "", etiqueta = ""))
+  ln <- tryCatch(readLines(ruta, warn = FALSE, encoding = "UTF-8"),
+    error = function(e) character())
+  d1 <- grep("^---\\s*$", ln)
+  if (length(d1) < 2) return(list(titulo = "", estado = "", etiqueta = ""))
+  ys <- ln[(d1[[1]] + 1):(d1[[2]] - 1)]
+  getf <- function(campo) {
+    pat <- paste0("^\\s*", campo, "\\s*:\\s*(.*)\\s*$")
+    hit <- ys[grepl(pat, ys, perl = TRUE)]
+    if (!length(hit)) return("")
+    tx <- sub(pat, "\\1", hit[[1]], perl = TRUE)
+    tx <- trimws(tx)
+    if (grepl("^[\"'].*[\"']\\s*$", tx))
+      tx <- gsub("^[\"'](.+)[\"']\\s*$", "\\1", tx)
+    trimws(tx)
+  }
+  list(titulo = getf("title"), estado = getf("estado"), etiqueta = getf("etiqueta"))
+}
+
+normalize_est <- function(est) {
+  g <- trimws(tolower(as.character(est)))
+  if (!nzchar(g)) return("en-curso")
+  g <- gsub("_", "-", g, fixed = TRUE)
+  if (g %in% c("finalizado", "finalizada")) return("finalizado")
+  "en-curso"
+}
+
+ruta_fm_estudio <- function(slug) {
+  fq <- suppressWarnings(normalizePath(
+    file.path(dirname(knitr::current_input(dir = TRUE)), paste0(slug, ".qmd")),
+    mustWork = FALSE))
+  if (nzchar(as.character(fq)) && identical(TRUE, file.exists(fq))) return(fq)
+  f2 <- file.path("estudios", paste0(slug, ".qmd"))
+  if (file.exists(f2)) return(normalizePath(f2, mustWork = FALSE))
+  f3 <- paste0(slug, ".qmd")
+  if (file.exists(f3)) return(normalizePath(f3, mustWork = FALSE))
+  f2
+}
+
+cards <- list(
+  list(slug = "esep", picsum = "olesproj-esep", lineas = "1,4",
+       titulo_tarjeta = "Fondecyt Mónica — ESEP y trayectoria"),
+  list(slug = "fondecyt-rethinking", picsum = "olesproj-longitudinal", lineas = "1"),
+  list(slug = "tesis-doctorado-luciano-saez", picsum = "olesproj-tesis-luciano", lineas = "1",
+       titulo_tarjeta = "Tesis (doctorado) Luciano Sáez"),
+  list(slug = "fondecyt-paz-irarrazabal", picsum = "olesproj-paz", lineas = "1"),
+  list(slug = "fondecyt-loreto-quiroz", picsum = "olesproj-loreto", lineas = "1",
+       titulo_tarjeta = "El derecho a la seguridad y la agencia ciudadana frente al delito en Chile"),
+  list(slug = "grupos-focales", picsum = "olesproj-grupos-focales", lineas = "1",
+       titulo_tarjeta = "Exploración (grupos focales)"),
+  list(slug = "protesta-social-violencia", picsum = "olesproj-protesta", lineas = "2,4",
+       titulo_tarjeta = "Fondecyt Ismael Puga"),
+  list(slug = "fondecyt-sofia-donoso", picsum = "olesproj-sofia", lineas = "2"),
+  list(slug = "fondecyt-macarena-orchard", picsum = "olesproj-macarena", lineas = "3"),
+  list(slug = "fondecyt-gloria-jimenez-moya", picsum = "olesproj-gloria", lineas = "3"),
+  list(slug = "doctorado-cristobal-moya", picsum = "olesproj-doc-cristobal", lineas = "4",
+       titulo_tarjeta = "Doctorado Cristóbal Moya"),
+  list(slug = "doctorado-matias-gomez", picsum = "olesproj-doc-matias", lineas = "4",
+       titulo_tarjeta = "Doctorado Matías"),
+  list(slug = "datos-administrativos", picsum = "olesproj-datos-admin", lineas = ""),
+  list(slug = "prensa", picsum = "olesproj-prensa", lineas = ""),
+  list(slug = "seguimiento-policias", picsum = "olesproj-seguimiento-pol", lineas = "")
+)
+
+out <- ""
+for (row in cards) {
+  slug <- row$slug
+  picsum <- row$picsum
+  lineas_raw <- row$lineas %||% ""
+  fm <- leyaml_estudio(ruta_fm_estudio(slug))
+  estado <- normalize_est(if (nzchar(fm$estado)) fm$estado else "en-curso")
+
+  estado_class <- if (estado == "finalizado") "estudio-estado finalizado-morado" else "estudio-estado en-curso"
+  estado_lab <- if (estado == "finalizado") "Finalizado" else "En curso"
+
+  titulo_mostrar <- if (!is.null(row$titulo_tarjeta) && nzchar(row$titulo_tarjeta)) {
+    row$titulo_tarjeta
+  } else {
+    fm$titulo
+  }
+  if (!nzchar(paste0("", titulo_mostrar))) titulo_mostrar <- slug
+
+  etq_trim <- trimws(fm$etiqueta)
+  etq_esc <- ""
+  tt <- trimws(gsub("^#+", "", etq_trim))
+  if (nzchar(tt))
+    etq_esc <- sprintf('<span class="estudio-etiqueta">%s</span>', esc_html(tt))
+
+  dados_lineas_attr <- if (nzchar(lineas_raw)) sprintf(' data-lineas="%s"', lineas_raw) else ""
+
+  out <- paste0(out, sprintf(
+    paste0(
+      '<a href="%s.html" class="estudio-card"%s>\n',
+      '  <div class="estudio-card-img-wrap">\n',
+      '    <img src="https://picsum.photos/seed/%s/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">\n',
+      "  </div>\n",
+      '  <div class="estudio-card-body">\n',
+      '    <span class="%s">%s</span>\n',
+      '    <h3 class="estudio-titulo">%s</h3>\n',
+      "%s",
+      "  </div>\n",
+      "</a>\n"
+    ),
+    slug,
+    dados_lineas_attr,
+    picsum,
+    estado_class,
+    estado_lab,
+    esc_html(titulo_mostrar),
+    ifelse(nzchar(etq_esc), paste0("    ", etq_esc, "\n"), "")
+  ))
+}
+
+knitr::asis_output(out)
+```
+
+```{=html}
 </div>
 </div>
 
@@ -341,6 +349,28 @@ document.addEventListener("DOMContentLoaded", function() {
   var barra = document.querySelector(".estudios-filtros-linea");
   var grid = document.getElementById("estudios-proyectos-grid");
   if (!grid) return;
+
+  /* Borde inferior visible del header (respeta Headroom: al ocultar la barra, top → 0). */
+  function gapDebajoNavbarEstudios() {
+    var hdr = document.getElementById("quarto-header") ||
+      document.querySelector("body.nav-fixed header.fixed-top, header.fixed-top");
+    if (!hdr) return 64;
+    var gap = Math.round(hdr.getBoundingClientRect().bottom);
+    return Math.max(0, Math.min(gap, 120));
+  }
+
+  /* Offset sticky: sin fixed ni padding sobre el grid. */
+  function aplicarStickyOffsetEstudios() {
+    document.documentElement.style.setProperty(
+      "--oles-estudios-navbar-h",
+      gapDebajoNavbarEstudios() + "px"
+    );
+  }
+
+  aplicarStickyOffsetEstudios();
+  window.addEventListener("resize", aplicarStickyOffsetEstudios);
+  window.addEventListener("scroll", aplicarStickyOffsetEstudios, { passive: true });
+  window.addEventListener("quarto-hrChanged", aplicarStickyOffsetEstudios);
 
   /* Orden aleatorio en el DOM (cada carga): mezcla líneas para que el filtro se note al reacomodarse el grid */
   (function shuffleCards() {

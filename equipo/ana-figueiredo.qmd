@@ -1,6 +1,6 @@
 ---
 title: "Ana Figueiredo"
-cargo: "Directora"
+cargo: "Directora · Investigadora principal"
 categories: [Dirección]
 orden: 1
 email: "figueiredo.anacm@gmail.com"
@@ -17,12 +17,15 @@ about:
     - icon: mortarboard-fill
       text: Google Scholar
       href: https://scholar.google.com/citations?user=iEz1SmEAAAAJ&hl=es
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0000-0002-5233-4622
 areas-interes:
-  - "Representaciones de la historia"
-  - "Relaciones intergrupales e interculturalidad"
-  - "Conflictos social, violencia y legitimidad"
-  - "Ideologías postcoloniales"
-  - "Psicología política"
+  - "Violencia estatal y política"
+  - "Memoria colectiva y colonialidad"
+  - "Relaciones intergrupales e interacciones policía-grupos minoritarios"
+  - "Ideologías y acción colectiva"
+  - "Conflictos históricos"
 educacion:
   - titulo: "PhD en Psicología Social"
     institucion: "Universidade de Coimbra, Portugal"
@@ -34,15 +37,14 @@ educacion:
 
 ## Descripción
 
-Profesora asociada del Instituto de Ciencias Sociales de la Universidad de O'Higgins (Rancagua) e investigadora asociada de la línea Interacciones Grupales e Individuales de COES. Psicóloga, Magíster en Psicología Social y Doctora en Psicología Social por la Universidad de Coimbra (Portugal) en conjunto con la Universidad de Amsterdam. Actualmente es investigadora principal del Fondecyt de Iniciación Nº11201211, "Ideologías poscoloniales, políticas de reconocimiento y reparación, y relaciones intergrupales actuales: Los Mapuche en Chile" y es coinvestigadora en dos proyectos de investigación Fondecyt Regular sobre violencia y legitimidad, y movilización social. Desde 2021, Ana es miembro del Governing Council de la International Society of Social Psychology (ISPP).
+Psicóloga y doctora en Psicología Social (Universidade de Coimbra, Portugal). Actualmente es profesora asociada en la Universidad de O'Higgins y directora del Observatorio de Violencia y Legitimidad Social (OLES). También es investigadora principal en el Instituto Milenio para la Autoridad y la Regulación Social (ASOR, Chile; ANID Milenio ICS2025_002). En 2025 se adjudicó un proyecto Fondecyt Regular (N.º 1251411) para analizar las interacciones entre la policía y distintos grupos minoritarios, centrándose en las experiencias y percepciones de personas mapuche, migrantes y jóvenes de bajos recursos socioeconómicos en Chile (2025–2029). Es coeditora en jefe de la *Revista de Psicología Social y Política* (JSPP). Desde enero de 2026 asumió el cargo de miembro electa de la Society for Peace, Conflict and Violence (División 48, APA). Sus principales áreas de investigación abordan violencia estatal y política, relaciones intergrupales, colonialidad, memoria colectiva, conflictos históricos, ideologías, acción colectiva e interacciones entre la policía y los grupos minoritarios.
 
-## Áreas de Interés
+## Áreas de interés
 
-- Representaciones de la historia
+- Violencia estatal y política; memoria y colonialidad
 - Relaciones intergrupales e interculturalidad
-- Conflictos social, violencia y legitimidad
-- Ideologías postcoloniales
-- Psicología política
+- Ideologías, acción colectiva y conflictos históricos
+- Interacciones entre la policía y grupos minoritarios
 
 ## Educación
 
@@ -52,5 +54,9 @@ Profesora asociada del Instituto de Ciencias Sociales de la Universidad de O'Hig
 ## Últimas publicaciones
 
 {{< include _pub-ana-figueiredo.md >}}
+
+### Producción más amplia
+
+Obra registrada en [ORCID](https://orcid.org/0000-0002-5233-4622) y en [Google Scholar](https://scholar.google.com/citations?user=iEz1SmEAAAAJ&hl=es).
 
 <a href="index.html" class="btn-volver">← Volver al Equipo</a>

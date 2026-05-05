@@ -1,0 +1,29 @@
+---
+title: "El derecho y la representación de la protesta política violenta en el estallido chileno"
+description: "Análisis de un expediente judicial del estallido chileno."
+venue: "Derecho PUCP, (90), 41–77"
+tipo: articulo
+doi: "10.18800/derechopucp.202301.002"
+date: "2023-05-01"
+author: "Quiroz, L."
+authors: [loreto-quiroz]
+reference: "Quiroz, L. (2023). El derecho y la representación de la protesta política violenta: análisis de un expediente judicial del estallido chileno. *Derecho PUCP*, (90), 41–77. [DOI](https://doi.org/10.18800/derechopucp.202301.002)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# El derecho y la representación de la protesta política violenta en el estallido chileno
+
+Análisis de un expediente judicial del estallido chileno.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2023.
+
+## Referencia sugerida
+
+Quiroz, L. (2023). El derecho y la representación de la protesta política violenta: análisis de un expediente judicial del estallido chileno. *Derecho PUCP*, (90), 41–77. [DOI](https://doi.org/10.18800/derechopucp.202301.002)
+
+[← Volver a Publicaciones](index.qmd)

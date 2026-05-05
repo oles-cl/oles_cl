@@ -209,6 +209,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-colaboradores-externos .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-colaboradores-externos'] = new List('listing-colaboradores-externos', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 <script src="translations.js" defer=""></script>
 
@@ -352,7 +380,7 @@ window.Quarto = {
 El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional y los perfiles del equipo.
 </p>
 <p>
-En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong> (coordinaciones), <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong> y <strong>jóvenes investigadoras/es en formación</strong>.
+En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong> (coordinaciones), <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong>, <strong>colaboradoras/es externos/as</strong> y <strong>jóvenes investigadoras/es en formación</strong>.
 </p>
 </div>
 <div class="equipo-roster-page">
@@ -363,7 +391,7 @@ Responsabilidad académica y ejecutiva del Observatorio.
 </p>
 <div id="listing-direccion" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1778018787692" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
 <a href="../equipo/ana-figueiredo.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -377,7 +405,7 @@ Ana Figueiredo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Dirección" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="169">
+<div class="g-col-1" data-index="1" data-categories="Dirección" data-listing-file-modified-sort="1777902170556" data-listing-reading-time-sort="1" data-listing-word-count-sort="166">
 <a href="../equipo/monica-gerber.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -404,25 +432,25 @@ Coordinaciones que acompañan la agenda colectiva del OLES.
 </p>
 <div id="listing-comite" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Comité directivo" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="0" data-categories="Comité directivo" data-listing-file-modified-sort="1778018505023" data-listing-reading-time-sort="1" data-listing-word-count-sort="198">
 <a href="../equipo/luciano-saez-fuentealba.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/luciano-saez.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../equipo/image/luciano_saez.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Luciano Sáez Fuentealba
+Luciano Sáez-Fuentealba
 </h5>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Comité directivo" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<div class="g-col-1" data-index="1" data-categories="Comité directivo" data-listing-file-modified-sort="1778018788069" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
 <a href="../equipo/cristobal-moya.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/cristobal-moya.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../equipo/image/cristobal_moya.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -432,7 +460,7 @@ Cristóbal Moya
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Comité directivo" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="g-col-1" data-index="2" data-categories="Comité directivo" data-listing-file-modified-sort="1777902170557" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <a href="../equipo/macarena-orchard.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -446,7 +474,7 @@ Macarena Orchard
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Comité directivo" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="g-col-1" data-index="3" data-categories="Comité directivo" data-listing-file-modified-sort="1777902256581" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
 <a href="../equipo/coordinacion-vinculacion-medio.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -473,7 +501,7 @@ Investigación de planta y líneas de fondo del Observatorio.
 </p>
 <div id="listing-investigadores-principales" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<div class="g-col-1" data-index="0" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170556" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
 <a href="../equipo/paz-irarrazabal.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -487,11 +515,11 @@ Paz Irarrázabal González
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="175">
+<div class="g-col-1" data-index="1" data-categories="Investigadores principales" data-listing-file-modified-sort="1778018505023" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
 <a href="../equipo/loreto-quiroz.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../equipo/image/loreto-quiroz.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../equipo/image/loreto-quiroz.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -501,7 +529,7 @@ Loreto Quiroz
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<div class="g-col-1" data-index="2" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170556" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <a href="../equipo/joaquin-bahamondes.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -515,7 +543,7 @@ Joaquín Bahamondes
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<div class="g-col-1" data-index="3" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170555" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
 <a href="../equipo/ismael-puga.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -529,7 +557,7 @@ Ismael Puga
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="g-col-1" data-index="4" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170557" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
 <a href="../equipo/matias-gomez.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -543,7 +571,7 @@ Matías Gómez
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+<div class="g-col-1" data-index="5" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170556" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
 <a href="../equipo/sofia-donoso.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -557,7 +585,7 @@ Sofía Donoso
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="162">
+<div class="g-col-1" data-index="6" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170557" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
 <a href="../equipo/gloria-jimenez-moya.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -571,11 +599,11 @@ Gloria Jiménez-Moya
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Investigadores principales" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="2" data-listing-word-count-sort="256">
+<div class="g-col-1" data-index="7" data-categories="Investigadores principales" data-listing-file-modified-sort="1778018505341" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <a href="../equipo/manuela-badilla.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/logos/icon.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../equipo/image/manuela.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -598,7 +626,7 @@ Participación en instancias sustantivas de OLES manteniendo otras afiliaciones 
 </p>
 <div id="listing-adjuntos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Investigadores adjuntos" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="g-col-1" data-index="0" data-categories="Investigadores adjuntos" data-listing-file-modified-sort="1777902170556" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
 <a href="../equipo/matias-deneken.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -612,7 +640,7 @@ Matías Deneken
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Investigadores adjuntos" data-listing-file-modified-sort="1777901159532" data-listing-reading-time-sort="1" data-listing-word-count-sort="135">
+<div class="g-col-1" data-index="1" data-categories="Investigadores adjuntos" data-listing-file-modified-sort="1777902170557" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
 <a href="../equipo/asistentes-anteriores/bruno-rojas.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -639,7 +667,7 @@ Personas que apoyan levantamiento de información, codificación, preparación d
 </p>
 <div id="listing-asistentes" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Asistentes de investigación" data-listing-file-modified-sort="1777901159531" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<div class="g-col-1" data-index="0" data-categories="Asistentes de investigación" data-listing-file-modified-sort="1777902170555" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
 <a href="../equipo/amparo-feller.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -653,7 +681,7 @@ Amparo Feller
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Asistentes de investigación" data-listing-file-modified-sort="1777901159533" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<div class="g-col-1" data-index="1" data-categories="Asistentes de investigación" data-listing-file-modified-sort="1777902170555" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
 <a href="../equipo/martin-venegas.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -662,6 +690,61 @@ Amparo Feller
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Martín Venegas
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
+<section id="colaboradorases-externosas" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="colaboradorases-externosas">Colaboradoras/es externos/as</h2>
+<p class="equipo-tier-hint">
+Personas que colaboran con iniciativas del Observatorio desde otras instituciones o con modalidades de participación no permanente.
+</p>
+<div id="listing-colaboradores-externos" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="Colaboradores externos" data-listing-file-modified-sort="1778018567535" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
+<a href="../equipo/rene-canales-selles.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../equipo/image/rene-canales.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+René Canales Sellés
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Colaboradores externos" data-listing-file-modified-sort="1778018572059" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<a href="../equipo/lidia-yanez-lagos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../equipo/image/lidia_yanez.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lidia Yáñez Lagos
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Colaboradores externos" data-listing-file-modified-sort="1778018566804" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<a href="../equipo/carlos-anriquez-gundian.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../equipo/image/carlos_anriquez.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Carlos Anriquez Gundián
 </h5>
 </div>
 </div>

@@ -1,0 +1,45 @@
+---
+title: "Rethinking police empowerment: unpacking its meaning and consequences"
+estado: "en-curso"
+etiqueta: "fondecyt"
+investigador_responsable: "Ana Figueiredo"
+# Fuente: fondecyt-rethinking.qmd → salida web: fondecyt-rethinking.html
+# Antes en el sitio: cualitativo-longitudinal.* / listado «Fondecyt Ana» / estudio cualitativo longitudinal.
+aliases:
+  - cualitativo-longitudinal.html
+  - fondecyt_rethinking.html
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigador responsable
+
+[Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+## Investigadores
+
+[Mónica Gerber](../equipo/monica-gerber.html)
+
+## Asistentes de investigación
+
+[Amparo Feller](../equipo/amparo-feller.html)
+:::
+
+:::{.estudio-col-der}
+
+## Proyecto
+
+Fondecyt Regular (N.º 1251411) para analizar las interacciones entre la policía y distintos grupos minoritarios, centrándose en las experiencias y percepciones de personas mapuche, migrantes y jóvenes de bajos recursos socioeconómicos en Chile (2025–2029).
+
+## Métodos
+
+Diseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

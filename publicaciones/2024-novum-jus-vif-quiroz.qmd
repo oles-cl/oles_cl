@@ -1,0 +1,28 @@
+---
+title: "Conciencia jurídica y autoridad judicial en procedimientos por VIF en Chile"
+description: "Riesgo y desigualdades de género en procedimientos por violencia intrafamiliar."
+venue: "Novum Jus, 18(2)"
+tipo: articulo
+date: "2024-09-01"
+author: "Quiroz, L., & Riquelme, I."
+authors: [loreto-quiroz]
+reference: "Quiroz, L., & Riquelme, I. (2024). Conciencia jurídica y autoridad judicial: riesgo y desigualdades de género en procedimientos por violencia intrafamiliar (VIF) en Chile. *Novum Jus*, 18(2)."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Conciencia jurídica y autoridad judicial en procedimientos por VIF en Chile
+
+Riesgo y desigualdades de género en procedimientos por violencia intrafamiliar.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2024.
+
+## Referencia sugerida
+
+Quiroz, L., & Riquelme, I. (2024). Conciencia jurídica y autoridad judicial: riesgo y desigualdades de género en procedimientos por violencia intrafamiliar (VIF) en Chile. *Novum Jus*, 18(2).
+
+[← Volver a Publicaciones](index.qmd)

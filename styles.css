@@ -282,6 +282,8 @@ body:has(.hero-section) main.content {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* Recorte centrado (captura el medio de la foto, no sesgo vertical) */
+  object-position: center center;
   transition: var(--transition);
 }
 
@@ -2888,6 +2890,11 @@ h1.title {
   border: 4px solid var(--primary-light) !important;
 }
 
+.quarto-about-trestles .about-image[src*="manuela"] {
+  object-fit: cover;
+  object-position: center top;
+}
+
 /* =====================================================
    Estilos para Listing de Noticias
    ===================================================== */
@@ -2925,6 +2932,13 @@ h1.title {
 .quarto-grid-item .card-img-top img,
 .quarto-grid-item .thumbnail-image {
   transition: transform 0.3s ease;
+}
+
+/* Portada «Noticias» — miniaturas: mismo recorte centrado que en Noticias recientes */
+#listing-listing-noticias .card-img-top img,
+#listing-listing-noticias .thumbnail-image.card-img {
+  object-fit: cover;
+  object-position: center center;
 }
 
 .quarto-grid-item:hover .card-img-top img,
@@ -3047,8 +3061,8 @@ h1.title {
   }
 }
 
-/* Contenedor principal SOLO para noticias individuales */
-body:not(.quarto-listing-page) #quarto-content article {
+/* Contenedor principal SOLO para noticias individuales (no aplica a tarjetas del listado de publicaciones) */
+body:not(.quarto-listing-page) #quarto-content article:not(.publicacion-card) {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1rem;
@@ -3299,6 +3313,27 @@ body:not(.quarto-listing-page) #quarto-content article {
 .epsep-back:hover {
   color: #6B5B95;
   text-decoration: underline;
+}
+
+/* Chip proyecto finalizado — morado apagado (fichas estudio + listado estudios/index) */
+.estudio-estado.finalizado-morado {
+  background: linear-gradient(145deg, #6e627c 0%, #938aa0 100%);
+  color: rgba(251, 250, 255, 0.96);
+  box-shadow: 0 2px 7px rgba(48, 40, 68, 0.2);
+}
+
+.estudio-page .estudio-estado-banner {
+  margin: -0.25rem 0 1rem;
+}
+
+.estudio-page .estudio-estado-banner .estudio-estado {
+  display: inline-block;
+  padding: 0.28rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 /* =====================================================
@@ -3760,27 +3795,147 @@ a.linea-index-card:hover .linea-index-link {
 
 /* Páginas dedicadas por línea institucional (estudios/lineas/linea-X) */
 .estudio-linea-institucional {
-  max-width: 920px;
+  max-width: min(100%, 980px);
   margin: 0 auto;
-  padding: 0 1.5rem 2.5rem;
+  padding: 0.5rem clamp(1rem, 3vw, 1.75rem) 2.75rem;
+  box-sizing: border-box;
 }
 
-.estudio-linea-institucional h2 {
-  font-size: 1.35rem;
+.estudio-linea-institucional section.level2 {
+  margin-bottom: 2.5rem;
+}
+
+.estudio-linea-institucional section.level2:last-child {
+  margin-bottom: 0;
+}
+
+.estudio-linea-institucional section.level2 h2 {
+  font-size: clamp(1.12rem, 2.1vw, 1.32rem);
   font-weight: 700;
   color: var(--primary-color);
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #e8e6f0;
+  letter-spacing: -0.02em;
 }
 
-.estudio-linea-institucional ul {
-  line-height: 1.65;
+.estudio-linea-institucional section#introducción p {
+  font-size: 1.03rem;
+  line-height: 1.72;
+  color: #374151;
+  margin: 0 0 0.85rem;
+}
+
+.estudio-linea-institucional section#introducción p:last-child {
+  margin-bottom: 0;
+}
+
+/* Intro: bloque destacado */
+.estudio-linea-institucional section#introducción {
+  padding: 1.25rem 1.35rem;
+  border-radius: var(--border-radius, 12px);
+  background: linear-gradient(145deg, #faf9fc 0%, #f3f1f8 55%, #f0ecf5 100%);
+  border: 1px solid #e8e6f0;
+  box-shadow: 0 2px 10px rgba(45, 38, 72, 0.05);
+}
+
+/* Integrantes y proyectos: rejilla en lugar de bullets */
+.estudio-linea-institucional section#investigadorases ul,
+.estudio-linea-institucional section#proyectos-asociados > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.35rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(272px, 1fr));
+  gap: 0.9rem;
+}
+
+.estudio-linea-institucional section#investigadorases ul li,
+.estudio-linea-institucional section#proyectos-asociados > ul li {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.estudio-linea-institucional section#investigadorases ul a,
+.estudio-linea-institucional section#proyectos-asociados > ul a {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  padding: 0.95rem 1.05rem 0.95rem 1rem;
+  min-height: 3.35rem;
+  border-radius: var(--border-radius, 12px);
+  border: 1px solid #e8e6f0;
+  border-left-width: 3px;
+  border-left-style: solid;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(45, 38, 72, 0.06);
+  text-decoration: none !important;
+  color: var(--text-color);
+  font-size: 0.96rem;
+  font-weight: 600;
+  line-height: 1.43;
+  box-sizing: border-box;
+  transition: border-color var(--transition, 0.2s ease),
+    box-shadow var(--transition, 0.2s ease), color var(--transition, 0.2s ease),
+    transform 0.22s ease;
+}
+
+.estudio-linea-institucional section#investigadorases ul a {
+  border-left-color: #a89bb8;
+}
+
+.estudio-linea-institucional section#investigadorases ul a:hover {
+  border-color: #d4cae3;
+  border-left-color: var(--primary-light, #958aa3);
+  color: var(--primary-color);
+  box-shadow: 0 6px 20px rgba(78, 73, 118, 0.12);
+  transform: translateY(-2px);
+}
+
+.estudio-linea-institucional section#proyectos-asociados > ul a {
+  font-weight: 600;
+  border-left-color: var(--primary-color, #4e4976);
+}
+
+.estudio-linea-institucional section#proyectos-asociados > ul a:hover {
+  border-color: #cfc6e8;
+  border-left-color: var(--primary-dark, #453958);
+  color: var(--primary-color);
+  box-shadow: 0 6px 20px rgba(78, 73, 118, 0.14);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 560px) {
+  .estudio-linea-institucional section#investigadorases ul,
+  .estudio-linea-institucional section#proyectos-asociados > ul {
+    grid-template-columns: 1fr;
+  }
 }
 
 .estudio-linea-extra {
-  margin-top: 1.25rem;
-  font-size: 0.95rem;
+  margin-top: 1.35rem;
+  padding: 0.95rem 1.15rem;
+  font-size: 0.93rem;
+  line-height: 1.62;
   color: var(--text-light);
+  background: rgba(248, 247, 252, 0.95);
+  border: 1px solid #ebe7f4;
+  border-radius: var(--border-radius, 12px);
+  border-left: 3px solid var(--primary-light, #958aa3);
+}
+
+.estudio-linea-extra a {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.estudio-linea-extra a:hover {
+  text-decoration: underline !important;
+}
+
+body:has(.estudio-linea-institucional) main#quarto-document-content .quarto-title-block {
+  margin-bottom: 1.75rem !important;
 }
 
 /* =====================================================
@@ -3875,6 +4030,12 @@ a.linea-index-card:hover .linea-index-link {
   height: 160px !important;
   object-fit: cover !important;
   margin: 0 auto !important;
+}
+
+/* Manuela Badilla: foto vertical; priorizar cara (parte superior). */
+.equipo-roster-page .quarto-listing-default .card-img-top img[src*="manuela"],
+.equipo-roster-page .quarto-listing-default .thumbnail-image[src*="manuela"] {
+  object-position: center top !important;
 }
 
 .equipo-roster-page .quarto-listing-default .card-body {
@@ -4034,11 +4195,17 @@ a.linea-index-card:hover .linea-index-link {
   padding-right: 0;
 }
 
+/* Mismo comportamiento amplio que /estudios/ (grid a ancho útil del main) */
+#quarto-content:has(.publicaciones-page),
+main#quarto-document-content:has(.publicaciones-page) {
+  overflow: visible !important;
+}
+
 .publicaciones-page {
-  max-width: min(100%, 1380px);
+  max-width: none;
   width: 100%;
   margin: 0 auto;
-  padding: 1rem clamp(0.5rem, 2vw, 1rem) 3rem;
+  padding: 1rem clamp(1rem, 4vw, 2.5rem) 3rem;
   box-sizing: border-box;
 }
 
@@ -4052,6 +4219,37 @@ a.linea-index-card:hover .linea-index-link {
 
 .publicaciones-intro p {
   margin: 0;
+}
+
+.publicaciones-count-wrap {
+  text-align: center;
+  margin: 0 auto 0.25rem;
+}
+
+.publicaciones-count-line {
+  margin: 0 0 1.25rem;
+  font-size: clamp(1.35rem, 2.6vw, 1.85rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--primary-color, #4e4976);
+  line-height: 1.2;
+}
+
+.publicaciones-count-plus {
+  font-weight: 800;
+  opacity: 0.88;
+  margin-right: 0.05em;
+}
+
+.publicaciones-count-value {
+  font-variant-numeric: tabular-nums;
+  min-width: 2ch;
+  display: inline-block;
+}
+
+.publicaciones-count-label {
+  font-weight: 600;
+  opacity: 0.92;
 }
 
 .publicaciones-filtros {
@@ -4090,8 +4288,14 @@ a.linea-index-card:hover .linea-index-link {
 
 .publicaciones-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  .publicaciones-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
@@ -4266,15 +4470,29 @@ a.linea-index-card:hover .linea-index-link {
 }
 
 /* Estudios — filtros por línea de investigación (index proyectos) */
+#quarto-content:has(.estudios-proyectos-page),
+main#quarto-document-content:has(.estudios-proyectos-page) {
+  overflow: visible !important;
+}
+
 .estudios-filtros-linea {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.6rem;
   margin: 0 auto 2rem;
-  padding: 0.75rem 0 1.5rem;
+  padding: 0.75rem max(1rem, env(safe-area-inset-left)) 1.35rem
+    max(1rem, env(safe-area-inset-right));
   max-width: 960px;
   border-bottom: 1px solid #e8e6f0;
+  box-sizing: border-box;
+  /* Sticky bajo navbar fija: mismo patrón que «pegado», sin sacar la barra del flujo (sin solapes con las cards). */
+  position: sticky;
+  top: var(--oles-estudios-navbar-h, 64px);
+  z-index: 999;
+  background: #ffffff;
+  box-shadow: 0 1px 0 rgba(236, 233, 244, 0.9),
+    0 6px 16px rgba(45, 38, 72, 0.06);
 }
 
 .estudios-proyectos-page .estudios-grid {
@@ -4286,4 +4504,24 @@ a.linea-index-card:hover .linea-index-link {
     font-size: 0.78rem;
     padding: 0.45rem 0.85rem;
   }
+}
+
+/* hashtag temático opcional en tarjetas de proyectos (/estudios/index) — valor sin # en YAML */
+.estudios-proyectos-page .estudio-etiqueta {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--primary-light, #958aa3);
+  letter-spacing: 0.02em;
+  margin: 0 0 0.5rem 0;
+  opacity: 0.88;
+}
+
+.estudios-proyectos-page .estudio-etiqueta::before {
+  content: "#";
+  opacity: 0.95;
+}
+
+.estudios-proyectos-page .estudio-card-body .estudio-titulo + .estudio-etiqueta {
+  margin-top: 0.25rem;
 }

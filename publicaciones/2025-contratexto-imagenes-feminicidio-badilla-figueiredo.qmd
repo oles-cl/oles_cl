@@ -1,0 +1,29 @@
+---
+title: "Deslegitimación del feminicidio a través de imágenes en Chile"
+description: "Análisis visual y violencias de género."
+venue: "Revista Contratexto, 44"
+tipo: articulo
+doi: "10.26439/contratexto2025.n44.7889"
+date: "2025-06-01"
+author: "Badilla Rajevic, M., Figueiredo, A., Cisternas Alarcón, P., & Rivera López, D."
+authors: [manuela-badilla, ana-figueiredo]
+reference: "Badilla Rajevic, M., Figueiredo, A., Cisternas Alarcón, P., & Rivera López, D. (2025). Deslegitimación del feminicidio a través de imágenes en Chile. *Revista Contratexto*, 44. [DOI](https://doi.org/10.26439/contratexto2025.n44.7889)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Deslegitimación del feminicidio a través de imágenes en Chile
+
+Análisis visual y violencias de género.
+
+**Autores OLES:** [Manuela Badilla Rajevic](../equipo/manuela-badilla.html), [Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Badilla Rajevic, M., Figueiredo, A., Cisternas Alarcón, P., & Rivera López, D. (2025). Deslegitimación del feminicidio a través de imágenes en Chile. *Revista Contratexto*, 44. DOI 10.26439/contratexto2025.n44.7889.
+
+[← Volver a Publicaciones](index.qmd)

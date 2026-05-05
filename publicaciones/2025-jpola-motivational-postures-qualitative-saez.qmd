@@ -1,0 +1,29 @@
+---
+title: "How do people relate to the police? A qualitative study on motivational postures in Chile"
+description: "Estudio cualitativo sobre posturas hacia la policía."
+venue: "Journal of Politics in Latin America, 18(1), 61–85"
+tipo: articulo
+doi: "10.1177/1866802X251397948"
+date: "2025-04-01"
+author: "Sáez, L., Gerber, M. M., Orchard, M., Rojas, B., & Figueiredo, A."
+authors: [luciano-saez-fuentealba, monica-gerber, macarena-orchard, bruno-rojas, ana-figueiredo]
+reference: "Sáez, L., Gerber, M. M., Orchard, M., Rojas, B., & Figueiredo, A. (2025). How do people relate to the police? A qualitative study on motivational postures towards the police in Chile. *Journal of Politics in Latin America*, 18(1), 61–85. [DOI](https://doi.org/10.1177/1866802X251397948)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# How do people relate to the police? A qualitative study on motivational postures in Chile
+
+Estudio cualitativo sobre posturas hacia la policía.
+
+**Autores OLES:** [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html), [Mónica Gerber](../equipo/monica-gerber.html), [Macarena Orchard](../equipo/macarena-orchard.html), [Bruno Rojas](../equipo/asistentes-anteriores/bruno-rojas.html), [Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Sáez, L., *et al*. (2025). *Journal of Politics in Latin America*, 18(1). DOI 10.1177/1866802X251397948.
+
+[← Volver a Publicaciones](index.qmd)

@@ -1,5 +1,7 @@
 ---
 title: "Protesta social y violencia"
+estado: "en-curso"
+etiqueta: "fondecyt"
 page-layout: full
 toc: false
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Estudio Panel de Percepciones y Seguridad (ESEP)"
 estado: "en-curso"
+etiqueta: "fondecyt"
 investigador_responsable: "Mónica Gerber"
 format:
   html:

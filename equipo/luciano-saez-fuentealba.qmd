@@ -1,11 +1,11 @@
 ---
-title: "Luciano Sáez Fuentealba"
-cargo: "Coord. de Formación de Jóvenes Investigadoras/es"
+title: "Luciano Sáez-Fuentealba"
+cargo: "Coord. de Formación de Jóvenes Investigadoras/es · Investigador principal"
 categories: [Comité directivo]
 orden: 21
 email: "luciano.saez.fuentealba@gmail.com"
-organizacion: "Universidad de Buenos Aires"
-image: "image/luciano-saez.jpg"
+organizacion: "Universidad Diego Portales"
+image: "image/luciano_saez.jpeg"
 about:
   template: trestles
   image-shape: round
@@ -14,43 +14,45 @@ about:
     - icon: envelope
       text: Email
       href: mailto:luciano.saez.fuentealba@gmail.com
+    - icon: person-fill
+      text: ORCID
+      href: https://orcid.org/0000-0002-5730-7260
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/luciano-sáez-fuentealba-b01b1928b/
 areas-interes:
-  - "Violencia Policial"
-  - "Memoria e historia reciente"
-  - "Representaciones sociales de justicia y reparación"
-  - "Construcción de verdades oficiales y alternativas en Derechos Humanos"
-  - "Movimientos Sociales y Acción colectiva"
+  - "Legitimidad social"
+  - "Impunidad"
+  - "Violencias"
+  - "Interacciones policía-sociedad"
+  - "Memoria"
 educacion:
-  - titulo: "Doctor en Ciencias Sociales (en curso)"
-    institucion: "Universidad de Buenos Aires"
+  - titulo: "Doctor en Ciencias Sociales"
+    institucion: "Universidad Diego Portales"
   - titulo: "Magíster en Psicología, mención Psicología Social"
     institucion: "Universidad Diego Portales"
-  - titulo: "Magíster en Ciencias Sociales"
-    institucion: "Instituto de Estudios Avanzados Universidad de Santiago"
-    año: "2018"
+  - titulo: "Magíster en Ciencias Sociales mención Estudios de la Sociedad Civil IDEA-USACH"
+    institucion: "Universidad de Santiago de Chile"
   - titulo: "Historiador"
     institucion: "Universidad Alberto Hurtado"
-    año: "2013"
 ---
 
 ## Descripción
 
-Asistente de Investigación, profesor de la escuela de Sociología y Trabajo Social de la Universidad Academia de Humanismo Cristiano y de la Escuela de Psicología de la Universidad de Santiago. Historiador, Magíster en Ciencias Sociales del Instituto de Estudios Avanzados de la Universidad de Santiago, Magíster en Psicología mención Psicología Social de la Universidad Diego Portales, estudiante del Doctorado en Ciencias Sociales de la Universidad de Buenos Aires. Sus intereses se centran en violencia policial y represión, estudios sobre memoria e historia reciente, representaciones sociales de justicia y reparación, construcción de verdades oficiales y alternativas en derechos humanos y movimientos sociales acción colectiva.
+Doctor en Ciencias Sociales de la Universidad Diego Portales, magíster en Psicología mención Psicología Social por la Universidad Diego Portales y magíster en Ciencias Sociales mención Estudios de la Sociedad Civil (IDEA-USACH). Docente de la Facultad de Psicología de la Universidad Diego Portales. Es investigador del Observatorio de Violencia y Legitimidad Social (OLES), del Observatorio de Desigualdades (UDP) e investigador del Instituto Milenio Autoridad y Regulación Social (ASOR). Actualmente es co-investigador del proyecto Fondecyt Regular «Rethinking police empowerment: unpacking its meaning and consequences» y del ANID-Exploración «Legitimidad de las policías en Chile: el efecto causal de la violencia y la corrupción desde una perspectiva multi-actor, longitudinal y multi-métodos». Su agenda de investigación se centra en las actitudes y la legitimidad de la impunidad, la tolerancia al castigo y las desigualdades; las interacciones entre policías y sociedad; las violencias; y estudios sobre memoria.
 
-## Áreas de Interés
+## Áreas de interés
 
-- Violencia Policial
-- Memoria e historia reciente
-- Representaciones sociales de justicia y reparación
-- Construcción de verdades oficiales y alternativas en Derechos Humanos
-- Movimientos Sociales y Acción colectiva
+- Legitimidad social
+- Impunidad y castigo
+- Violencias y memoria
 
 ## Educación
 
-- **Doctor en Ciencias Sociales (en curso)** - Universidad de Buenos Aires
-- **Magíster en Psicología, mención Psicología Social** - Universidad Diego Portales
-- **Magíster en Ciencias Sociales** - Instituto de Estudios Avanzados Universidad de Santiago (2018)
-- **Historiador** - Universidad Alberto Hurtado (2013)
+- **Doctor en Ciencias Sociales** — Universidad Diego Portales
+- **Magíster en Psicología, mención Psicología Social** — Universidad Diego Portales
+- **Magíster en Ciencias Sociales (IDEA-USACH)** — Universidad de Santiago de Chile
+- **Historiador** — Universidad Alberto Hurtado
 
 ## Últimas publicaciones
 

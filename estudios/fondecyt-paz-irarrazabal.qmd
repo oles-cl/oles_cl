@@ -1,11 +1,14 @@
 ---
 title: "Fondecyt — Paz Irarrázabal"
-estado: "en-curso"
+estado: "finalizado"
+etiqueta: "fondecyt"
 investigador_responsable: "Paz Irarrázabal González"
 format:
   html:
     body-classes: estudio-page
 ---
+
+<p class="estudio-estado-banner"><span class="estudio-estado finalizado-morado">Finalizado</span></p>
 
 :::{.estudio-layout}
 :::{.estudio-col-izq}
@@ -17,7 +20,7 @@ format:
 :::{.estudio-col-der}
 ## Introducción
 
-Proyecto en curso del OLES. Información detallada próximamente.
+Proyecto finalizado del OLES. Información detallada próximamente.
 
 ## Métodos
 

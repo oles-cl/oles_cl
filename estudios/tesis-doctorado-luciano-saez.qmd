@@ -1,6 +1,7 @@
 ---
 title: "Tesis de doctorado — Luciano Sáez Fuentealba"
 estado: "en-curso"
+etiqueta: "tesis"
 investigador_responsable: "Luciano Sáez Fuentealba"
 format:
   html:

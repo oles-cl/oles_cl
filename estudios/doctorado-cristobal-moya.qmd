@@ -1,6 +1,7 @@
 ---
 title: "Doctorado — Cristóbal Moya"
 estado: "en-curso"
+etiqueta: "doctorado"
 investigador_responsable: "Cristóbal Moya"
 format:
   html:

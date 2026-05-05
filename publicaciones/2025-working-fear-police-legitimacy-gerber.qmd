@@ -1,0 +1,28 @@
+---
+title: "Fear of the police and the fragility of legitimacy (en revisión)"
+description: "Insights from Chile y Brasil; manuscrito en evaluación."
+venue: "Working paper · en revisión"
+tipo: working-paper
+date: "2025-11-01"
+author: "Gerber, M. M., Branco, F. C., Cubas, V., Fuentealba, L. S., Deneken, M., Jackson, J."
+authors: [monica-gerber, luciano-saez-fuentealba, matias-deneken]
+reference: "Gerber, M. M., Branco, F. C., Cubas, V., Fuentealba, L. S., de Oliveira, A. R., Deneken, M., & Jackson, J. (en revisión). Fear of the police and the fragility of legitimacy: insights from Chile and Brazil."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Fear of the police and the fragility of legitimacy (en revisión)
+
+Insights from Chile y Brasil; manuscrito en evaluación.
+
+**Autores OLES:** [Mónica Gerber](../equipo/monica-gerber.html), [Luciano Sáez-Fuentealba](../equipo/luciano-saez-fuentealba.html), [Matías Deneken](../equipo/matias-deneken.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Gerber *et al*. (en revisión). Fear of the police and the fragility of legitimacy: insights from Chile and Brazil.
+
+[← Volver a Publicaciones](index.qmd)

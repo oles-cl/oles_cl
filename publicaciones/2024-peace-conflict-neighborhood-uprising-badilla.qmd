@@ -1,0 +1,29 @@
+---
+title: "When my neighborhood woke up: knitting collective action amid the 2019 Chilean uprising"
+description: "Movilización en barrios postergados durante el estallido."
+venue: "Peace and Conflict: Journal of Peace Psychology, 30"
+tipo: articulo
+doi: "10.1037/pac0000706"
+date: "2024-11-01"
+author: "Rajevic, M. B., & Vargas, A. O."
+authors: [manuela-badilla]
+reference: "Rajevic, M. B., & Vargas, A. O. (2024). When my neighborhood woke up: knitting collective action in disadvantaged areas amid the 2019 Chilean uprising. *Peace and Conflict: Journal of Peace Psychology*, 30. [DOI](https://doi.org/10.1037/pac0000706)"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# When my neighborhood woke up: knitting collective action amid the 2019 Chilean uprising
+
+Movilización en barrios postergados durante el estallido.
+
+**Autores OLES:** [Manuela Badilla Rajevic](../equipo/manuela-badilla.html)
+
+**Fecha:** 2024.
+
+## Referencia sugerida
+
+Rajevic, M. B., & Vargas, A. O. (2024). When my neighborhood woke up: knitting collective action in disadvantaged areas amid the 2019 Chilean uprising. *Peace and Conflict: Journal of Peace Psychology*, 30. DOI 10.1037/pac0000706.
+
+[← Volver a Publicaciones](index.qmd)

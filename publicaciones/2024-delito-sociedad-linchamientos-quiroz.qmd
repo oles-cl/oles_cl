@@ -1,0 +1,28 @@
+---
+title: "Linchamientos, conciencia jurídica y enajenación legal en Chile: análisis de prensa"
+description: "Análisis de prensa sobre linchamientos y conciencia jurídica."
+venue: "Revista Delito y Sociedad, N° 57"
+tipo: articulo
+date: "2024-06-01"
+author: "Cornejo, D., & Quiroz, L."
+authors: [loreto-quiroz]
+reference: "Cornejo, D., & Quiroz, L. (2024). Linchamientos, conciencia jurídica y enajenación legal en Chile: análisis de prensa. *Revista Delito y Sociedad*, N° 57."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Linchamientos, conciencia jurídica y enajenación legal en Chile: análisis de prensa
+
+Análisis de prensa sobre linchamientos y conciencia jurídica.
+
+**Autores OLES:** [Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+**Fecha:** 2024.
+
+## Referencia sugerida
+
+Cornejo, D., & Quiroz, L. (2024). Linchamientos, conciencia jurídica y enajenación legal en Chile: análisis de prensa. *Revista Delito y Sociedad*, N° 57.
+
+[← Volver a Publicaciones](index.qmd)
