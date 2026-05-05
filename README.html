@@ -80,151 +80,113 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="página-web-oles" class="level1">
-<h1>Página Web OLES</h1>
-<p>Sitio web del Observatorio de Violencia y Legitimidad Social (OLES), construido con Quarto.</p>
-<section id="estructura-del-proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="estructura-del-proyecto">Estructura del Proyecto</h2>
-<pre><code>oles-page/
-├── _quarto.yml          # Configuración principal de Quarto
-├── _templates/          # Plantillas para crear contenido nuevo
-├── index.qmd            # Página principal
-├── styles.css           # Estilos personalizados
-├── translations.js      # Sistema de traducción ES/EN
-├── noticias/           # Directorio de noticias
-├── equipo/             # Perfiles del equipo
-├── estudios/           # Líneas de investigación
-├── eventos/            # Eventos y seminarios
-├── publicaciones/      # Publicaciones académicas
-└── docs/               # Sitio compilado (GitHub Pages)</code></pre>
+<section id="sitio-web-oles-guía-principal" class="level1">
+<h1>Sitio web OLES — Guía principal</h1>
+<p>Sitio del <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> con <a href="https://quarto.org">Quarto</a>. La salida compilada va a la carpeta <strong><code>docs/</code></strong> (es lo que se publica en GitHub Pages, Netlify, etc.).</p>
+<p>Para el detalle campo a campo (YAML, imágenes, ejemplos largos), está <strong><a href="MANUAL.md">MANUAL.md</a></strong>. Este README resume <strong>cómo aparecen las tarjetas/listados</strong> y <strong>cómo dar de alta</strong> estudios, personas y noticias.</p>
+<hr>
+<section id="cómo-se-construyen-las-tarjetas-en-cada-parte-del-sitio" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-se-construyen-las-tarjetas-en-cada-parte-del-sitio">1. Cómo se construyen las tarjetas en cada parte del sitio</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 43%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Página</th>
+<th>¿Cómo salen las cards?</th>
+<th>Qué tocar normalmente</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Inicio</strong> (<code>index.qmd</code>)</td>
+<td><strong>Destacados:</strong> un bloque R recorre las carpetas <code>noticias/AAAA-MM-DD/</code> y arma cards solo de quienes tienen <code>destacado: true</code> en el YAML, ordenados por fecha.<br><strong>Noticias recientes:</strong> otro bloque R toma las <strong>3</strong> noticias más recientes por <code>date</code>.<br><strong>Líneas de investigación (4 cuadrantes):</strong> HTML <strong>fijo</strong> en <code>index.qmd</code> (enlaces, textos e imágenes bajo <code>images/lineas/</code>).</td>
+<td>Para destacados/recientes: crear o editar noticias (véase §2). Para los 4 bloques de líneas en la portada: editar HTML en <code>index.qmd</code> y, si aplica, imágenes en <code>images/lineas/</code>.</td>
+</tr>
+<tr class="even">
+<td><strong>Noticias</strong> (<code>noticias/index.qmd</code>)</td>
+<td><strong>Listing</strong> de Quarto: <code>contents: "*/index.qmd"</code>, rejilla, orden <code>date desc</code>. Cualquier carpeta <code>noticias/AAAA-MM-DD/index.qmd</code> entra sola.</td>
+<td>No hace falta “registrar” la noticia en otro archivo; basta la carpeta + <code>index.qmd</code> con buen YAML e imagen.</td>
+</tr>
+<tr class="odd">
+<td><strong>Equipo</strong> (<code>equipo/index.qmd</code>)</td>
+<td>Varios <strong>listings</strong> en el YAML (<code>direccion</code>, <code>comite</code>, <code>investigadores-principales</code>, etc.). Cada bloque tiene <code>contents:</code> con <strong>lista explícita de archivos</strong> <code>.qmd</code>. Las cards salen de <code>title</code>, <code>image</code> y <code>orden</code> de cada perfil.</td>
+<td><strong>Al agregar alguien nuevo:</strong> crear <code>equipo/apellido-nombre.qmd</code> (y foto), luego <strong>añadir la ruta del <code>.qmd</code> al <code>contents</code> del bloque correcto</strong> en <code>equipo/index.qmd</code>. Cada perfil solo debe aparecer en <strong>un</strong> listing.</td>
+</tr>
+<tr class="even">
+<td><strong>Proyectos / Estudios</strong> (<code>estudios/index.qmd</code>)</td>
+<td>Las tarjetas las genera un <strong>bloque R</strong>: la lista <code>cards</code> (con <code>slug</code>, <code>picsum</code>, <code>lineas</code>, y opcionalmente <code>titulo_tarjeta</code>) más el YAML de cada <code>estudios/{slug}.qmd</code> (<code>title</code>, <code>estado</code>, <code>etiqueta</code>). Imagen de tarjeta vía seed de picsum.<br>Filtros por línea usan <code>data-lineas</code> (<code>"1"</code>, <code>"2"</code>, <code>"3"</code>, <code>"4"</code>, varias separadas por coma, o <code>""</code> para “sin línea”).</td>
+<td><strong>Nuevo proyecto:</strong> (1) crear <code>estudios/mi-proyecto.qmd</code>; (2) añadir una entrada <code>list(...)</code> en el vector <code>cards</code> dentro de <code>estudios/index.qmd</code>. Opcional: <code>titulo_tarjeta</code> si el título largo del YAML no sirve para la card.</td>
+</tr>
+<tr class="odd">
+<td><strong>Líneas de investigación</strong> (<code>estudios/lineas.qmd</code> y <code>estudios/lineas/linea-*.qmd</code>)</td>
+<td>La <strong>portada de líneas</strong> es HTML en <code>lineas.qmd</code> (tarjetas <code>linea-index-card</code>). Las páginas por línea son Markdown con secciones e integrantes/proyectos enlazados.<br>Índice <code>/estudios/lineas/</code> no usa el mismo motor que “Proyectos”.</td>
+<td>Editar <code>estudios/lineas.qmd</code> para cambiar textos de índice de líneas; cada <code>linea-X.qmd</code> para contenido de esa línea.</td>
+</tr>
+<tr class="even">
+<td><strong>Publicaciones</strong> (<code>publicaciones/index.qmd</code>)</td>
+<td>Bloque R que lee <strong>todos</strong> los <code>.qmd</code> en <code>publicaciones/</code> salvo <code>index.qmd</code>, ordena por <code>date</code> en el YAML y pinta el grid con filtros por <code>tipo</code>.</td>
+<td>Añadir archivo <code>publicaciones/AAAA-tema-slug.qmd</code> con metadatos coherentes (<code>tipo</code>, <code>date</code>, <code>author</code>, DOI, etc.); al compilar, la card aparece sola.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Resumen:</strong> equipo y proyectos exigen <strong>tocar el índice</strong> (<code>equipo/index.qmd</code> / <code>estudios/index.qmd</code>). Noticias listado y publicaciones se alimentan sobre todo <strong>añadiendo archivos</strong> en sus carpetas; la portada de noticias se alimenta igual más el flag <code>destacado</code>.</p>
+<hr>
 </section>
-<section id="cómo-agregar-una-noticia" class="level2">
-<h2 class="anchored" data-anchor-id="cómo-agregar-una-noticia">Cómo Agregar una Noticia</h2>
-<section id="crear-carpeta-con-fecha" class="level3">
-<h3 class="anchored" data-anchor-id="crear-carpeta-con-fecha">1. Crear carpeta con fecha</h3>
-<p>Crea una nueva carpeta en <code>noticias/</code> con el formato <code>YYYY-MM-DD</code>:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> noticias/2026-02-15</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="crear-archivo-index.qmd" class="level3">
-<h3 class="anchored" data-anchor-id="crear-archivo-index.qmd">2. Crear archivo index.qmd</h3>
-<p>Dentro de la carpeta, crea un archivo <code>index.qmd</code> con esta estructura:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Título de la noticia"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">description</span><span class="kw">:</span><span class="at"> </span><span class="st">"Breve descripción o bajada de la noticia"</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"2026-02-15"</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Nombre del Autor"</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">Noticias</span><span class="kw">]</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">image</span><span class="kw">:</span><span class="at"> </span><span class="st">"featured.jpg"</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">title-block-banner</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="at">:</span><span class="fu">:</span><span class="kw">:</span><span class="at"> </span><span class="kw">{</span><span class="at">.featured-image</span><span class="kw">}</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="at">![](featured.jpg)</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="at">:</span><span class="fu">:</span><span class="kw">:</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="at">Contenido de la noticia aquí...</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="kw">[</span><span class="at">← Volver a Noticias</span><span class="kw">]</span><span class="at">(../index.html)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="agregar-imagen-principal" class="level3">
-<h3 class="anchored" data-anchor-id="agregar-imagen-principal">3. Agregar imagen principal</h3>
+<section id="cómo-subir-o-actualizar-contenido-estudios-perfiles-y-noticias" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-subir-o-actualizar-contenido-estudios-perfiles-y-noticias">2. Cómo subir o actualizar contenido: estudios, perfiles y noticias</h2>
+<section id="estudios-proyectos-de-investigación" class="level3">
+<h3 class="anchored" data-anchor-id="estudios-proyectos-de-investigación">2.1 Estudios (proyectos de investigación)</h3>
+<ol type="1">
+<li>Crear <strong><code>estudios/&lt;slug&gt;.qmd</code></strong> con el front matter del proyecto (<code>title</code>, <code>estado</code> como <code>en-curso</code> / <code>finalizado</code>, etc.) y el cuerpo en Markdown. Puedes guiarte por un <code>estudios/fondecyt-*.qmd</code> existente.</li>
+<li>Abrir <strong><code>estudios/index.qmd</code></strong>, localizar la lista R <code>cards &lt;- list(</code> y añadir algo como:
 <ul>
-<li>Agrega una imagen llamada <code>featured.jpg</code>, <code>featured.png</code> o <code>featured.jpeg</code> en la misma carpeta</li>
-<li>Esta imagen aparecerá:
-<ul>
-<li>Entre el título y la bajada en la noticia individual</li>
-<li>Como miniatura en el listado de noticias</li>
-<li>En las noticias recientes de la página principal</li>
+<li><code>list(slug = "mi-slug", picsum = "olesproj-nombre", lineas = "1", titulo_tarjeta = "Nombre corto opcional")</code></li>
+<li><strong><code>slug</code></strong> = nombre del archivo sin <code>.qmd</code>.</li>
+<li><strong><code>lineas</code>:</strong> números de línea institucional (<code>"1"</code> … <code>"4"</code>). Varios: <code>"1,4"</code>. Vacío <code>""</code> si no aplica filtro por línea.</li>
 </ul></li>
-</ul>
-</section>
-<section id="imágenes-adicionales-opcional" class="level3">
-<h3 class="anchored" data-anchor-id="imágenes-adicionales-opcional">4. Imágenes adicionales (opcional)</h3>
-<p>Para agregar más imágenes en el contenido:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>::: {.gallery}</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="al">![](foto1.jpg)</span> <span class="al">![](foto2.jpg)</span> <span class="al">![](foto3.jpg)</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="compilar-el-sitio" class="level2">
-<h2 class="anchored" data-anchor-id="compilar-el-sitio">Compilar el Sitio</h2>
-<section id="compilar-todo-el-sitio" class="level3">
-<h3 class="anchored" data-anchor-id="compilar-todo-el-sitio">Compilar todo el sitio</h3>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="compilar-solo-la-página-principal" class="level3">
-<h3 class="anchored" data-anchor-id="compilar-solo-la-página-principal">Compilar solo la página principal</h3>
-<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render index.qmd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="compilar-una-noticia-específica" class="level3">
-<h3 class="anchored" data-anchor-id="compilar-una-noticia-específica">Compilar una noticia específica</h3>
-<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render noticias/2026-02-15/index.qmd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-</section>
-<section id="agregar-miembros-del-equipo" class="level2">
-<h2 class="anchored" data-anchor-id="agregar-miembros-del-equipo">Agregar Miembros del Equipo</h2>
-<ol type="1">
-<li>Crea un archivo en <code>equipo/</code> con el formato <code>nombre-apellido.qmd</code></li>
-<li>Usa esta estructura:</li>
+<li>Opcional: enlazar el proyecto desde <strong><code>estudios/lineas/linea-X.qmd</code></strong> en “Proyectos asociados”.</li>
+<li>Ejecutar <strong><code>quarto render</code></strong> (o al menos <code>quarto render estudios/index.qmd</code> y el <code>.qmd</code> nuevo).</li>
 </ol>
-<div class="sourceCode" id="cb8"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Nombre Completo"</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">about</span><span class="kw">:</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">template</span><span class="kw">:</span><span class="at"> trestles</span></span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">image</span><span class="kw">:</span><span class="at"> https://via.placeholder.com/400x400</span></span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">links</span><span class="kw">:</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">icon</span><span class="kw">:</span><span class="at"> envelope</span></span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">text</span><span class="kw">:</span><span class="at"> Email</span></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="fu">href</span><span class="kw">:</span><span class="at"> mailto:correo@ejemplo.com</span></span>
-<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="fu">categories</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">Investigadores</span><span class="kw">]</span></span>
-<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a><span class="at">Biografía y descripción del miembro del equipo...</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="agregar-estudios" class="level2">
-<h2 class="anchored" data-anchor-id="agregar-estudios">Agregar Estudios</h2>
+<section id="perfiles-equipo" class="level3">
+<h3 class="anchored" data-anchor-id="perfiles-equipo">2.2 Perfiles (equipo)</h3>
 <ol type="1">
-<li>Crea un archivo en <code>estudios/</code> con nombre descriptivo</li>
-<li>Incluye en el YAML:
+<li><strong>Foto:</strong> colocar archivo en <strong><code>equipo/image/</code></strong> (Convención: <code>apellido-nombre.jpg</code> o similar). <code>_quarto.yml</code> declara <code>equipo/image/*</code> como recurso para que llegue a <code>docs/</code>.</li>
+<li><strong>Perfil:</strong> nuevo <strong><code>equipo/apellido-nombre.qmd</code></strong> (o ruta bajo <code>equipo/asistentes-anteriores/</code> si corresponde). Incluir YAML mínimo (<code>title</code>, <code>cargo</code>, <code>categories</code>, <code>orden</code>, <code>image</code>, etc.) y el cuerpo del perfil. Para publicaciones en el perfil, usar el <code>include</code> del <code>_pub-*.md</code> que genera el script (ver MANUAL §3).</li>
+<li><strong>Listado del equipo:</strong> editar <strong><code>equipo/index.qmd</code></strong> y añadir el archivo al array <code>contents</code> del bloque adecuado (Dirección, Comité, Investigadores, etc.).</li>
+<li><strong><code>quarto render</code></strong> dispara <strong><code>compilar_publicaciones_perfiles.R</code></strong> (pre-render) y actualiza los fragmentos <code>_pub-*.md</code> según <code>publicaciones/*.qmd</code> y el campo <code>authors</code>.</li>
+</ol>
+</section>
+<section id="noticias" class="level3">
+<h3 class="anchored" data-anchor-id="noticias">2.3 Noticias</h3>
+<ol type="1">
+<li>Crear carpeta <strong><code>noticias/AAAA-MM-DD/</code></strong> (fecha de la noticia).</li>
+<li>Dentro, <strong><code>index.qmd</code></strong> con YAML: <code>title</code>, <code>description</code>, <code>date</code>, <code>categories</code>, <code>image</code>, etc. Para la <strong>portada</strong> en “Destacados”, añadir <strong><code>destacado: true</code></strong> (orden automático por fecha; las más recientes arriba).</li>
+<li>Poner la imagen principal en <strong>la misma carpeta</strong> (nombre acordado al campo <code>image</code>).</li>
+<li>Opcional: partir de <strong><code>_templates/noticia-template.qmd</code></strong>.</li>
+<li><strong><code>quarto render</code>:</strong> el listado en <code>noticias/index.html</code> se actualiza solo; la portada incorpora destacados y las tres noticias más recientes sin editar <code>index.qmd</code> manualmente.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="compilar-y-publicar" class="level2">
+<h2 class="anchored" data-anchor-id="compilar-y-publicar">3. Compilar y publicar</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sitio completo (recomendado; ejecuta R pre-render y Quarto)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Requisitos: <strong>R</strong> y el paquete <strong><code>yaml</code></strong> (<code>install.packages("yaml")</code>) para el script de publicaciones/perfiles y varios chunks del sitio.</p>
+<p>Tras compilar, hacer commit de los cambios en fuentes y de <strong><code>docs/</code></strong> según el flujo de tu hosting.</p>
+<hr>
+</section>
+<section id="referencias" class="level2">
+<h2 class="anchored" data-anchor-id="referencias">4. Referencias</h2>
 <ul>
-<li><code>title</code>: Nombre del estudio</li>
-<li><code>description</code>: Descripción breve</li>
-<li><code>estado</code>: “en-curso” o “finalizado”</li>
-<li><code>periodo</code>: “2020-2024”</li>
-</ul></li>
-</ol>
-</section>
-<section id="sistema-de-traducción" class="level2">
-<h2 class="anchored" data-anchor-id="sistema-de-traducción">Sistema de Traducción</h2>
-<p>El sitio tiene soporte para español e inglés: - Las traducciones están en <code>translations.js</code> - Los textos traducibles usan el atributo <code>data-i18n</code> - El selector de idioma está en la esquina superior derecha</p>
-</section>
-<section id="publicar-cambios" class="level2">
-<h2 class="anchored" data-anchor-id="publicar-cambios">Publicar Cambios</h2>
-<p>El sitio se publica automáticamente desde la carpeta <code>docs/</code>:</p>
-<ol type="1">
-<li>Compila el sitio: <code>quarto render</code></li>
-<li>Los archivos HTML se generan en <code>docs/</code></li>
-<li>Haz commit y push a GitHub</li>
-<li>GitHub Pages sirve automáticamente desde <code>docs/</code></li>
-</ol>
-</section>
-<section id="plantillas-disponibles" class="level2">
-<h2 class="anchored" data-anchor-id="plantillas-disponibles">Plantillas Disponibles</h2>
-<p>En la carpeta <code>_templates/</code> hay plantillas para: - Noticias nuevas - Otros tipos de contenido</p>
-<p>Puedes copiar estas plantillas como punto de partida.</p>
-</section>
-<section id="notas-importantes" class="level2">
-<h2 class="anchored" data-anchor-id="notas-importantes">Notas Importantes</h2>
-<ul>
-<li><strong>Imágenes featured</strong>: Deben estar en la misma carpeta que el <code>index.qmd</code></li>
-<li><strong>Fechas</strong>: Usa formato ISO <code>YYYY-MM-DD</code> en el YAML</li>
-<li><strong>Categorías</strong>: Mantén consistencia con las categorías existentes</li>
-<li><strong>Compilación</strong>: Siempre compila antes de hacer commit</li>
+<li><strong><a href="MANUAL.md">MANUAL.md</a></strong> — Manual extendido de contenidos.</li>
+<li>Diagrama de carpetas y tabla resumida (versión anterior más visual) se puede seguir leyendo el historial git de este README si lo necesitas; la fuente de verdad del comportamiento actual está en los <code>.qmd</code> citados arriba.</li>
 </ul>
-</section>
-<section id="soporte" class="level2">
-<h2 class="anchored" data-anchor-id="soporte">Soporte</h2>
-<p>Para dudas o problemas, contactar a Matías Deneken</p>
 </section>
 </section>
 
