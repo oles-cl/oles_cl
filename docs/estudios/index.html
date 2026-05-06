@@ -526,28 +526,6 @@ document.addEventListener("DOMContentLoaded", function() {
   var grid = document.getElementById("estudios-proyectos-grid");
   if (!grid) return;
 
-  /* Borde inferior visible del header (respeta Headroom: al ocultar la barra, top → 0). */
-  function gapDebajoNavbarEstudios() {
-    var hdr = document.getElementById("quarto-header") ||
-      document.querySelector("body.nav-fixed header.fixed-top, header.fixed-top");
-    if (!hdr) return 64;
-    var gap = Math.round(hdr.getBoundingClientRect().bottom);
-    return Math.max(0, Math.min(gap, 120));
-  }
-
-  /* Offset sticky: sin fixed ni padding sobre el grid. */
-  function aplicarStickyOffsetEstudios() {
-    document.documentElement.style.setProperty(
-      "--oles-estudios-navbar-h",
-      gapDebajoNavbarEstudios() + "px"
-    );
-  }
-
-  aplicarStickyOffsetEstudios();
-  window.addEventListener("resize", aplicarStickyOffsetEstudios);
-  window.addEventListener("scroll", aplicarStickyOffsetEstudios, { passive: true });
-  window.addEventListener("quarto-hrChanged", aplicarStickyOffsetEstudios);
-
   /* Orden aleatorio en el DOM (cada carga): mezcla líneas para que el filtro se note al reacomodarse el grid */
   (function shuffleCards() {
     var arr = Array.prototype.slice.call(grid.querySelectorAll(".estudio-card"));
