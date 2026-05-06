@@ -1,0 +1,28 @@
+---
+title: "\"Salir de la Matrix\": Misoginia, Masculinidades de Marca y Desigualdad de Género. Un análisis de la figura de Andrew Tate y Hustlers University"
+description: "Análisis de la figura de Andrew Tate y Hustlers University desde una perspectiva de género y desigualdades."
+venue: "Persona y Sociedad, 39(1)"
+tipo: articulo
+date: "2025-01-01"
+author: "Feller, Amparo"
+authors: [amparo-feller]
+reference: "Feller, Amparo (2025). \"Salir de la Matrix\": Misoginia, Masculinidades de Marca y Desigualdad de Género. Un análisis de la figura de Andrew Tate y Hustlers University. *Persona y Sociedad*, 39(1), 93–107."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# "Salir de la Matrix": Misoginia, Masculinidades de Marca y Desigualdad de Género
+
+Un análisis de la figura de Andrew Tate y Hustlers University.
+
+**Autores OLES:** [Amparo Feller](../equipo/amparo-feller.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Feller, Amparo (2025). "Salir de la Matrix": Misoginia, Masculinidades de Marca y Desigualdad de Género. Un análisis de la figura de Andrew Tate y Hustlers University. *Persona y Sociedad*, 39(1), 93–107.
+
+[← Volver a Publicaciones](index.qmd)
