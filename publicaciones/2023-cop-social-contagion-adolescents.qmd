@@ -1,0 +1,28 @@
+---
+title: "Social contagion, violence, and suicide among adolescents"
+description: "Estudio sobre contagio social, violencia y suicidio entre adolescentes."
+venue: "Current Opinion in Psychiatry, 36(3)"
+tipo: articulo
+date: "2023-01-01"
+author: "Martínez, V., Jiménez-Molina, Á., Gerber, M.M."
+authors: [monica-gerber]
+reference: "Martínez, V., Jiménez-Molina, Á., & Gerber, M.M. (2023). Social contagion, violence, and suicide among adolescents. *Current Opinion in Psychiatry*, 36(3), 237-242."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Social contagion, violence, and suicide among adolescents
+
+Estudio sobre contagio social, violencia y suicidio entre adolescentes.
+
+**Autores OLES:** [Monica M. Gerber](../equipo/monica-gerber.html)
+
+**Fecha:** 2023.
+
+## Referencia sugerida
+
+Martínez, V., Jiménez-Molina, Á., & Gerber, M.M. (2023). Social contagion, violence, and suicide among adolescents. *Current Opinion in Psychiatry*, 36(3), 237-242.
+
+[← Volver a Publicaciones](index.qmd)

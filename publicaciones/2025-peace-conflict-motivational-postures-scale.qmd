@@ -1,0 +1,28 @@
+---
+title: "How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish"
+description: "Validación de una escala de posturas motivacionales hacia la policía en español."
+venue: "Peace and Conflict: Journal of Peace Psychology"
+tipo: articulo
+date: "2025-01-01"
+author: "Gerber, M.M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C."
+authors: [monica-gerber, luciano-saez-fuentealba, joaquin-bahamondes, ana-figueiredo, cristobal-moya]
+reference: "Gerber, M.M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., & Moya, C. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. *Peace and Conflict: Journal of Peace Psychology*."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish
+
+Validación de una escala de posturas motivacionales hacia la policía en español.
+
+**Autores OLES:** [Monica M. Gerber](../equipo/monica-gerber.html), [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Gerber, M.M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., & Moya, C. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. *Peace and Conflict: Journal of Peace Psychology*.
+
+[← Volver a Publicaciones](index.qmd)

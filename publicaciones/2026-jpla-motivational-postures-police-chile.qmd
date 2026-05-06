@@ -1,0 +1,28 @@
+---
+title: "How do People Relate to the Police? A Qualitative Study on Motivational Postures Towards the Police in Chile"
+description: "Estudio cualitativo sobre posturas motivacionales hacia la policía en Chile."
+venue: "Journal of Politics in Latin America, 18(1)"
+tipo: articulo
+date: "2026-01-01"
+author: "Sáez Fuentealba, L., Gerber Plüss, M., Orchard Rieiro, M., Figueiredo, A."
+authors: [luciano-saez-fuentealba, monica-gerber, macarena-orchard, ana-figueiredo]
+reference: "Sáez Fuentealba, L., Gerber Plüss, M., Orchard Rieiro, M., & Figueiredo, A. (2026). How do People Relate to the Police? A Qualitative Study on Motivational Postures Towards the Police in Chile. *Journal of Politics in Latin America*, 18(1), 61-85."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# How do People Relate to the Police? A Qualitative Study on Motivational Postures Towards the Police in Chile
+
+Estudio cualitativo sobre posturas motivacionales hacia la policía en Chile.
+
+**Autores OLES:** [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html), [Monica M. Gerber](../equipo/monica-gerber.html), [Macarena Orchard](../equipo/macarena-orchard.html), [Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+**Fecha:** 2026.
+
+## Referencia sugerida
+
+Sáez Fuentealba, L., Gerber Plüss, M., Orchard Rieiro, M., & Figueiredo, A. (2026). How do People Relate to the Police? A Qualitative Study on Motivational Postures Towards the Police in Chile. *Journal of Politics in Latin America*, 18(1), 61-85.
+
+[← Volver a Publicaciones](index.qmd)

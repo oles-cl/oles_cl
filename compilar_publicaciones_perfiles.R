@@ -67,12 +67,15 @@ asistentes_slugs <- if (!dir.exists(asistentes_dir)) character(0) else
 
 # Escribir _pub-{slug}.md (con publicaciones o placeholder si no hay)
 placeholder <- "- (Aún no hay publicaciones listadas.)"
+max_pubs_por_perfil <- 3  # Máximo de publicaciones a mostrar por perfil
 
 for (slug in names(pubs_by_author)) {
   if (slug %in% perfiles_pub_manual) next
   out_dir <- if (slug %in% asistentes_slugs) asistentes_dir else equipo_dir
   if (!perfil_incluye_bloque_pub(out_dir, slug)) next
   pubs <- pubs_by_author[[slug]]
+  # Limitar a las primeras max_pubs_por_perfil publicaciones (ya ordenadas por fecha)
+  pubs <- head(pubs, max_pubs_por_perfil)
   lines <- character(length(pubs))
   for (i in seq_along(pubs)) {
     p <- pubs[[i]]

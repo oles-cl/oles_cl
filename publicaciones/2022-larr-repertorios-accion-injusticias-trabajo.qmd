@@ -1,0 +1,28 @@
+---
+title: "¿Qué hacer? Repertorios de acción frente a las injusticias percibidas en los lugares de trabajo en Santiago de Chile"
+description: "Estudio sobre repertorios de acción frente a injusticias laborales en Santiago."
+venue: "Latin American Research Review, 57(4)"
+tipo: articulo
+date: "2022-01-01"
+author: "Frei, R., Moya, C., Castillo, A., Gerber, M., Puga, I."
+authors: [cristobal-moya, monica-gerber, ismael-puga]
+reference: "Frei, R., Moya, C., Castillo, A., Gerber, M., & Puga, I. (2022). ¿Qué hacer? Repertorios de acción frente a las injusticias percibidas en los lugares de trabajo en Santiago de Chile. *Latin American Research Review*, 57(4), 813-830."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# ¿Qué hacer? Repertorios de acción frente a las injusticias percibidas en los lugares de trabajo en Santiago de Chile
+
+Estudio sobre repertorios de acción frente a injusticias laborales en Santiago.
+
+**Autores OLES:** [Cristóbal Moya](../equipo/cristobal-moya.html), [Monica M. Gerber](../equipo/monica-gerber.html), [Ismael Puga](../equipo/ismael-puga.html)
+
+**Fecha:** 2022.
+
+## Referencia sugerida
+
+Frei, R., Moya, C., Castillo, A., Gerber, M., & Puga, I. (2022). ¿Qué hacer? Repertorios de acción frente a las injusticias percibidas en los lugares de trabajo en Santiago de Chile. *Latin American Research Review*, 57(4), 813-830.
+
+[← Volver a Publicaciones](index.qmd)

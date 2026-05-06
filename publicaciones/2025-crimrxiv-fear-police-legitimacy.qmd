@@ -1,0 +1,28 @@
+---
+title: "Fear of the police and the fragility of legitimacy: Insights from Chile and Brazil"
+description: "Estudio sobre el miedo a la policía y la fragilidad de la legitimidad en Chile y Brasil."
+venue: "CrimRxiv"
+tipo: articulo
+date: "2025-01-01"
+author: "Gerber, M.M., Branco, F.C., Cubas, V., Sáez Fuentealba, L., de Oliveira, A.R."
+authors: [monica-gerber, luciano-saez-fuentealba]
+reference: "Gerber, M.M., Branco, F.C., Cubas, V., Sáez Fuentealba, L., & de Oliveira, A.R. (2025). Fear of the police and the fragility of legitimacy: Insights from Chile and Brazil. *CrimRxiv*."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Fear of the police and the fragility of legitimacy: Insights from Chile and Brazil
+
+Estudio sobre el miedo a la policía y la fragilidad de la legitimidad en Chile y Brasil.
+
+**Autores OLES:** [Monica M. Gerber](../equipo/monica-gerber.html), [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Gerber, M.M., Branco, F.C., Cubas, V., Sáez Fuentealba, L., & de Oliveira, A.R. (2025). Fear of the police and the fragility of legitimacy: Insights from Chile and Brazil. *CrimRxiv*.
+
+[← Volver a Publicaciones](index.qmd)

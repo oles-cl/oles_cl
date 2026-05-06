@@ -14,6 +14,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:matdknu@gmail.com
+    - icon: globe
+      text: Website
+      href: https://matdknu.github.io
     - icon: github
       text: GitHub
       href: https://github.com/matdknu

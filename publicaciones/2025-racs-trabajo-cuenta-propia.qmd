@@ -1,0 +1,28 @@
+---
+title: "El trabajo por cuenta propia como repertorio de acción: recuperando el tiempo propio en Santiago de Chile"
+description: "Análisis del trabajo por cuenta propia como estrategia de recuperación del tiempo propio en Santiago."
+venue: "Revista Austral de Ciencias Sociales"
+tipo: articulo
+date: "2025-01-01"
+author: "Frei, R., Castillo, A., Gerber, M., Puga, I., Moya, C."
+authors: [monica-gerber, ismael-puga, cristobal-moya]
+reference: "Frei, R., Castillo, A., Gerber, M., Puga, I., & Moya, C. (2025). El trabajo por cuenta propia como repertorio de acción: recuperando el tiempo propio en Santiago de Chile. *Revista Austral de Ciencias Sociales*, 179-199."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# El trabajo por cuenta propia como repertorio de acción: recuperando el tiempo propio en Santiago de Chile
+
+Análisis del trabajo por cuenta propia como estrategia de recuperación del tiempo propio en Santiago.
+
+**Autores OLES:** [Monica M. Gerber](../equipo/monica-gerber.html), [Ismael Puga](../equipo/ismael-puga.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Frei, R., Castillo, A., Gerber, M., Puga, I., & Moya, C. (2025). El trabajo por cuenta propia como repertorio de acción: recuperando el tiempo propio en Santiago de Chile. *Revista Austral de Ciencias Sociales*, 179-199.
+
+[← Volver a Publicaciones](index.qmd)

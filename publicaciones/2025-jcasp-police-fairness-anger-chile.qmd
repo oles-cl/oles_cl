@@ -1,0 +1,28 @@
+---
+title: "Police Fairness, Anger and Support for Violent and Non‐Violent Disruptive Actions in Chile"
+description: "Estudio sobre la justicia policial, la ira y el apoyo a acciones disruptivas violentas y no violentas en Chile."
+venue: "Journal of Community & Applied Social Psychology, 35(6)"
+tipo: articulo
+date: "2025-01-01"
+author: "Varela, M., Bilali, R., Bahamondes, J., Figueiredo, A., Gerber, M.M., Godfrey, E."
+authors: [joaquin-bahamondes, ana-figueiredo, monica-gerber]
+reference: "Varela, M., Bilali, R., Bahamondes, J., Figueiredo, A., Gerber, M.M., & Godfrey, E. (2025). Police Fairness, Anger and Support for Violent and Non‐Violent Disruptive Actions in Chile. *Journal of Community & Applied Social Psychology*, 35(6), e70185."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Police Fairness, Anger and Support for Violent and Non‐Violent Disruptive Actions in Chile
+
+Estudio sobre la justicia policial, la ira y el apoyo a acciones disruptivas violentas y no violentas en Chile.
+
+**Autores OLES:** [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), [Ana Figueiredo](../equipo/ana-figueiredo.html), [Monica M. Gerber](../equipo/monica-gerber.html)
+
+**Fecha:** 2025.
+
+## Referencia sugerida
+
+Varela, M., Bilali, R., Bahamondes, J., Figueiredo, A., Gerber, M.M., & Godfrey, E. (2025). Police Fairness, Anger and Support for Violent and Non‐Violent Disruptive Actions in Chile. *Journal of Community & Applied Social Psychology*, 35(6), e70185.
+
+[← Volver a Publicaciones](index.qmd)

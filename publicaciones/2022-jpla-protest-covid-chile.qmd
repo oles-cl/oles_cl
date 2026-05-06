@@ -1,0 +1,28 @@
+---
+title: "Is it worth the risk? Grievances and street protest participation during the COVID-19 pandemic in Chile"
+description: "Estudio sobre agravios y participación en protestas callejeras durante la pandemia de COVID-19 en Chile."
+venue: "Journal of Politics in Latin America, 14(3)"
+tipo: articulo
+date: "2022-01-01"
+author: "Donoso, S., Puga, I., Moya, C., Gerber, M.M."
+authors: [sofia-donoso, ismael-puga, cristobal-moya, monica-gerber]
+reference: "Donoso, S., Puga, I., Moya, C., & Gerber, M.M. (2022). Is it worth the risk? Grievances and street protest participation during the COVID-19 pandemic in Chile. *Journal of Politics in Latin America*, 14(3), 338-362."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Is it worth the risk? Grievances and street protest participation during the COVID-19 pandemic in Chile
+
+Estudio sobre agravios y participación en protestas callejeras durante la pandemia de COVID-19 en Chile.
+
+**Autores OLES:** [Sofía Donoso](../equipo/sofia-donoso.html), [Ismael Puga](../equipo/ismael-puga.html), [Cristóbal Moya](../equipo/cristobal-moya.html), [Monica M. Gerber](../equipo/monica-gerber.html)
+
+**Fecha:** 2022.
+
+## Referencia sugerida
+
+Donoso, S., Puga, I., Moya, C., & Gerber, M.M. (2022). Is it worth the risk? Grievances and street protest participation during the COVID-19 pandemic in Chile. *Journal of Politics in Latin America*, 14(3), 338-362.
+
+[← Volver a Publicaciones](index.qmd)

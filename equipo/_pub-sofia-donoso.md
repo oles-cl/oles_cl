@@ -1,1 +1,1 @@
-- (Aún no hay publicaciones listadas.)
+- [Is it worth the risk? Grievances and street protest participation during the COVID-19 pandemic in Chile](../publicaciones/2022-jpla-protest-covid-chile.html) — Donoso, S., Puga, I., Moya, C., & Gerber, M.M. (2022). Is it worth the risk? Grievances and street protest participation during the COVID-19 pandemic in Chile. *Journal of Politics in Latin America*, 14(3), 338-362.
