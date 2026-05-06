@@ -21,9 +21,11 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/amparo-feller-quezada-69745b1b9/
 areas-interes:
-  - "Género y desigualdades sociales"
-  - "Memoria, archivos y narrativas"
-  - "Cultura digital y masculinidades"
+  - "Sociología de la memoria"
+  - "Desigualdades de género"
+  - "Cosificación de la mujer"
+  - "Masculinidades"
+  - "Metodologías digitales y narrativas"
 educacion:
   - titulo: "Magíster en Métodos para la Investigación Social"
     institucion: "Universidad Diego Portales"
@@ -33,15 +35,19 @@ educacion:
 
 ## Descripción
 
-Socióloga y Magíster en Métodos para la Investigación Social por la Universidad Diego Portales. Actualmente se desempeña como Asistente de Investigación en el Instituto Milenio Asor (Financiamiento Iniciativa Milenio), donde participa en el proyecto sobre decisiones reproductivas junto a Macarena Orchard, Heidy Kaune y Fernando Zegers.
+Socióloga y Magíster en Métodos para la Investigación Social por la Universidad Diego Portales. Investigadora del Observatorio de Desigualdades de la Universidad Diego Portales. Asistente de investigación del Instituto Milenio sobre Autoridad y Regulación Social (ASOR).
 
-Su trayectoria de investigación ha estado vinculada al análisis y la visibilización de las experiencias de mujeres durante la dictadura militar en Chile. En la actualidad, su interés investigativo se orienta al estudio de la machosfera y sus implicancias socioculturales, con especial atención al contexto latinoamericano, así como al campo de las desigualdades de género y las masculinidades en la cultura digital.
+En la actualidad, su interés investigativo se orienta al estudio de la machosfera en redes sociales y sus implicancias socioculturales, con especial atención al contexto latinoamericano.
+
+Sus áreas de interés incluyen la sociología de la memoria, las desigualdades de género, la cosificación de la mujer, las masculinidades y el uso de metodologías digitales y narrativas en la investigación social.
 
 ## Áreas de Interés
 
-- Género y desigualdades sociales
-- Memoria, archivos y narrativas
-- Cultura digital y masculinidades
+- Sociología de la memoria
+- Desigualdades de género
+- Cosificación de la mujer
+- Masculinidades
+- Metodologías digitales y narrativas en la investigación social
 
 ## Educación
 

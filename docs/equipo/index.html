@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-cargo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-cargo',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -380,15 +380,12 @@ window.Quarto = {
 El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional y los perfiles del equipo.
 </p>
 <p>
-En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong> (coordinaciones), <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong>, <strong>colaboradoras/es externos/as</strong> y <strong>jóvenes investigadoras/es en formación</strong>.
+En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong>, <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong>, <strong>colaboradoras/es externos/as</strong> y <strong>jóvenes investigadoras/es en formación</strong>.
 </p>
 </div>
 <div class="equipo-roster-page">
 <section id="dirección" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="dirección">Dirección</h2>
-<p class="equipo-tier-hint">
-Responsabilidad académica y ejecutiva del Observatorio.
-</p>
 <div id="listing-direccion" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1778018787692" data-listing-reading-time-sort="2" data-listing-word-count-sort="220">
@@ -401,6 +398,16 @@ Responsabilidad académica y ejecutiva del Observatorio.
 <h5 class="no-anchor card-title listing-title">
 Ana Figueiredo
 </h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+cargo
+</td>
+<td class="cargo">
+Directora · Investigadora principal
+</td>
+</tr>
+</tbody></table>
 </div>
 </div>
 </a>
@@ -415,6 +422,16 @@ Ana Figueiredo
 <h5 class="no-anchor card-title listing-title">
 Monica M. Gerber
 </h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+cargo
+</td>
+<td class="cargo">
+Directora Ejecutiva
+</td>
+</tr>
+</tbody></table>
 </div>
 </div>
 </a>
@@ -425,11 +442,8 @@ No hay resultados
 </div>
 </div>
 </section>
-<section id="comité-directivo-coordinaciones" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="comité-directivo-coordinaciones">Comité directivo (coordinaciones)</h2>
-<p class="equipo-tier-hint">
-Coordinaciones que acompañan la agenda colectiva del OLES.
-</p>
+<section id="comité-directivo" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="comité-directivo">Comité directivo</h2>
 <div id="listing-comite" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="Comité directivo" data-listing-file-modified-sort="1778079656068" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
@@ -442,6 +456,16 @@ Coordinaciones que acompañan la agenda colectiva del OLES.
 <h5 class="no-anchor card-title listing-title">
 Luciano Sáez-Fuentealba
 </h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+cargo
+</td>
+<td class="cargo">
+Coord. de Formación de Jóvenes Investigadoras/es · Investigador principal
+</td>
+</tr>
+</tbody></table>
 </div>
 </div>
 </a>
@@ -456,6 +480,16 @@ Luciano Sáez-Fuentealba
 <h5 class="no-anchor card-title listing-title">
 Cristóbal Moya
 </h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+cargo
+</td>
+<td class="cargo">
+Coord. de Publicaciones y Proyectos · Investigador adjunto
+</td>
+</tr>
+</tbody></table>
 </div>
 </div>
 </a>
@@ -470,6 +504,16 @@ Cristóbal Moya
 <h5 class="no-anchor card-title listing-title">
 Macarena Orchard
 </h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+cargo
+</td>
+<td class="cargo">
+Coord. de Transferencia e Incidencia · Profesora Asistente, Escuela de Sociología
+</td>
+</tr>
+</tbody></table>
 </div>
 </div>
 </a>
@@ -484,6 +528,16 @@ Macarena Orchard
 <h5 class="no-anchor card-title listing-title">
 Por definir
 </h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+cargo
+</td>
+<td class="cargo">
+Coord. de Vinculación con el Medio
+</td>
+</tr>
+</tbody></table>
 </div>
 </div>
 </a>
@@ -496,9 +550,6 @@ No hay resultados
 </section>
 <section id="investigadorases-principales" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="investigadorases-principales">Investigadoras/es principales</h2>
-<p class="equipo-tier-hint">
-Investigación de planta y líneas de fondo del Observatorio.
-</p>
 <div id="listing-investigadores-principales" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="Investigadores principales" data-listing-file-modified-sort="1777902170556" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
@@ -621,9 +672,6 @@ No hay resultados
 </section>
 <section id="investigadorases-adjuntosas" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="investigadorases-adjuntosas">Investigadoras/es adjuntos/as</h2>
-<p class="equipo-tier-hint">
-Participación en instancias sustantivas de OLES manteniendo otras afiliaciones (algunas/os aparecen también en otras secciones del sitio).
-</p>
 <div id="listing-adjuntos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="Investigadores adjuntos" data-listing-file-modified-sort="1778079364153" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
@@ -662,12 +710,9 @@ No hay resultados
 </section>
 <section id="asistentes-de-investigación" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="asistentes-de-investigación">Asistentes de investigación</h2>
-<p class="equipo-tier-hint">
-Personas que apoyan levantamiento de información, codificación, preparación de bases de datos y tareas técnicas vinculadas a los proyectos.
-</p>
 <div id="listing-asistentes" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-categories="Asistentes de investigación" data-listing-file-modified-sort="1778078365916" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
+<div class="g-col-1" data-index="0" data-categories="Asistentes de investigación" data-listing-file-modified-sort="1778080180505" data-listing-reading-time-sort="1" data-listing-word-count-sort="143">
 <a href="../equipo/amparo-feller.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -703,9 +748,6 @@ No hay resultados
 </section>
 <section id="colaboradorases-externosas" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="colaboradorases-externosas">Colaboradoras/es externos/as</h2>
-<p class="equipo-tier-hint">
-Personas que colaboran con iniciativas del Observatorio desde otras instituciones o con modalidades de participación no permanente.
-</p>
 <div id="listing-colaboradores-externos" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
 <div class="g-col-1" data-index="0" data-categories="Colaboradores externos" data-listing-file-modified-sort="1778018567535" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
