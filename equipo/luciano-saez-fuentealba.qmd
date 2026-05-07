@@ -1,6 +1,6 @@
 ---
 title: "Luciano Sáez-Fuentealba"
-cargo: "Coord. de Formación de Jóvenes Investigadoras/es · Investigador principal"
+cargo: "Coordinación de Formación de Jóvenes Investigadoras/es"
 categories: [Comité directivo]
 orden: 21
 email: "luciano.saez.fuentealba@gmail.com"

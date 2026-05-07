@@ -55,7 +55,6 @@ listing:
     fields: [image, title]
   - id: colaboradores-externos
     contents:
-      - rene-canales-selles.qmd
       - lidia-yanez-lagos.qmd
       - carlos-anriquez-gundian.qmd
     type: grid

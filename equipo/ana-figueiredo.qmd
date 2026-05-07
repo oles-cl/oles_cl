@@ -1,6 +1,6 @@
 ---
 title: "Ana Figueiredo"
-cargo: "Directora · Investigadora principal"
+cargo: "Directora"
 categories: [Dirección]
 orden: 1
 email: "figueiredo.anacm@gmail.com"

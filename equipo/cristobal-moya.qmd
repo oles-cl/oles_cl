@@ -1,6 +1,6 @@
 ---
 title: "Cristóbal Moya"
-cargo: "Coord. de Publicaciones y Proyectos · Investigador adjunto"
+cargo: "Coordinación de Publicaciones y Proyectos"
 categories: [Comité directivo]
 orden: 22
 email: "cristobalmoya@gmail.com"

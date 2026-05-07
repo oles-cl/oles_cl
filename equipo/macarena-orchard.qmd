@@ -1,6 +1,6 @@
 ---
 title: "Macarena Orchard"
-cargo: "Coord. de Transferencia e Incidencia · Profesora Asistente, Escuela de Sociología"
+cargo: "Coordinación de Transferencia e Incidencia"
 categories: [Comité directivo]
 orden: 23
 email: "macarenaorchard@gmail.com"

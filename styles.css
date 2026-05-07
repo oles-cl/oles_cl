@@ -4052,6 +4052,15 @@ body:has(.estudio-linea-institucional) main#quarto-document-content .quarto-titl
   text-align: center;
 }
 
+/* En cards de equipo, ocultar etiqueta "cargo" y dejar solo el valor */
+.equipo-roster-page .card-other-values td:first-child {
+  display: none;
+}
+
+.equipo-roster-page .card-other-values {
+  margin: 0.45rem auto 0;
+}
+
 .equipo-lineas-institucional {
   max-width: 1100px;
   margin: 0 auto;
