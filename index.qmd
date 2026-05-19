@@ -10,7 +10,6 @@ title-block: none
 <!-- Splash Screen -->
 <div id="splash-screen">
   <img src="images/logos/logo2.png" alt="OLES Logo" class="splash-logo">
-  <div class="splash-text">Observatorio de Violencia y Legitimidad SOCIAL (OLES)</div>
 </div>
 
 <script>
