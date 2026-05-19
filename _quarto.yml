@@ -4,10 +4,12 @@ project:
   pre-render: compilar_publicaciones_perfiles.R
   resources:
     - images/logos/download.mp4
+    - CNAME
     # Asegura que todas las fotos del equipo lleguen a docs/ (evita rotas si un render no touchó cada perfil).
     - equipo/image/*
 
 website:
+  site-url: https://www.oles.cl
   title: ""
   favicon: images/logos/icon.png
   navbar:

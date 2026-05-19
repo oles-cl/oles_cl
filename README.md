@@ -61,6 +61,8 @@ Requisitos: **R** y el paquete **`yaml`** (`install.packages("yaml")`) para el s
 
 Tras compilar, hacer commit de los cambios en fuentes y de **`docs/`** según el flujo de tu hosting.
 
+Para publicar en **https://www.oles.cl** con GitHub Pages (DNS + dominio personalizado), ver **[DOMINIO-OLES.md](DOMINIO-OLES.md)**.
+
 ---
 
 ## 4. Referencias
