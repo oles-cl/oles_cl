@@ -20,7 +20,11 @@ title-block: none
 #| results: 'asis'
 # Destacados: noticias con destacado: true en el YAML, orden por fecha (más reciente arriba)
 
-`%||%` <- function(x, y) if (is.null(x) || length(x) == 0 || x == "") y else x
+`%||%` <- function(x, y) {
+  if (is.null(x) || length(x) == 0) return(y)
+  if (is.character(x) && all(nchar(trimws(x)) == 0)) return(y)
+  x
+}
 
 leer_metadatos_destacado <- function(archivo) {
   contenido <- readLines(archivo, warn = FALSE)

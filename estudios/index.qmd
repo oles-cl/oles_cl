@@ -187,15 +187,6 @@ toc: false
 <div class="estudios-proyectos-page">
 <div class="estudios-intro">
   <h2 data-i18n="estudios.titulo">Proyectos de Investigación</h2>
-  <p data-i18n="estudios.intro">Listado completo de todos nuestros proyectos de investigación. Podés filtrar por <strong>línea de investigación</strong> o ver <strong>todos</strong> por defecto. Las imágenes de las tarjetas son <strong>ilustrativas</strong> (fotos de archivo estándar), no representan personas ni escenarios reales del proyecto.</p>
-</div>
-
-<div class="estudios-filtros-linea" role="tablist" aria-label="Filtrar proyectos por línea de investigación">
-  <button type="button" class="filtro-btn active" data-filtro-linea="todos">Todos</button>
-  <button type="button" class="filtro-btn" data-filtro-linea="1">Línea 1 — Estado, DDHH y control social</button>
-  <button type="button" class="filtro-btn" data-filtro-linea="2">Línea 2 — Movimientos sociales y violencia</button>
-  <button type="button" class="filtro-btn" data-filtro-linea="3">Línea 3 — Género y salud</button>
-  <button type="button" class="filtro-btn" data-filtro-linea="4">Línea 4 — Legitimidad y justicia social</button>
 </div>
 
 <div class="estudios-grid" id="estudios-proyectos-grid">
@@ -264,28 +255,20 @@ ruta_fm_estudio <- function(slug) {
 }
 
 cards <- list(
-  list(slug = "esep", picsum = "olesproj-esep", lineas = "1,4",
-       titulo_tarjeta = "Fondecyt Mónica — ESEP y trayectoria"),
-  list(slug = "fondecyt-rethinking", picsum = "olesproj-longitudinal", lineas = "1"),
-  list(slug = "tesis-doctorado-luciano-saez", picsum = "olesproj-tesis-luciano", lineas = "1",
-       titulo_tarjeta = "Tesis (doctorado) Luciano Sáez"),
-  list(slug = "fondecyt-paz-irarrazabal", picsum = "olesproj-paz", lineas = "1"),
-  list(slug = "fondecyt-loreto-quiroz", picsum = "olesproj-loreto", lineas = "1",
-       titulo_tarjeta = "El derecho a la seguridad y la agencia ciudadana frente al delito en Chile"),
-  list(slug = "grupos-focales", picsum = "olesproj-grupos-focales", lineas = "1",
-       titulo_tarjeta = "Exploración (grupos focales)"),
-  list(slug = "protesta-social-violencia", picsum = "olesproj-protesta", lineas = "2,4",
-       titulo_tarjeta = "Fondecyt Ismael Puga"),
-  list(slug = "fondecyt-sofia-donoso", picsum = "olesproj-sofia", lineas = "2"),
-  list(slug = "fondecyt-macarena-orchard", picsum = "olesproj-macarena", lineas = "3"),
-  list(slug = "fondecyt-gloria-jimenez-moya", picsum = "olesproj-gloria", lineas = "3"),
-  list(slug = "doctorado-cristobal-moya", picsum = "olesproj-doc-cristobal", lineas = "4",
-       titulo_tarjeta = "Doctorado Cristóbal Moya"),
-  list(slug = "doctorado-matias-gomez", picsum = "olesproj-doc-matias", lineas = "4",
-       titulo_tarjeta = "Doctorado Matías"),
-  list(slug = "datos-administrativos", picsum = "olesproj-datos-admin", lineas = ""),
-  list(slug = "prensa", picsum = "olesproj-prensa", lineas = ""),
-  list(slug = "seguimiento-policias", picsum = "olesproj-seguimiento-pol", lineas = "")
+  list(slug = "fondecyt-rethinking", picsum = "olesproj-longitudinal", lineas = "1",
+       titulo_tarjeta = "Repensando el empoderamiento policial: significados y consecuencias"),
+  list(slug = "fondecyt-ana-grupos-minoritarios", picsum = "olesproj-ana-grupos", lineas = "1",
+       titulo_tarjeta = "¿Cómo se relacionan los grupos minoritarios en Chile en su interacción con la policía?"),
+  list(slug = "esep", picsum = "olesproj-esep", lineas = "1",
+       titulo_tarjeta = "Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP, 2024-2028)"),
+  list(slug = "fondecyt-loreto-seguridad-derecho", picsum = "olesproj-loreto-derecho", lineas = "1",
+       titulo_tarjeta = "La seguridad como derecho: la conciencia jurídica de la ciudadanía frente al delito"),
+  list(slug = "exploracion", picsum = "olesproj-grupos-focales", lineas = "1",
+       titulo_tarjeta = "Legitimidad de las policías en Chile (Exploración)"),
+  list(slug = "esep-transversal-2023-2024", picsum = "olesproj-esep-trans", lineas = "1",
+       titulo_tarjeta = "Estudio de Percepciones de Seguridad y Policías en Chile (ESEP, 2023-2024)"),
+  list(slug = "encuesta-legitimidad-carabineros-2021-2022", picsum = "olesproj-carabineros", lineas = "1",
+       titulo_tarjeta = "Encuesta de Legitimidad de Carabineros (2021–2022)")
 )
 
 out <- ""
@@ -345,55 +328,7 @@ knitr::asis_output(out)
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  var barra = document.querySelector(".estudios-filtros-linea");
-  var grid = document.getElementById("estudios-proyectos-grid");
-  if (!grid) return;
-
-  /* Orden aleatorio en el DOM (cada carga): mezcla líneas para que el filtro se note al reacomodarse el grid */
-  (function shuffleCards() {
-    var arr = Array.prototype.slice.call(grid.querySelectorAll(".estudio-card"));
-    for (var i = arr.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var t = arr[i];
-      arr[i] = arr[j];
-      arr[j] = t;
-    }
-    arr.forEach(function(node) {
-      grid.appendChild(node);
-    });
-  })();
-
-  if (!barra) return;
-  var filtros = barra.querySelectorAll("[data-filtro-linea]");
-  if (!filtros.length) return;
-
-  function aplicarFiltro(filtro) {
-    var cards = grid.querySelectorAll(".estudio-card");
-    cards.forEach(function(card) {
-      var raw = card.getAttribute("data-lineas");
-      if (filtro === "todos") {
-        card.style.display = "";
-        return;
-      }
-      if (!raw || !String(raw).trim()) {
-        card.style.display = "none";
-        return;
-      }
-      var partes = String(raw).split(",").map(function(s) { return s.trim(); });
-      card.style.display = partes.indexOf(filtro) >= 0 ? "" : "none";
-    });
-  }
-
-  filtros.forEach(function(btn) {
-    btn.addEventListener("click", function() {
-      var filtro = btn.getAttribute("data-filtro-linea");
-      filtros.forEach(function(b) { b.classList.remove("active"); });
-      btn.classList.add("active");
-      aplicarFiltro(filtro);
-    });
-  });
-});
+// Cards mantienen su orden fijo (sin shuffleCards)
 </script>
 ```
 

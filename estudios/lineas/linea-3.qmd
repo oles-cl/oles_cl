@@ -6,11 +6,6 @@ toc: false
 
 <div class="estudio-linea-institucional">
 
-## Introducción
-
-[Descripción ampliada — pendiente de redacción.]
-
-
 ## Investigadoras/es
 
 - [Macarena Orchard](../../equipo/macarena-orchard.html)

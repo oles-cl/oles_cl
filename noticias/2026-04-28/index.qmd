@@ -1,0 +1,22 @@
+---
+title: "OLES realiza su Primer Seminario Interno del año académico 2026"
+description: "El equipo OLES se reunió para revisar y organizar aspectos sobre esta nueva etapa del Observatorio"
+date: "2026-04-28"
+author: "[Matías Deneken](../../equipo/matias-deneken.html) y [Amparo Feller](../../equipo/amparo-feller.html)"
+categories: [Seminario, Actividades]
+image: "seminario.png"
+destacado: true
+title-block-banner: false
+---
+
+::: {.featured-image}
+![](seminario.png)
+:::
+
+El pasado lunes 27 de abril, llevamos a cabo el Primer Seminario Interno del Equipo OLES 2026. Este seminario estuvo centrado en revisar y organizar aspectos sobre esta nueva etapa del Observatorio, así como también, de dar la bienvenida a quienes se integran al equipo.
+
+Este año hay mucho entusiasmo por comenzar a abordar y conversar de nuevas temáticas, así como también, en profundizar aquellas que ya venimos trabajando durante los años de este proyecto colectivo.
+
+Les invitamos a seguir nuestras redes y poner atención a las nuevas actividades, convocatorias y noticias del OLES.
+
+[← Volver a Noticias](../index.html)

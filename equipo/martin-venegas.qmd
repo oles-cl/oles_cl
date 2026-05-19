@@ -4,7 +4,7 @@ cargo: "Asistente de investigación"
 categories: [Asistentes de investigación]
 orden: 50
 organizacion: "OLES"
-image: "../images/logos/icon.png"
+image: "martin-venegas.png"
 about:
   template: trestles
   image-shape: round

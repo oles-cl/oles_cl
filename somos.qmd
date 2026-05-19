@@ -151,61 +151,47 @@ format:
 
 <div class="somos-container">
 
-<h2>¿Qué es OLES?</h2>
+<h2>¿Qué es el Observatorio de Violencia y Legitimidad Social?</h2>
 
 <div class="somos-intro">
-Desde una mirada <strong>multidisciplinar</strong>, OLES agrupa a investigadores/as de diferentes disciplinas en un esfuerzo por comprender los mecanismos de construcción de <strong>legitimidad social</strong> y problematizar el rol de la <strong>violencia y la justicia</strong> en diferentes contextos, aportando a la construcción teórica de marcos interpretativos sobre su desenvolvimiento en el escenario actual.
-<br><br>
-Para ello promueve el <strong>diálogo y colaboración</strong> con actores sociales mediante la difusión y trabajo colaborativo que permita la socialización en espacios de relevancia.
+El Observatorio de Violencia y Legitimidad Social (OLES) es una plataforma de investigación multidisciplinaria dedicada al estudio de las distintas formas de violencia, sus modos de justificación y cuestionamiento, y los procesos mediante los cuales se construye y disputa la legitimidad social. El Observatorio busca generar evidencia científica y transferir ese conocimiento a la sociedad, contribuyendo al debate público y a la toma de decisiones orientada a enfrentar estas problemáticas. Para ello se sostiene en procesos de investigación colaborativos y enmarcados en principios de ciencia abierta, con foco en el cuidado de quienes investigan, un compromiso ético con las personas y comunidades a quienes estudia, y un compromiso activo con la formación de nuevas generaciones de investigadoras e investigadores.
 </div>
-
-<div class="highlight-box">
-<p><strong>Objetivo Principal:</strong> Contribuir a la comprensión de los mecanismos de legitimidad social y justificación de la violencia mediante el desarrollo de investigaciones bajo criterios de <strong>Ciencia Abierta</strong> y en diálogo con actores sociales.</p>
-</div>
-
-<p style="font-size: 1.1rem; line-height: 1.8;">
-Actualmente cuenta con el apoyo del <strong>Centro de Estudios de Conflicto y Cohesión Social (COES)</strong>, la <strong>Universidad Diego Portales (UDP)</strong>, la <strong>Universidad de Chile (UChile)</strong>, la <strong>Universidad de O'Higgins (UOH)</strong> y la <strong>Universidad Católica del Norte (UCN)</strong>.
-</p>
 
 <h2>Equipo</h2>
 
-<p>El equipo de OLES está conformado por investigadores principales, investigadores asociados y asistentes de investigación provenientes desde diferentes universidades y disciplinas.</p>
+<p>OLES está compuesto por un equipo multidisciplinario de investigadoras e investigadores de diferentes universidades.</p>
 <p><a href="equipo/index.html" class="btn-primary" style="display: inline-block; padding: 0.75rem 1.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Ver equipo completo →</a></p>
 
 <div class="somos-section">
-<h2>Fondos y Apoyo Institucional</h2>
-<p>OLES cuenta con el reconocimiento y apoyo financiero de:</p>
+<h2>Financiamiento</h2>
+<p>OLES ha recibido financiamiento de la Agencia Nacional de Investigación y Desarrollo (ANID), a través de proyectos Exploración y Fondecyt. También ha contado con apoyo de fondos internos de la Universidad Diego Portales y de la Pontificia Universidad Católica de Chile, así como un fondo de la European Association of Social Psychology (EASP).</p>
+</div>
+
+<div class="somos-section">
+<h2>Instituciones</h2>
+<p>OLES se encuentra asociado a las siguientes instituciones:</p>
 
 <div class="fondos-grid">
   <div class="fondo-card">
-    <img src="images/logos/logo-anid.png" alt="ANID">
-    <h4>ANID</h4>
-    <p>Fondecyt Regular</p>
-  </div>
-  <div class="fondo-card">
     <img src="images/logos/oles_udp.png" alt="UDP">
-    <h4>UDP</h4>
-    <p>Universidad Diego Portales</p>
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/Logo-UC-1.png" alt="UC">
-    <h4>UC</h4>
-    <p>Pontificia Universidad Católica de Chile</p>
   </div>
   <div class="fondo-card">
     <img src="images/logos/logo-uoh.png" alt="UOH">
-    <h4>UOH</h4>
-    <p>Universidad de O'Higgins</p>
+  </div>
+  <div class="fondo-card">
+    <img src="images/logos/Logo-UC-1.png" alt="UC">
+  </div>
+  <div class="fondo-card">
+    <img src="images/logos/ucn-logo.png" alt="UCN">
   </div>
   <div class="fondo-card">
     <img src="images/logos/uchile-logo.svg" alt="UChile">
-    <h4>UChile</h4>
-    <p>Universidad de Chile</p>
   </div>
   <div class="fondo-card">
     <img src="images/logos/diw.png" alt="DIW">
-    <h4>DIW</h4>
-    <p>Institute of German Studies</p>
+  </div>
+  <div class="fondo-card">
+    <img src="images/logos/ucentral-logo.png" alt="UCentral">
   </div>
 </div>
 </div>

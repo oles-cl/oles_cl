@@ -1,15 +1,10 @@
 ---
-title: "Línea 2 — Movimientos sociales y violencia"
+title: "Línea 2 — Movimientos sociales, generaciones y violencia"
 page-layout: full
 toc: false
 ---
 
 <div class="estudio-linea-institucional">
-
-## Introducción
-
-[Descripción ampliada — pendiente de redacción.]
-
 
 ## Investigadoras/es
 

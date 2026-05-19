@@ -30,15 +30,7 @@ toc: false
   <div class="epsep-card">
     <h3 class="epsep-card-title"><span>📖</span> Manual Metodológico</h3>
     <p class="epsep-card-subtitle">Documentación completa del diseño del estudio, cuestionario, estructura de datos y guía de uso.</p>
-    <div class="epsep-buttons">
-      <a class="epsep-btn epsep-btn-primary"
-         href="https://olescl.quarto.pub/manual_esep-np/"
-         target="_blank"
-         rel="noopener">
-        <span>▶</span>
-        <span>Ver manual metodológico</span>
-      </a>
-    </div>
+    <p class="epsep-card-subtitle" style="text-align: center; font-weight: 600; color: #4E4976; margin-top: 1rem;">Próximamente</p>
   </div>
 
   <p class="epsep-note">Nota: Próximamente se publicará la base de datos.</p>

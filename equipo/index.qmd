@@ -1,5 +1,5 @@
 ---
-title: "Equipo OLES"
+title: "Equipo"
 page-layout: full
 toc: false
 listing:
@@ -18,7 +18,6 @@ listing:
       - luciano-saez-fuentealba.qmd
       - cristobal-moya.qmd
       - macarena-orchard.qmd
-      - coordinacion-vinculacion-medio.qmd
     type: grid
     grid-columns: 4
     sort: "orden"
@@ -62,14 +61,6 @@ listing:
     sort: "orden"
     fields: [image, title]
 ---
-
-<div class="equipo-page-intro">
-
-<p>El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales. En esta página encontrarás la estructura organizacional y los perfiles del equipo.</p>
-
-<p>En OLES trabajamos de forma articulada entre <strong>dirección</strong>, <strong>comité directivo</strong>, <strong>investigadoras/es principales</strong>, <strong>investigadoras/es adjuntos/as</strong>, <strong>asistentes de investigación</strong>, <strong>colaboradoras/es externos/as</strong> y <strong>jóvenes investigadoras/es en formación</strong>.</p>
-
-</div>
 
 ```{=html}
 <div class="equipo-roster-page">

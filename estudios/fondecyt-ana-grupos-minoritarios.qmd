@@ -1,0 +1,53 @@
+---
+title: "¿Cómo se relacionan y se posicionan los grupos minoritarios en Chile en su interacción con la policía? Un análisis multiactor de la justicia procedimental y las posturas motivacionales"
+estado: "en-curso"
+etiqueta: "fondecyt"
+linea: "1"
+investigador_responsable: "Ana Figueiredo"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigadora responsable
+
+[Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+## Investigadoras/es
+
+- [Macarena Orchard](../equipo/macarena-orchard.html)
+- [Loreto Quiroz](../equipo/loreto-quiroz.html)
+- [Monica Gerber](../equipo/monica-gerber.html)
+- [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+
+## Asistentes de investigación
+
+- [Luciano Sáez](../equipo/luciano-saez-fuentealba.html)
+- Paloma Rojas
+- Juan Fernando Pavez
+
+## Años
+
+2025-2028
+
+## Financiamiento
+
+Proyecto ANID Fondecyt Regular N. 1251411
+:::
+
+:::{.estudio-col-der}
+
+## Descripción
+
+El proyecto investiga cómo los grupos minoritarios en Chile—pueblos mapuche, personas migrantes y jóvenes de bajo nivel socioeconómico—se relacionan con Carabineros de Chile. El foco está puesto en las percepciones de justicia procedimental (trato e imparcialidad en el trato de las policías), así como en las posturas motivacionales que las personas adoptan (cumplimiento o desafío frente a la autoridad). Su objetivo es comprender estas interacciones desde la perspectiva tanto de los grupos minoritarios como de los propios funcionarios de Carabineros.
+
+El proyecto adopta un diseño mixto de tres estudios: un estudio cualitativo longitudinal con entrevistas (en Santiago, Temuco y Antofagasta); 45 entrevistas a funcionarios de Carabineros en esas tres ciudades; y un estudio experimental.
+
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

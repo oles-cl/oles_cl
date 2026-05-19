@@ -1,12 +1,11 @@
 ---
-title: "Líneas de investigación en OLES"
+title: "Líneas de Investigación"
 page-layout: full
 toc: false
 ---
 
 ```{=html}
 <div class="lineas-index">
-  <p class="lineas-index-intro">El OLES organiza su investigación en <strong>cuatro líneas institucionales</strong> que articulan personas, proyectos (Fondecyt, doctorados, pilotos) y estudios del Observatorio.</p>
   <div class="lineas-index-grid lineas-index-grid-4">
     <a href="lineas/linea-1.html" class="linea-index-card">
       <h3>Línea 1 — Violencia estatal, control social y derechos humanos</h3>
@@ -14,7 +13,7 @@ toc: false
       <span class="linea-index-link">Ver línea →</span>
     </a>
     <a href="lineas/linea-2.html" class="linea-index-card">
-      <h3>Línea 2 — Movimientos sociales y violencia</h3>
+      <h3>Línea 2 — Movimientos sociales, generaciones y violencia</h3>
       <p>Movilización, repertorios de acción colectiva y justificación de la violencia en contextos democráticos.</p>
       <span class="linea-index-link">Ver línea →</span>
     </a>
@@ -29,7 +28,6 @@ toc: false
       <span class="linea-index-link">Ver línea →</span>
     </a>
   </div>
-  <p class="lineas-index-intro" style="margin-top: 2rem;">Explora además los <strong>estudios y productos</strong> por tema: <a href="policia-legitimidad.html">Policía y legitimidad</a>, <a href="derechos-humanos.html">Derechos humanos</a> y <a href="protesta-social-violencia.html">Protesta social y violencia</a>.</p>
   <p class="lineas-index-back"><a href="../index.html">← Volver al inicio</a></p>
 </div>
 ```

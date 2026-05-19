@@ -1,0 +1,8 @@
+---
+title: "María Teresa Valeria"
+grado: "Doctorado"
+universidad: "Universidad Diego Portales"
+titulo_tesis: "[Título pendiente]"
+anio: "En curso"
+estado: "en curso"
+---

@@ -1,5 +1,5 @@
 ---
-title: "Publicaciones Académicas"
+title: "Publicaciones"
 page-layout: full
 toc: false
 format:
@@ -30,13 +30,7 @@ apellidos_oles <- c(
 )
 
 autores_con_negrita <- function(author_str) {
-  t <- html_escape(author_str %||% "")
-  for (a in apellidos_oles) {
-    if (!nzchar(a)) next
-    if (!grepl(a, t, fixed = TRUE)) next
-    t <- gsub(a, sprintf("<strong>%s</strong>", a), t, fixed = TRUE)
-  }
-  t
+  html_escape(author_str %||% "")
 }
 
 tipo_etiqueta <- c(
@@ -44,7 +38,7 @@ tipo_etiqueta <- c(
   "libro" = "Libro",
   "capitulo" = "Capítulo",
   "policy-brief" = "Policy brief",
-  "reporte" = "Reporte",
+  "reporte" = "Informe",
   "working-paper" = "Working paper"
 )
 
@@ -85,9 +79,6 @@ n_contador <- max(50L, n_listadas)
 
 # Sin indentación de 4+ espacios: Markdown lo interpretaría como bloque de código.
 cat('<div class="publicaciones-page">\n')
-cat('<div class="publicaciones-intro">\n')
-cat('<p>Publicaciones académicas del equipo del Observatorio: artículos, libros, capítulos e informes vinculados a nuestra agenda de investigación.</p>\n')
-cat('</div>\n')
 cat(sprintf(
   '<div class="publicaciones-count-wrap" data-count-target="%s" data-count-listed="%s" aria-label="Publicaciones destacadas">\n',
   html_escape(as.character(n_contador)), html_escape(as.character(n_listadas))
@@ -102,8 +93,7 @@ cat('<button type="button" class="filtro-btn active" data-filtro="todos">Todos</
 cat('<button type="button" class="filtro-btn" data-filtro="articulo">Artículos</button>\n')
 cat('<button type="button" class="filtro-btn" data-filtro="libro">Libros</button>\n')
 cat('<button type="button" class="filtro-btn" data-filtro="capitulo">Capítulos</button>\n')
-cat('<button type="button" class="filtro-btn" data-filtro="policy-brief">Policy briefs</button>\n')
-cat('<button type="button" class="filtro-btn" data-filtro="reporte">Reportes</button>\n')
+cat('<button type="button" class="filtro-btn" data-filtro="reporte">Informes</button>\n')
 cat('<button type="button" class="filtro-btn" data-filtro="working-paper">Working papers</button>\n')
 cat('</div>\n')
 cat('<div class="publicaciones-grid">\n')
@@ -132,7 +122,7 @@ for (slug in names(metas)) {
   cat(sprintf('<p class="publicacion-autores">%s</p>\n', aut))
   cat(sprintf('<p class="publicacion-venue">%s</p>\n', venue))
   doi_a <- if (nzchar(doi_url)) {
-    paste0(' <a class="publicacion-btn publicacion-btn-doi" href="', html_escape(doi_url), '" target="_blank" rel="noopener noreferrer">DOI ↗</a>')
+    paste0(' <a class="publicacion-btn publicacion-btn-doi" href="', html_escape(doi_url), '" target="_blank" rel="noopener noreferrer">Ver ↗</a>')
   } else ""
   cat(sprintf(
     '<div class="publicacion-card-actions"><a class="publicacion-btn publicacion-btn-detalle" href="%s.html">Ver detalle</a>%s</div>\n',

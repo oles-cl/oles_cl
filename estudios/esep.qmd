@@ -1,8 +1,9 @@
 ---
-title: "Estudio Panel de Percepciones y Seguridad (ESEP)"
+title: "Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP, 2024-2028)"
 estado: "en-curso"
 etiqueta: "fondecyt"
-investigador_responsable: "Mónica Gerber"
+linea: "1"
+investigador_responsable: "Monica Gerber"
 format:
   html:
     body-classes: estudio-page
@@ -12,26 +13,40 @@ format:
 :::{.estudio-col-izq}
 ## Investigadora responsable
 
-[Mónica Gerber](../equipo/monica-gerber.html)
+[Monica Gerber](../equipo/monica-gerber.html)
 
-## Investigadores
+## Investigadoras/es
 
-[Joaquín Bahamondes](../equipo/joaquin-bahamondes.html), 
 [Cristóbal Moya](../equipo/cristobal-moya.html)
 
 ## Asistentes de investigación
 
-[Matías Deneken](../equipo/matias-deneken.html)
+- [Matías Deneken](../equipo/matias-deneken.html)
+- [Martín Venegas](../equipo/martin-venegas.html)
+
+## Años
+
+2024-2028
+
+## Financiamiento
+
+Proyectos ANID Fondecyt Regular N. 1221805, N. 1261483 y N. 1251411. Proyecto ANID Exploración 13220187.
+
+## Resultados
+
+- [Primer Informe del EPSEP – ver online](https://olescl.quarto.pub/informe_w04/#/title-slide)
+- Manual metodológico (Próximamente)
+- [Repositorio OSF](https://osf.io/8ck5z/)
 :::
 
 :::{.estudio-col-der}
-## Introducción
 
-El Estudio Panel de Percepciones y Seguridad (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones. Financiado por ANID (FONDECYT Regular N° 1221805).
+## Descripción
 
-## Métodos
+El Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP) tiene como objetivo conocer las percepciones de las personas sobre la delincuencia en el país, la manera en que estas se vinculan con las policías, y como estas actitudes cambian a lo largo del tiempo. Se trata de una encuesta panel longitudinal autoadministrada vía web, la cual cuenta actualmente con siete olas de medición, recogidas cada tres meses entre septiembre 2024 y abril 2026. El estudio extenderá sus mediciones con cinco olas adicionales levantadas cada seis meses entre los años 2026 y 2028.
 
-Diseño panel con mediciones repetidas; encuestas en línea y cuestionarios estandarizados sobre legitimidad, experiencias con policías y percepción de seguridad. Análisis longitudinal y comparativo.
+El estudio adopta un diseño de panel rodante—una adaptación del modelo 'rolling cross-sectional design' a una lógica longitudinal. Este diseño permite analizar el efecto causal de eventos esperados e inesperados en las actitudes sociales. La población objetivo son personas de entre 18 y 65 años residentes en Chile. El muestreo es por cuotas según sexo, edad, nivel socioeconómico y zona del país. Se consideró un reclutamiento inicial (r0 = 6.214), así como dos muestras de refresco (r1 = 4.548; r2 = 2.630).
+
 :::
 :::
 

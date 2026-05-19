@@ -1,0 +1,40 @@
+---
+title: "La seguridad como derecho: la conciencia jurídica de la ciudadanía frente al delito en Chile"
+estado: "en-curso"
+etiqueta: "fondecyt"
+linea: "1"
+investigador_responsable: "Loreto Quiroz"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigadora responsable
+
+[Loreto Quiroz](../equipo/loreto-quiroz.html)
+
+## Años
+
+2025-2028
+
+## Financiamiento
+
+Proyecto ANID Fondecyt de Iniciación N. 11260405
+:::
+
+:::{.estudio-col-der}
+
+## Descripción
+
+El proyecto investiga cómo la ciudadanía en Chile percibe y ejerce el derecho a la seguridad frente al delito, una dimensión emergente de este derecho vinculada a conceptos como seguridad humana y seguridad multidimensional. El foco está puesto en la conciencia jurídica y la legalidad cotidiana: cómo las percepciones y prácticas ciudadanas—incluyendo fenómenos como el vigilantismo y los actuales modelos de gestión de la seguridad—moldean el significado y el ejercicio de este derecho, situándose en la tensión entre los sentidos jurídicos tradicionales del Derecho a la Seguridad y las prácticas ciudadanas actuales. Su objetivo es comprender estas dinámicas desde una perspectiva situada, considerando tanto a la ciudadanía como a los actores institucionales involucrados.
+
+El proyecto adopta un diseño cualitativo: al menos 80 entrevistas semiestructuradas a ciudadanos, policías y agentes municipales—con énfasis en la ciudadanía—realizadas en comunas con altos niveles de criminalidad de la Región Metropolitana y la Región de O'Higgins, lo que busca reducir la deseabilidad social y explorar variaciones territoriales.
+
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

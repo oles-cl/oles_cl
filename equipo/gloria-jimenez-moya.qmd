@@ -1,45 +1,50 @@
 ---
 title: "Gloria Jiménez-Moya"
-cargo: "Profesora asociada, Escuela de Psicología"
+cargo: "Investigadora adjunta"
 categories: [Investigadores principales]
 orden: 36
-organizacion: "Pontificia Universidad Católica de Chile"
-image: "../images/logos/icon.png"
+email: "gjimenez@uc.cl"
+organizacion: "Escuela de Psicología, Pontificia Universidad Católica de Chile"
+image: "gloria-jimenez-moya.png"
 about:
   template: trestles
   image-shape: round
   image-width: 12em
-  links: []
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:gjimenez@uc.cl
 areas-interes:
-  - "Desigualdad de género: mecanismos y consecuencias"
+  - "Desigualdad de género desde la psicología social"
+  - "Intervenciones para reducir desigualdad de género en contexto escolar"
   - "Relaciones intergrupales"
-  - "Antecedentes de los movimientos sociales"
-  - "Igualdad de género en contexto escolar"
+  - "Movimientos sociales"
 educacion:
   - titulo: "Doctora en Psicología"
     institucion: "Universidad de Granada, España"
-  - titulo: "Máster en Psicología de la Intervención Social"
+  - titulo: "Doctora en Psicología de la Intervención Social"
     institucion: "Universidad de Granada, España"
 ---
 
 ## Descripción
 
-Profesora asociada de la Escuela de Psicología de la Pontificia Universidad Católica de Chile e investigadora asociada de la línea Interacciones Grupales e Individuales de COES. Es psicóloga social, máster en Psicología de la Intervención Social y doctora en Psicología por la Universidad de Granada, España. Sus líneas principales de investigación son el estudio de la desigualdad de género, sus mecanismos y consecuencias; las relaciones intergrupales y los antecedentes de los movimientos sociales.
+Gloria es profesora asociada de la Escuela de Psicología de la Pontificia Universidad Católica. Es doctora en Psicología por la Universidad de Granada (España), y en Psicología de la Intervención Social por la misma universidad. Fue investigadora postdoctorante en el Centro de Conflicto y Cohesión Social. Sus temas de investigación se relacionan con la desigualdad de género desde la óptica de la psicología social, y el diseño de intervenciones para reducir dicha desigualdad en el contexto escolar.
 
-En la actualidad dirige el Fondecyt Regular (N° 1240064) «Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia».
+## Proyecto actual
+
+**Fondecyt Regular:** Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia (1240064) - Investigadora principal
 
 ## Áreas de interés
 
-- Desigualdad de género: mecanismos y consecuencias
+- Desigualdad de género desde la psicología social
+- Intervenciones para reducir desigualdad de género en contexto escolar
 - Relaciones intergrupales
-- Antecedentes de los movimientos sociales
-- Igualdad de género y contexto escolar (normas sociales y autoeficacia)
+- Movimientos sociales
 
 ## Educación
 
 - **Doctora en Psicología** — Universidad de Granada, España
-- **Máster en Psicología de la Intervención Social** — Universidad de Granada, España
-- **Psicóloga social** (pregrado)
+- **Doctora en Psicología de la Intervención Social** — Universidad de Granada, España
 
 ## Últimas publicaciones
 

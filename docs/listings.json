@@ -1,31 +1,5 @@
 [
   {
-    "listing": "/equipo/index.html",
-    "items": [
-      "/equipo/ana-figueiredo.html",
-      "/equipo/monica-gerber.html",
-      "/equipo/luciano-saez-fuentealba.html",
-      "/equipo/cristobal-moya.html",
-      "/equipo/macarena-orchard.html",
-      "/equipo/coordinacion-vinculacion-medio.html",
-      "/equipo/paz-irarrazabal.html",
-      "/equipo/loreto-quiroz.html",
-      "/equipo/joaquin-bahamondes.html",
-      "/equipo/ismael-puga.html",
-      "/equipo/matias-gomez.html",
-      "/equipo/sofia-donoso.html",
-      "/equipo/gloria-jimenez-moya.html",
-      "/equipo/manuela-badilla.html",
-      "/equipo/matias-deneken.html",
-      "/equipo/asistentes-anteriores/bruno-rojas.html",
-      "/equipo/amparo-feller.html",
-      "/equipo/martin-venegas.html",
-      "/equipo/rene-canales-selles.html",
-      "/equipo/lidia-yanez-lagos.html",
-      "/equipo/carlos-anriquez-gundian.html"
-    ]
-  },
-  {
     "listing": "/eventos/index.html",
     "items": [
       "/eventos/2026-01-20-seminario-legitimidad.html"
@@ -34,6 +8,10 @@
   {
     "listing": "/noticias/index.html",
     "items": [
+      "/noticias/2026-05-10/index.html",
+      "/noticias/2026-05-05/index.html",
+      "/noticias/2026-04-28/index.html",
+      "/noticias/2026-04-01/index.html",
       "/noticias/2026-01-20/index.html",
       "/noticias/2026-01-19/index.html",
       "/noticias/2026-01-14/index.html",
@@ -71,6 +49,30 @@
       "/noticias/2021-03-30/index.html",
       "/noticias/2021-03-26/index.html",
       "/noticias/2020-09-22/index.html"
+    ]
+  },
+  {
+    "listing": "/equipo/index.html",
+    "items": [
+      "/equipo/ana-figueiredo.html",
+      "/equipo/monica-gerber.html",
+      "/equipo/luciano-saez-fuentealba.html",
+      "/equipo/cristobal-moya.html",
+      "/equipo/macarena-orchard.html",
+      "/equipo/paz-irarrazabal.html",
+      "/equipo/loreto-quiroz.html",
+      "/equipo/joaquin-bahamondes.html",
+      "/equipo/ismael-puga.html",
+      "/equipo/matias-gomez.html",
+      "/equipo/sofia-donoso.html",
+      "/equipo/gloria-jimenez-moya.html",
+      "/equipo/manuela-badilla.html",
+      "/equipo/matias-deneken.html",
+      "/equipo/asistentes-anteriores/bruno-rojas.html",
+      "/equipo/amparo-feller.html",
+      "/equipo/martin-venegas.html",
+      "/equipo/lidia-yanez-lagos.html",
+      "/equipo/carlos-anriquez-gundian.html"
     ]
   }
 ]

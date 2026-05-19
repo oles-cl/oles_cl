@@ -1,0 +1,37 @@
+---
+title: "Primer Informe del Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP)"
+description: "Informe descriptivo de las primeras cuatro olas del Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP)."
+venue: "Observatorio de Violencia y Legitimidad Social (OLES)"
+tipo: reporte
+date: "2025-04-01"
+author: "Gerber, Monica; Moya, Cristóbal; Deneken, Matías; Cantillán, Roberto"
+authors: [monica-gerber, cristobal-moya, matias-deneken]
+doi: "https://doi.org/10.17605/OSF.IO/X8GYA"
+reference: "Gerber, M., Moya, C., Deneken, M., & Cantillán, R. (2025). Primer Informe del Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP). Observatorio de Violencia y Legitimidad Social (OLES). https://doi.org/10.17605/OSF.IO/X8GYA"
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Primer Informe del Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP)
+
+El Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP) tiene como objetivo conocer las percepciones de las personas sobre la delincuencia en el país, la manera en que estas se vinculan con las policías, y como estas actitudes cambian a lo largo del tiempo.
+
+Este informe presenta los resultados descriptivos de las primeras cuatro olas de medición del estudio, recogidas entre septiembre 2024 y abril 2025. El estudio adopta un diseño de panel rodante que permite analizar el efecto causal de eventos esperados e inesperados en las actitudes sociales.
+
+**Autores OLES:** [Monica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html), [Matías Deneken](../equipo/matias-deneken.html), Roberto Cantillán
+
+**Fecha:** 2025.
+
+## Enlaces
+
+- [Ver informe online](https://olescl.quarto.pub/informe_w04/#/title-slide)
+- Manual metodológico (Próximamente)
+- [Repositorio OSF](https://osf.io/8ck5z/)
+
+## Referencia sugerida
+
+Gerber, M., Moya, C., Deneken, M., & Cantillán, R. (2025). Primer Informe del Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP). Observatorio de Violencia y Legitimidad Social (OLES). https://doi.org/10.17605/OSF.IO/X8GYA
+
+[← Volver a Publicaciones](index.qmd)

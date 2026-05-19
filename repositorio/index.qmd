@@ -1,0 +1,84 @@
+---
+title: "Datos"
+page-layout: full
+toc: false
+---
+
+```{=html}
+<style>
+/* Centrar y subrayar título de la página Datos */
+#quarto-content h1.title,
+.quarto-title h1.title {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #4E4976;
+  margin: 0 auto 2rem;
+  display: inline-block;
+  width: auto;
+}
+</style>
+
+<div class="epsep-page">
+
+<div class="epsep-card">
+  <h3 class="epsep-card-title"><span>📊</span> Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP, 2024-2028)</h3>
+  <p class="epsep-card-subtitle">
+    Este estudio corresponde a una encuesta panel longitudinal con aplicación via web. La encuesta tiene como objetivo conocer las percepciones de las personas sobre la delincuencia en el país, la manera en que estas se vinculan con las policías, y como estas actitudes cambian a lo largo del tiempo. Actualmente, este estudio cuenta con siete olas de medición, recogidas cada tres meses entre septiembre 2024 y abril 2026. Desde el año 2026, la encuesta será aplicada cada seis meses.
+  </p>
+  <p class="epsep-card-subtitle">
+    La población objetivo son personas de entre 18 y 65 años residentes en Chile. El muestreo es por cuotas según sexo, edad, nivel socioeconómico y zona del país. Se consideró un reclutamiento inicial (r0 = 6.214), así como dos muestras de refresco (r1 = 4.548; r2 = 2.630).
+  </p>
+  <p class="epsep-card-subtitle">
+    Este estudio ha sido financiado por los proyectos ANID Fondecyt Regular N. 1221805, N. 1261483 y N. 1251411, así como por el proyecto ANID Exploración N. 13220187.
+  </p>
+  <div class="epsep-buttons">
+    <a class="epsep-btn epsep-btn-primary"
+       href="https://olescl.quarto.pub/informe_w04/#/title-slide"
+       target="_blank"
+       rel="noopener">
+      <span>▶</span>
+      <span>Ver Informe</span>
+    </a>
+    <a class="epsep-btn epsep-btn-secondary"
+       href="https://osf.io/8ck5z/"
+       target="_blank"
+       rel="noopener">
+      <span>📦</span>
+      <span>Repositorio OSF</span>
+    </a>
+  </div>
+</div>
+
+<div class="epsep-card">
+  <h3 class="epsep-card-title"><span>📊</span> Estudio de Percepciones de Seguridad y Policías en Chile (ESEP, 2023-2024)</h3>
+  <p class="epsep-card-subtitle">
+    Este estudio corresponde a una encuesta transversal con aplicación cara a cara a una muestra probabilística y representativa de las personas que viven en zonas urbanas de Chile. Tiene como objetivo conocer las percepciones de las personas sobre la delincuencia en el país y la manera en que estas se vinculan con las policías.
+  </p>
+  <p class="epsep-card-subtitle">
+    El trabajo de campo se realizó entre mayo de 2023 y febrero de 2024, con 5.304 casos válidos, una tasa de respuesta de 54,6% y un error estándar de 1,4%. El levantamiento de datos estuvo a cargo de la consultora Datavoz.
+  </p>
+  <p class="epsep-card-subtitle">
+    Este estudio fue financiado a través de los proyectos ANID Fondecyt Regular N. 1221805 y ANID Exploración N. 13220187.
+  </p>
+  <div class="epsep-buttons">
+    <a class="epsep-btn epsep-btn-primary"
+       href="https://raw.githack.com/oles-cl/esep_presentations/main/report/w0_report.pdf"
+       target="_blank"
+       rel="noopener">
+      <span>📄</span>
+      <span>Ver Informe (PDF)</span>
+    </a>
+    <a class="epsep-btn epsep-btn-secondary"
+       href="https://osf.io/r9w3c/"
+       target="_blank"
+       rel="noopener">
+      <span>📦</span>
+      <span>Repositorio OSF</span>
+    </a>
+  </div>
+</div>
+
+<a href="../index.html" class="epsep-back">← Volver al Inicio</a>
+
+</div>
+```

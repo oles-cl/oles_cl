@@ -1,10 +1,9 @@
 ---
-title: "Rethinking police empowerment: unpacking its meaning and consequences"
+title: "Repensando el empoderamiento policial: significados y consecuencias"
 estado: "en-curso"
 etiqueta: "fondecyt"
-investigador_responsable: "Ana Figueiredo"
-# Fuente: fondecyt-rethinking.qmd → salida web: fondecyt-rethinking.html
-# Antes en el sitio: cualitativo-longitudinal.* / listado «Fondecyt Ana» / estudio cualitativo longitudinal.
+linea: "1"
+investigador_responsable: "Monica Gerber"
 aliases:
   - cualitativo-longitudinal.html
   - fondecyt_rethinking.html
@@ -15,28 +14,39 @@ format:
 
 :::{.estudio-layout}
 :::{.estudio-col-izq}
-## Investigador responsable
+## Investigadora responsable
 
-[Ana Figueiredo](../equipo/ana-figueiredo.html)
+[Monica Gerber](../equipo/monica-gerber.html)
 
-## Investigadores
+## Investigadoras/es
 
-[Mónica Gerber](../equipo/monica-gerber.html)
+- [Ana Figueiredo](../equipo/ana-figueiredo.html)
+- [Macarena Orchard](../equipo/macarena-orchard.html)
+- [Paz Irarrázabal](../equipo/paz-irarrazabal.html)
 
 ## Asistentes de investigación
 
-[Amparo Feller](../equipo/amparo-feller.html)
+[Martín Venegas](../equipo/martin-venegas.html)
+
+## Años
+
+2026-2029
+
+## Financiamiento
+
+Proyecto ANID Fondecyt Regular N. 1261483
 :::
 
 :::{.estudio-col-der}
 
-## Proyecto
+## Descripción
 
-Fondecyt Regular (N.º 1251411) para analizar las interacciones entre la policía y distintos grupos minoritarios, centrándose en las experiencias y percepciones de personas mapuche, migrantes y jóvenes de bajos recursos socioeconómicos en Chile (2025–2029).
+El proyecto analiza el concepto de empoderamiento policial y sus consecuencias para el control de la delincuencia, así como los riesgos asociados al abuso policial. En Chile, el aumento del miedo a la delincuencia y una creciente tendencia a la securitización han consolidado un amplio apoyo ciudadano a la expansión de las atribuciones policiales.
 
-## Métodos
+El proyecto propone avanzar hacia una definición conceptual del empoderamiento policial entendido como la adquisición o ampliación de poderes en tres dimensiones: mandatos legales, capacidades institucionales y administrativas, y percepciones sociales. Distinguir entre estas dimensiones permite analizar de manera diferenciada sus consecuencias; en particular, examinar si las distintas formas de empoderamiento efectivamente aumentan la seguridad y si los mecanismos de rendición de cuentas pueden reducir el riesgo de abuso de poder.
 
-Diseño longitudinal con entrevistas en profundidad y/o grupos de discusión en olas repetidas; análisis temático y de trayectorias; triangulación con datos cuantitativos cuando aplica.
+Metodológicamente, adopta un diseño multimétodo de seis estudios interrelacionados (entrevistas a expertos y a funcionarios policiales, una encuesta panel longitudinal, análisis de datos secundarios y de leyes, y análisis de discursos), centrado en el caso de Carabineros de Chile, una policía militarizada marcada por un fuerte legado autoritario y un apoyo público y político fluctuante. El propósito último es generar recomendaciones basadas en evidencia para un empoderamiento policial equilibrado, capaz de fortalecer la seguridad y el orden públicos resguardando a la vez los derechos fundamentales.
+
 :::
 :::
 

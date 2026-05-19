@@ -26,15 +26,13 @@ website:
         menu:
           - text: "Proyectos de Investigación"
             href: estudios/index.qmd
-          - text: "Líneas de investigación"
+          - text: "Líneas de Investigación"
             href: estudios/lineas.qmd
           - text: "---"
-          - text: "Publicaciones Académicas"
+          - text: "Publicaciones"
             href: publicaciones/index.qmd
-      - text: "Repositorio de datos"
-        menu:
-          - text: "EPSEP"
-            href: repositorio/epsep.qmd
+      - text: "Datos"
+        href: repositorio/index.qmd
       - text: "Equipo"
         href: equipo/index.qmd
       - text: "Contacto"

@@ -1,0 +1,38 @@
+---
+title: "Informe Estudio de Percepciones de Seguridad y Policías en Chile (ESEP)"
+description: "Informe descriptivo del Estudio de Percepciones de Seguridad y Policías en Chile (ESEP), encuesta transversal representativa nacional."
+venue: "Observatorio de Violencia y Legitimidad Social (OLES)"
+tipo: reporte
+date: "2024-02-01"
+author: "Gerber, Monica; Moya, Cristóbal; Tobar, Nicolás"
+authors: [monica-gerber, cristobal-moya]
+doi: "https://raw.githack.com/oles-cl/esep_presentations/main/report/w0_report.pdf"
+reference: "Gerber, M., Moya, C., & Tobar, N. (2024). Informe Estudio de Percepciones de Seguridad y Policías en Chile (ESEP). Observatorio de Violencia y Legitimidad Social (OLES)."
+format:
+  html:
+    title-block-style: none
+    body-classes: publicacion-page
+---
+
+# Informe Estudio de Percepciones de Seguridad y Policías en Chile (ESEP)
+
+El Estudio de Percepciones de Seguridad y Policías en Chile (ESEP) tuvo como objetivo conocer las percepciones de las personas sobre la delincuencia en el país y la manera en que estas se vinculan con las policías.
+
+Se aplicó una encuesta presencial cara a cara en hogares, mediante un cuestionario estructurado con preguntas cerradas. La población objetivo fueron personas de entre 18 y 65 años residentes en zonas urbanas de Chile, con un diseño muestral estratificado por conglomerados, polietápico y probabilístico en todas sus etapas.
+
+El trabajo de campo se realizó entre mayo de 2023 y febrero de 2024, con 5.304 casos válidos, una tasa de respuesta de 54,6% y un error estándar de 1,4%. El levantamiento de datos estuvo a cargo de la consultora Datavoz.
+
+**Autores OLES:** [Monica Gerber](../equipo/monica-gerber.html), [Cristóbal Moya](../equipo/cristobal-moya.html)
+
+**Fecha:** 2024.
+
+## Enlaces
+
+- [Ver informe (PDF)](https://raw.githack.com/oles-cl/esep_presentations/main/report/w0_report.pdf)
+- [Repositorio OSF](https://osf.io/r9w3c/)
+
+## Referencia sugerida
+
+Gerber, M., Moya, C., & Tobar, N. (2024). Informe Estudio de Percepciones de Seguridad y Policías en Chile (ESEP). Observatorio de Violencia y Legitimidad Social (OLES).
+
+[← Volver a Publicaciones](index.qmd)

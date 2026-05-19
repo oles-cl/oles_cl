@@ -14,6 +14,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:cristobalmoya@gmail.com
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?hl=es&user=PeKObcsAAAAJ&view_op=list_works&sortby=pubdate
     - icon: person-fill
       text: ORCID
       href: https://orcid.org/0000-0002-7176-4775

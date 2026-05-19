@@ -1,0 +1,53 @@
+---
+title: "Estudio de Percepciones de Seguridad y Policías en Chile (ESEP, 2023-2024)"
+estado: "finalizado"
+etiqueta: "fondecyt"
+linea: "1"
+investigador_responsable: "Monica Gerber"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigadora responsable
+
+[Monica Gerber](../equipo/monica-gerber.html)
+
+## Investigadoras/es
+
+[Cristóbal Moya](../equipo/cristobal-moya.html)
+
+## Asistentes de investigación
+
+Nicolás Tobar
+
+## Años
+
+2023-2024
+
+## Financiamiento
+
+Proyecto ANID Fondecyt Regular N. 1221805. Proyecto ANID Exploración N. 13220187.
+
+## Resultados
+
+- [Informe ESEP – descargar PDF](https://raw.githack.com/oles-cl/esep_presentations/main/report/w0_report.pdf)
+- [Repositorio OSF](https://osf.io/r9w3c/)
+:::
+
+:::{.estudio-col-der}
+
+## Descripción
+
+El Estudio de Percepciones de Seguridad y Policías en Chile (ESEP) tuvo como objetivo conocer las percepciones de las personas sobre la delincuencia en el país y la manera en que estas se vinculan con las policías. Se aplicó una encuesta presencial cara a cara en hogares, mediante un cuestionario estructurado con preguntas cerradas. La población objetivo fueron personas de entre 18 y 65 años residentes en zonas urbanas de Chile, con un diseño muestral estratificado por conglomerados, polietápico y probabilístico en todas sus etapas.
+
+El trabajo de campo se realizó entre mayo de 2023 y febrero de 2024, con 5.304 casos válidos, una tasa de respuesta de 54,6% y un error estándar de 1,4%. El levantamiento de datos estuvo a cargo de la consultora Datavoz.
+
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

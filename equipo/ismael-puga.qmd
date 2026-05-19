@@ -25,12 +25,12 @@ educacion:
   - titulo: "Maestría en Ciencias Sociales"
     institucion: "FLACSO"
   - titulo: "Sociólogo"
-    institucion: "Universidad Alberto Hurtado"
+    institucion: "Universidad de Chile"
 ---
 
 ## Descripción
 
-Doctor en Sociología de la Universidad Humboldt de Berlín, Alemania. Sociólogo, Universidad Alberto Hurtado. Maestría en Ciencias Sociales en FLACSO.
+Doctor en Sociología de la Universidad Humboldt de Berlín, Alemania. Sociólogo, Universidad de Chile. Maestría en Ciencias Sociales en FLACSO.
 
 ## Áreas de Interés
 
@@ -43,7 +43,7 @@ Doctor en Sociología de la Universidad Humboldt de Berlín, Alemania. Sociólog
 
 - **Doctor en Sociología** - Universidad Humboldt de Berlín
 - **Maestría en Ciencias Sociales** - FLACSO
-- **Sociólogo** - Universidad Alberto Hurtado
+- **Sociólogo** - Universidad de Chile
 
 ## Últimas publicaciones
 

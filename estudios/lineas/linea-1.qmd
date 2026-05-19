@@ -8,8 +8,6 @@ toc: false
 
 ## Introducción
 
-[Descripción ampliada — pendiente de redacción.]
-
 Esta línea agrupa investigaciones sobre el ejercicio de la fuerza estatal, prácticas de control social, vulneraciones a derechos fundamentales y legitimidad en torno a instituciones de seguridad y reparación.
 
 ## Investigadoras/es
@@ -18,17 +16,17 @@ Esta línea agrupa investigaciones sobre el ejercicio de la fuerza estatal, prá
 - [Ana Figueiredo](../../equipo/ana-figueiredo.html)
 - [Paz Irarrázabal González](../../equipo/paz-irarrazabal.html)
 - [Loreto Quiroz](../../equipo/loreto-quiroz.html)
-- [Mónica Gerber](../../equipo/monica-gerber.html)
+- [Monica Gerber](../../equipo/monica-gerber.html)
 - [Manuela Badilla Rajevic](../../equipo/manuela-badilla.html)
 
 ## Proyectos asociados
 
-- [Rethinking police empowerment: unpacking its meaning and consequences](../fondecyt-rethinking.html)
-- [Tesis (doctorado) Luciano Sáez](../tesis-doctorado-luciano-saez.html)
-- [Fondecyt Paz Irarrázabal](../fondecyt-paz-irarrazabal.html)
-- [El derecho a la seguridad y la agencia ciudadana frente al delito en Chile](../fondecyt-loreto-quiroz.html)
-- [Exploración (grupos focales)](../grupos-focales.html)
-- [Fondecyt Mónica — ESEP y trayectoria](../esep.html)
+- [Repensando el empoderamiento policial: significados y consecuencias](../fondecyt-rethinking.html)
+- [¿Cómo se relacionan los grupos minoritarios en Chile en su interacción con la policía?](../fondecyt-ana-grupos-minoritarios.html)
+- [Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP, 2024-2028)](../esep.html)
+- [La seguridad como derecho: la conciencia jurídica de la ciudadanía frente al delito](../fondecyt-loreto-seguridad-derecho.html)
+- [Legitimidad de las policías en Chile (Exploración)](../exploracion.html)
+- [Tesis doctoral: Economía moral de las instituciones y legitimidad policial](../tesis-doctorado-luciano-saez.html)
 
 </div>
 

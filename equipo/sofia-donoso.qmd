@@ -5,7 +5,7 @@ categories: [Investigadores principales]
 orden: 35
 email: "sofia.donoso@uchile.cl"
 organizacion: "Universidad de Chile"
-image: "../images/logos/icon.png"
+image: "sofia-donoso.png"
 about:
   template: trestles
   image-shape: round

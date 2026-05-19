@@ -1,0 +1,53 @@
+---
+title: "Encuesta de Legitimidad de Carabineros. Violencia, Derechos Humanos y Control Social (2021–2022)"
+estado: "finalizado"
+etiqueta: "fondecyt"
+linea: "1"
+investigador_responsable: "Monica Gerber, Ana Figueiredo, Macarena Orchard"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigadoras/es responsables
+
+- [Monica Gerber](../equipo/monica-gerber.html)
+- [Ana Figueiredo](../equipo/ana-figueiredo.html)
+- [Macarena Orchard](../equipo/macarena-orchard.html)
+
+## Investigadoras/es
+
+- [Loreto Quiroz](../equipo/loreto-quiroz.html)
+- [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+
+## Asistentes de investigación
+
+- [Luciano Sáez](../equipo/luciano-saez-fuentealba.html)
+- Paloma Rojas
+- Fernando
+
+## Años
+
+2021-2022
+
+## Financiamiento
+
+Universidad Diego Portales y el proyecto ANID FONDAP Centro de Estudios de Conflicto y Cohesión Social (COES)
+:::
+
+:::{.estudio-col-der}
+
+## Descripción
+
+La encuesta "Legitimidad de Carabineros de Chile: Violencia, Derechos Humanos y control social es una encuesta panel que busca analizar el cambio en las percepciones, actitudes y creencias en torno a la vinculación entre Carabineros de Chile y las personas. Se enfoca principalmente en entender las relaciones entre carabineros y las personas que participan en protestas.
+
+En particular, evalúa el efecto de las percepciones de justicia en el trato y los procedimientos de Carabineros sobre la legitimidad de la institución y sobre la justificación de la violencia como forma de reivindicar derechos por parte de manifestantes. La encuesta recogió datos online en tres mediciones en el tiempo entre los años 2021 y 2022. La muestra considerada fue de tipo no probabilístico por cuotas de sexo, edad y nivel socio-económico. Se consideró un universo de personas mayores de 18 años que viven en Chile.
+
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

@@ -1,0 +1,61 @@
+---
+title: "Legitimidad de las policías en Chile: el efecto causal de la violencia y la corrupción desde una perspectiva multi-actor, longitudinal y multi-métodos"
+estado: "en-curso"
+etiqueta: "exploracion"
+linea: "1"
+investigador_responsable: "Monica Gerber, Claudio Fuentes"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Investigadoras/es responsables
+
+- [Monica Gerber](../equipo/monica-gerber.html)
+- Claudio Fuentes
+
+## Investigadoras/es
+
+- [Ana Figueiredo](../equipo/ana-figueiredo.html)
+- [Macarena Orchard](../equipo/macarena-orchard.html)
+- [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+- [Paz Irarrázabal](../equipo/paz-irarrazabal.html)
+- [Loreto Quiroz](../equipo/loreto-quiroz.html)
+- [Ismael Puga](../equipo/ismael-puga.html)
+- [Cristóbal Moya](../equipo/cristobal-moya.html)
+
+## Asistentes de investigación
+
+- [Matías Deneken](../equipo/matias-deneken.html)
+- Nicolás Tobar
+
+## Años
+
+2023-2025
+
+## Financiamiento
+
+Proyecto ANID Exploración 13220187
+
+## Resultados
+
+- [Primer Informe del EPSEP – ver online](https://olescl.quarto.pub/informe_w04/#/title-slide)
+
+:::
+
+:::{.estudio-col-der}
+
+## Descripción
+
+El proyecto analiza cómo cambian en el tiempo las percepciones de legitimidad y justicia procedimental de las policías chilenas (Carabineros de Chile y Policía de Investigaciones) entre las personas, y qué factores explican su aumento o disminución, en un contexto de crisis de legitimidad policial marcado por episodios de corrupción y uso excesivo de la fuerza. Busca identificar el efecto causal de eventos de violencia policial y corrupción sobre estas percepciones, incorporando tanto la mirada de las personas como la de los propios funcionarios.
+
+Para ello adopta un diseño causal-longitudinal y multimétodo de cuatro estudios: un panel cuantitativo representativo nacional con olas trimestrales (EPSEP); un panel cualitativo longitudinal con grupos focales con tres grupos desaventajados (jóvenes de bajo nivel socioeconómico, minoría indígena e inmigrantes) y entrevistas a funcionarios de ambas policías; un análisis longitudinal de prensa en redes sociales; y una base de datos longitudinal con información administrativa y judicial sobre eventos que inciden en la legitimidad policial.
+
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::
