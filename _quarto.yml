@@ -3,8 +3,7 @@ project:
   output-dir: docs
   pre-render: compilar_publicaciones_perfiles.R
   resources:
-    - images/logos/*.mp4
-    - images/logos/*.mov
+    - images/logos/download.mp4
     # Asegura que todas las fotos del equipo lleguen a docs/ (evita rotas si un render no touchó cada perfil).
     - equipo/image/*
 

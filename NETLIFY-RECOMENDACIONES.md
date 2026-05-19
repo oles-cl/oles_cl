@@ -19,7 +19,7 @@ Tu sitio se publica desde la carpeta `docs`. Este archivo está en la raíz del 
 
 ### 1. Reducir peso del sitio (prioritario)
 
-- **Videos en la portada:** `video_entrada.mp4` y `video-entrada-nuevo.mov` suman ~10 MB. Si puedes:
+- **Video en la portada:** solo `images/logos/download.mp4`. Si puedes:
   - Dejar solo **una** versión en MP4 (mejor compatibilidad y menor tamaño).
   - Comprimir el video (resolución moderada, bitrate bajo) o subirlo a YouTube/Vimeo y embeber.
 - **Imágenes:** Comprimir fotos (equipo, noticias) antes de subir. Herramientas: [Squoosh](https://squoosh.app), TinyPNG.

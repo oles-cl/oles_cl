@@ -11,3 +11,12 @@
 
 # Temporary scripts
 *_temp.R
+
+# Artefactos locales de preview Quarto (no publicar)
+README.html
+README_files/
+somos_files/
+contacto_files/
+
+# Copias duplicadas de imágenes de noticias (usar noticias/YYYY-MM-DD/)
+images/noticias/
