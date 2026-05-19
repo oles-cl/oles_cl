@@ -5,7 +5,7 @@ categories: [Asistentes de investigación]
 orden: 33
 email: "amparo.feller@udp.cl"
 organizacion: "Universidad Diego Portales"
-image: "image/amparo-feller.png"
+image: "image/amparo-feller.png?v=20260520"
 about:
   template: trestles
   image-shape: round
