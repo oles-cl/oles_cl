@@ -150,6 +150,28 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<!-- Splash Screen -->
+<div id="splash-screen">
+  <img src="images/logos/logo2.png" alt="OLES Logo" class="splash-logo">
+  <div class="splash-text">Observatorio de Violencia y Legitimidad SOCIAL (OLES)</div>
+</div>
+
+<script>
+  (function() {
+    const splashScreen = document.getElementById('splash-screen');
+    
+    // Mostrar splash por 1 segundo, luego fade out
+    setTimeout(function() {
+      splashScreen.classList.add('fade-out');
+      
+      // Remover del DOM después del fade out
+      setTimeout(function() {
+        splashScreen.style.display = 'none';
+      }, 600); // 600ms = duración del fade-out
+    }, 1000); // 1000ms = 1 segundo
+  })();
+</script>
+
 <!-- Hero Section con Video -->
 <section class="hero-section">
   <video class="hero-video" autoplay="" muted="" loop="" playsinline="" poster="images/logos/video-poster.png">
