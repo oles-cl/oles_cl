@@ -164,6 +164,10 @@ body:has(.hero-section) main.content {
   background-color: #f8f7fc !important;
 }
 
+body:has(.hero-section) #quarto-content {
+  padding-top: 0 !important;
+}
+
 .hero-section {
   position: relative;
   width: 100%;
