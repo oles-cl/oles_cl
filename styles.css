@@ -2940,9 +2940,6 @@ h1.title {
 /* Imagen circular del perfil */
 .quarto-about-trestles .about-image {
   border: 4px solid var(--primary-light) !important;
-}
-
-.quarto-about-trestles .about-image[src*="manuela"] {
   object-fit: cover;
   object-position: center top;
 }
@@ -4096,13 +4093,8 @@ body:has(.estudio-linea-institucional) main#quarto-document-content .quarto-titl
   width: 160px !important;
   height: 160px !important;
   object-fit: cover !important;
-  margin: 0 auto !important;
-}
-
-/* Manuela Badilla: foto vertical; priorizar cara (parte superior). */
-.equipo-roster-page .quarto-listing-default .card-img-top img[src*="manuela"],
-.equipo-roster-page .quarto-listing-default .thumbnail-image[src*="manuela"] {
   object-position: center top !important;
+  margin: 0 auto !important;
 }
 
 .equipo-roster-page .quarto-listing-default .card-body {
