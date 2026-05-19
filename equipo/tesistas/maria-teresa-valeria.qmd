@@ -1,8 +1,44 @@
 ---
-title: "María Teresa Valeria"
+title: "María Teresa Valeria Zambrano"
 grado: "Doctorado"
 universidad: "Universidad Diego Portales"
-titulo_tesis: "[Título pendiente]"
+titulo_tesis: "Modelo psicopolítico para comprender la radicalidad política en contextos de protesta social"
 anio: "En curso"
 estado: "en curso"
+email: "maria.valeria@mail.udp.cl"
+orcid: "https://orcid.org/0000-0002-9470-3246"
+linkedin: "https://www.linkedin.com/in/maritevaleriazambrano"
+categories: [Tesistas]
 ---
+
+## Descripción
+
+María Teresa Valeria Zambrano es Cientista Política de la Universidad Católica de Temuco y Magíster en Métodos para la Investigación Social de la Universidad Diego Portales. Actualmente cursa el Doctorado en Ciencias Sociales en la misma universidad, y es candidata a doctora con una tesis que propone un modelo psicopolítico para comprender la radicalidad política en contextos de protesta social, financiada por la Beca Doctorado Nacional de la Agencia Nacional de Investigación y Desarrollo (ANID, folio N° 21241366).
+
+Sus intereses de investigación se sitúan en la intersección entre la psicología política y la acción colectiva, con especial atención a los procesos de radicalización política en América Latina, la justificación de la violencia y la identificación grupal. Es Investigadora Adjunta del Instituto de Ciencias Sociales y Humanidades (ICSOH) de la Universidad Diego Portales y ha colaborado en proyectos Fondecyt sobre crisis políticas, relaciones ciudadanía-policía y revueltas urbanas en la región.
+
+Como docente, ha impartido cursos en las áreas de Ciencia Política, Administración Pública, Sociología y Psicología en diversas universidades chilenas. Ha presentado su trabajo como expositora en instancias académicas nacionales e internacionales, incluyendo congresos en Argentina y Uruguay, y cuenta con publicaciones en revistas académicas indexadas.
+
+## Tesis doctoral
+
+Beca Doctorado Nacional ANID (folio N° 21241366). Modelo psicopolítico para comprender la radicalidad política en contextos de protesta social.
+
+## Colaboración en OLES
+
+Asistente de Investigación en el proyecto Fondecyt Regular N° 124077 «Revueltas Urbanas en América Latina (1989-2023)». Investigador responsable: Dr. Nicolás Somma.
+
+## Áreas de interés
+
+- Radicalidad política
+- Psicología política
+- Acción colectiva y protesta social
+
+## Publicación destacada
+
+Valeria-Zambrano, M. T. (2025). Identificación Grupal y Justificación de los Chilenos al Uso de Tácticas Violentas en la Protesta. *Psykhe*, 34. https://doi.org/10.7764/psykhe.2023.58099
+
+## Próxima participación
+
+XIII Congreso Latinoamericano de Ciencia Política (ALACIP 2026) – Buenos Aires, Argentina – 21 al 24 de julio de 2026 – Expositora
+
+<a href="index.html" class="btn-volver">← Volver a Tesistas</a>

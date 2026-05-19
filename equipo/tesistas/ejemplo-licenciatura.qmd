@@ -5,7 +5,6 @@ universidad: "Universidad de Santiago de Chile"
 titulo_tesis: "Percepciones sobre la legitimidad policial en jóvenes urbanos"
 anio: "2024"
 estado: "finalizada"
-pdf_link: "https://example.com/tesis/carlos-martinez.pdf"
 categories: [Tesistas]
 ---
 

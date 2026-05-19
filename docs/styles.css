@@ -192,6 +192,7 @@ body:has(.hero-section) main.content {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
   transition: var(--transition);
 }
 
@@ -282,8 +283,7 @@ body:has(.hero-section) main.content {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Recorte centrado (captura el medio de la foto, no sesgo vertical) */
-  object-position: center center;
+  object-position: center top;
   transition: var(--transition);
 }
 
@@ -2934,11 +2934,11 @@ h1.title {
   transition: transform 0.3s ease;
 }
 
-/* Portada «Noticias» — miniaturas: mismo recorte centrado que en Noticias recientes */
+/* Portada «Noticias» — miniaturas: recorte desde arriba */
 #listing-listing-noticias .card-img-top img,
 #listing-listing-noticias .thumbnail-image.card-img {
   object-fit: cover;
-  object-position: center center;
+  object-position: center top;
 }
 
 .quarto-grid-item:hover .card-img-top img,

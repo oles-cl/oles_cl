@@ -5,7 +5,6 @@ universidad: "Pontificia Universidad Católica de Chile"
 titulo_tesis: "Convirtiéndose en policía: la aprehensión de un orden institucional"
 anio: "2023"
 estado: "finalizada"
-pdf_link: "https://example.com/tesis/pedro-carvallo.pdf"
 categories: [Tesistas]
 ---
 

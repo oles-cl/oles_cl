@@ -429,13 +429,6 @@ if (length(tesistas) > 0) {
           estado_texto <- ifelse(tesista$estado_normalizado == "finalizada", "[Finalizada]", "[En curso]")
           estado_clase <- tesista$estado_normalizado
           
-          pdf_html <- ""
-          if (tesista$pdf_link != "" && !is.na(tesista$pdf_link) && nchar(trimws(tesista$pdf_link)) > 0) {
-            pdf_link_clean <- trimws(tesista$pdf_link)
-            pdf_html <- sprintf('
-    <a href="%s" target="_blank" class="tesista-pdf">Ver PDF</a>', pdf_link_clean)
-          }
-          
           cat(knitr::raw_html(sprintf('
     <div class="tesista-card %s">
       <h3 class="tesista-nombre">%s</h3>
@@ -446,10 +439,9 @@ if (length(tesistas) > 0) {
       </div>
       <span class="tesista-estado %s">%s</span>
       <div class="tesista-titulo">%s</div>
-      %s
     </div>
 ', clase_grado, nombre_escaped, tesista$grado, universidad_escaped, 
-   tesista$anio, estado_clase, estado_texto, titulo_escaped, pdf_html)))
+   tesista$anio, estado_clase, estado_texto, titulo_escaped)))
         }
         
         cat(knitr::raw_html('
