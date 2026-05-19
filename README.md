@@ -61,7 +61,7 @@ Requisitos: **R** y el paquete **`yaml`** (`install.packages("yaml")`) para el s
 
 Tras compilar, hacer commit de los cambios en fuentes y de **`docs/`** según el flujo de tu hosting.
 
-Para publicar en **https://www.oles.cl** con GitHub Pages (DNS + dominio personalizado), ver **[DOMINIO-OLES.md](DOMINIO-OLES.md)**.
+**Producción actual:** [https://oles-cl.netlify.app/](https://oles-cl.netlify.app/) (carpeta `docs/` tras `quarto render` + push; ver `netlify.toml`). Para **www.oles.cl** más adelante, ver **[DOMINIO-OLES.md](DOMINIO-OLES.md)** (no activar en GitHub/NIC hasta migrar).
 
 ---
 

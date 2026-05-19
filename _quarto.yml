@@ -4,12 +4,12 @@ project:
   pre-render: compilar_publicaciones_perfiles.R
   resources:
     - images/logos/download.mp4
-    - CNAME
     # Asegura que todas las fotos del equipo lleguen a docs/ (evita rotas si un render no touchó cada perfil).
     - equipo/image/*
 
 website:
-  site-url: https://www.oles.cl
+  # Sitio en producción hoy: Netlify. Cuando migres a www.oles.cl, cambia site-url y ver DOMINIO-OLES.md
+  site-url: https://oles-cl.netlify.app
   title: ""
   favicon: images/logos/icon.png
   navbar:

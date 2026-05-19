@@ -1,1 +1,1 @@
-Sitemap: https://www.oles.cl/sitemap.xml
+Sitemap: https://oles-cl.netlify.app/sitemap.xml

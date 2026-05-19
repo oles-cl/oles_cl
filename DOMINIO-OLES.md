@@ -1,8 +1,14 @@
-# Publicar en www.oles.cl (GitHub Pages)
+# Publicar en www.oles.cl (cuando quieras migrar)
 
-El sitio compilado va a `docs/`. GitHub Pages puede servir esa carpeta con dominio propio **www.oles.cl**.
+**Ahora el sitio público está en Netlify:** [https://oles-cl.netlify.app/](https://oles-cl.netlify.app/)
 
-## 1. Repositorio en GitHub
+**No configures todavía** dominio personalizado en GitHub Pages ni apuntes `oles.cl` / `www.oles.cl` a GitHub. Si lo haces antes de migrar, puede interferir con Netlify o dejar el dominio “colgado”.
+
+Esta guía es para **más adelante**, cuando decidas pasar de Netlify a GitHub Pages + **www.oles.cl** (NIC Chile).
+
+---
+
+## 1. Repositorio en GitHub (solo cuando migres)
 
 1. Sube este proyecto a un repositorio (por ejemplo `tu-org/oles-page`).
 2. En el repo: **Settings → Pages**.
@@ -10,21 +16,19 @@ El sitio compilado va a `docs/`. GitHub Pages puede servir esa carpeta con domin
 4. **Branch:** `main` (o la rama que uses) y carpeta **`/docs`**.
 5. Guarda.
 
-## 2. Dominio personalizado en GitHub
+## 2. Dominio personalizado en GitHub (solo al migrar)
 
-En la misma página **Pages**:
+En **Settings → Pages**, **no** pongas `oles.cl` hasta que Netlify deje de ser el sitio en vivo.
+
+Cuando migres:
 
 1. En **Custom domain** escribe: `www.oles.cl`
 2. Guarda. GitHub comprobará el DNS (puede tardar minutos u horas).
 3. Cuando esté verde, activa **Enforce HTTPS**.
-
-Opcional: en el mismo campo o en DNS, configura también **oles.cl** (sin www) para que redirija a `www.oles.cl` (ver paso 3).
-
-El archivo **`CNAME`** en la raíz del proyecto (se copia a `docs/` al hacer `quarto render`) debe contener solo:
-
-```text
-www.oles.cl
-```
+4. Crea un archivo **`CNAME`** en la raíz del repo (y añádelo a `resources` en `_quarto.yml`) con solo: `www.oles.cl`
+5. Cambia en `_quarto.yml`: `site-url: https://www.oles.cl`
+6. `quarto render`, commit y push de `docs/`
+7. En NIC, apunta DNS a GitHub (paso 3) y quita o actualiza el dominio en Netlify
 
 ## 3. DNS en NIC Chile (nic.cl)
 
@@ -98,6 +102,6 @@ No hace falta build en la nube si compilas en local y subes `docs/` ya generado.
 
 ## Notas
 
-- **`_quarto.yml`** incluye `site-url: https://www.oles.cl` para enlaces canónicos al publicar.
+- Mientras uses Netlify, `_quarto.yml` debe tener `site-url: https://oles-cl.netlify.app` (así sitemap/robots no apuntan a oles.cl antes de tiempo).
 - Si el repo es **privado**, GitHub Pages en plan gratuito de cuenta personal puede tener límites; en organizaciones revisa el plan.
 - Tamaño actual de `docs/`: ~200 MB; compatible con GitHub Pages (límite orientativo ~1 GB por sitio).
